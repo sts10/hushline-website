@@ -2,7 +2,7 @@
 
 **🛠 Page Builder**
 
-https://glenn-sorrentino.github.io/design-system/builder/index.html
+https://glenn-sorrentino.github.io/design-system/
 
 ## Use the design system
 
