@@ -1,0 +1,29 @@
+@media (prefers-color-scheme: light) {
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+}
+
+footer {
+  padding-top: var(--spacing-base) !important;
+  padding-bottom: var(--spacing-base) !important;
+}
+
+footer p {
+  font-size: var(--font-size-small);
+}
+
+/* THIS ONLY APPLIES TO THE ZCASH ADDRESS IN THE FOOTER */
+footer p:last-of-type {
+  word-break: break-all;
+}
+
+footer.centeredList p {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+}

@@ -1,0 +1,34 @@
+.blockList {
+  display: block !important;
+  text-align: center;
+}
+
+.blockList .featureImage {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.blockList .description {
+  margin: 0 auto var(--spacing-large) auto;
+  padding-right: 0;
+  width: 100%;
+}
+
+.blockList .description p {
+  margin: 0 auto var(--spacing-base) auto;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .blockList .description p {
+    margin: 0 0 var(--spacing-base) 0;
+  }
+
+  .blockList .featureImage {
+    width: 100%;
+  }
+
+  .blockList {
+    text-align: left;
+  }
+}

@@ -1,0 +1,146 @@
+.list {
+  /* padding: var(--spacing-medium) 0; */
+}
+
+.shadowImage img {
+  box-shadow: var(--shadow);
+}
+
+.flip {
+  order: 2;
+  padding-right: 0;
+  padding-left: var(--spacing-xlarge);
+}
+
+.centeredList > * {
+  text-align: center !important;
+}
+
+.centeredList .listItem {
+  text-align: center !important;
+}
+
+.parent {
+  font-size: var(--font-size-small);
+  text-transform: uppercase;
+  font-family: var(--font-sans-bold);
+  opacity: .75;
+}
+
+.icon + .parent {
+  margin-top: var(--spacing-xsmall) !important;
+}
+
+.meta {
+  font-size: var(--font-size-small) !important;
+}
+
+.featureImage {
+  width: 50%;
+}
+
+.featureImage img {
+  border-radius: .5rem;
+  width: 100%;
+  display: flex;
+}
+
+.featureImage.mobileImage img {
+  width: 80% !important;
+  margin: 0 auto;
+}
+
+.listItem .description:last-of-type {
+  margin-bottom: 0;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  flex: 1 auto;
+  margin-bottom: calc(var(--spacing-xxlarge) * 2);
+}
+
+.listItem h2 {
+  margin-bottom: var(--spacing-base);
+}
+
+.minimalList .listItem {
+  margin-bottom: var(--spacing-xxlarge);
+}
+
+.listItem:last-of-type {
+  margin-bottom: 0;
+}
+
+.listItem p {
+  margin-bottom: var(--spacing-base);
+}
+
+.description {
+  width: 50%;
+  padding-right: var(--spacing-xlarge);
+}
+
+.description p {
+  width: 100%;
+}
+
+.noImage .description {
+  width: 66%;
+}
+
+.list .icon {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: var(--spacing-small);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: inline-block;
+  border-radius: var(--radius-base);
+}
+
+.emoji {
+  font-size: var(--font-size-large);
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 960px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+  .listItem {
+    display: inherit;
+    padding: 0;
+    margin-bottom: calc(var(--spacing-xxlarge) * 1.5);
+  }
+
+  .listItem p {
+    margin-bottom: calc(var(--spacing-base) * .75);
+  }
+
+  .description {
+    width: 100%;
+    padding: 0;
+    margin-bottom: var(--spacing-large);
+  }
+
+  .noImage .description {
+    margin-bottom: 0;
+  }
+
+  .featureImage {
+    width: 100%;
+  }
+
+  .noImage .description {
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,151 @@
+@media (prefers-color-scheme: light) {
+  header, nav.staged {
+    background-color: rgba(255, 255, 255, .8);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  header, nav.staged {
+    background-color: rgba(51, 51, 51, .8);
+  }
+}
+
+header {
+  z-index: 1;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .btn {
+  margin-bottom: 0;
+}
+
+header .wrapper {
+  padding-top: var(--spacing-medium);
+  padding-bottom: var(--spacing-medium);
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+}
+
+header, nav.staged {
+  -webkit-backdrop-filter: blur(1rem);
+  backdrop-filter: blur(1rem);
+}
+
+header h1 {
+  font-size: var(--font-size-logo);
+  margin-bottom: 0;
+  line-height: initial;
+  flex: 1;
+}
+
+header h1 a {
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  text-decoration: underline;
+}
+
+header .emojiTheme {
+  -webkit-text-fill-color: initial;
+  background: initial;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 0 0 var(--spacing-small);
+}
+
+nav ul li:first-of-type {
+  margin-left: 0;
+}
+
+nav a {
+  font-size: var(--font-size-small);
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav.staged {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  padding: var(--spacing-large) var(--spacing-medium);
+  width: 100%;
+}
+
+.open {
+  display: block !important;
+}
+
+nav.staged li {
+  display: inherit;
+  margin-left: 0;
+  margin-bottom: var(--spacing-large);
+}
+
+nav.staged li:last-of-type {
+  margin-bottom: 0;
+}
+
+.navButton {
+  position: absolute;
+  top: var(--spacing-base);
+  right: var(--spacing-medium);
+  width: var(--button-icon);
+  height: var(--button-icon);
+  display: none;
+}
+
+.close, .menu {
+  width: var(--button-icon);
+  height: var(--button-icon);
+}
+
+@media only screen and (max-width: 768px) {
+
+  header nav {
+    position: initial;
+  }
+
+  header h1 {
+    float: none;
+    margin-top: 0;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  header nav.staged ul {
+    display: inherit;
+  }
+
+  .navButton, .close, .menu {
+    display: inherit !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .centeredTitle {
+    text-align: center;
+  }
+}

@@ -1,0 +1,55 @@
+@media (prefers-color-scheme: light) {
+  legend {
+    color: var(--font-color-dark);
+  }
+
+  label {
+    color: var(--font-color-dark);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  legend {
+    color: var(--font-color-light);
+  }
+
+  label {
+    color: var(--font-color-light);
+  }
+}
+
+#filters {
+  margin-bottom: 0;
+}
+
+#filters h2 {
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  margin: var(--spacing-xsmall) 0 var(--spacing-base) 0;
+}
+
+aside {
+  padding-top: var(--spacing-medium);
+}
+
+fieldset {
+  margin-bottom: var(--spacing-small);
+}
+
+legend {
+  font-family: var(--font-sans-bold);
+  margin: var(--spacing-small) 0;
+  font-size: var(--font-size-small);
+}
+
+label {
+  font-size: var(--font-size-small);
+}
+
+#filters input {
+  margin-bottom: var(--spacing-xsmall);
+}
+
+@media only screen and (max-width: 768px) {
+
+}

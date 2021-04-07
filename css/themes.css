@@ -1,0 +1,65 @@
+@media (prefers-color-scheme: light) {
+  .glow h1 {
+    background: rgb(218, 3, 253);
+    background: var(--gradient-lm);
+  }
+
+  .glow .headline p {
+    background: rgb(218, 3, 253);
+    background: var(--gradient-lm);
+  }
+  .glow ::selection {
+    background-color: #6E58FD;
+  }
+
+  .glow .tabs a:hover {
+    border-bottom: 3px solid #8840F5;
+  }
+
+  .glow .tabs a.selected {
+    border-bottom: 3px solid #8840F5;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .glow h1 {
+    background: rgb(233, 98, 253);
+    background: var(--gradient-dm);
+  }
+
+  .glow .headline p {
+    background: rgb(233, 98, 253);
+    background: var(--gradient-dm);
+  }
+
+  .glow ::selection {
+      background-color: #6E58FD;
+  }
+
+  .glow .tabs a:hover {
+    border-bottom: 3px solid #B485F9;
+  }
+
+  .glow .tabs a.selected {
+    border-bottom: 3px solid #B485F9;
+  }
+}
+
+.glow h1 {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glow .headline p {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glow .primaryBtn {
+  background-color: #8840F5;
+  color: var(--font-color-light);
+}
+
+.glow .primaryBtn:hover {
+  background-color: #6E58FD;
+}

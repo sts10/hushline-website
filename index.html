@@ -1,0 +1,240 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Glenn Sorrentino">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Simple Design System</title>
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+
+<body>
+
+	<!-- NOTIFICATIONS -->
+
+	<p class="toast">🥳 You're one of the <a href="https://www.w3schools.com/browsers/" target="_blank">6.6% of people in the world</a> using Firefox!</p>
+
+	<!-- HEADER -->
+
+	<header>
+		<div class="wrapper">
+			<h1 class="logo"><a href="#">Simple Design System</a></h1>
+			<nav>
+				<a class="navButton" href="#">
+					<div class="menu"></div>
+				</a>
+				<ul>
+					<li><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/header/header.html" target="_blank">View Component Code</a></li>
+					<li><a href="#section2">Section 2</a></li>
+					<li><a href="#section3">Section 3</a></li>
+					<li><a href="#section4">Section 4</a></li>
+					<li><a class="btn primaryBtn" href="https://github.com/glenn-sorrentino/design-system" target="_blank">Contribute</a></li>
+				</ul>
+
+			</nav>
+			<nav class="staged">
+				<a class="navButton closeButton" href="#">
+					<div class="close"></div>
+				</a>
+				<ul>
+					<li><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/header/header.html" target="_blank">View Component Code</a></li>
+					<li><a href="#section2">Section 2</a></li>
+					<li><a href="#section3">Section 3</a></li>
+					<li><a href="#section4">Section 4</a></li>
+					<li><a class="btn primaryBtn" href="https://github.com/glenn-sorrentino/design-system" target="_blank">Contribute</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- BASE INTRO -->
+
+	<section class="intro wrapper">
+		<div>
+			<h1>Stop Reinventing The&nbsp;Wheel</h1>
+			<p>🎨 A design system starter kit or a complete, living solution. <a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/intro/intro-editorial.html" target="_blank">View&nbsp;Component&nbsp;Code</a></p>
+		</div>
+		<p class="hint">Scroll Down</p>
+	</section>
+
+	<section class="list wrapper">
+		<div class="listItem blockList">
+			<div class="description">
+				<p class="emoji">🛠</p>
+				<h2>Page Builder</h2>
+				<p>Have you used the Page Builder? Design your page with custom themes and layouts.</p>
+				<a href="https://glenn-sorrentino.github.io/design-system/builder/" target="_blank">Try it out</a>
+			</div>
+			<div class="featureImage shadowImage">
+				<img src="assets/examples/builder.gif" alt="#">
+			</div>
+		</div>
+	</section>
+
+	<!-- LIST ROW 2 ITEMS -->
+
+	<section class="list listRow wrapper">
+		<h2>Use Case Examples</h2>
+		<div class="listRowContent">
+			<div class="listItem blockList">
+				<div class="description">
+					<h3>Design Portfolio</h3>
+					<p>💼 Product Design Portfolio of Glenn Sorrentino.</p>
+					<a href="https://glennsorrentino.com" target="_blank">View Site</a>
+				</div>
+				<div class="featureImage shadowImage">
+					<img src="assets/examples/portfolio.png" alt="#">
+					<p class="caption">Portfolio template in Dark Mode</p>
+				</div>
+			</div>
+			<div class="listItem blockList">
+				<div class="description">
+					<h3>Normal Security</h3>
+					<p>🔐 Easy ways to secure your digital life.</p>
+					<a href="https://normalsecurity.com" target="_blank">View Site</a>
+				</div>
+				<div class="featureImage shadowImage">
+					<img src="assets/examples/normsec.png" alt="#">
+					<p class="caption">Editorial template with Glow theme and custom animation</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- LIST -->
+
+	<section class="list wrapper">
+		<h2 id="section1">Primary Content</h2>
+		<div class="listItem">
+			<div class="description">
+				<div class="icon placeholder"></div>
+				<h3>Standard Item</h3>
+				<p>This is a basic side-by-side layout for a list item.</p>
+				<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/list/item-standard.html" target="_blank">View Component Code</a>
+			</div>
+			<div class="featureImage">
+				<img src="assets/placeholder/image.svg" alt="#">
+			</div>
+		</div>
+		<div class="listItem">
+			<div class="description flip">
+				<p class="parent">Parent</p>
+				<h3>Flipped Standard Item</h3>
+				<p>When using multiple standard list components in sequence, you can flip the layout for a more dynamic presentation.</p>
+				<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/list/item-flip.html" target="_blank">View Component Code</a>
+			</div>
+			<div class="featureImage">
+				<img src="assets/placeholder/image.svg" alt="#">
+			</div>
+		</div>
+		<div class="listItem">
+			<div class="description">
+				<div class="icon placeholder"></div>
+				<h3>Mobile Standard Item</h3>
+				<div class="badgeContainer">
+					<p class="badge">Coming Soon</p>
+				</div>
+				<p>Use this list when you're showing a mobile screen. Include badges to communicate project status to visitors.</p>
+				<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/list/item-mobile.html" target="_blank">View Component Code</a>
+			</div>
+			<div class="featureImage mobileImage">
+				<img src="assets/placeholder/mobile.svg" alt="#">
+			</div>
+		</div>
+		<div class="listItem blockList">
+			<div class="description">
+				<div class="icon placeholder"></div>
+				<h3>Center to Left Aligned Item</h3>
+				<p>On wide viewports this list item appears centered and becomes left-aligned on smaller screens.</p>
+				<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/list/item-simple-center.html" target="_blank">View Component Code</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- LIST WITHOUT IMAGES -->
+
+	<section class="list minimalList wrapper">
+		<h2 id="section2">Minimal List</h2>
+		<div class="listItem noImage">
+			<div class="description">
+				<div class="icon placeholder"></div>
+				<h3><a href="#">Item with Metadata</a></h3>
+				<p class="meta">US20200097481A1</p>
+				<p>A simple list with added metadata for secondary information.</p>
+				<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/list/item-simple-metadata.html" target="_blank">View Component Code</a>
+			</div>
+		</div>
+		<div class="listItem minimalList noImage">
+			<div class="description">
+				<div class="icon placeholder"></div>
+				<h3><a href="#" target="_blank">Item with a Button</a></h3>
+				<p>Another simple list item that includes a button. Only use one primary button per page, and everywhere else use a secondary button.</p>
+				<a class="btn" href="https://github.com/glenn-sorrentino/design-system/blob/main/components/list/item-simple-button.html" target="_blank">View Component Code</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- LIST WITH AVATAR -->
+
+	<section class="list minimalList wrapper">
+		<h2 id="section3">Item with Avatar</h2>
+		<div class="listItem noImage">
+			<div class="description">
+				<div class="icon placeholder avatar"></div>
+				<p>This is a good layout for an &quot;About&quot; section where you might want to include a larger avatar. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/list/item-simple-avatar.html" target="_blank">View Component Code</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- LIST WITH UL -->
+
+	<section class="list minimalList wrapper">
+		<h2 id="section4">Item with List</h2>
+		<div class="listItem noImage">
+			<div class="description">
+				<p class="emoji">✌️</p>
+				<p>Use this for a contact section where you'll need to list out the channels where you can be reached.</p>
+				<ul>
+					<li><span class="icon placeholder"></span><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/list/item-emoji-ul.html" target="_blank">View Component Code</a></li>
+					<li><span class="icon placeholder"></span><a href="#" target="_blank">Contact Link</a></li>
+					<li><span class="icon placeholder"></span><a href="#" target="_blank">Contact Link</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- ITEM WITH BUTTON GROUP -->
+
+	<section class="list centeredList minimalList wrapper">
+		<div class="listItem blockList">
+			<div class="description">
+				<h3>Button Group Item</h3>
+				<p>Use this for a step-by-step wizard, pagination for a training guide, or generally when you need more than one call-to-action.</p>
+				<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/list/item-button-group.html" target="_blank">View Component Code</a>
+				<div class="buttonGroup">
+					<a class="btn" href="book-cover.html">Previous</a>
+					<a class="btn" href="secondary.html">Next</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FOOTER -->
+
+	<footer class="wrapper clearfix">
+		<p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY NC 4.0 license</a>.<br>&copy; <script>
+				document.write(new Date().getFullYear());
+			</script> Glenn Sorrentino. <a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/footer/footer.html" target="_blank">View Component Code</a></p>
+			<p>🛡&nbsp;zs1lqjvywdg308kxrn6x8xduqm5j6j8fg28tertjtayfj8hwm0gvk5gyh3jd07p5w5fe7r56xjr2gj</p>
+	</footer>
+
+</body>
+
+</html>
