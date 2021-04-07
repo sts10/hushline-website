@@ -4,16 +4,6 @@
 
 https://glenn-sorrentino.github.io/design-system/builder/index.html
 
-**Page Templates**
-
-[Home](https://glenn-sorrentino.github.io/design-system/index.html)
-
-[Secondary](https://glenn-sorrentino.github.io/design-system/secondary.html)
-
-[Article](https://glenn-sorrentino.github.io/design-system/article.html)
-
-[Book Cover](https://glenn-sorrentino.github.io/design-system/book-cover.html)
-
 ## Use the design system
 
 1. Include the following in the `<head>` of your HTML:
