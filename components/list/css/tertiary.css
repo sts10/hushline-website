@@ -47,10 +47,9 @@
 }
 
 .listRowContent .listItem {
-  padding: 0 var(--spacing-base);
+  padding: 0 var(--spacing-medium);
   text-align: center;
   width: min-content;
-  width: 30%;
 }
 
 .listRowContent .listItem .description {
