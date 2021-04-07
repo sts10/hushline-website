@@ -79,6 +79,10 @@ $(document).ready(function() {
     $('.secondaryList').toggleClass('hidden');
   });
 
+  $('#primary-list').on('click', function() {
+    $('.primaryList').toggleClass('hidden');
+  });
+
   $('#simple-item').on('click', function() {
     $('.simpleItem').toggleClass('hidden');
   });
