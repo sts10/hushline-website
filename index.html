@@ -52,13 +52,23 @@
 			</div>
 		</header>
 
-		<!-- BASE INTRO -->
+		<!-- INSTRUCTIONS INTRO -->
 
-		<section class="intro wrapper">
+		<section class="intro instructionsIntro wrapper">
 			<div>
 				<h1>Design Your Page</h1>
 				<p>1️⃣ Modify the page properties on the right</p>
 				<p>2️⃣ Scroll around to see your changes</p>
+			</div>
+			<p class="hint">Scroll Down</p>
+		</section>
+
+		<!-- HOME INTRO -->
+
+		<section class="intro homeIntro wrapper hidden">
+			<div>
+				<h1>Stop reinventing the wheel</h1>
+				<p>🎨 A design system starter kit or a complete, living solution.</p>
 				<p><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/intro/html/intro.html" target="_blank">View&nbsp;Component&nbsp;Code</a></p>
 			</div>
 			<p class="hint">Scroll Down</p>
@@ -432,8 +442,12 @@
 			<fieldset>
 				<legend>Intro</legend>
 				<div>
-					<input type="radio" name="format" id="portfolio-intro" value="txt" autocomplete="off" checked>
-					<label for="portfolio-intro">Home</label>
+					<input type="radio" name="format" id="instructions-intro" value="txt" autocomplete="off" checked>
+					<label for="instructions-intro">Instructions</label>
+				</div>
+				<div>
+					<input type="radio" name="format" id="home-intro" value="txt" autocomplete="off">
+					<label for="home-intro">Home</label>
 				</div>
 				<div>
 					<input type="radio" name="format" id="secondary-intro" value="txt" autocomplete="off">

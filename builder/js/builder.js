@@ -15,32 +15,45 @@ $(document).ready(function() {
     $('.staged').removeClass('open');
   });
 
-  $('#portfolio-intro').on('click', function() {
-    $('.intro').removeClass('hidden');
+  $('#instructions-intro').on('click', function() {
+    $('.homeIntro').addClass('hidden');
     $('.bookCover').addClass('hidden');
     $('.secondaryIntro').addClass('hidden');
     $('.articleIntro').addClass('hidden');
+    $('.instructionsIntro').removeClass('hidden');
+  });
+
+  $('#home-intro').on('click', function() {
+    $('.homeIntro').removeClass('hidden');
+    $('.bookCover').addClass('hidden');
+    $('.secondaryIntro').addClass('hidden');
+    $('.articleIntro').addClass('hidden');
+    $('.instructionsIntro').addClass('hidden');
+
   });
 
   $('#book-cover-intro').on('click', function() {
-    $('.intro').addClass('hidden');
+    $('.homeIntro').addClass('hidden');
     $('.bookCover').removeClass('hidden');
     $('.secondaryIntro').addClass('hidden');
     $('.articleIntro').addClass('hidden');
+    $('.instructionsIntro').addClass('hidden');
   });
 
   $('#secondary-intro').on('click', function() {
-    $('.intro').addClass('hidden');
+    $('.homeIntro').addClass('hidden');
     $('.bookCover').addClass('hidden');
     $('.secondaryIntro').removeClass('hidden');
     $('.articleIntro').addClass('hidden');
+    $('.instructionsIntro').addClass('hidden');
   });
 
   $('#article-intro').on('click', function() {
     $('.bookCover').addClass('hidden');
     $('.secondaryIntro').addClass('hidden');
-    $('.intro').addClass('hidden');
+    $('.homeIntro').addClass('hidden');
     $('.articleIntro').removeClass('hidden');
+    $('.instructionsIntro').addClass('hidden');
   });
 
   $('#glow-theme').on('click', function() {
