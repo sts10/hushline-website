@@ -1,9 +1,5 @@
 @media (prefers-color-scheme: light) {
-  header {
-    background-color: rgba(255, 255, 255, .8);
-  }
-
-  nav.staged {
+  header, nav.staged {
     background-color: rgba(255, 255, 255, .8);
   }
 
@@ -21,11 +17,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  nav.staged {
-    background-color: rgba(51, 51, 51, .8);
-  }
-
-  header {
+  header, nav.staged {
     background-color: rgba(51, 51, 51, .8);
   }
 
