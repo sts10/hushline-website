@@ -140,4 +140,16 @@ $(document).ready(function() {
   $('#hint').on('click', function() {
     $('.hint').toggleClass('hidden');
   });
+
+  $('.utilityIcon').on('click', function() {
+    $('aside').toggleClass('hidden');
+    $('.canvas').toggleClass('wide');
+    $('.canvas header').toggleClass('wide');
+  });
+
+  $('aside .navButton').on('click', function() {
+    $('aside').toggleClass('hidden');
+    $('.canvas').toggleClass('wide');
+    $('.canvas header').toggleClass('wide');
+  });
 });

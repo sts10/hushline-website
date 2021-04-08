@@ -10,8 +10,8 @@
   }
 }
 
-* {
-  transition: none !important;
+#builder * {
+  transition: none;
 }
 
 p.hint {
@@ -23,12 +23,13 @@ margin: 0;
 max-width: none;
 }
 
-#canvas {
+.canvas {
   width: 75%;
   margin-bottom: 0;
+  transition: all 0.3s !important;
 }
 
-#canvas header {
+.canvas header {
   right: 25%;
 }
 
@@ -42,6 +43,37 @@ aside {
   font-size: var(--font-size-small);
   overflow-y: scroll;
   border-left: 1px solid rgba(0,0,0,0.1);
+  transition: all 0.3s !important;
+}
+
+.wide {
+  width: 100% !important;
+  right: 0;
+}
+
+aside .navButton {
+  display: inherit;
+  top: var(--spacing-medium);
+  opacity: .75;
+}
+
+aside .navButton {
+  transition: all 0.3s !important;
+}
+
+.canvas .btn {
+  transition: all 0.3s !important;
+}
+
+aside .navButton:hover {
+  opacity: 1;
+}
+
+aside .close {
+  background-size: var(--spacing-large) var(--spacing-large);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
 }
 
 /* HIDE SCROLLBARS */
@@ -66,43 +98,43 @@ aside {
 
 @media only screen and (max-width: 1279px) {
 
-  #canvas header h1 {
+  .canvas header h1 {
     float: none;
     margin-top: 0;
   }
 
-  #canvas header nav ul {
+  .canvas header nav ul {
     display: none;
   }
 
-  #canvas nav.staged ul {
+  .canvas nav.staged ul {
     display: inherit;
   }
 
-  #canvas .navButton, .close, .menu {
+  .canvas .navButton, .close, .menu {
     display: inherit !important;
   }
 
-  #canvas .headline p:last-of-type {
+  .canvas .headline p:last-of-type {
     margin-bottom: var(--spacing-base) !important;
   }
 
-  #canvas .secondaryIntro {
+  .canvas .secondaryIntro {
     margin-top: 70px;
   }
 
-  #canvas .intro.withNav {
+  .canvas .intro.withNav {
     height: calc(100vh - 48px) !important;
   }
 
-  #canvas .secondaryIntro.withNav {
+  .canvas .secondaryIntro.withNav {
   }
 
-  #canvas .articleIntro {
+  .canvas .articleIntro {
     height: calc(100vh - 70px) !important;
   }
 
-  #canvas .articleIntro.withNav {
+  .canvas .articleIntro.withNav {
     height: calc(100vh - 70px - 48px) !important;
   }
 }
@@ -113,11 +145,11 @@ aside {
 
 @media only screen and (max-width: 768px) {
 
-  #canvas {
+  .canvas {
     width: 66vw;
   }
 
-  #canvas header {
+  .canvas header {
     right: 33vw;
   }
 
