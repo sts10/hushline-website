@@ -111,6 +111,7 @@
 
 .emoji {
   font-size: var(--font-size-large);
+  line-height: inherit;
   margin-top: 0;
 }
 
