@@ -56,10 +56,6 @@ aside .navButton {
   opacity: .75;
 }
 
-aside .navButton {
-  transition: all 0.3s !important;
-}
-
 aside .navButton:hover {
   opacity: 1;
 }

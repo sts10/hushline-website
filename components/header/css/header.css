@@ -1,13 +1,18 @@
 @media (prefers-color-scheme: light) {
-  header, nav.staged {
+  header {
     background-color: rgba(255, 255, 255, .8);
+  }
+
+  nav.staged {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: var(--shadow-lm);
   }
 
   .utilityIcon {
     border-left: var(--border-lm);
   }
 
-  nav.staged li:last-of-type {
+  .utilitySection {
     border-top: var(--border-lm);
   }
 
@@ -17,25 +22,26 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  header, nav.staged {
+  header {
     background-color: rgba(51, 51, 51, .8);
+  }
+
+  nav.staged {
+    background-color: rgba(51, 51, 51, 1);
+    box-shadow: var(--shadow-dm);
   }
 
   .utilityIcon {
     border-left: var(--border-dm);
   }
 
-  nav.staged li:last-of-type {
+  .utilitySection {
     border-top: var(--border-dm);
   }
 
   .staged .utilityIcon {
     border-left: none;
   }
-}
-
-nav.staged li:last-of-type {
-  padding-top: var(--spacing-large);
 }
 
 header {
@@ -47,6 +53,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  -webkit-backdrop-filter: blur(1rem);
+  backdrop-filter: blur(1rem);
 }
 
 header .btn {
@@ -62,11 +70,6 @@ header .wrapper {
   display: flex;
   width: 100vw;
   align-items: center;
-}
-
-header, nav.staged {
-  -webkit-backdrop-filter: blur(1rem);
-  backdrop-filter: blur(1rem);
 }
 
 header h1 {
@@ -103,6 +106,10 @@ nav ul li:first-of-type {
   margin-left: 0;
 }
 
+nav ul li:last-of-type {
+  margin-bottom: 0;
+}
+
 nav a {
   font-size: var(--font-size-small);
   text-decoration: none;
@@ -121,15 +128,19 @@ nav.staged {
   width: 100%;
 }
 
-.staged .utilityIcon {
-  margin-right: var(--spacing-xsmall);
-  padding-left: 0;
+.utilitySection {
+  padding-top: var(--spacing-large);
 }
 
 .utilityIcon {
   font-size: var(--font-size-logo);
   padding-left: var(--spacing-base);
   opacity: .85;
+}
+
+.staged .utilityIcon {
+  padding-top: var(--spacing-large);
+  padding-left: 0;
 }
 
 .utilityIcon:hover {
@@ -145,10 +156,6 @@ nav.staged li {
   display: inherit;
   margin-left: 0;
   margin-bottom: var(--spacing-large);
-}
-
-nav.staged li:last-of-type {
-  margin-bottom: 0;
 }
 
 .navButton {

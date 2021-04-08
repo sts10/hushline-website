@@ -1,20 +1,18 @@
 @media (prefers-color-scheme: light) {
   aside {
-    background-color: #FCFCFC;
+    background-color: rgba(252,252,252,.8);
   }
 }
 
 @media (prefers-color-scheme: dark) {
   aside {
-    background-color: #2E2E2E;
+    background-color: rgba(46,46,46,.8);
   }
 }
 
 #builder * {
   transition: none;
 }
-
-p.hint {}
 
 #builder .utilityIcon:hover {
   transition: all 0.3s !important;
@@ -28,7 +26,6 @@ p.hint {}
 .canvas {
   width: 75%;
   margin-bottom: 0;
-  transition: all 0.3s !important;
 }
 
 .canvas header {
@@ -45,7 +42,8 @@ aside {
   font-size: var(--font-size-small);
   overflow-y: scroll;
   border-left: 1px solid rgba(0, 0, 0, 0.1);
-  transition: all 0.3s !important;
+  -webkit-backdrop-filter: blur(1rem);
+  backdrop-filter: blur(1rem);
 }
 
 aside .navButton {
@@ -55,10 +53,6 @@ aside .navButton {
 .wide {
   width: 100% !important;
   right: 0;
-}
-
-.canvas .btn {
-  transition: all 0.3s !important;
 }
 
 /* HIDE SCROLLBARS */
@@ -113,8 +107,6 @@ aside {
     height: inherit !important;
   }
 
-  .canvas .secondaryIntro.withNav {}
-
   .canvas .articleIntro {
     height: calc(100vh - 70px) !important;
   }
@@ -141,8 +133,6 @@ aside {
   }
 }
 
-@media only screen and (max-width: 768px) {}
-
 @media only screen and (max-width: 768px) {
   .canvas {
     width: 100vw;
@@ -153,14 +143,19 @@ aside {
   }
 
   aside {
-    width: 40vw;
+    width: 40%;
     z-index: 2;
   }
 }
 
 @media only screen and (max-width: 640px) {
   aside {
-    width: 80vw;
-    z-index: 2;
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  aside {
+    width: 80%;
   }
 }
