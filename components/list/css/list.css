@@ -1,9 +1,17 @@
-.list {
-  /* padding: var(--spacing-medium) 0; */
+@media (prefers-color-scheme: light) {
+  .shadowImage img {
+    box-shadow: var(--shadow-lm);
+  }
 }
 
-.shadowImage img {
-  box-shadow: var(--shadow);
+@media (prefers-color-scheme: dark) {
+  .shadowImage img {
+    box-shadow: var(--shadow-dm);
+  }
+}
+
+.list {
+  /* padding: var(--spacing-medium) 0; */
 }
 
 .flip {

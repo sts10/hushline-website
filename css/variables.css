@@ -73,5 +73,6 @@
 
 /* SHADOWS */
 
-  --shadow: 0 0 var(--spacing-small) rgba(0,0,0,.1);
+  --shadow-lm: 0 0 var(--spacing-small) rgba(0,0,0,.08);
+  --shadow-dm: 0 0 var(--spacing-small) rgba(0,0,0,.2);
   --shadow-light: 0 0 var(--spacing-small) rgba(0,0,0,.05);
