@@ -23,6 +23,15 @@
   .glow .highlight {
     background-color: #8840F5;
   }
+
+  .glow .primaryBtn {
+    background-color: #8840F5;
+    color: var(--font-color-light);
+  }
+
+  .glow .primaryBtn:hover {
+    background-color: #7B2AF4;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -52,6 +61,15 @@
     background-color: #8840F5;
     color: var(--font-color-light);
   }
+
+  .glow .primaryBtn {
+    background-color: #8840F5;
+    color: var(--font-color-light);
+  }
+
+  .glow .primaryBtn:hover {
+    background-color: #7B2AF4;
+  }
 }
 
 .glow h1 {
@@ -62,13 +80,4 @@
 .glow .headline p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.glow .primaryBtn {
-  background-color: #8840F5;
-  color: var(--font-color-light);
-}
-
-.glow .primaryBtn:hover {
-  background-color: #6E58FD;
 }
