@@ -1,12 +1,12 @@
 @media (prefers-color-scheme: light) {
   aside {
-    background-color: rgba(252,252,252,.8);
+    background-color: rgba(252, 252, 252, .8);
   }
 }
 
 @media (prefers-color-scheme: dark) {
   aside {
-    background-color: rgba(46,46,46,.8);
+    background-color: rgba(46, 46, 46, .8);
   }
 }
 
@@ -55,6 +55,10 @@ aside .navButton {
   right: 0;
 }
 
+p.hint, .btn, .utilityIcon {
+  transition: all 0.3s !important;
+}
+
 /* HIDE SCROLLBARS */
 /* #builder::-webkit-scrollbar {
  display: none;
@@ -73,6 +77,7 @@ aside {
   -ms-overflow-style: none;
   scrollbar-width: none;
 } */
+
 @media only screen and (max-width: 960px) {
   .canvas header h1 {
     float: none;
