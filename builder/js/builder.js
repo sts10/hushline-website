@@ -80,6 +80,10 @@ $(document).ready(function() {
     $('.standardItem').toggleClass('hidden');
   });
 
+  $('#statement').on('click', function() {
+    $('.statement').toggleClass('hidden');
+  });
+
   $('#example-list').on('click', function() {
     $('.exampleList').toggleClass('hidden');
   });

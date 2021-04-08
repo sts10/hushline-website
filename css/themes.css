@@ -19,6 +19,10 @@
   .glow .tabs a.selected {
     border-bottom: 3px solid #8840F5;
   }
+
+  .glow .highlight {
+    background-color: #8840F5;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -42,6 +46,11 @@
 
   .glow .tabs a.selected {
     border-bottom: 3px solid #B485F9;
+  }
+
+  .glow .highlight {
+    background-color: #8840F5;
+    color: var(--font-color-light);
   }
 }
 

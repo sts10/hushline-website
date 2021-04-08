@@ -28,11 +28,21 @@
   h1, h2, h3, h4, h5, h6, p {
     color: var(--font-color-dark);
   }
+
+  .highlight {
+    background-color: var(--color-dark);
+    color: var(--font-color-light);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   h1, h2, h3, h4, h5, h6, p {
     color: var(--font-color-light);
+  }
+
+  .highlight {
+    background-color: #f2f2f2;
+    color: var(--color-dark);
   }
 }
 
