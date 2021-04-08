@@ -50,6 +50,27 @@ label {
   margin-bottom: var(--spacing-xsmall);
 }
 
+aside .navButton {
+  display: inherit;
+  top: var(--spacing-medium);
+  opacity: .75;
+}
+
+aside .navButton {
+  transition: all 0.3s !important;
+}
+
+aside .navButton:hover {
+  opacity: 1;
+}
+
+aside .close {
+  background-size: var(--spacing-large) var(--spacing-large);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+}
+
 @media only screen and (max-width: 768px) {
 
 }
