@@ -135,7 +135,7 @@ aside {
   }
 
   aside {
-    width: 33vw;
+    width: 33%;
     padding: var(--spacing-base) var(--spacing-medium) var(--spacing-medium) var(--spacing-medium);
   }
 
@@ -144,11 +144,11 @@ aside {
   }
 
   .canvas {
-    width: 66vw;
+    width: 67%;
   }
 
   .canvas header {
-    right: 33vw;
+    right: 33%;
   }
 }
 
