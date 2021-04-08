@@ -160,7 +160,7 @@ aside {
   }
 
   .canvas header {
-    right: 100vw;
+    width: 100vw;
   }
 
   aside {
