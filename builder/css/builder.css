@@ -33,6 +33,7 @@ p.hint {}
 
 .canvas header {
   right: 25%;
+  z-index: 2;
 }
 
 aside {
@@ -46,6 +47,16 @@ aside {
   overflow-y: scroll;
   border-left: 1px solid rgba(0, 0, 0, 0.1);
   transition: all 0.3s !important;
+}
+
+#builder header {
+  -webkit-backdrop-filter: blur(1rem);
+  backdrop-filter: blur(1rem);
+}
+
+#builder nav.staged {
+  -webkit-backdrop-filter: blur(1rem);
+  backdrop-filter: blur(1rem);
 }
 
 aside .navButton {

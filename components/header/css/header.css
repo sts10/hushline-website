@@ -64,7 +64,12 @@ header .wrapper {
   align-items: center;
 }
 
-header, nav.staged {
+header {
+  -webkit-backdrop-filter: blur(1rem);
+  backdrop-filter: blur(1rem);
+}
+
+nav.staged {
   -webkit-backdrop-filter: blur(1rem);
   backdrop-filter: blur(1rem);
 }
