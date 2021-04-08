@@ -18,4 +18,16 @@
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 640px) {
+  .statement p {
+    font-size: calc(var(--font-size-2) * .7);
+    line-height: calc(var(--line-height-2) * .95);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .statement p {
+    font-size: calc(var(--font-size-2) * .65);
+    line-height: calc(var(--line-height-2) * .85);
+  }
+}
