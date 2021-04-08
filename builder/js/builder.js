@@ -1,14 +1,7 @@
 $(document).ready(function() {
-  $('.navButton').on('click', function() {
-    $('.staged').toggleClass('open');
-  });
 
   $('#glow-theme').on('click', function() {
     $('BODY').toggleClass('.glow');
-  });
-
-  $('.closeButton').on('click', function() {
-    $('.staged').removeClass('open');
   });
 
   $('NAV li').on('click', function() {
@@ -142,6 +135,12 @@ $(document).ready(function() {
   });
 
   $('.utilityIcon').on('click', function() {
+    $('aside').toggleClass('hidden');
+    $('.canvas').toggleClass('wide');
+    $('.canvas header').toggleClass('wide');
+  });
+
+  $('nav.staged li:last-of-type').on('click', function() {
     $('aside').toggleClass('hidden');
     $('.canvas').toggleClass('wide');
     $('.canvas header').toggleClass('wide');

@@ -14,17 +14,15 @@
   transition: none;
 }
 
-p.hint {
-
-}
+p.hint {}
 
 #builder .utilityIcon:hover {
   transition: all 0.3s !important;
 }
 
 #builder {
-margin: 0;
-max-width: none;
+  margin: 0;
+  max-width: none;
 }
 
 .canvas {
@@ -46,8 +44,12 @@ aside {
   right: 0;
   font-size: var(--font-size-small);
   overflow-y: scroll;
-  border-left: 1px solid rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
   transition: all 0.3s !important;
+}
+
+aside .navButton {
+  top: var(--spacing-medium);
 }
 
 .wide {
@@ -60,7 +62,6 @@ aside {
 }
 
 /* HIDE SCROLLBARS */
-
 /* #builder::-webkit-scrollbar {
  display: none;
 }
@@ -78,9 +79,7 @@ aside {
   -ms-overflow-style: none;
   scrollbar-width: none;
 } */
-
 @media only screen and (max-width: 960px) {
-
   .canvas header h1 {
     float: none;
     margin-top: 0;
@@ -110,8 +109,7 @@ aside {
     height: calc(100vh - 48px) !important;
   }
 
-  .canvas .secondaryIntro.withNav {
-  }
+  .canvas .secondaryIntro.withNav {}
 
   .canvas .articleIntro {
     height: calc(100vh - 70px) !important;
@@ -120,13 +118,15 @@ aside {
   .canvas .articleIntro.withNav {
     height: calc(100vh - 70px - 48px) !important;
   }
-}
 
-@media only screen and (max-width: 768px) {
+  aside {
+    width: 33vw;
+    padding: var(--spacing-base) var(--spacing-medium) var(--spacing-medium) var(--spacing-medium);
+  }
 
-}
-
-@media only screen and (max-width: 768px) {
+  aside .navButton {
+    top: var(--spacing-base);
+  }
 
   .canvas {
     width: 66vw;
@@ -135,8 +135,28 @@ aside {
   .canvas header {
     right: 33vw;
   }
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 768px) {
+  .canvas {
+    width: 100vw;
+  }
+
+  .canvas header {
+    right: 100vw;
+  }
 
   aside {
-    width: 33vw;
+    width: 40vw;
+    z-index: 2;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  aside {
+    width: 80vw;
+    z-index: 2;
   }
 }
