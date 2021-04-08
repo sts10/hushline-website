@@ -25,6 +25,10 @@
   --font-color-dark: rgba(51,51,51,1);
   --font-color-light: #FAFAFA;
 
+/* THEMES */
+
+  --theme-glow: #8840F5;
+
 /* COLORS */
 
   --color-toast: rgba(172, 232, 178, 1);
@@ -69,7 +73,6 @@
 
   --radius-soft: .5rem;
   --radius-base: .25rem;
-
 
 /* SHADOWS */
 

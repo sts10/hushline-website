@@ -8,30 +8,7 @@
     background: rgb(218, 3, 253);
     background: var(--gradient-lm);
   }
-  .glow ::selection {
-    background-color: #6E58FD;
-  }
 
-  .glow .tabs a:hover {
-    border-bottom: 3px solid #8840F5;
-  }
-
-  .glow .tabs a.selected {
-    border-bottom: 3px solid #8840F5;
-  }
-
-  .glow .highlight {
-    background-color: #8840F5;
-  }
-
-  .glow .primaryBtn {
-    background-color: #8840F5;
-    color: var(--font-color-light);
-  }
-
-  .glow .primaryBtn:hover {
-    background-color: #7B2AF4;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -44,32 +21,31 @@
     background: rgb(233, 98, 253);
     background: var(--gradient-dm);
   }
+}
 
-  .glow ::selection {
-      background-color: #6E58FD;
-  }
+.glow ::selection {
+  background-color: var(--theme-glow);
+}
 
-  .glow .tabs a:hover {
-    border-bottom: 3px solid #B485F9;
-  }
+.glow .tabs a:hover {
+  border-bottom: 3px solid var(--theme-glow);
+}
 
-  .glow .tabs a.selected {
-    border-bottom: 3px solid #B485F9;
-  }
+.glow .tabs a.selected {
+  border-bottom: 3px solid var(--theme-glow);
+}
 
-  .glow .highlight {
-    background-color: #8840F5;
-    color: var(--font-color-light);
-  }
+.glow .highlight {
+  background-color: var(--theme-glow);
+}
 
-  .glow .primaryBtn {
-    background-color: #8840F5;
-    color: var(--font-color-light);
-  }
+.glow .primaryBtn {
+  background-color: var(--theme-glow);
+  color: var(--font-color-light);
+}
 
-  .glow .primaryBtn:hover {
-    background-color: #7B2AF4;
-  }
+.glow .primaryBtn:hover {
+  background-color: #7B2AF4;
 }
 
 .glow h1 {
