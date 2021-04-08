@@ -25,6 +25,7 @@
 
 .glow ::selection {
   background-color: var(--theme-glow);
+  color: var(--color-light);
 }
 
 .glow .tabs a:hover {
@@ -37,6 +38,7 @@
 
 .glow .highlight {
   background-color: var(--theme-glow);
+  color: var(--color-light);
 }
 
 .glow .primaryBtn {
