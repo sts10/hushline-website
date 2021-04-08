@@ -109,6 +109,10 @@ aside {
     height: calc(100vh - 48px) !important;
   }
 
+  .canvas .secondaryIntro.withNav {
+    height: inherit !important;
+  }
+
   .canvas .secondaryIntro.withNav {}
 
   .canvas .articleIntro {
