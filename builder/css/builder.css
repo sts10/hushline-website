@@ -35,7 +35,6 @@ p.hint {
 
 .canvas header {
   right: 25%;
-  z-index: 2;
 }
 
 aside {
@@ -169,13 +168,12 @@ aside {
 
   aside {
     width: 40vw;
-    z-index: 2;
+    z-index: 3;
   }
 }
 
 @media only screen and (max-width: 640px) {
   aside {
     width: 80vw;
-    z-index: 2;
   }
 }
