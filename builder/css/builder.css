@@ -14,7 +14,9 @@
   transition: none;
 }
 
-p.hint {}
+p.hint {
+  transition: all 0.3s !important;
+}
 
 #builder .utilityIcon:hover {
   transition: all 0.3s !important;

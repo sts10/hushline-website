@@ -163,11 +163,23 @@ nav.staged li:last-of-type {
   width: var(--button-icon);
   height: var(--button-icon);
   display: none;
+  opacity: .85;
 }
 
-.close, .menu {
+.navButton:hover {
+  opacity: 1;
+}
+
+.menu {
   width: var(--button-icon);
   height: var(--button-icon);
+}
+
+.close {
+  background-size: var(--spacing-large) var(--spacing-large);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
 }
 
 @media only screen and (max-width: 768px) {

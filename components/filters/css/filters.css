@@ -53,7 +53,7 @@ label {
 aside .navButton {
   display: inherit;
   top: var(--spacing-base);
-  opacity: .75;
+  opacity: .85;
 }
 
 aside .navButton {
