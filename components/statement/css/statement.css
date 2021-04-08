@@ -11,7 +11,7 @@
 }
 
 .statement p {
-  font-size: var(--font-size-2);
+  font-size: calc(var(--font-size-2) * .75);
   line-height: var(--line-height-2);
   font-family: var(--font-serif);
   text-align: center;
