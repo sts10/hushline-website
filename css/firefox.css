@@ -7,10 +7,6 @@
     .articleIntro div > * {
       background-color: rgba(255, 255, 255, 1) !important;
     }
-
-    aside {
-      background-color: rgba(252,252,252,1);
-    }
   }
 }
 
@@ -23,10 +19,5 @@
     .articleIntro div > * {
       background-color: rgba(51, 51, 51, 1) !important;
     }
-
-    aside {
-      background-color: rgba(46,46,46,1);
-    }
   }
-
 }

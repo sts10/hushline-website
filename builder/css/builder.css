@@ -1,12 +1,12 @@
 @media (prefers-color-scheme: light) {
   aside {
-    background-color: rgba(252,252,252,.8);
+    background-color: #FCFCFC;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   aside {
-    background-color: rgba(46,46,46,.8);
+    background-color: #2E2E2E;
   }
 }
 
@@ -48,8 +48,6 @@ aside {
   overflow-y: scroll;
   border-left: 1px solid rgba(0, 0, 0, 0.1);
   transition: all 0.3s !important;
-  -webkit-backdrop-filter: blur(1rem);
-  backdrop-filter: blur(1rem);
 }
 
 #builder header {
