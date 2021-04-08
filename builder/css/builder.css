@@ -15,6 +15,10 @@
 }
 
 p.hint {
+
+}
+
+#builder .utilityIcon:hover {
   transition: all 0.3s !important;
 }
 

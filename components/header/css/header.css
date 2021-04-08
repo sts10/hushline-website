@@ -4,7 +4,7 @@
   }
 
   .utilityIcon {
-    border-right: var(--border-lm);
+    border-left: var(--border-lm);
   }
 }
 
@@ -14,7 +14,7 @@
   }
 
   .utilityIcon {
-    border-right: var(--border-dm);
+    border-left: var(--border-dm);
   }
 }
 
@@ -102,12 +102,13 @@ nav.staged {
 
 .utilityIcon {
   font-size: var(--font-size-logo);
-  padding-right: var(--spacing-base);
+  padding-left: var(--spacing-base);
+  opacity: .85;
 }
 
 .utilityIcon:hover {
   text-decoration: none;
-  transform: scale(.3); 
+  opacity: 1;
 }
 
 .open {
