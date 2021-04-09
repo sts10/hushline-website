@@ -2,7 +2,7 @@
 
 **🛠 Page Builder**
 
-https://glenn-sorrentino.github.io/design-system/
+https://glennsorrentino.com/design-system/
 
 ## Use the design system
 
@@ -10,7 +10,7 @@ https://glenn-sorrentino.github.io/design-system/
 
     `<link rel="stylesheet" href="https://glenn-sorrentino.github.io/design-system/css/style.css">`  
     `<script src="https://code.jquery.com/jquery-latest.min.js"></script>`  
-	`<script src="https://glenn-sorrentino.github.io/design-system/js/main.js"></script>`
+    `<script src="https://glenn-sorrentino.github.io/design-system/js/main.js"></script>`
   
 2. Copy a component's HTML from the [components folder](https://github.com/glenn-sorrentino/design-system/tree/main/components) and paste into your webpage.
 
