@@ -151,4 +151,5 @@ $(document).ready(function() {
     $('.canvas').toggleClass('wide');
     $('.canvas header').toggleClass('wide');
   });
+
 });

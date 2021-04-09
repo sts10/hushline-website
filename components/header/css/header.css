@@ -138,7 +138,8 @@ nav.staged {
   opacity: .85;
 }
 
-.staged .utilityIcon {
+.utilitySection .utilityIcon {
+  margin-right: var(--spacing-small);
   padding-top: var(--spacing-large);
   padding-left: 0;
 }
