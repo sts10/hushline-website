@@ -23,8 +23,9 @@
 
 		<?php include "components/header/html/header.html" ?>
 
-		<!-- INSTRUCTIONS INTRO -->
+		<!-- INTRO -->
 
+		<?php include "components/intro/html/instructions-intro.html" ?>
 		<?php include "components/intro/html/home-intro.html" ?>
 		<?php include "components/intro/html/secondary-intro.html" ?>
 		<?php include "components/intro/html/article-intro.html" ?>
