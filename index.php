@@ -44,7 +44,6 @@
 			<?php include "components/list/html/item-flip.html" ?>
 			<?php include "components/list/html/item-mobile.html" ?>
 			<?php include "components/list/html/item-featured.html" ?>
-			<?php include "components/list/html/item-flip.html" ?>
 		</section>
 
 		<!-- EXAMPLES -->
