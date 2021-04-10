@@ -8,11 +8,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Builder - Simple Design System</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://glenn-sorrentino.github.io/design-system/css/style.css">
 
 	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
-	<script src="builder/js/builder.js"></script>
-	<script src="js/main.js"></script>
+	<script src="https://glenn-sorrentino.github.io/design-system/builder/js/builder.js"></script>
+	<script src="https://glenn-sorrentino.github.io/design-system/js/main.js"></script>
 </head>
 
 <body id="builder">
@@ -48,11 +48,7 @@
 
 		<!-- EXAMPLES -->
 
-		<section class="list centeredList exampleList wrapper">
-			<h2>In The Wild</h2>
-			<?php include "components/list/html/example-1.html" ?>
-			<?php include "components/list/html/example-2.html" ?>
-		</section>
+		<?php include "components/list/html/example.html" ?>
 
 		<!-- MORE LISTS -->
 
