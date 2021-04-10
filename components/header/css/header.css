@@ -93,6 +93,11 @@ header .emojiTheme {
   background: initial;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+}
+
 nav ul {
   margin: 0;
 }
@@ -135,6 +140,7 @@ nav.staged {
 .utilityIcon {
   font-size: var(--font-size-logo);
   padding-left: var(--spacing-base);
+  margin-left: var(--spacing-base);
   opacity: .85;
 }
 
@@ -162,10 +168,18 @@ nav.staged li {
 .navButton {
   position: absolute;
   top: var(--spacing-base);
-  right: var(--spacing-medium);
+  right: calc(var(--spacing-xxlarge) * 1.25);
   width: var(--button-icon);
   height: var(--button-icon);
   display: none;
+}
+
+.staged .navButton {
+  right: var(--spacing-medium);
+}
+
+aside .navButton {
+  right: var(--spacing-medium);
 }
 
 .close, .menu {
@@ -194,6 +208,10 @@ nav.staged li {
 
   .navButton, .close, .menu {
     display: inherit !important;
+  }
+
+  .navButton {
+    right: calc(var(--spacing-xxlarge) * 1.125);
   }
 }
 

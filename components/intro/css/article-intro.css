@@ -60,7 +60,7 @@
 
 .articleIntro>div {
   margin-left: calc(var(--spacing-xlarge) * -1);
-  width: 100%;
+  width: max-content;
 }
 
 

@@ -50,10 +50,6 @@
   display: flex;
 }
 
-/* .tabs ul {
-  display: inline;
-} */
-
 .tabs ul li {
   margin-left: 0;
 }
