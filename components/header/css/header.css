@@ -168,10 +168,14 @@ nav.staged li {
 .navButton {
   position: absolute;
   top: var(--spacing-base);
-  right: calc(var(--spacing-xxlarge) * 1.285);
+  right: var(--spacing-base);
   width: var(--button-icon);
   height: var(--button-icon);
   display: none;
+}
+
+.withUtil {
+  right: calc(var(--spacing-xxlarge) * 1.285);
 }
 
 .staged .navButton {
