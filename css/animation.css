@@ -11,6 +11,7 @@
 	53%, 100% {
 		transform: translateY(0);
 		opacity: 0;
+    z-index: 9;
 	}
   100% {
     z-index: -3;
