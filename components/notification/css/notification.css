@@ -12,7 +12,7 @@
 p.toast {
   position: fixed;
   top: calc(var(--spacing-xlarge) * 2.25);
-  right: var(--spacing-xxlarge);
+  right: var(--spacing-xlarge);
   border-radius: var(--radius-soft);
   padding: var(--spacing-base) var(--spacing-medium);
   animation: toast .3s linear;
