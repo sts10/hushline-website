@@ -53,7 +53,7 @@ section {
 }
 
 section:last-of-type {
-  margin-bottom: var(--spacing-xxlarge);
+  margin-bottom: calc(var(--spacing-xxlarge) * 2);
 }
 
 .hidden {
