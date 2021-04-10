@@ -110,7 +110,7 @@
 }
 
 .emoji {
-  font-size: var(--font-size-large) !important;
+  font-size: var(--font-size-emoji) !important;
   line-height: inherit!important;
   margin-top: 0!important;
   margin-bottom: var(--spacing-base) !important;
