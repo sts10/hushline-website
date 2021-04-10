@@ -168,7 +168,7 @@ nav.staged li {
 .navButton {
   position: absolute;
   top: var(--spacing-base);
-  right: calc(var(--spacing-xxlarge) * 1.25);
+  right: calc(var(--spacing-xxlarge) * 1.285);
   width: var(--button-icon);
   height: var(--button-icon);
   display: none;
@@ -215,7 +215,7 @@ aside .navButton {
   }
 
   .navButton {
-    right: calc(var(--spacing-xxlarge) * 1.375);
+    right: calc(var(--spacing-xxlarge) * 1.43);
   }
 
   .utilityIcon {
