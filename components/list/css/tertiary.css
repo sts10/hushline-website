@@ -38,6 +38,11 @@
   margin-bottom: var(--spacing-xsmall);
 }
 
+.listRow .emoji {
+  font-size: var(--font-size-emoji-sm) !important;
+  margin-bottom: var(--spacing-xsmall) !important;
+}
+
 .listRow p {
   font-size: calc(var(--font-size-body) * .9);
 }
