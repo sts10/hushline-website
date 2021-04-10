@@ -11,7 +11,7 @@
 
 p.toast {
   position: fixed;
-  top: calc(var(--spacing-xlarge) * 1.75);
+  top: calc(var(--spacing-xlarge) * 2.25);
   right: var(--spacing-xxlarge);
   border-radius: var(--radius-soft);
   padding: var(--spacing-base) var(--spacing-medium);
