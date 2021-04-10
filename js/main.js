@@ -23,19 +23,17 @@ $(document).ready(function() {
 
   // REMOVE WIDOWS
 
-  $("h1").each(function() {
-    var wordArray = $(this).text().split(" ");
-    var finalTitle = "";
-    for (i = 0; i <= wordArray.length - 1; i++) {
-      finalTitle += wordArray[i];
-      if (i == (wordArray.length - 2)) {
-        finalTitle += "&nbsp;";
-      } else {
-        finalTitle += " ";
-      }
-    }
-    $(this).html(finalTitle);
-  });
-
-
+  // $("h1").each(function() {
+  //   var wordArray = $(this).text().split(" ");
+  //   var finalTitle = "";
+  //   for (i = 0; i <= wordArray.length - 1; i++) {
+  //     finalTitle += wordArray[i];
+  //     if (i == (wordArray.length - 2)) {
+  //       finalTitle += "&nbsp;";
+  //     } else {
+  //       finalTitle += " ";
+  //     }
+  //   }
+  //   $(this).html(finalTitle);
+  // });
 });
