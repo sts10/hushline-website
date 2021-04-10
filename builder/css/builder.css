@@ -23,6 +23,14 @@
   max-width: none;
 }
 
+section.canvas {
+  margin-bottom: 0 !important;
+}
+
+.canvas section:last-of-type {
+  margin-bottom: calc(var(--spacing-xxlarge) * 3);
+}
+
 .canvas {
   width: 75%;
   margin-bottom: 0;

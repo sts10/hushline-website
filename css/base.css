@@ -52,6 +52,10 @@ section {
   margin-bottom: calc(var(--spacing-xxlarge) * 3);
 }
 
+section:last-of-type {
+  margin-bottom: var(--spacing-xxlarge);
+}
+
 .hidden {
   opacity: none !important;
   display: none !important;
