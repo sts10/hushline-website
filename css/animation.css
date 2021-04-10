@@ -1,6 +1,8 @@
 @keyframes toast {
   0% {
 		transform: translateY(0);
+    opacity: 0;
+    z-index: 4;
 	}
 	3%, 50% {
 		transform: translateY(-1rem);
@@ -9,7 +11,11 @@
 	53%, 100% {
 		transform: translateY(0);
 		opacity: 0;
+    z-index: 2;
 	}
+  100% {
+    z-index: -3;
+  }
 }
 
 @keyframes floating {
