@@ -19,6 +19,10 @@
 
 	<section class="canvas">
 
+		<!-- NOTIFICATIONS -->
+
+		<?php include "components/notification/html/notification.html" ?>
+
 		<!-- HEADER -->
 
 		<?php include "components/header/html/header.html" ?>
