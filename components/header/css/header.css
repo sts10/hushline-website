@@ -214,11 +214,7 @@ aside .navButton {
     display: inherit !important;
   }
 
-  .navButton {
-    right: calc(var(--spacing-xxlarge) * 1.125);
-  }
-
-  .navButton {
+  .withUtil {
     right: calc(var(--spacing-xxlarge) * 1.43);
   }
 
