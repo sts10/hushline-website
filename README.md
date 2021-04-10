@@ -6,15 +6,12 @@ https://glennsorrentino.com/design-system/
 
 ## Use the design system
 
-1. Include the following in the `<head>` of your HTML:
-
-    `<link rel="stylesheet" href="https://glenn-sorrentino.github.io/design-system/css/style.css">`  
-    `<script src="https://code.jquery.com/jquery-latest.min.js"></script>`  
-    `<script src="https://glenn-sorrentino.github.io/design-system/js/main.js"></script>`
-  
-2. Copy a component's HTML from the [components folder](https://github.com/glenn-sorrentino/design-system/tree/main/components) and paste into your webpage.
-
-_Note that your existing CSS may affect the way the code is rendered._ 
+1. Download a code editor like [Atom](https://atom.io/).
+2. Create a new file by going to the File menu and selecting New File.
+3. Paste the contents of the included [page template](https://github.com/glenn-sorrentino/design-system/blob/main/components/page-template/html/page-template.html) into your editor.
+4. Add [components](https://github.com/glenn-sorrentino/design-system/blob/main/components) in the sections of the template.
+5. Save the file.
+6. Open it in your browser!
 
 ## About the Simple Design System
     
