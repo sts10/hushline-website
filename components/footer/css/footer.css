@@ -20,7 +20,7 @@ footer p:last-of-type {
   word-break: break-all;
 }
 
-footer.centeredList p {
+footer.centeredContent p {
   margin: 0 auto;
 }
 

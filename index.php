@@ -38,23 +38,23 @@
 
 		<!-- PRIMARY LIST -->
 
-		<section class="list primaryList wrapper">
+		<section class="content primaryContent wrapper">
 			<h2>Primary Content</h2>
-			<?php include "components/list/html/item-standard.html" ?>
-			<?php include "components/list/html/item-flip.html" ?>
-			<?php include "components/list/html/item-mobile.html" ?>
-			<?php include "components/list/html/item-featured.html" ?>
+			<?php include "components/content/html/item-standard.html" ?>
+			<?php include "components/content/html/item-flip.html" ?>
+			<?php include "components/content/html/item-mobile.html" ?>
+			<?php include "components/content/html/item-featured.html" ?>
 		</section>
 
 		<!-- EXAMPLES -->
 
-		<?php include "components/list/html/example.html" ?>
+		<?php include "components/content/html/example.html" ?>
 
 		<!-- MORE LISTS -->
 
-		<?php include "components/list/html/secondary.html" ?>
-		<?php include "components/list/html/tertiary.html" ?>
-		<?php include "components/list/html/basic.html" ?>
+		<?php include "components/content/html/secondary.html" ?>
+		<?php include "components/content/html/tertiary.html" ?>
+		<?php include "components/content/html/basic.html" ?>
 
 		<!-- ABOUT AND CONTACT -->
 

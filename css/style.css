@@ -32,9 +32,9 @@
 
 /* LISTS */
 
-@import url("../components/list/css/list.css");
-@import url("../components/list/css/tertiary.css");
-@import url("../components/list/css/primary.css");
+@import url("../components/content/css/content.css");
+@import url("../components/content/css/tertiary.css");
+@import url("../components/content/css/primary.css");
 
 /* BASE */
 

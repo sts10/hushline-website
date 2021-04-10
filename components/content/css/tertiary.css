@@ -1,75 +1,75 @@
-.listRow h2 {
+.contentRow h2 {
   text-align: center;
   margin-bottom: var(--spacing-xlarge);
 }
 
-.listRow h3 {
+.contentRow h3 {
   margin-bottom: var(--spacing-xlarge);
 }
 
-.listRow .listItem h3 {
+.contentRow .contentItem h3 {
   margin-bottom: var(--spacing-base);
 }
 
-.listRowContent {
+.contentRowContent {
   display: flex;
   margin-bottom: var(--spacing-xxlarge);
 }
 
-.listItem.listRow {
+.contentItem.contentRow {
   display: inherit;
 }
 
-.listRowContent .listItem {
+.contentRowContent .contentItem {
   margin-bottom: 0;
 }
 
-.listRow + footer {
+.contentRow + footer {
   margin-top: calc(var(--spacing-xxlarge) * 1.5);
 }
 
-.listRowContent:last-of-type {
+.contentRowContent:last-of-type {
   margin-bottom: 0;
 }
 
-.listRow .icon {
+.contentRow .icon {
   width: 2rem;
   height: 2rem;
   margin-bottom: var(--spacing-xsmall);
 }
 
-.listRow .emoji {
+.contentRow .emoji {
   font-size: var(--font-size-emoji-sm) !important;
   margin-bottom: var(--spacing-xsmall) !important;
 }
 
-.listRow p {
+.contentRow p {
   font-size: calc(var(--font-size-body) * .9);
 }
 
-.listRow p + a {
+.contentRow p + a {
   font-size: calc(var(--font-size-body) * .9);
 }
 
-.listRowContent .listItem {
+.contentRowContent .contentItem {
   padding: 0 var(--spacing-medium);
   text-align: center;
   width: min-content;
 }
 
-.listRowContent .listItem .description {
+.contentRowContent .contentItem .description {
   margin-bottom: 0;
 }
 
-.listRowContent .featureImage {
+.contentRowContent .featureImage {
   margin-top: var(--spacing-large) !important;
 }
 
-.listRowContent .featureImage {
+.contentRowContent .featureImage {
   width: 100% !important;
 }
 
-.listRowContent .listItem:last-of-type {
+.contentRowContent .contentItem:last-of-type {
   margin-bottom: 0;
 }
 
@@ -80,23 +80,23 @@
 @media only screen and (max-width: 768px) {
 
 
-  .listRowContent {
+  .contentRowContent {
     margin-bottom: var(--spacing-medium);
   }
 
-  .listRowContent .listItem {
+  .contentRowContent .contentItem {
     width: initial;
   }
 
-  .listRow h2 {
+  .contentRow h2 {
     text-align: left;
   }
 
-  .listRowContent {
+  .contentRowContent {
     display: inherit;
   }
 
-  .listRowContent .listItem {
+  .contentRowContent .contentItem {
     padding-left: 0;
     padding-right: 0;
     padding-top: var(--spacing-medium);
@@ -104,15 +104,15 @@
     text-align: left;
   }
 
-  .listRowContent .listItem:first-of-type {
+  .contentRowContent .contentItem:first-of-type {
     padding-top: 0;
   }
 
-  .listRow p {
+  .contentRow p {
     font-size: var(--font-size-body);
   }
 
-  .listRow a {
+  .contentRow a {
     font-size: var(--font-size-body);
   }
 

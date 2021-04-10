@@ -1,34 +1,34 @@
-.blockList {
+.blockContent {
   display: block !important;
   text-align: center;
 }
 
-.blockList .featureImage {
+.blockContent .featureImage {
   margin: 0 auto;
   width: 75%;
 }
 
-.blockList .description {
+.blockContent .description {
   margin: 0 auto var(--spacing-large) auto;
   padding-right: 0;
   width: 100%;
 }
 
-.blockList .description p {
+.blockContent .description p {
   margin: 0 auto var(--spacing-base) auto;
   width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
-  .blockList .description p {
+  .blockContent .description p {
     margin: 0 0 var(--spacing-base) 0;
   }
 
-  .blockList .featureImage {
+  .blockContent .featureImage {
     width: 100%;
   }
 
-  .blockList {
+  .blockContent {
     text-align: left;
   }
 }

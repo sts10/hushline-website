@@ -65,8 +65,8 @@ $(document).ready(function() {
     $('.featuredItem').toggleClass('hidden');
   });
 
-  $('#basic-list').on('click', function() {
-    $('.basicList').toggleClass('hidden');
+  $('#basic-content').on('click', function() {
+    $('.basicContent').toggleClass('hidden');
   });
 
   $('#standard-item').on('click', function() {
@@ -77,32 +77,32 @@ $(document).ready(function() {
     $('.statement').toggleClass('hidden');
   });
 
-  $('#example-list').on('click', function() {
-    $('.exampleList').toggleClass('hidden');
+  $('#example-content').on('click', function() {
+    $('.exampleContent').toggleClass('hidden');
   });
 
   $('#item-avatar').on('click', function() {
     $('.itemAvatar').toggleClass('hidden');
   });
 
-  $('#tertiary-list').on('click', function() {
-    $('.tertiaryList').toggleClass('hidden');
+  $('#tertiary-content').on('click', function() {
+    $('.tertiaryContent').toggleClass('hidden');
   });
 
-  $('#secondary-list').on('click', function() {
-    $('.secondaryList').toggleClass('hidden');
+  $('#secondary-content').on('click', function() {
+    $('.secondaryContent').toggleClass('hidden');
   });
 
-  $('#primary-list').on('click', function() {
-    $('.primaryList').toggleClass('hidden');
+  $('#primary-content').on('click', function() {
+    $('.primaryContent').toggleClass('hidden');
   });
 
   $('#simple-item').on('click', function() {
     $('.simpleItem').toggleClass('hidden');
   });
 
-  $('#item-list').on('click', function() {
-    $('.itemList').toggleClass('hidden');
+  $('#item-content').on('click', function() {
+    $('.itemContent').toggleClass('hidden');
   });
 
   $('#centered-item').on('click', function() {
@@ -110,7 +110,7 @@ $(document).ready(function() {
   });
 
   $('#button-group').on('click', function() {
-    $('.buttonGroupList').toggleClass('hidden');
+    $('.buttonGroupContent').toggleClass('hidden');
   });
 
   $('#button-item').on('click', function() {

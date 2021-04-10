@@ -18,7 +18,7 @@ _Note that your existing CSS may affect the way the code is rendered._
 
 ## About the Simple Design System
     
-The included components build some of the most common patterns on the web. Behaviorally it has a responsive UI and a basic notifications framework. Visually it has themes that respond to the user's system settings, has strong information hierarchy, and supports multiple list layouts. You'll notice limited use of JS and other programmatic languages to reduce security vulnerabilities; near-term goals include removing all JS dependencies.
+The included components build some of the most common patterns on the web. Behaviorally it has a responsive UI and a basic notifications framework. Visually it has themes that respond to the user's system settings, has strong information hierarchy, and supports multiple content layouts. You'll notice limited use of JS and other programmatic languages to reduce security vulnerabilities; near-term goals include removing all JS dependencies.
 
 Use it as a starter kit that you can build on top of, or use it as a complete, living solution. As design trends change and new usability research is conducted, this design system will be updated to reflect current learnings.
 
@@ -40,7 +40,7 @@ Use it as a starter kit that you can build on top of, or use it as a complete, l
 - Full-bleed intro backgrounds
 - Articles
 - Tabs
-- Rich list layouts
+- Rich content layouts
 - Buttons and links
 - Icons
 - Badges
