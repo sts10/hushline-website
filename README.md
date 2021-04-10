@@ -1,8 +1,10 @@
 # Simple Design System
 
-**🛠 Page Builder**
+## 🛠 Page Builder
+The Page Builder is a playground for you to design your perfect page. 
 
-https://glennsorrentino.com/design-system/
+[Use it on your phone or desktop!](https://glennsorrentino.com/design-system/)
+
 
 ## Use the design system
 
