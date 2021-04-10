@@ -213,6 +213,15 @@ aside .navButton {
   .navButton {
     right: calc(var(--spacing-xxlarge) * 1.125);
   }
+
+  .navButton {
+    right: calc(var(--spacing-xxlarge) * 1.375);
+  }
+
+  .utilityIcon {
+    padding-left: var(--spacing-medium);
+    margin-left: var(--spacing-base);
+  }
 }
 
 @media only screen and (max-width: 375px) {
