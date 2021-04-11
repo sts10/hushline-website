@@ -3,7 +3,7 @@
 ##  🧰 Page Builder
 The Page Builder is a playground for you to design your perfect page. 
 
-[🛠 Start Building](https://glennsorrentino.com/design-system/)
+<a href="https://simpledesignsystem.io" target="_blank">🛠 Start Building</a>
 
 ![Simple Design System Builder](https://raw.githubusercontent.com/glenn-sorrentino/design-system/main/assets/examples/builder.gif)
 
@@ -11,9 +11,9 @@ The Page Builder is a playground for you to design your perfect page.
 
 Easy setup can have you building a website in under a minute! 
 
-1. ✏️  Paste the contents of the included [page template](https://raw.githubusercontent.com/glenn-sorrentino/design-system/main/components/page-template/html/page-template.html) into your code editor.
-2. 🛠  Add whatever [components](https://github.com/glenn-sorrentino/design-system/blob/main/components) meet your needs in the sections within the template.
-3. 💾  Save the file and name it mypage.html.
+1. ✏️  Paste the contents of the included <a href="https://raw.githubusercontent.com/glenn-sorrentino/design-system/main/components/page-template/html/page-template.html" target="_blank">page template</a> into your code editor.
+2. 🛠  Add whatever <a href="https://github.com/glenn-sorrentino/design-system/blob/main/components" target="_blank">components</a> meet your needs in the sections within the template.
+3. 💾  Save the file and name it index.html.
 4. 😍  Open it in your browser!
 
 ![Simple Design System Setup](https://raw.githubusercontent.com/glenn-sorrentino/design-system/main/assets/examples/design-system-setup.gif)
