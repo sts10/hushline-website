@@ -8,7 +8,7 @@
   }
 
   .tabs a.selected {
-    border-bottom: 3px solid var(--color-dark);
+    border-bottom: 3px solid var(--color-dark) !important;
   }
 
   .tabContainerScrolled {
@@ -26,7 +26,7 @@
   }
 
   .tabs a.selected {
-    border-bottom: 3px solid var(--color-light);
+    border-bottom: 3px solid var(--color-light)  !important;
   }
 
   .tabContainerScrolled {
