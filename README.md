@@ -8,12 +8,10 @@ The Page Builder is a playground for you to design your perfect page.
 
 ## Use the design system
 
-1. 💻  Download a code editor like [Atom](https://atom.io/).
-2. 📄  Create a new file by going to the File menu and selecting New File.
-3. ✏️  Paste the contents of the included [page template](https://github.com/glenn-sorrentino/design-system/blob/main/components/page-template/html/page-template.html) into your editor.
-4. 🛠  Add [components](https://github.com/glenn-sorrentino/design-system/blob/main/components) in the sections of the template.
-5. 💾  Save the file and name it index.html.
-6. 😍  Open it in your browser!
+1. ✏️  Paste the contents of the included [page template](https://raw.githubusercontent.com/glenn-sorrentino/design-system/main/components/page-template/html/page-template.html) into your code editor.
+2. 🛠  Add whatever [components](https://github.com/glenn-sorrentino/design-system/blob/main/components) meet your needs in the sections within the template.
+3. 💾  Save the file and name it mypage.html.
+4. 😍  Open it in your browser!
 
 ## About the Simple Design System
     
