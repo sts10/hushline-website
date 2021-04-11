@@ -34,8 +34,9 @@
   }
 }
 
-.tabs .wrapper {
+.tabs.wrapper {
   width: 100%;
+  padding: 0 var(--spacing-medium)!important;
 }
 
 .tabs h2 {
@@ -80,12 +81,18 @@
 }
 
 @media only screen and (max-width: 960px) {
-
+  .tabs.wrapper {
+    padding: 0 var(--spacing-base)!important;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .tabContainerScrolled {
     top: 70px;
+  }
+
+  .tabs.wrapper {
+    padding: 0 var(--spacing-xsmall)!important;
   }
 }
 
