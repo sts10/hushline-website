@@ -50,6 +50,10 @@
 			<?php include "components/content/html/item-featured.html" ?>
 		</section>
 
+		<!-- DESIGN RESOURCES -->
+
+		<?php include "components/content/html/figma.html" ?>
+
 		<!-- EXAMPLES -->
 
 		<?php include "components/content/html/example.html" ?>
