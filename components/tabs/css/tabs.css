@@ -54,10 +54,11 @@
 
 .tabs a {
   display: inline-block;
-  padding: var(--spacing-base);
+  padding: var(--spacing-base) var(--spacing-base) calc(var(--spacing-base) - 3px) var(--spacing-base);
   text-decoration: none;
   transition: none;
   font-size: var(--font-size-small);
+  border-bottom: 3px solid rgba(0,0,0,0);
 }
 
 .tabs a.selected {
