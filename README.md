@@ -5,6 +5,7 @@ The Page Builder is a playground for you to design your perfect page.
 
 [🛠 Start Building](https://glennsorrentino.com/design-system/)
 
+![Simple Design System Builder](https://raw.githubusercontent.com/glenn-sorrentino/design-system/main/assets/examples/builder.gif)
 
 ## Use the design system
 
