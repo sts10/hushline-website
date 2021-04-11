@@ -1,12 +1,14 @@
 # Simple Design System
 
-## 🛠 Page Builder
+##  🧰 Page Builder
 The Page Builder is a playground for you to design your perfect page. 
 
-[Use it on your phone or desktop!](https://glennsorrentino.com/design-system/)
+[🛠 Start Building](https://glennsorrentino.com/design-system/)
 
 
 ## Use the design system
+
+Easy setup can have you building a website in under a minute! 
 
 1. ✏️  Paste the contents of the included [page template](https://raw.githubusercontent.com/glenn-sorrentino/design-system/main/components/page-template/html/page-template.html) into your code editor.
 2. 🛠  Add whatever [components](https://github.com/glenn-sorrentino/design-system/blob/main/components) meet your needs in the sections within the template.
