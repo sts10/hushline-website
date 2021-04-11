@@ -46,34 +46,17 @@
 }
 
 .tabs {
+  overflow: auto;
+  white-space: nowrap;
   margin-bottom: calc(var(--spacing-xxlarge) * 2);
-  display: flex;
-}
-
-.tabs ul {
-  display: flex;
-}
-
-.tabs ul li {
-  margin-left: 0;
 }
 
 .tabs a {
+  display: inline-block;
   padding: var(--spacing-base) var(--spacing-base) calc(var(--spacing-base) - 3px) var(--spacing-base);
-}
-
-.tabs a:hover {
   text-decoration: none;
   transition: none;
-}
-
-.tabs a.selected {
-  font-family: var(--font-sans-bold);
-}
-
-.tabs {
-  padding: var(--spacing-base) 0;
-  margin-left: calc(var(--spacing-base) * -1);
+  font-size: var(--font-size-small);
 }
 
 .tabContainerScrolled {
@@ -93,14 +76,9 @@
 }
 
 @media only screen and (max-width: 960px) {
-
   .tabs {
-    padding: var(--spacing-base) 0;
+    margin-left: calc(var(--spacing-base) * -1) !important;
   }
-
-  /* .tabs a {
-    padding: var(--spacing-base) var(--spacing-xsmall) calc(var(--spacing-base) - 3px) var(--spacing-xsmall);
-  } */
 }
 
 @media only screen and (max-width: 768px) {
@@ -109,7 +87,6 @@
   }
 
   .tabs {
-    padding: var(--spacing-base) var(--spacing-xsmall);
     margin-left: calc(var(--spacing-medium) * -1);
   }
 }
