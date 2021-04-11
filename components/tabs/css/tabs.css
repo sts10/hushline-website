@@ -59,6 +59,10 @@
   font-size: var(--font-size-small);
 }
 
+.tabs a.selected {
+  font-family: var(--font-sans-bold);
+}
+
 .tabContainerScrolled {
   position: fixed;
   top: 87px;
@@ -76,18 +80,15 @@
 }
 
 @media only screen and (max-width: 960px) {
+
   .tabs {
-    margin-left: calc(var(--spacing-base) * -1) !important;
+    padding: var(--spacing-base) 0;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .tabContainerScrolled {
     top: 70px;
-  }
-
-  .tabs {
-    margin-left: calc(var(--spacing-medium) * -1);
   }
 }
 
