@@ -50,6 +50,11 @@
   display: flex;
 }
 
+.tabs ul {
+  display: flex;
+  overflow-x: scroll;
+}
+
 .tabs ul li {
   margin-left: 0;
 }
