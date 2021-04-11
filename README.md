@@ -22,7 +22,7 @@ Easy setup can have you building a website in under a minute!
 
 <img src="https://raw.githubusercontent.com/glenn-sorrentino/design-system/4fe163cc6ce0a18dcc51c4a4e959501ac9ba7398/assets/logos/figma.svg" width="48px">
 
-![Use the Figma Kit](https://www.figma.com/file/NAqQuqB1mt4Oix3Sdyhr4L/Simple-Design-System-Kit?node-id=5%3A2923) to start designing your next project! 
+<a href="https://www.figma.com/file/NAqQuqB1mt4Oix3Sdyhr4L/Simple-Design-System-Kit?node-id=5%3A2923" target="_blank">Use the Figma Kit</a> to start designing your next project! 
 
 ## About the Simple Design System
     
