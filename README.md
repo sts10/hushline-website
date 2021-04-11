@@ -15,6 +15,8 @@ Easy setup can have you building a website in under a minute!
 3. 💾  Save the file and name it mypage.html.
 4. 😍  Open it in your browser!
 
+![Simple Design System Setup](/https://raw.githubusercontent.com/glenn-sorrentino/design-system/main/assets/examples/design-system-setup.gif)
+
 ## About the Simple Design System
     
 The included components build some of the most common patterns on the web. Behaviorally it has a responsive UI and a basic notifications framework. Visually it has themes that respond to the user's system settings, has strong information hierarchy, and supports multiple content layouts. You'll notice limited use of JS and other programmatic languages to reduce security vulnerabilities; near-term goals include removing all JS dependencies.
