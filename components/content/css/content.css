@@ -35,8 +35,8 @@
   opacity: .75;
 }
 
-.icon + .parent {
-  margin-top: var(--spacing-xsmall) !important;
+.parent + .icon {
+  margin-top: var(--spacing-base) !important;
 }
 
 .meta {
