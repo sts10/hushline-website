@@ -3,9 +3,7 @@
 ##  🧰 Page Builder
 The Page Builder is a playground for you to design your perfect page. 
 
-<a href="https://simpledesignsystem.io" target="_blank">Start Building</a>
-
-[🛠 Start Building](https://simpledesignsystem.io)
+<a href="https://simpledesignsystem.io" target="_blank">🛠 Start Building</a>
 
 ![Simple Design System Builder](https://raw.githubusercontent.com/glenn-sorrentino/design-system/main/assets/examples/builder.gif)
 
