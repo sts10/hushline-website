@@ -15,7 +15,7 @@ Easy setup can have you building a website in under a minute!
 3. 💾  Save the file and name it mypage.html.
 4. 😍  Open it in your browser!
 
-![Simple Design System Setup](/https://raw.githubusercontent.com/glenn-sorrentino/design-system/main/assets/examples/design-system-setup.gif)
+![Simple Design System Setup](https://raw.githubusercontent.com/glenn-sorrentino/design-system/main/assets/examples/design-system-setup.gif)
 
 ## About the Simple Design System
     
