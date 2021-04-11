@@ -52,7 +52,6 @@
 
 .tabs ul {
   display: flex;
-  overflow-x: scroll;
 }
 
 .tabs ul li {

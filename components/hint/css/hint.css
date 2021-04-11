@@ -16,6 +16,7 @@ p.hint {
   font-family: var(--font-sans-bold);
   opacity: .5;
   animation: floating 3s ease infinite;
+  max-width: max-content !important;
 }
 
 .fade {
