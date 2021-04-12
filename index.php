@@ -38,6 +38,13 @@
 		<!-- BODY -->
 
 		<?php include "components/tabs/html/tabs.html" ?>
+
+		<!-- DESIGN RESOURCES -->
+
+		<?php include "components/content/html/figma.html" ?>
+
+		<!-- MISSION STATEMENT -->
+		
 		<?php include "components/statement/html/statement.html" ?>
 
 		<!-- PRIMARY LIST -->
@@ -50,9 +57,7 @@
 			<?php include "components/content/html/item-featured.html" ?>
 		</section>
 
-		<!-- DESIGN RESOURCES -->
 
-		<?php include "components/content/html/figma.html" ?>
 
 		<!-- EXAMPLES -->
 

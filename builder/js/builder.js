@@ -73,16 +73,8 @@ $(document).ready(function() {
     $('.standardItem').toggleClass('hidden');
   });
 
-  $('#design-content').on('click', function() {
-    $('.designContent').toggleClass('hidden');
-  });
-
   $('#statement').on('click', function() {
     $('.statement').toggleClass('hidden');
-  });
-
-  $('#example-content').on('click', function() {
-    $('.exampleContent').toggleClass('hidden');
   });
 
   $('#item-avatar').on('click', function() {
