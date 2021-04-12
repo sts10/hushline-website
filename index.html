@@ -8,11 +8,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>🛠 Builder - Simple Design System</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://glenn-sorrentino.github.io/design-system/css/style.css">
 
 	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
-	<script src="builder/js/builder.js"></script>
-	<script src="js/main.js"></script>
+	<script src="https://glenn-sorrentino.github.io/design-system/builder/js/builder.js"></script>
+	<script src="https://glenn-sorrentino.github.io/design-system/js/main.js"></script>
 </head>
 
 <body id="builder">
@@ -54,7 +54,9 @@
 			</div>
 		</header>
 
-		<!-- INSTRUCTIONS INTRO -->
+		<!-- INTRO -->
+
+		<!-- HIDDEN FOR BUILDER FUNCTIONALITY, REMOVE WHEN USING  -->
 
 		<section class="intro instructionsIntro wrapper hidden">
 			<div>
@@ -64,9 +66,6 @@
 			</div>
 			<p class="hint">Scroll Down</p>
 		</section>
-
-		<!-- HOME INTRO -->
-
 		<section class="intro homeIntro wrapper">
 			<div>
 				<h1>Stop reinventing the&nbsp;wheel</h1>
@@ -75,7 +74,6 @@
 			</div>
 			<p class="hint">Scroll Down</p>
 		</section>
-
 		<!-- HIDDEN FOR BUILDER FUNCTIONALITY, REMOVE WHEN USING  -->
 
 		<section class="intro secondaryIntro hidden">
@@ -84,7 +82,6 @@
 				<p>💻 A design system starter kit or a complete, living solution. <a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/intro/html/secondary-intro.html" target="_blank">View&nbsp;Component&nbsp;Code</a></p>
 			</div>
 		</section>
-
 		<!-- HIDDEN FOR BUILDER FUNCTIONALITY, REMOVE WHEN USING  -->
 
 		<section class="intro wrapper secondaryIntro articleIntro hidden">
@@ -93,7 +90,6 @@
 				<p class="meta">✍️ <a class="authorName" href="#" target="_blank">Art Vandelay</a>, Today, 3:01 PM</p>
 			</div>
 		</section>
-
 		<!-- HIDDEN FOR BUILDER FUNCTIONALITY, REMOVE WHEN USING  -->
 
 		<section class="intro bookCover wrapper hidden">
@@ -119,11 +115,26 @@
 			</nav>
 		</section>
 
+		<!-- DESIGN RESOURCES -->
+
+		<section class="content centeredContent designContent wrapper">
+			<h2>Design Resources</h2>
+			<div class="contentItem blockContent">
+				<div class="description">
+					<div class="icon figma"></div>
+					<h3>Figma Kit</h3>
+					<p>Check out the Figma Kit and start designing your next project!</p>
+					<a class="btn" href="https://www.figma.com/file/NAqQuqB1mt4Oix3Sdyhr4L/Simple-Design-System-Kit?node-id=5%3A2923" target="_blank">Use it Now</a>
+				</div>
+			</div>
+		</section>
+
 		<!-- MISSION STATEMENT -->
 
 		<section class="statement wrapper">
 			<p class="emoji"><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/statement/html/statement.html" target="_blank">🏴‍☠️</a></p>
-		  <p>The Simple Design System's goal is to <span class="highlight">democratize good design</span> through a free and open-source framework that anyone can use to build usable, beautiful, and scalable web experiences <a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/statement/html/statement.html" target="_blank"></a></p>
+			<p>The Simple Design System's goal is to <span class="highlight">democratize good design</span> through a free and open-source framework that anyone can use to build usable, beautiful, and scalable web experiences <a
+					href="https://github.com/glenn-sorrentino/design-system/blob/main/components/statement/html/statement.html" target="_blank"></a></p>
 		</section>
 
 		<!-- PRIMARY LIST -->
@@ -135,18 +146,18 @@
 					<div class="icon placeholder"></div>
 					<h3>Standard</h3>
 					<p>This is a basic side-by-side layout for a content item.</p>
-					<a href="#" target="_blank">View Component Code</a>
+					<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-standard.html" target="_blank">View Component Code</a>
 				</div>
 				<div class="featureImage">
 					<img src="assets/placeholder/image.svg" alt="#">
 				</div>
 			</div>
-			<div class="contentItem">
+			<div class="contentItem flippedItem">
 				<div class="description flip">
 					<p class="parent">Parent</p>
 					<h3>Flipped</h3>
 					<p>When using multiple standard content components in sequence, you can flip the layout for a more dynamic presentation.</p>
-					<a href="#" target="_blank">View Component Code</a>
+					<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-flip.html" target="_blank">View Component Code</a>
 				</div>
 				<div class="featureImage">
 					<img src="assets/placeholder/image.svg" alt="#">
@@ -166,11 +177,13 @@
 					<img src="assets/placeholder/mobile.svg" alt="#">
 				</div>
 			</div>
+			<!-- HIDDEN FOR BUILDER FUNCTIONALITY, REMOVE WHEN USING  -->
+
 			<div class="contentItem featuredItem blockContent hidden">
 				<div class="description">
 					<h3>Featured</h3>
 					<p>This layout puts more prominence on the image being displayed. Use it for high-priority callouts.</p>
-					<a href="#" target="_blank">View Component Code</a>
+					<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-featured.html" target="_blank">View Component Code</a>
 				</div>
 				<div class="featureImage">
 					<img src="assets/placeholder/image.svg" alt="#">
@@ -178,19 +191,7 @@
 			</div>
 		</section>
 
-		<!-- DESIGN RESOURCES -->
 
-		<section class="content centeredContent designContent wrapper">
-			<h2>Design Resources</h2>
-			<div class="contentItem blockContent">
-				<div class="description">
-					<div class="icon figma"></div>
-					<h3>Figma Kit</h3>
-					<p>Check out the Figma Kit and start designing your next project!</p>
-					<a class="btn" href="https://www.figma.com/file/NAqQuqB1mt4Oix3Sdyhr4L/Simple-Design-System-Kit?node-id=5%3A2923" target="_blank">Use it Now</a>
-				</div>
-			</div>
-		</section>
 
 		<!-- EXAMPLES -->
 
@@ -355,7 +356,7 @@
 					<p>This is a good layout for an &quot;About&quot; section where you might want to include a larger avatar. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
 						ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
 						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/about.html" target="_blank">View Component Code</a>
+					<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/about/html/about.html" target="_blank">View Component Code</a>
 				</div>
 			</div>
 		</section>
@@ -366,13 +367,13 @@
 					<p class="emoji">✌️</p>
 					<p>Use this for a contact section where you'll need to content out the channels where you can be reached.</p>
 					<ul>
-						<li><span class="icon placeholder"></span><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/contact.html" target="_blank">View Component Code</a></li>
+						<li><span class="icon placeholder"></span><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/contact/html/contact.html" target="_blank">View Component Code</a></li>
 						<li><span class="icon placeholder"></span><a href="#" target="_blank">Contact Link</a></li>
 						<li><span class="icon placeholder"></span><a href="#" target="_blank">Contact Link</a></li>
 					</ul>
 				</div>
 			</div>
-		</section
+		</section>
 
 		<!-- ARTICLE -->
 
@@ -537,14 +538,6 @@
 				<div>
 					<input type="checkbox" name="format" id="primary-content" autocomplete="off" value="txt" checked>
 					<label for="primary-content">Primary Content</label>
-				</div>
-				<div>
-					<input type="checkbox" name="format" id="design-content" value="txt" autocomplete="off" checked>
-					<label for="design-content">Design Resources</label>
-				</div>
-				<div>
-					<input type="checkbox" name="format" id="example-content" value="txt" autocomplete="off" checked>
-					<label for="example-content">In The Wild</label>
 				</div>
 				<div>
 					<input type="checkbox" name="format" id="secondary-content" autocomplete="off" value="txt" checked>
