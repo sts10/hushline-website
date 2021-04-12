@@ -39,13 +39,13 @@
 
 		<?php include "components/tabs/html/tabs.html" ?>
 
+		<!-- MISSION STATEMENT -->
+
+		<?php include "components/statement/html/statement.html" ?>
+
 		<!-- DESIGN RESOURCES -->
 
 		<?php include "components/content/html/figma.html" ?>
-
-		<!-- MISSION STATEMENT -->
-		
-		<?php include "components/statement/html/statement.html" ?>
 
 		<!-- PRIMARY LIST -->
 
