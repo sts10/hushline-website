@@ -11,10 +11,6 @@ $(document).ready(function() {
     $('.staged').removeClass('open');
   });
 
-  $('#navFocus').on('click', function() {
-    $('#first-nav').focus();
-  });
-
   var pageOffset = $('.wrapper').offset().top;
 
   $(window).on('scroll', function() {

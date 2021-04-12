@@ -19,21 +19,11 @@
   .staged .utilityIcon {
     border-left: none;
   }
-
-  .assistiveText:focus {
-    color: var(--font-color-dark);
-    background: #fff;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
   header {
     background-color: rgba(51, 51, 51, .8);
-  }
-
-  .assistiveText:focus {
-    color: var(--font-color-light);
-    background: var(--color-dark);
   }
 
   nav.staged {
