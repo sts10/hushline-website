@@ -19,11 +19,21 @@
   .staged .utilityIcon {
     border-left: none;
   }
+
+  .assistiveText:focus {
+    color: var(--font-color-dark);
+    background: #fff;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   header {
     background-color: rgba(51, 51, 51, .8);
+  }
+
+  .assistiveText:focus {
+    color: var(--font-color-light);
+    background: var(--color-dark);
   }
 
   nav.staged {
@@ -92,6 +102,28 @@ header .emojiTheme {
   -webkit-text-fill-color: initial;
   background: initial;
 }
+
+.assistiveText {
+  position: absolute !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  text-transform: none !important;
+  white-space: nowrap !important;
+  font-size: var(--font-size-small);
+}
+
+.assistiveText:focus {
+  top: 0;
+  width: initial!important;
+  height: initial!important;
+  overflow: visible!important;
+  clip:auto!important;
+  }
 
 nav {
   display: flex;
