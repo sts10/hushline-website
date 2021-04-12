@@ -33,7 +33,7 @@
 }
 
 .glow .tabs a.selected {
-  border-bottom: 3px solid var(--theme-glow);
+  border-bottom: 3px solid var(--theme-glow) !important;
 }
 
 .glow .highlight {
