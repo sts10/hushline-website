@@ -70,7 +70,7 @@
   display: flex;
   align-items: center;
   flex: 1 auto;
-  margin-bottom: calc(var(--spacing-xxlarge) * 1.5);
+  margin-bottom: calc(var(--spacing-xxlarge) * 1.25);
 }
 
 .contentItem h2 {
@@ -128,7 +128,6 @@
   .contentItem {
     display: inherit;
     padding: 0;
-    margin-bottom: calc(var(--spacing-xxlarge) * 1.5);
   }
 
   .contentItem p {
@@ -156,7 +155,5 @@
 }
 
 @media only screen and (max-width: 375px) {
-  .contentItem {
-    margin-bottom: calc(var(--spacing-xxlarge) * 1.25);
-  }
+
 }
