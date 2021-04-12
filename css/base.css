@@ -52,10 +52,6 @@ section {
   margin-bottom: calc(var(--spacing-xxlarge) * 3);
 }
 
-section:last-of-type {
-  margin-bottom: calc(var(--spacing-xxlarge) * 2);
-}
-
 .hidden {
   opacity: none !important;
   display: none !important;
@@ -88,9 +84,5 @@ ul li {
   .wrapper {
     padding-left: var(--spacing-medium) !important;
     padding-right: var(--spacing-medium) !important;
-  }
-
-  section {
-    margin-bottom: calc(var(--spacing-xxlarge) * 2);
   }
 }

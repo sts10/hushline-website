@@ -69,10 +69,6 @@
   width: 100% !important;
 }
 
-.contentRowContent .contentItem:last-of-type {
-  margin-bottom: 0;
-}
-
 @media only screen and (max-width: 1024px) {
 
 }
@@ -99,9 +95,8 @@
   .contentRowContent .contentItem {
     padding-left: 0;
     padding-right: 0;
-    padding-top: var(--spacing-medium);
-    padding-bottom: var(--spacing-medium);
     text-align: left;
+    margin-bottom: calc(var(--spacing-xxlarge) * 1.5);
   }
 
   .contentRowContent .contentItem:first-of-type {
@@ -115,5 +110,10 @@
   .contentRow a {
     font-size: var(--font-size-body);
   }
+}
 
+@media only screen and (max-width: 375px) {
+  .contentRowContent .contentItem {
+    margin-bottom: calc(var(--spacing-xxlarge) * 1.25);
+  }
 }
