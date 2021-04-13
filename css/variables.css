@@ -6,6 +6,7 @@
   --font-serif: "Serif Regular";
   --font-serif-italic: "Serif Italic";
   --font-serif-bold: "Serif Bold";
+
   --font-size-logo: 1.125rem;
   --font-size-body: 1rem;
   --line-height-body: 1.5;
@@ -15,6 +16,7 @@
   --font-size-emoji: 3rem;
   --font-size-emoji-sm: 2rem;
   --font-size-large: 3.5rem;
+  
   --font-size-1: 5rem;
   --line-height-1: 5.8rem;
   --font-size-2: 2.5rem;
