@@ -85,3 +85,13 @@ th, td {
     padding: var(--spacing-xsmall) var(--spacing-medium) ;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .table {
+    top: 71px;
+  }
+
+  th, td {
+    padding: var(--spacing-small) var(--spacing-medium) ;
+  }
+}
