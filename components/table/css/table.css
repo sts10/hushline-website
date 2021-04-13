@@ -94,4 +94,9 @@ th, td {
   th, td {
     padding: var(--spacing-small) var(--spacing-medium) ;
   }
+
+  table {
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-body);
+  }
 }
