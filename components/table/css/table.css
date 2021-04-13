@@ -38,7 +38,7 @@
 }
 
 .table {
-  top: 86px;
+  top: 87.2px;
   bottom: 0;
   right: 0;
   left: 0;
@@ -78,7 +78,7 @@ th, td {
 
 @media only screen and (max-width: 768px) {
   .table {
-    top: 71px;
+    top: 70.5px;
   }
 
   th, td {
@@ -87,9 +87,6 @@ th, td {
 }
 
 @media only screen and (max-width: 375px) {
-  .table {
-    top: 71px;
-  }
 
   th, td {
     padding: var(--spacing-small) var(--spacing-medium) ;
