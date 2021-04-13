@@ -41,6 +41,10 @@
 @import url("base.css");
 @import url("firefox.css");
 
+/* TABLE  */
+
+@import url("../components/table/css/table.css");
+
 /* BUILDER  */
 
 @import url("../builder/css/builder.css");
