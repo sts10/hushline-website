@@ -19,7 +19,35 @@
 
 		<!-- HEADER -->
 
-		<?php include "components/header/html/header.html" ?>
+		<header>
+			<a href="#navigation" class="assistiveText">Skip to Navigation</a>
+			<a href="#content" class="assistiveText">Skip to Main Content</a>
+			<div class="wrapper">
+				<h1 class="logo"><a href="#">Simple Design System</a></h1>
+				<nav id="navigation">
+					<a class="navButton" href="#">
+						<div class="menu"></div>
+					</a>
+					<ul>
+						<li><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/header/html/header.html" target="_blank">View Component Code</a></li>
+						<li><a href="#">Page 2</a></li>
+						<li><a href="#">Page 3</a></li>
+						<li><a role="button" class="btn primaryBtn" href="https://github.com/glenn-sorrentino/design-system" target="_blank">Contribute</a></li>
+					</ul>
+				</nav>
+				<nav id="navigation" class="staged">
+					<a class="navButton closeButton" href="#">
+						<div class="close"></div>
+					</a>
+					<ul>
+						<li><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/header/html/header.html" target="_blank">View Component Code</a></li>
+						<li><a href="#">Page 2</a></li>
+						<li><a href="#">Page 3</a></li>
+						<li><a role="button" class="btn primaryBtn" href="https://github.com/glenn-sorrentino/design-system" target="_blank">Contribute</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
 
 		<main id="content">
 
