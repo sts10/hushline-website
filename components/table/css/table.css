@@ -85,7 +85,7 @@ th, td {
 
 @media only screen and (max-width: 768px) {
   .table {
-    top: 70px;
+    top: 70.5px;
   }
 
   th, td {
