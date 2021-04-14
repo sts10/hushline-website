@@ -128,6 +128,8 @@ th, td {
 
   td:first-of-type {
     font-family: var(--font-sans-bold);
+    font-size: var(--font-size-body)!important;
+    opacity: 1;
   }
 
   tr:first-of-type {
@@ -138,5 +140,7 @@ th, td {
     display: block;
     padding-top: 0;
     padding-bottom: 0;
+    font-size: var(--font-size-small);
+    opacity: .75;
   }
 }
