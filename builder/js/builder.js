@@ -8,7 +8,7 @@ $(document).ready(function() {
     $('.home-template .home').addClass('hidden');
     $('.secondary-template .secondary').addClass('hidden');
     $('.article-template .article').addClass('hidden');
-    $('.instructions').removeClass('hidden');
+    $('.instructionsIntro').removeClass('hidden');
     $('.table').addClass('hidden');
     $('#home-filters').addClass('hidden');
     $('#secondary-filters').addClass('hidden');
@@ -19,7 +19,7 @@ $(document).ready(function() {
     $('.home-template').removeClass('hidden');
     $('.secondary-template').addClass('hidden');
     $('.article-template').addClass('hidden');
-    $('.instructions').addClass('hidden');
+    $('.instructionsIntro').addClass('hidden');
     $('.table').addClass('hidden');
     $('#home-filters').removeClass('hidden');
     $('#secondary-filters').addClass('hidden');
@@ -30,7 +30,7 @@ $(document).ready(function() {
     $('.home-template').addClass('hidden');
     $('.secondary-template').removeClass('hidden');
     $('.article-template').addClass('hidden');
-    $('.instructions').addClass('hidden');
+    $('.instructionsIntro').addClass('hidden');
     $('.table').addClass('hidden');
     $('#home-filters').addClass('hidden');
     $('#article-filters').addClass('hidden');
@@ -41,7 +41,7 @@ $(document).ready(function() {
     $('.secondary-template').addClass('hidden');
     $('.home-template').addClass('hidden');
     $('.article-template').removeClass('hidden');
-    $('.instructions').addClass('hidden');
+    $('.instructionsIntro').addClass('hidden');
     $('.table').addClass('hidden');
     $('#home-filters').addClass('hidden');
     $('#secondary-filters').addClass('hidden');
@@ -53,7 +53,7 @@ $(document).ready(function() {
     $('.home-template ').addClass('hidden');
     $('.secondary-template').addClass('hidden');
     $('.article-template').addClass('hidden');
-    $('.instructions').addClass('hidden');
+    $('.instructionsIntro').addClass('hidden');
     $('#home-filters').addClass('hidden');
     $('#secondary-filters').addClass('hidden');
     $('#article-filters').addClass('hidden');
