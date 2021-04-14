@@ -1,5 +1,7 @@
 <section class="article-template">
 
+<?php include "components/header/html/header.html" ?>
+
 	<!-- INTRO -->
 
 	<main id="content">
@@ -15,5 +17,5 @@
 		<?php include "components/pagination/html/pagination.html" ?>
 
 	</main>
-	
+
 </section>

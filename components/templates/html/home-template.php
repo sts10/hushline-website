@@ -1,5 +1,7 @@
 <section class="home-template">
 
+<?php include "components/header/html/header.html" ?>
+
 	<!-- INTRO -->
 
 	<main id="content">

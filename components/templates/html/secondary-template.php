@@ -1,5 +1,7 @@
 <section class="secondary-template">
 
+<?php include "components/header/html/header.html" ?>
+
 	<!-- INTRO -->
 
 	<main id="content">
@@ -25,11 +27,6 @@
 		<?php include "components/content/html/secondary.html" ?>
 		<?php include "components/content/html/tertiary.html" ?>
 		<?php include "components/content/html/basic.html" ?>
-
-		<!-- ABOUT AND CONTACT -->
-
-		<?php include "components/about/html/about.html" ?>
-		<?php include "components/contact/html/contact.html" ?>
 
 	</main>
 </section>

@@ -24,13 +24,9 @@
 
 		<?php include "components/notification/html/notification.html" ?>
 
-		<!-- HEADER -->
-
-		<?php include "components/header/html/header.html" ?>
-
 		<!-- BODY -->
 
-		<?php include "components/intro/html/instructions-intro.html" ?>
+		<?php include "components/templates/html/instructions.html" ?>
 		<?php include "components/templates/html/home-template.php" ?>
 		<?php include "components/templates/html/secondary-template.php" ?>
 		<?php include "components/templates/html/article-template.php" ?>
