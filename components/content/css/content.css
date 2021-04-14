@@ -44,7 +44,8 @@
 }
 
 .meta {
-  font-size: var(--font-size-small) !important;
+  font-size: var(--font-size-xsmall) !important;
+  opacity: .75;
 }
 
 .featureImage {
