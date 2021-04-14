@@ -5,9 +5,9 @@ $(document).ready(function() {
   });
 
   $('#instructions').on('click', function() {
-    $('.home-template .home').addClass('hidden');
-    $('.secondary-template .secondary').addClass('hidden');
-    $('.article-template .article').addClass('hidden');
+    $('.home-template').addClass('hidden');
+    $('.secondary-template').addClass('hidden');
+    $('.article-template').addClass('hidden');
     $('.instructionsIntro').removeClass('hidden');
     $('.table').addClass('hidden');
     $('#home-filters').addClass('hidden');
