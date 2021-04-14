@@ -6,10 +6,6 @@
 
 		<?php include "components/intro/html/home-intro.html" ?>
 
-		<!-- BODY -->
-
-		<?php include "components/tabs/html/tabs.html" ?>
-
 		<!-- MISSION STATEMENT -->
 
 		<?php include "components/statement/html/statement.html" ?>
