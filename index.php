@@ -30,7 +30,7 @@
 		<?php include "components/templates/html/home-template.php" ?>
 		<?php include "components/templates/html/secondary-template.php" ?>
 		<?php include "components/templates/html/article-template.php" ?>
-		<?php include "components/table/html/table.html" ?>
+		<?php include "components/table/html/table.php" ?>
 
 	</section> <!-- END CANVAS -->
 
