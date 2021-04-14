@@ -16,9 +16,9 @@ $(document).ready(function() {
   });
 
   $('#home').on('click', function() {
-    $('.home-template .home').removeClass('hidden');
-    $('.secondary-template .secondary').addClass('hidden');
-    $('.article-template .article').addClass('hidden');
+    $('.home-template').removeClass('hidden');
+    $('.secondary-template').addClass('hidden');
+    $('.article-template').addClass('hidden');
     $('.instructions').addClass('hidden');
     $('.table').addClass('hidden');
     $('#home-filters').removeClass('hidden');
