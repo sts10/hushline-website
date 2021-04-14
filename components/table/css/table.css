@@ -6,7 +6,6 @@
 
   table {
     color:var(--font-color-dark);
-    background-color:var(--color-light);
   }
 
   th, td {
