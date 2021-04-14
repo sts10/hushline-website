@@ -1,4 +1,4 @@
-<section class="secondary-template">
+<section class="secondary-template hidden">
 
 <?php include "components/header/html/header.html" ?>
 
@@ -31,5 +31,5 @@
 	</main>
 
 	<?php include "components/footer/html/footer.html" ?>
-	
+
 </section>
