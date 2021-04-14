@@ -12,7 +12,7 @@
   }
 
   th {
-    background-color: #f2f2f2;
+    background-color: #f6f6f6;
   }
 
   tr:hover {
@@ -20,7 +20,7 @@
   }
 
   .status {
-    background-color: #f2f2f2;
+    background-color: #f6f6f6;
     border-top: var(--border-lm);
   }
 }
@@ -40,7 +40,7 @@
   }
 
   th {
-    background-color: #2B2B2B;
+    background-color: #2e2e2e;
   }
 
   tr:hover {
@@ -48,7 +48,7 @@
   }
 
   .status {
-    background-color: #2B2B2B;
+    background-color: #2e2e2e;
     border-top: var(--border-dm);
   }
 }
