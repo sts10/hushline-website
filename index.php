@@ -30,6 +30,7 @@
 
 		<!-- BODY -->
 
+		<?php include "components/intro/html/instructions.html" ?>
 		<?php include "components/templates/html/home-template.php" ?>
 		<?php include "components/templates/html/secondary-template.php" ?>
 		<?php include "components/templates/html/article-template.php" ?>
