@@ -1,4 +1,4 @@
-<section class="home-template">
+<section class="secondary-template">
 
 	<!-- INTRO -->
 
