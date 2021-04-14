@@ -9,7 +9,7 @@ $(document).ready(function() {
     $('.secondary-template').addClass('hidden');
     $('.article-template').addClass('hidden');
     $('.instructions').removeClass('hidden');
-    $('.table').addClass('hidden');
+    $('.table-template').addClass('hidden');
     $('#home-filters').addClass('hidden');
     $('#secondary-filters').addClass('hidden');
     $('#article-filters').addClass('hidden');
@@ -20,7 +20,7 @@ $(document).ready(function() {
     $('.secondary-template').addClass('hidden');
     $('.article-template').addClass('hidden');
     $('.instructions').addClass('hidden');
-    $('.table').addClass('hidden');
+    $('.table-template').addClass('hidden');
     $('#home-filters').removeClass('hidden');
     $('#secondary-filters').addClass('hidden');
     $('#article-filters').addClass('hidden');
@@ -31,7 +31,7 @@ $(document).ready(function() {
     $('.secondary-template').removeClass('hidden');
     $('.article-template').addClass('hidden');
     $('.instructions').addClass('hidden');
-    $('.table').addClass('hidden');
+    $('.table-template').addClass('hidden');
     $('#home-filters').addClass('hidden');
     $('#article-filters').addClass('hidden');
     $('#secondary-filters').removeClass('hidden');
@@ -42,14 +42,14 @@ $(document).ready(function() {
     $('.home-template').addClass('hidden');
     $('.article-template').removeClass('hidden');
     $('.instructions').addClass('hidden');
-    $('.table').addClass('hidden');
+    $('.table-template').addClass('hidden');
     $('#home-filters').addClass('hidden');
     $('#secondary-filters').addClass('hidden');
     $('#article-filters').removeClass('hidden');
   });
 
   $('#table').on('click', function() {
-    $('.table').removeClass('hidden');
+    $('.table-template').removeClass('hidden');
     $('.home-template ').addClass('hidden');
     $('.secondary-template').addClass('hidden');
     $('.article-template').addClass('hidden');
