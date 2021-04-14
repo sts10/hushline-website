@@ -8,11 +8,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>🛠 Builder - Simple Design System</title>
-	<link rel="stylesheet" href="https://glenn-sorrentino.github.io/design-system/css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 
 	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
-	<script src="https://glenn-sorrentino.github.io/design-system/builder/js/builder.js"></script>
-	<script src="https://glenn-sorrentino.github.io/design-system/js/main.js"></script>
+	<script src="builder/js/builder.js"></script>
+	<script src="js/main.js"></script>
 </head>
 
 <body id="builder">
@@ -58,412 +58,725 @@
 
 		<main id="content">
 
-			<!-- HIDDEN FOR BUILDER FUNCTIONALITY, REMOVE WHEN USING  -->
-
 			<!-- INSTRUCTIONS INTRO -->
 
-			<section class="intro instructionsIntro wrapper hidden">
+			<section class="intro instructions wrapper hidden">
 				<div>
 					<h1>Design Your Page</h1>
 					<p>1️⃣ Modify the page properties on the right</p>
 					<p>2️⃣ Scroll around to see your changes</p>
 				</div>
-				<p class="hint">Scroll Down</p>
 			</section>
 
-			<!-- HOME INTRO -->
+			<!-- HOME PAGE  -->
 
-			<section class="intro homeIntro wrapper">
-				<div>
-					<h1>Stop reinventing the&nbsp;wheel</h1>
-					<p>🎨️ A blank canvas for creating beautiful, usable, and scalable web&nbsp;experiences.</p>
-					<p><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/intro/html/home-intro.html" target="_blank">View&nbsp;Component&nbsp;Code</a></p>
-				</div>
-				<p class="hint">Scroll Down</p>
-			</section>
-			<!-- HIDDEN FOR BUILDER FUNCTIONALITY, REMOVE WHEN USING  -->
+			<section class="home">
 
-			<section class="intro secondaryIntro hidden">
-				<div class="wrapper">
-					<h1>Secondary Page Intro</h1>
-					<p>💻 A design system starter kit or a complete, living solution. <a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/intro/html/secondary-intro.html" target="_blank">View&nbsp;Component&nbsp;Code</a></p>
-				</div>
-			</section>
-			<!-- HIDDEN FOR BUILDER FUNCTIONALITY, REMOVE WHEN USING  -->
+				<!-- HOME INTRO -->
 
-			<section class="intro wrapper secondaryIntro articleIntro hidden">
-				<div>
-					<h1>Rethinking the design system</h1>
-					<p class="meta">✍️ <a class="authorName" href="#" target="_blank">Art Vandelay</a>, Today, 3:01 PM</p>
-				</div>
-			</section>
-			<!-- HIDDEN FOR BUILDER FUNCTIONALITY, REMOVE WHEN USING  -->
-
-			<section class="intro bookCover wrapper hidden">
-				<div class="wrapper">
-					<div class="headline">
-						<p>A Simple Guide</p>
-						<p class="typeset">For Better</p>
-						<p>User Interfaces</p>
+				<section class="intro homeIntro wrapper">
+					<div>
+						<h1>Stop reinventing the&nbsp;wheel</h1>
+						<p>🎨️ A blank canvas for creating beautiful, usable, and scalable web&nbsp;experiences.</p>
+						<p><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/intro/html/home-intro.html" target="_blank">View&nbsp;Component&nbsp;Code</a></p>
 					</div>
-					<p>📔 A design system starter kit or a complete, living solution. <a href="#" target="_blank">View&nbsp;Component&nbsp;Code</a></p>
-				</div>
-			</section>
+					<p class="hint">Scroll Down</p>
+				</section>
 
-			<!-- BODY -->
+				<!-- MISSION STATEMENT -->
 
-			<!-- HIDDEN FOR BUILDER FUNCTIONALITY, REMOVE WHEN USING  -->
+				<section class="statement wrapper">
+					<p class="emoji"><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/statement/html/statement.html" target="_blank">🏴‍☠️</a></p>
+					<p>The Simple Design System is built on the idea that <span class="highlight">good design should be free</span>. With a focus on human-centered design, this resource will be updated as data changes and trends evolve.</p>
+				</section>
 
-			<section class="tabs wrapper hidden">
-				<nav>
-					<a class="selected" href="#section1" target="_blank">Section 1</a>
-					<a href="#section2">Section 2</a>
-					<a href="#section3">Section 3</a>
-				</nav>
-			</section>
+				<!-- DESIGN RESOURCES -->
 
-			<!-- MISSION STATEMENT -->
-
-			<section class="statement wrapper">
-			  <p class="emoji"><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/statement/html/statement.html" target="_blank">🏴‍☠️</a></p>
-			  <p>The Simple Design System is built on the idea that <span class="highlight">good design should be free</span>. With a focus on human-centered design, this resource will be updated as data changes and trends evolve.</p>
-			</section>
-
-			<!-- DESIGN RESOURCES -->
-
-			<section class="content centeredContent designContent wrapper">
-				<h2>Design Resources</h2>
-				<div class="contentItem blockContent">
-					<div class="description">
-						<div class="icon figma"></div>
-						<h3>Figma Kit</h3>
-						<p>Check out the Figma Kit and start designing your next project!</p>
-						<a role="button" class="btn" href="https://www.figma.com/file/NAqQuqB1mt4Oix3Sdyhr4L/Simple-Design-System-Kit?node-id=5%3A2923" target="_blank">Use it Now</a>
-					</div>
-				</div>
-			</section>
-
-			<!-- PRIMARY LIST -->
-
-			<section class="content primaryContent wrapper">
-				<h2>Primary Content</h2>
-				<div class="contentItem standardItem">
-					<div class="description">
-						<div class="icon placeholder"></div>
-						<h3>Standard</h3>
-						<p>This is a basic side-by-side layout for a content item.</p>
-						<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-standard.html" target="_blank">View Component Code</a>
-					</div>
-					<div class="featureImage">
-						<img src="assets/placeholder/image.svg" alt="#">
-					</div>
-				</div>
-				<div class="contentItem flippedItem">
-					<div class="description flip">
-						<p class="parent">Parent</p>
-						<h3>Flipped</h3>
-						<p>When using multiple standard content components in sequence, you can flip the layout for a more dynamic presentation.</p>
-						<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-flip.html" target="_blank">View Component Code</a>
-					</div>
-					<div class="featureImage">
-						<img src="assets/placeholder/image.svg" alt="#">
-					</div>
-				</div>
-				<div class="contentItem mobileItem">
-					<div class="description">
-						<div class="icon placeholder"></div>
-						<h3>Mobile</h3>
-						<div class="badgeContainer">
-							<p class="badge">Coming Soon</p>
+				<section class="content centeredContent designContent wrapper">
+					<h2>Design Resources</h2>
+					<div class="contentItem blockContent">
+						<div class="description">
+							<div class="icon figma"></div>
+							<h3>Figma Kit</h3>
+							<p>Check out the Figma Kit and start designing your next project!</p>
+							<a role="button" class="btn" href="https://www.figma.com/file/NAqQuqB1mt4Oix3Sdyhr4L/Simple-Design-System-Kit?node-id=5%3A2923" target="_blank">Use it Now</a>
 						</div>
-						<p>Use this content when you're showing a mobile screen. Include badges to communicate project status to visitors.</p>
-						<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-mobile.html" target="_blank">View Component Code</a>
 					</div>
-					<div class="featureImage mobileImage">
-						<img src="assets/placeholder/mobile.svg" alt="#">
+				</section>
+
+				<!-- PRIMARY LIST -->
+
+				<section class="content primaryContent wrapper">
+					<h2>Primary Content</h2>
+					<div class="contentItem standardItem">
+						<div class="description">
+							<div class="icon placeholder"></div>
+							<h3>Standard</h3>
+							<p>This is a basic side-by-side layout for a content item.</p>
+							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-standard.html" target="_blank">View Component Code</a>
+						</div>
+						<div class="featureImage">
+							<img src="assets/placeholder/image.svg" alt="#">
+						</div>
 					</div>
-				</div>
+					<div class="contentItem flippedItem">
+						<div class="description flip">
+							<p class="parent">Parent</p>
+							<h3>Flipped</h3>
+							<p>When using multiple standard content components in sequence, you can flip the layout for a more dynamic presentation.</p>
+							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-flip.html" target="_blank">View Component Code</a>
+						</div>
+						<div class="featureImage">
+							<img src="assets/placeholder/image.svg" alt="#">
+						</div>
+					</div>
+					<div class="contentItem mobileItem">
+						<div class="description">
+							<div class="icon placeholder"></div>
+							<h3>Mobile</h3>
+							<div class="badgeContainer">
+								<p class="badge">Coming Soon</p>
+							</div>
+							<p>Use this content when you're showing a mobile screen. Include badges to communicate project status to visitors.</p>
+							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-mobile.html" target="_blank">View Component Code</a>
+						</div>
+						<div class="featureImage mobileImage">
+							<img src="assets/placeholder/mobile.svg" alt="#">
+						</div>
+					</div>
+					<!-- HIDDEN FOR BUILDER FUNCTIONALITY, REMOVE WHEN USING  -->
+
+					<div class="contentItem featuredItem blockContent hidden">
+						<div class="description">
+							<h3>Featured</h3>
+							<p>This layout puts more prominence on the image being displayed. Use it for high-priority callouts.</p>
+							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-featured.html" target="_blank">View Component Code</a>
+						</div>
+						<div class="featureImage">
+							<img src="assets/placeholder/image.svg" alt="#">
+						</div>
+					</div>
+				</section>
+
+				<!-- EXAMPLES -->
+
+				<section class="content centeredContent exampleContent wrapper">
+					<h2>In The Wild</h2>
+					<div class="contentItem blockContent">
+						<div class="description">
+							<p class="emoji">🔐</p>
+							<h3>Normal Security</h3>
+							<p>Easy ways to secure your digital life.</p>
+							<a href="https://normalsecurity.com" target="_blank">View Site</a>
+						</div>
+						<div class="featureImage">
+							<img src="assets/examples/normal-security.png" alt="Normal Security Homepage">
+						</div>
+					</div>
+					<div class="contentItem blockContent">
+						<div class="description flip">
+							<p class="emoji">🎨</p>
+							<h3>Personal Portfolio</h3>
+							<p>Data-informed product design improving digital productivity, security, and privacy for people.</p>
+							<a href="https://glennsorrentino.com" target="_blank">View Site</a>
+						</div>
+						<div class="featureImage">
+							<img src="assets/examples/portfolio.png" alt="Personal Portfolio Homepage in Dark Mode">
+						</div>
+					</div>
+				</section>
+
+				<!-- MORE LISTS -->
+
+				<section class="content contentRow secondaryContent wrapper">
+					<h2>Secondary Content</h2>
+					<div class="contentRowContent">
+						<div class="contentItem blockContent">
+							<div class="description">
+								<h3>Row Item with Images</h3>
+								<p>Use this when secondary content needs a supporting image.</p>
+								<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/secondary.html" target="_blank">View Component Code</a>
+							</div>
+							<div class="featureImage">
+								<img src="assets/placeholder/image.svg" alt="#">
+							</div>
+						</div>
+						<div class="contentItem blockContent">
+							<div class="description">
+								<h3>Row Item with Images</h3>
+								<p>Use this when secondary content needs a supporting image.</p>
+								<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/secondary.html" target="_blank">View Component Code</a>
+							</div>
+							<div class="featureImage">
+								<img src="assets/placeholder/image.svg" alt="#">
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="#" class="content centeredContent contentRow tertiaryContent wrapper">
+					<h2>Tertiary Content</h2>
+					<div class="contentRowContent">
+						<div class="contentItem blockContent">
+							<div class="description">
+								<div class="icon placeholder"></div>
+								<h3>Row Item</h3>
+								<p>For secondary or tertiary content that doesn't need a lot of space.</p>
+								<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/tertiary.html" target="_blank">View Component Code</a>
+							</div>
+						</div>
+						<div class="contentItem blockContent">
+							<div class="description">
+								<p class="emoji">🍄</p>
+								<h3>Row Item</h3>
+								<p>For secondary or tertiary content that doesn't need a lot of space.</p>
+								<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/tertiary.html" target="_blank">View Component Code</a>
+							</div>
+						</div>
+						<div class="contentItem blockContent">
+							<div class="description">
+								<div class="icon placeholder"></div>
+								<h3>Row Item</h3>
+								<p>For secondary or tertiary content that doesn't need a lot of space.</p>
+								<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/tertiary.html" target="_blank">View Component Code</a>
+							</div>
+						</div>
+					</div>
+					<div class="contentRowContent">
+						<div class="contentItem blockContent">
+							<div class="description">
+								<div class="icon placeholder"></div>
+								<h3>Row Item</h3>
+								<p>For secondary or tertiary content that doesn't need a lot of space.</p>
+								<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/tertiary.html" target="_blank">View Component Code</a>
+							</div>
+						</div>
+						<div class="contentItem blockContent">
+							<div class="description">
+								<div class="icon placeholder"></div>
+								<h3>Row Item</h3>
+								<p>For secondary or tertiary content that doesn't need a lot of space.</p>
+								<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/tertiary.html" target="_blank">View Component Code</a>
+							</div>
+						</div>
+						<div class="contentItem blockContent">
+							<div class="description">
+								<div class="icon placeholder"></div>
+								<h3>Row Item</h3>
+								<p>For secondary or tertiary content that doesn't need a lot of space.</p>
+								<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/tertiary.html" target="_blank">View Component Code</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="#" class="content minimalContent basicContent wrapper">
+					<h2>Basic Content</h2>
+					<div class="contentItem metadataItem noImage">
+						<div class="description">
+							<div class="icon placeholder"></div>
+							<h3><a href="#">Metadata</a></h3>
+							<p class="meta">US20200097481A1</p>
+							<p>A simple content with added metadata for secondary information.</p>
+							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-metadata.html" target="_blank">View Component Code</a>
+						</div>
+					</div>
+					<div class="contentItem buttonItem noImage">
+						<div class="description">
+							<div class="icon placeholder"></div>
+							<h3><a href="#" target="_blank">Button</a></h3>
+							<p>Another simple content item that includes a button. Only use one primary button per page, and everywhere else use a secondary button.</p>
+							<a role="button" class="btn" href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/button.html" target="_blank">View Component Code</a>
+						</div>
+					</div>
+					<div class="contentItem blockContent simpleItem">
+						<div class="description">
+							<div class="icon placeholder"></div>
+							<h3>Simple</h3>
+							<p>On wide viewports this content item appears centered and becomes left-aligned on smaller screens.</p>
+							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-simple.html" target="_blank">View Component Code</a>
+						</div>
+					</div>
+					<div class="contentItem centeredContent blockContent centeredItem">
+						<div class="description">
+							<div class="icon placeholder"></div>
+							<p class="parent">Parent</p>
+							<h3>Centered</h3>
+							<div class="badgeContainer">
+								<p class="badge">🎁 Badge 1</p>
+								<p class="badge">🎉 Badge 2</p>
+								<p class="badge">✌️Badge 3</p>
+							</div>
+							<p>This content item stays centered on all viewport sizes. You can also include emojis in your badges for a fun presentation.</p>
+							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-centered-badges.html" target="_blank">View Component Code</a>
+						</div>
+					</div>
+				</section>
+
+				<!-- ABOUT AND CONTACT -->
+
+				<section id="#" class="content itemAvatar minimalContent wrapper">
+					<h2>About</h2>
+					<div class="contentItem noImage">
+						<div class="description">
+							<div class="icon placeholder avatar"></div>
+							<p>This is a good layout for an &quot;About&quot; section where you might want to include a larger avatar. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim
+								ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+								cupidatat
+								non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/about/html/about.html" target="_blank">View Component Code</a>
+						</div>
+					</div>
+				</section>
+				<section id="#" class="content minimalContent itemContent wrapper">
+					<h2>Contact</h2>
+					<div class="contentItem noImage">
+						<div class="description">
+							<p class="emoji">✌️</p>
+							<p>Use this for a contact section where you'll need to content out the channels where you can be reached.</p>
+							<ul>
+								<li><span class="icon placeholder"></span><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/contact/html/contact.html" target="_blank">View Component Code</a></li>
+								<li><span class="icon placeholder"></span><a href="#" target="_blank">Contact Link</a></li>
+								<li><span class="icon placeholder"></span><a href="#" target="_blank">Contact Link</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+			</section>
+
+			<!-- SECONDARY PAGE  -->
+
+			<section class="secondary hidden">
+
+				<section class="intro withNav secondaryIntro">
+					<div class="wrapper">
+						<h1>Secondary Page Intro</h1>
+						<p>💻 A design system starter kit or a complete, living solution. <a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/intro/html/secondary-intro.html" target="_blank">View&nbsp;Component&nbsp;Code</a></p>
+					</div>
+				</section>
+
 				<!-- HIDDEN FOR BUILDER FUNCTIONALITY, REMOVE WHEN USING  -->
 
-				<div class="contentItem featuredItem blockContent hidden">
-					<div class="description">
-						<h3>Featured</h3>
-						<p>This layout puts more prominence on the image being displayed. Use it for high-priority callouts.</p>
-						<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-featured.html" target="_blank">View Component Code</a>
-					</div>
-					<div class="featureImage">
-						<img src="assets/placeholder/image.svg" alt="#">
-					</div>
-				</div>
-			</section>
+				<section class="tabs wrapper">
+					<nav>
+						<a class="selected" href="#section1" target="_blank">Section 1</a>
+						<a href="#section2">Section 2</a>
+						<a href="#section3">Section 3</a>
+					</nav>
+				</section>
 
+				<!-- PRIMARY LIST -->
 
-
-			<!-- EXAMPLES -->
-
-			<section class="content centeredContent exampleContent wrapper">
-				<h2>In The Wild</h2>
-				<div class="contentItem blockContent">
-					<div class="description">
-						<p class="emoji">🔐</p>
-						<h3>Normal Security</h3>
-						<p>Easy ways to secure your digital life.</p>
-						<a href="https://normalsecurity.com" target="_blank">View Site</a>
-					</div>
-					<div class="featureImage">
-						<img src="assets/examples/normal-security.png" alt="Normal Security Homepage">
-					</div>
-				</div>
-				<div class="contentItem blockContent">
-					<div class="description flip">
-						<p class="emoji">🎨</p>
-						<h3>Personal Portfolio</h3>
-						<p>Data-informed product design improving digital productivity, security, and privacy for people.</p>
-						<a href="https://glennsorrentino.com" target="_blank">View Site</a>
-					</div>
-					<div class="featureImage">
-						<img src="assets/examples/portfolio.png" alt="Personal Portfolio Homepage in Dark Mode">
-					</div>
-				</div>
-			</section>
-
-			<!-- MORE LISTS -->
-
-			<section class="content contentRow secondaryContent wrapper">
-				<h2>Secondary Content</h2>
-				<div class="contentRowContent">
-					<div class="contentItem blockContent">
+				<section class="content secondary-primaryContent wrapper">
+					<h2>Primary Content</h2>
+					<div class="contentItem secondary-standardItem">
 						<div class="description">
-							<h3>Row Item with Images</h3>
-							<p>Use this when secondary content needs a supporting image.</p>
-							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/secondary.html" target="_blank">View Component Code</a>
+							<div class="icon placeholder"></div>
+							<h3>Standard</h3>
+							<p>This is a basic side-by-side layout for a content item.</p>
+							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-standard.html" target="_blank">View Component Code</a>
 						</div>
 						<div class="featureImage">
 							<img src="assets/placeholder/image.svg" alt="#">
 						</div>
 					</div>
-					<div class="contentItem blockContent">
-						<div class="description">
-							<h3>Row Item with Images</h3>
-							<p>Use this when secondary content needs a supporting image.</p>
-							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/secondary.html" target="_blank">View Component Code</a>
+					<div class="contentItem secondary-flippedItem">
+						<div class="description flip">
+							<p class="parent">Parent</p>
+							<h3>Flipped</h3>
+							<p>When using multiple standard content components in sequence, you can flip the layout for a more dynamic presentation.</p>
+							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-flip.html" target="_blank">View Component Code</a>
 						</div>
 						<div class="featureImage">
 							<img src="assets/placeholder/image.svg" alt="#">
 						</div>
 					</div>
-				</div>
-			</section>
-			<section id="#" class="content centeredContent contentRow tertiaryContent wrapper">
-				<h2>Tertiary Content</h2>
-				<div class="contentRowContent">
-					<div class="contentItem blockContent">
+					<div class="contentItem secondary-mobileItem">
 						<div class="description">
 							<div class="icon placeholder"></div>
-							<h3>Row Item</h3>
-							<p>For secondary or tertiary content that doesn't need a lot of space.</p>
-							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/tertiary.html" target="_blank">View Component Code</a>
+							<h3>Mobile</h3>
+							<div class="badgeContainer">
+								<p class="badge">Coming Soon</p>
+							</div>
+							<p>Use this content when you're showing a mobile screen. Include badges to communicate project status to visitors.</p>
+							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-mobile.html" target="_blank">View Component Code</a>
+						</div>
+						<div class="featureImage mobileImage">
+							<img src="assets/placeholder/mobile.svg" alt="#">
 						</div>
 					</div>
-					<div class="contentItem blockContent">
-						<div class="description">
-							<p class="emoji">🍄</p>
-							<h3>Row Item</h3>
-							<p>For secondary or tertiary content that doesn't need a lot of space.</p>
-							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/tertiary.html" target="_blank">View Component Code</a>
-						</div>
-					</div>
-					<div class="contentItem blockContent">
-						<div class="description">
-							<div class="icon placeholder"></div>
-							<h3>Row Item</h3>
-							<p>For secondary or tertiary content that doesn't need a lot of space.</p>
-							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/tertiary.html" target="_blank">View Component Code</a>
-						</div>
-					</div>
-				</div>
-				<div class="contentRowContent">
-					<div class="contentItem blockContent">
-						<div class="description">
-							<div class="icon placeholder"></div>
-							<h3>Row Item</h3>
-							<p>For secondary or tertiary content that doesn't need a lot of space.</p>
-							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/tertiary.html" target="_blank">View Component Code</a>
-						</div>
-					</div>
-					<div class="contentItem blockContent">
-						<div class="description">
-							<div class="icon placeholder"></div>
-							<h3>Row Item</h3>
-							<p>For secondary or tertiary content that doesn't need a lot of space.</p>
-							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/tertiary.html" target="_blank">View Component Code</a>
-						</div>
-					</div>
-					<div class="contentItem blockContent">
-						<div class="description">
-							<div class="icon placeholder"></div>
-							<h3>Row Item</h3>
-							<p>For secondary or tertiary content that doesn't need a lot of space.</p>
-							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/tertiary.html" target="_blank">View Component Code</a>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="#" class="content minimalContent basicContent wrapper">
-				<h2>Basic Content</h2>
-				<div class="contentItem metadataItem noImage">
-					<div class="description">
-						<div class="icon placeholder"></div>
-						<h3><a href="#">Metadata</a></h3>
-						<p class="meta">US20200097481A1</p>
-						<p>A simple content with added metadata for secondary information.</p>
-						<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-metadata.html" target="_blank">View Component Code</a>
-					</div>
-				</div>
-				<div class="contentItem buttonItem noImage">
-					<div class="description">
-						<div class="icon placeholder"></div>
-						<h3><a href="#" target="_blank">Button</a></h3>
-						<p>Another simple content item that includes a button. Only use one primary button per page, and everywhere else use a secondary button.</p>
-						<a role="button" class="btn" href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/button.html" target="_blank">View Component Code</a>
-					</div>
-				</div>
-				<div class="contentItem blockContent simpleItem">
-					<div class="description">
-						<div class="icon placeholder"></div>
-						<h3>Simple</h3>
-						<p>On wide viewports this content item appears centered and becomes left-aligned on smaller screens.</p>
-						<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-simple.html" target="_blank">View Component Code</a>
-					</div>
-				</div>
-				<div class="contentItem centeredContent blockContent centeredItem">
-					<div class="description">
-						<div class="icon placeholder"></div>
-						<p class="parent">Parent</p>
-						<h3>Centered</h3>
-						<div class="badgeContainer">
-							<p class="badge">🎁 Badge 1</p>
-							<p class="badge">🎉 Badge 2</p>
-							<p class="badge">✌️Badge 3</p>
-						</div>
-						<p>This content item stays centered on all viewport sizes. You can also include emojis in your badges for a fun presentation.</p>
-						<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-centered-badges.html" target="_blank">View Component Code</a>
-					</div>
-				</div>
-			</section>
+					<!-- HIDDEN FOR BUILDER FUNCTIONALITY, REMOVE WHEN USING  -->
 
-			<!-- ABOUT AND CONTACT -->
+					<div class="contentItem secondary-featuredItem blockContent">
+						<div class="description">
+							<h3>Featured</h3>
+							<p>This layout puts more prominence on the image being displayed. Use it for high-priority callouts.</p>
+							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-featured.html" target="_blank">View Component Code</a>
+						</div>
+						<div class="featureImage">
+							<img src="assets/placeholder/image.svg" alt="#">
+						</div>
+					</div>
+				</section>
 
-			<section id="#" class="content itemAvatar minimalContent wrapper">
-				<h2>About</h2>
-				<div class="contentItem noImage">
-					<div class="description">
-						<div class="icon placeholder avatar"></div>
-						<p>This is a good layout for an &quot;About&quot; section where you might want to include a larger avatar. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-							ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-							non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/about/html/about.html" target="_blank">View Component Code</a>
+				<!-- MORE LISTS -->
+
+				<section class="content contentRow secondary-secondaryContent wrapper">
+					<h2>Secondary Content</h2>
+					<div class="contentRowContent">
+						<div class="contentItem blockContent">
+							<div class="description">
+								<h3>Row Item with Images</h3>
+								<p>Use this when secondary content needs a supporting image.</p>
+								<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/secondary.html" target="_blank">View Component Code</a>
+							</div>
+							<div class="featureImage">
+								<img src="assets/placeholder/image.svg" alt="#">
+							</div>
+						</div>
+						<div class="contentItem blockContent">
+							<div class="description">
+								<h3>Row Item with Images</h3>
+								<p>Use this when secondary content needs a supporting image.</p>
+								<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/secondary.html" target="_blank">View Component Code</a>
+							</div>
+							<div class="featureImage">
+								<img src="assets/placeholder/image.svg" alt="#">
+							</div>
+						</div>
 					</div>
-				</div>
-			</section>
-			<section id="#" class="content minimalContent itemContent wrapper">
-				<h2>Contact</h2>
-				<div class="contentItem noImage">
-					<div class="description">
-						<p class="emoji">✌️</p>
-						<p>Use this for a contact section where you'll need to content out the channels where you can be reached.</p>
-						<ul>
-							<li><span class="icon placeholder"></span><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/contact/html/contact.html" target="_blank">View Component Code</a></li>
-							<li><span class="icon placeholder"></span><a href="#" target="_blank">Contact Link</a></li>
-							<li><span class="icon placeholder"></span><a href="#" target="_blank">Contact Link</a></li>
-						</ul>
+				</section>
+				<section id="#" class="content centeredContent contentRow secondary-tertiaryContent wrapper">
+					<h2>Tertiary Content</h2>
+					<div class="contentRowContent">
+						<div class="contentItem blockContent">
+							<div class="description">
+								<div class="icon placeholder"></div>
+								<h3>Row Item</h3>
+								<p>For secondary or tertiary content that doesn't need a lot of space.</p>
+								<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/tertiary.html" target="_blank">View Component Code</a>
+							</div>
+						</div>
+						<div class="contentItem blockContent">
+							<div class="description">
+								<p class="emoji">🍄</p>
+								<h3>Row Item</h3>
+								<p>For secondary or tertiary content that doesn't need a lot of space.</p>
+								<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/tertiary.html" target="_blank">View Component Code</a>
+							</div>
+						</div>
+						<div class="contentItem blockContent">
+							<div class="description">
+								<div class="icon placeholder"></div>
+								<h3>Row Item</h3>
+								<p>For secondary or tertiary content that doesn't need a lot of space.</p>
+								<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/tertiary.html" target="_blank">View Component Code</a>
+							</div>
+						</div>
 					</div>
-				</div>
+					<div class="contentRowContent">
+						<div class="contentItem blockContent">
+							<div class="description">
+								<div class="icon placeholder"></div>
+								<h3>Row Item</h3>
+								<p>For secondary or tertiary content that doesn't need a lot of space.</p>
+								<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/tertiary.html" target="_blank">View Component Code</a>
+							</div>
+						</div>
+						<div class="contentItem blockContent">
+							<div class="description">
+								<div class="icon placeholder"></div>
+								<h3>Row Item</h3>
+								<p>For secondary or tertiary content that doesn't need a lot of space.</p>
+								<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/tertiary.html" target="_blank">View Component Code</a>
+							</div>
+						</div>
+						<div class="contentItem blockContent">
+							<div class="description">
+								<div class="icon placeholder"></div>
+								<h3>Row Item</h3>
+								<p>For secondary or tertiary content that doesn't need a lot of space.</p>
+								<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/tertiary.html" target="_blank">View Component Code</a>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="#" class="content minimalContent secondary-basicContent wrapper">
+					<h2>Basic Content</h2>
+					<div class="contentItem secondary-metadataItem noImage">
+						<div class="description">
+							<div class="icon placeholder"></div>
+							<h3><a href="#">Metadata</a></h3>
+							<p class="meta">US20200097481A1</p>
+							<p>A simple content with added metadata for secondary information.</p>
+							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-metadata.html" target="_blank">View Component Code</a>
+						</div>
+					</div>
+					<div class="contentItem secondary-buttonItem noImage">
+						<div class="description">
+							<div class="icon placeholder"></div>
+							<h3><a href="#" target="_blank">Button</a></h3>
+							<p>Another simple content item that includes a button. Only use one primary button per page, and everywhere else use a secondary button.</p>
+							<a role="button" class="btn" href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/button.html" target="_blank">View Component Code</a>
+						</div>
+					</div>
+					<div class="contentItem blockContent secondary-simpleItem">
+						<div class="description">
+							<div class="icon placeholder"></div>
+							<h3>Simple</h3>
+							<p>On wide viewports this content item appears centered and becomes left-aligned on smaller screens.</p>
+							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-simple.html" target="_blank">View Component Code</a>
+						</div>
+					</div>
+					<div class="contentItem centeredContent blockContent secondary-centeredItem">
+						<div class="description">
+							<div class="icon placeholder"></div>
+							<p class="parent">Parent</p>
+							<h3>Centered</h3>
+							<div class="badgeContainer">
+								<p class="badge">🎁 Badge 1</p>
+								<p class="badge">🎉 Badge 2</p>
+								<p class="badge">✌️Badge 3</p>
+							</div>
+							<p>This content item stays centered on all viewport sizes. You can also include emojis in your badges for a fun presentation.</p>
+							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-centered-badges.html" target="_blank">View Component Code</a>
+						</div>
+					</div>
+				</section>
+
+				<!-- ABOUT AND CONTACT -->
+
+				<section id="#" class="content secondary-itemAvatar minimalContent wrapper">
+					<h2>About</h2>
+					<div class="contentItem noImage">
+						<div class="description">
+							<div class="icon placeholder avatar"></div>
+							<p>This is a good layout for an &quot;About&quot; section where you might want to include a larger avatar. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim
+								ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+								cupidatat
+								non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/about/html/about.html" target="_blank">View Component Code</a>
+						</div>
+					</div>
+				</section>
+				<section id="#" class="content minimalContent secondary-itemContent wrapper">
+					<h2>Contact</h2>
+					<div class="contentItem noImage">
+						<div class="description">
+							<p class="emoji">✌️</p>
+							<p>Use this for a contact section where you'll need to content out the channels where you can be reached.</p>
+							<ul>
+								<li><span class="icon placeholder"></span><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/contact/html/contact.html" target="_blank">View Component Code</a></li>
+								<li><span class="icon placeholder"></span><a href="#" target="_blank">Contact Link</a></li>
+								<li><span class="icon placeholder"></span><a href="#" target="_blank">Contact Link</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
 			</section>
 
 			<!-- ARTICLE -->
 
-			<section class="content articleSection hidden wrapper">
-				<article>
-					<h2>Article Content</h2>
-					<p><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/article/html/article.html" target="_blank">View Component Code.</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-						ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					<div class="featureImage">
-						<img src="assets/placeholder/image.svg" alt="#">
-						<p class="caption">Image caption</p>
-					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-						aute
-						irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
-						iste
-						natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-					<h3>Heading 3</h3>
-					<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-						adipisci
-						velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-						consequatur?
-						Quis autem vel eum iure
-						reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-				</article>
-				<article>
-					<h2>Heading 2</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					<div class="featureImage">
-						<img src="assets/placeholder/image.svg" alt="#">
-						<p class="caption">Image caption</p>
-					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-						aute
-						irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
-						iste
-						natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-						aute
-						irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
-						iste
-						natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-					<h3>Heading 3</h3>
-					<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-						adipisci
-						velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-						consequatur?
-						Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-				</article>
-				<article>
-					<h2>Heading 2</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					<div class="featureImage">
-						<img src="assets/placeholder/image.svg" alt="#">
-						<p class="caption">Image caption</p>
-					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-						aute
-						irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
-						iste
-						natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-						aute
-						irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
-						iste
-						natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-				</article>
-			</section>
+			<section class="article hidden">
 
+				<section class="intro wrapper secondaryIntro articleIntro">
+					<div>
+						<h1>Rethinking the design system</h1>
+						<p class="meta">✍️ <a class="authorName" href="#" target="_blank">Art Vandelay</a>, Today, 3:01 PM</p>
+					</div>
+				</section>
 
-			<!-- PAGINATION -->
+				<section class="content articleSection wrapper">
+					<article>
+						<h2>Article Content</h2>
+						<p><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/article/html/article.html" target="_blank">View Component Code.</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+							incididunt
+							ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<div class="featureImage">
+							<img src="assets/placeholder/image.svg" alt="#">
+							<p class="caption">Image caption</p>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							Duis
+							aute
+							irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
+							iste
+							natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+						<h3>Heading 3</h3>
+						<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+							adipisci
+							velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+							consequatur?
+							Quis autem vel eum iure
+							reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+					</article>
+					<article>
+						<h2>Heading 2</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<div class="featureImage">
+							<img src="assets/placeholder/image.svg" alt="#">
+							<p class="caption">Image caption</p>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							Duis
+							aute
+							irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
+							iste
+							natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							Duis
+							aute
+							irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
+							iste
+							natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+						<h3>Heading 3</h3>
+						<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+							adipisci
+							velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+							consequatur?
+							Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+					</article>
+					<article>
+						<h2>Heading 2</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<div class="featureImage">
+							<img src="assets/placeholder/image.svg" alt="#">
+							<p class="caption">Image caption</p>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							Duis
+							aute
+							irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
+							iste
+							natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							Duis
+							aute
+							irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
+							iste
+							natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+					</article>
+				</section>
 
-			<section class="content centeredContent buttonGroupContent wrapper">
-				<div class="contentItem blockContent">
-					<div class="description">
-						<h3>Pagination</h3>
-						<p>Use this for a step-by-step wizard, pagination for a training guide, or generally when you need more than one call-to-action.</p>
-						<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/pagination.html" target="_blank">View Component Code</a>
-						<div class="buttonGroup">
-							<a role="button" class="btn" href="#">Previous</a>
-							<a role="button" class="btn" href="#">Next</a>
+				<section class="content centeredContent buttonGroupContent wrapper">
+					<div class="contentItem blockContent">
+						<div class="description">
+							<h3>Pagination</h3>
+							<p>Use this for a step-by-step wizard, pagination for a training guide, or generally when you need more than one call-to-action.</p>
+							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/pagination.html" target="_blank">View Component Code</a>
+							<div class="buttonGroup">
+								<a role="button" class="btn" href="#">Previous</a>
+								<a role="button" class="btn" href="#">Next</a>
+							</div>
 						</div>
 					</div>
-				</div>
+				</section>
+
+			</section>
+
+			<!-- TABLE -->
+
+			<section class="table hidden">
+				<table>
+					<tr>
+						<th>Name</th>
+						<th>Size</th>
+						<th>Kind</th>
+					</tr>
+					<tr>
+						<td><a href="#">readme.md</a></td>
+						<td>1KB</td>
+						<td>Markdown</td>
+					</tr>
+					<tr>
+						<td><a href="#">scan.pdf</td>
+						<td>356KB</td>
+						<td>PDF</td>
+					</tr>
+					<tr>
+						<td><a href="#">Qubes-R4.0.1-x86_64.iso</td>
+						<td>4.69GB</td>
+						<td>PDF</td>
+					</tr>
+					<tr>
+						<td><a href="#">example.svg</a></td>
+						<td>2KB</td>
+						<td>SVG</td>
+					</tr>
+					<tr>
+						<td><a href="#">Screen Shot 2021-04-10 at 11.01.04 AM.png</a></td>
+						<td>98KB</td>
+						<td>PNG</td>
+					</tr>
+					<tr>
+						<td><a href="#">Archive.zip</td>
+						<td>65.2MB</td>
+						<td>PDF</td>
+					</tr>
+					<tr>
+						<td><a href="#">2020-W2.pdf</a></td>
+						<td>78KB</td>
+						<td>PDF</td>
+					</tr>
+					<tr>
+						<td><a href="#">2019-W2.pdf</td>
+						<td>120KB</td>
+						<td>PDF</td>
+					</tr>
+					<tr>
+						<td><a href="#">avatar.png</a></td>
+						<td>12KB</td>
+						<td>PNG</td>
+					</tr>
+					<tr>
+						<td><a href="#">index.html</td>
+						<td>10KB</td>
+						<td>HTML</td>
+					</tr>
+					<tr>
+						<td><a href="#">style.css</a></td>
+						<td>210KB</td>
+						<td>CSS</td>
+					</tr>
+					<tr>
+						<td><a href="#">main.js</td>
+						<td>45KB</td>
+						<td>JS</td>
+					</tr>
+					<tr>
+						<td><a href="#">reset.css</a></td>
+						<td>14KB</td>
+						<td>CSS</td>
+					</tr>
+					<tr>
+						<td><a href="#">placeholder.svg</td>
+						<td>2KB</td>
+						<td>SVG</td>
+					</tr>
+					<tr>
+						<td><a href="#">favicon.ico</a></td>
+						<td>1KB</td>
+						<td>ICO</td>
+					</tr>
+					<tr>
+						<td><a href="#">research.pdf</td>
+						<td>4MB</td>
+						<td>PDF</td>
+					</tr>
+					<tr>
+						<td><a href="#">HPSCAN_20210411172441529_2021-04-11_172529347.pdf</td>
+						<td>1.1MB</td>
+						<td>PDF</td>
+					</tr>
+					<tr>
+						<td><a href="#">etrade-tax-supplement.pdf</a></td>
+						<td>765KB</td>
+						<td>PDF</td>
+					</tr>
+				</table>
 			</section>
 
 		</main>
@@ -495,38 +808,40 @@
 					<label for="glow-theme">Glow Theme</label>
 				</div>
 			</fieldset>
+
+			<!-- PAGE TYPE -->
+
 			<fieldset>
-				<legend>Intro</legend>
+				<legend>Page Type</legend>
 				<div>
-					<input type="radio" name="format" id="instructions-intro" value="txt" autocomplete="off">
-					<label for="instructions-intro">Instructions</label>
+					<input type="radio" name="format" id="instructions" value="txt" autocomplete="off">
+					<label for="instructions">Instructions</label>
 				</div>
 				<div>
-					<input type="radio" name="format" id="home-intro" value="txt" autocomplete="off" checked>
-					<label for="home-intro">Home</label>
+					<input type="radio" name="format" id="home" value="txt" autocomplete="off" checked>
+					<label for="home">Home</label>
 				</div>
 				<div>
-					<input type="radio" name="format" id="secondary-intro" value="txt" autocomplete="off">
-					<label for="secondary-intro">Secondary</label>
+					<input type="radio" name="format" id="secondary" value="txt" autocomplete="off">
+					<label for="secondary">Secondary</label>
 				</div>
 				<div>
-					<input type="radio" name="format" id="article-intro" value="txt" autocomplete="off">
-					<label for="article-intro">Article</label>
+					<input type="radio" name="format" id="article" value="txt" autocomplete="off">
+					<label for="article">Article</label>
 				</div>
 				<div>
-					<input type="radio" name="format" id="book-cover-intro" value="txt" autocomplete="off">
-					<label for="book-cover-intro">Book Cover</label>
+					<input type="radio" name="format" id="table" value="txt" autocomplete="off">
+					<label for="table">Table</label>
 				</div>
 			</fieldset>
-			<fieldset id="content-items">
-				<legend>Components</legend>
+
+			<!-- HOME PAGE -->
+
+			<fieldset id="home-filters">
+				<legend>Home Components</legend>
 				<div>
 					<input type="checkbox" name="format" id="hint" value="txt" autocomplete="off" checked>
 					<label for="hint">Homepage Scroll Hint</label>
-				</div>
-				<div>
-					<input type="checkbox" name="format" id="secondary-nav" value="txt" autocomplete="off">
-					<label for="secondary-nav">Secondary Nav</label>
 				</div>
 				<div>
 					<input type="checkbox" name="format" id="statement" value="txt" autocomplete="off" checked>
@@ -588,9 +903,81 @@
 					<input type="checkbox" name="format" id="item-content" autocomplete="off" value="txt" checked>
 					<label for="item-content">Contact</label>
 				</div>
+			</fieldset>
+
+			<!-- SECONDARY PAGE -->
+
+			<fieldset id="secondary-filters" class="hidden">
+				<legend>Secondary Components</legend>
 				<div>
-					<input type="checkbox" name="format" id="article" value="txt" autocomplete="off">
-					<label for="article">Article</label>
+					<input type="checkbox" name="format" id="secondary-nav" value="txt" autocomplete="off" checked>
+					<label for="secondary-nav">Secondary Nav</label>
+				</div>
+				<div>
+					<input type="checkbox" name="format" id="secondary-standard-item" autocomplete="off" value="txt" checked>
+					<label for="secondary-standard-item">Standard</label>
+				</div>
+				<div>
+					<input type="checkbox" name="format" id="secondary-flipped-item" autocomplete="off" value="txt" checked>
+					<label for="secondary-flipped-item">Flipped</label>
+				</div>
+				<div>
+					<input type="checkbox" name="format" id="secondary-mobile-item" autocomplete="off" value="txt" checked>
+					<label for="secondary-mobile-item">Mobile</label>
+				</div>
+				<div>
+					<input type="checkbox" name="format" id="secondary-featured-item" autocomplete="off" value="txt" checked>
+					<label for="secondary-featured-item">Featured</label>
+				</div>
+				<div>
+					<input type="checkbox" name="format" id="secondary-primary-content" autocomplete="off" value="txt" checked>
+					<label for="secondary-primary-content">Primary Content</label>
+				</div>
+				<div>
+					<input type="checkbox" name="format" id="secondary-secondary-content" autocomplete="off" value="txt" checked>
+					<label for="secondary-secondary-content">Secondary Content</label>
+				</div>
+				<div>
+					<input type="checkbox" name="format" id="secondary-tertiary-content" autocomplete="off" value="txt" checked>
+					<label for="secondary-tertiary-content">Tertiary Content</label>
+				</div>
+				<div>
+					<input type="checkbox" name="format" id="secondary-metadata-item" autocomplete="off" value="txt" checked>
+					<label for="secondary-metadata-item">Metadata</label>
+				</div>
+				<div>
+					<input type="checkbox" name="format" id="secondary-button-item" autocomplete="off" value="txt" checked>
+					<label for="secondary-button-item">Button</label>
+				</div>
+				<div>
+					<input type="checkbox" name="format" id="secondary-simple-item" autocomplete="off" value="txt" checked>
+					<label for="secondary-simple-item">Simple</label>
+				</div>
+				<div>
+					<input type="checkbox" name="format" id="secondary-centered-item" autocomplete="off" value="txt" checked>
+					<label for="secondary-centered-item">Centered</label>
+				</div>
+				<div>
+					<input type="checkbox" name="format" id="secondary-basic-content" autocomplete="off" value="txt" checked>
+					<label for="secondary-basic-content">Basic Content</label>
+				</div>
+				<div>
+					<input type="checkbox" name="format" id="secondary-item-avatar" autocomplete="off" value="txt" checked>
+					<label for="secondary-item-avatar">About</label>
+				</div>
+				<div>
+					<input type="checkbox" name="format" id="secondary-item-content" autocomplete="off" value="txt" checked>
+					<label for="secondary-item-content">Contact</label>
+				</div>
+			</fieldset>
+
+			<!-- ARTICLE PAGE -->
+
+			<fieldset id="article-filters" class="hidden">
+				<legend>Article Components</legend>
+				<div>
+					<input type="checkbox" name="format" id="article-content" value="txt" autocomplete="off" checked>
+					<label for="article-content">Article</label>
 				</div>
 				<div>
 					<input type="checkbox" name="format" id="button-group" autocomplete="off" value="txt" checked>
