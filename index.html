@@ -7,12 +7,12 @@
 	<meta name="author" content="Glenn Sorrentino">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>🛠 Builder - Simple Design System</title>
-	<link rel="stylesheet" href="css/style.css">
+	<title>🛠 Page Builder - Simple Design System</title>
+	<link rel="stylesheet" href="https://glenn-sorrentino.github.io/design-system/css/style.css">
 
 	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
-	<script src="builder/js/builder.js"></script>
-	<script src="js/main.js"></script>
+	<script src="https://glenn-sorrentino.github.io/design-system/builder/js/builder.js"></script>
+	<script src="https://glenn-sorrentino.github.io/design-system/js/main.js"></script>
 </head>
 
 <body id="builder">
@@ -23,56 +23,92 @@
 
 		<p class="toast">🥳 You're one of the <a href="https://www.w3schools.com/browsers/" target="_blank">6.6% of people in the world</a> using Firefox!</p>
 
-		<!-- HEADER -->
+		<!-- BODY -->
 
-		<header>
-			<a href="#navigation" class="assistiveText">Skip to Navigation</a>
-			<a href="#content" class="assistiveText">Skip to Main Content</a>
-			<div class="wrapper">
-				<h1 class="logo"><a href="#">Simple Design System</a></h1>
-				<nav id="navigation">
-					<a class="navButton withUtil" href="#">
-						<div class="menu"></div>
-					</a>
-					<ul>
-						<li><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/header/html/header.html" target="_blank">View Component Code</a></li>
-						<li><a href="#">Page 2</a></li>
-						<li><a href="#">Page 3</a></li>
-						<li><a role="button" class="btn primaryBtn" href="https://github.com/glenn-sorrentino/design-system" target="_blank">Contribute</a></li>
-					</ul>
-					<a class="utilityIcon" href="#">🧰</a>
-				</nav>
-				<nav id="navigation" class="staged">
-					<a class="navButton closeButton" href="#">
-						<div class="close"></div>
-					</a>
-					<ul>
-						<li><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/header/html/header.html" target="_blank">View Component Code</a></li>
-						<li><a href="#">Page 2</a></li>
-						<li><a href="#">Page 3</a></li>
-						<li><a role="button" class="btn primaryBtn" href="https://github.com/glenn-sorrentino/design-system" target="_blank">Contribute</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
+		<section class="instructions hidden">
 
-		<main id="content">
-
-			<!-- INSTRUCTIONS INTRO -->
-
-			<section class="intro instructions wrapper hidden">
-				<div>
-					<h1>Design Your Page</h1>
-					<p>1️⃣ Modify the page properties on the right</p>
-					<p>2️⃣ Scroll around to see your changes</p>
+			<header>
+				<a href="#navigation" class="assistiveText">Skip to Navigation</a>
+				<a href="#content" class="assistiveText">Skip to Main Content</a>
+				<div class="wrapper">
+					<h1 class="logo"><a href="#">Simple Design System</a></h1>
+					<nav id="navigation">
+						<a class="navButton withUtil" href="#">
+							<div class="menu"></div>
+						</a>
+						<ul>
+							<li><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/header/html/header.html" target="_blank">View Component Code</a></li>
+							<li><a href="#">Page 2</a></li>
+							<li><a href="#">Page 3</a></li>
+							<li><a role="button" class="btn primaryBtn" href="https://github.com/glenn-sorrentino/design-system" target="_blank">Contribute</a></li>
+						</ul>
+						<a class="utilityIcon" href="#">🧰</a>
+					</nav>
+					<nav id="navigation" class="staged">
+						<a class="navButton closeButton" href="#">
+							<div class="close"></div>
+						</a>
+						<ul>
+							<li><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/header/html/header.html" target="_blank">View Component Code</a></li>
+							<li><a href="#">Page 2</a></li>
+							<li><a href="#">Page 3</a></li>
+							<li><a role="button" class="btn primaryBtn" href="https://github.com/glenn-sorrentino/design-system" target="_blank">Contribute</a></li>
+						</ul>
+					</nav>
 				</div>
-			</section>
+			</header>
 
-			<!-- HOME PAGE  -->
+			<!-- INTRO -->
 
-			<section class="home">
+			<main id="content">
 
-				<!-- HOME INTRO -->
+				<section class="intro instructionsIntro wrapper">
+					<div>
+						<h1>Design Your Page</h1>
+						<p>1️⃣ Modify the page properties on the right</p>
+						<p>2️⃣ Scroll around to see your changes</p>
+					</div>
+				</section>
+
+			</main>
+
+		</section>
+		<section class="home-template">
+
+			<header>
+				<a href="#navigation" class="assistiveText">Skip to Navigation</a>
+				<a href="#content" class="assistiveText">Skip to Main Content</a>
+				<div class="wrapper">
+					<h1 class="logo"><a href="#">Simple Design System</a></h1>
+					<nav id="navigation">
+						<a class="navButton withUtil" href="#">
+							<div class="menu"></div>
+						</a>
+						<ul>
+							<li><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/header/html/header.html" target="_blank">View Component Code</a></li>
+							<li><a href="#">Page 2</a></li>
+							<li><a href="#">Page 3</a></li>
+							<li><a role="button" class="btn primaryBtn" href="https://github.com/glenn-sorrentino/design-system" target="_blank">Contribute</a></li>
+						</ul>
+						<a class="utilityIcon" href="#">🧰</a>
+					</nav>
+					<nav id="navigation" class="staged">
+						<a class="navButton closeButton" href="#">
+							<div class="close"></div>
+						</a>
+						<ul>
+							<li><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/header/html/header.html" target="_blank">View Component Code</a></li>
+							<li><a href="#">Page 2</a></li>
+							<li><a href="#">Page 3</a></li>
+							<li><a role="button" class="btn primaryBtn" href="https://github.com/glenn-sorrentino/design-system" target="_blank">Contribute</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+
+			<!-- INTRO -->
+
+			<main id="content">
 
 				<section class="intro homeIntro wrapper">
 					<div>
@@ -342,18 +378,61 @@
 					</div>
 				</section>
 
-			</section>
+			</main>
 
-			<!-- SECONDARY PAGE  -->
+			<footer class="wrapper">
+				<p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY NC 4.0 license</a>.<br>&copy; <script>
+						document.write(new Date().getFullYear());
+					</script> Glenn Sorrentino. <a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/footer/html/footer.html" target="_blank">View Component Code</a></p>
+				<p>🛡&nbsp;zs1lqjvywdg308kxrn6x8xduqm5j6j8fg28tertjtayfj8hwm0gvk5gyh3jd07p5w5fe7r56xjr2gj</p>
+			</footer>
 
-			<section class="secondary hidden">
+		</section>
+		<section class="secondary-template hidden">
 
-				<section class="intro withNav secondaryIntro">
+			<header>
+				<a href="#navigation" class="assistiveText">Skip to Navigation</a>
+				<a href="#content" class="assistiveText">Skip to Main Content</a>
+				<div class="wrapper">
+					<h1 class="logo"><a href="#">Simple Design System</a></h1>
+					<nav id="navigation">
+						<a class="navButton withUtil" href="#">
+							<div class="menu"></div>
+						</a>
+						<ul>
+							<li><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/header/html/header.html" target="_blank">View Component Code</a></li>
+							<li><a href="#">Page 2</a></li>
+							<li><a href="#">Page 3</a></li>
+							<li><a role="button" class="btn primaryBtn" href="https://github.com/glenn-sorrentino/design-system" target="_blank">Contribute</a></li>
+						</ul>
+						<a class="utilityIcon" href="#">🧰</a>
+					</nav>
+					<nav id="navigation" class="staged">
+						<a class="navButton closeButton" href="#">
+							<div class="close"></div>
+						</a>
+						<ul>
+							<li><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/header/html/header.html" target="_blank">View Component Code</a></li>
+							<li><a href="#">Page 2</a></li>
+							<li><a href="#">Page 3</a></li>
+							<li><a role="button" class="btn primaryBtn" href="https://github.com/glenn-sorrentino/design-system" target="_blank">Contribute</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+
+			<!-- INTRO -->
+
+			<main id="content">
+
+				<section class="intro secondaryIntro withNav">
 					<div class="wrapper">
 						<h1>Secondary Page Intro</h1>
 						<p>💻 A design system starter kit or a complete, living solution. <a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/intro/html/secondary-intro.html" target="_blank">View&nbsp;Component&nbsp;Code</a></p>
 					</div>
 				</section>
+
+				<!-- BODY -->
 
 				<!-- HIDDEN FOR BUILDER FUNCTIONALITY, REMOVE WHEN USING  -->
 
@@ -367,9 +446,9 @@
 
 				<!-- PRIMARY LIST -->
 
-				<section class="content secondary-primaryContent wrapper">
+				<section class="content primaryContent wrapper">
 					<h2>Primary Content</h2>
-					<div class="contentItem secondary-standardItem">
+					<div class="contentItem standardItem">
 						<div class="description">
 							<div class="icon placeholder"></div>
 							<h3>Standard</h3>
@@ -380,7 +459,7 @@
 							<img src="assets/placeholder/image.svg" alt="#">
 						</div>
 					</div>
-					<div class="contentItem secondary-flippedItem">
+					<div class="contentItem flippedItem">
 						<div class="description flip">
 							<p class="parent">Parent</p>
 							<h3>Flipped</h3>
@@ -391,7 +470,7 @@
 							<img src="assets/placeholder/image.svg" alt="#">
 						</div>
 					</div>
-					<div class="contentItem secondary-mobileItem">
+					<div class="contentItem mobileItem">
 						<div class="description">
 							<div class="icon placeholder"></div>
 							<h3>Mobile</h3>
@@ -407,7 +486,7 @@
 					</div>
 					<!-- HIDDEN FOR BUILDER FUNCTIONALITY, REMOVE WHEN USING  -->
 
-					<div class="contentItem secondary-featuredItem blockContent">
+					<div class="contentItem featuredItem blockContent hidden">
 						<div class="description">
 							<h3>Featured</h3>
 							<p>This layout puts more prominence on the image being displayed. Use it for high-priority callouts.</p>
@@ -421,7 +500,7 @@
 
 				<!-- MORE LISTS -->
 
-				<section class="content contentRow secondary-secondaryContent wrapper">
+				<section class="content contentRow secondaryContent wrapper">
 					<h2>Secondary Content</h2>
 					<div class="contentRowContent">
 						<div class="contentItem blockContent">
@@ -446,7 +525,7 @@
 						</div>
 					</div>
 				</section>
-				<section id="#" class="content centeredContent contentRow secondary-tertiaryContent wrapper">
+				<section id="#" class="content centeredContent contentRow tertiaryContent wrapper">
 					<h2>Tertiary Content</h2>
 					<div class="contentRowContent">
 						<div class="contentItem blockContent">
@@ -501,10 +580,9 @@
 						</div>
 					</div>
 				</section>
-
-				<section id="#" class="content minimalContent secondary-basicContent wrapper">
+				<section id="#" class="content minimalContent basicContent wrapper">
 					<h2>Basic Content</h2>
-					<div class="contentItem secondary-metadataItem noImage">
+					<div class="contentItem metadataItem noImage">
 						<div class="description">
 							<div class="icon placeholder"></div>
 							<h3><a href="#">Metadata</a></h3>
@@ -513,7 +591,7 @@
 							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-metadata.html" target="_blank">View Component Code</a>
 						</div>
 					</div>
-					<div class="contentItem secondary-buttonItem noImage">
+					<div class="contentItem buttonItem noImage">
 						<div class="description">
 							<div class="icon placeholder"></div>
 							<h3><a href="#" target="_blank">Button</a></h3>
@@ -521,7 +599,7 @@
 							<a role="button" class="btn" href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/button.html" target="_blank">View Component Code</a>
 						</div>
 					</div>
-					<div class="contentItem blockContent secondary-simpleItem">
+					<div class="contentItem blockContent simpleItem">
 						<div class="description">
 							<div class="icon placeholder"></div>
 							<h3>Simple</h3>
@@ -529,7 +607,7 @@
 							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/content/html/item-simple.html" target="_blank">View Component Code</a>
 						</div>
 					</div>
-					<div class="contentItem centeredContent blockContent secondary-centeredItem">
+					<div class="contentItem centeredContent blockContent centeredItem">
 						<div class="description">
 							<div class="icon placeholder"></div>
 							<p class="parent">Parent</p>
@@ -545,42 +623,52 @@
 					</div>
 				</section>
 
-				<!-- ABOUT AND CONTACT -->
+			</main>
 
-				<section id="#" class="content secondary-itemAvatar minimalContent wrapper">
-					<h2>About</h2>
-					<div class="contentItem noImage">
-						<div class="description">
-							<div class="icon placeholder avatar"></div>
-							<p>This is a good layout for an &quot;About&quot; section where you might want to include a larger avatar. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-								enim
-								ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-								cupidatat
-								non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/about/html/about.html" target="_blank">View Component Code</a>
-						</div>
-					</div>
-				</section>
-				<section id="#" class="content minimalContent secondary-itemContent wrapper">
-					<h2>Contact</h2>
-					<div class="contentItem noImage">
-						<div class="description">
-							<p class="emoji">✌️</p>
-							<p>Use this for a contact section where you'll need to content out the channels where you can be reached.</p>
-							<ul>
-								<li><span class="icon placeholder"></span><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/contact/html/contact.html" target="_blank">View Component Code</a></li>
-								<li><span class="icon placeholder"></span><a href="#" target="_blank">Contact Link</a></li>
-								<li><span class="icon placeholder"></span><a href="#" target="_blank">Contact Link</a></li>
-							</ul>
-						</div>
-					</div>
-				</section>
+			<footer class="wrapper">
+				<p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY NC 4.0 license</a>.<br>&copy; <script>
+						document.write(new Date().getFullYear());
+					</script> Glenn Sorrentino. <a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/footer/html/footer.html" target="_blank">View Component Code</a></p>
+				<p>🛡&nbsp;zs1lqjvywdg308kxrn6x8xduqm5j6j8fg28tertjtayfj8hwm0gvk5gyh3jd07p5w5fe7r56xjr2gj</p>
+			</footer>
 
-			</section>
+		</section>
+		<section class="article-template hidden">
 
-			<!-- ARTICLE -->
+			<header>
+				<a href="#navigation" class="assistiveText">Skip to Navigation</a>
+				<a href="#content" class="assistiveText">Skip to Main Content</a>
+				<div class="wrapper">
+					<h1 class="logo"><a href="#">Simple Design System</a></h1>
+					<nav id="navigation">
+						<a class="navButton withUtil" href="#">
+							<div class="menu"></div>
+						</a>
+						<ul>
+							<li><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/header/html/header.html" target="_blank">View Component Code</a></li>
+							<li><a href="#">Page 2</a></li>
+							<li><a href="#">Page 3</a></li>
+							<li><a role="button" class="btn primaryBtn" href="https://github.com/glenn-sorrentino/design-system" target="_blank">Contribute</a></li>
+						</ul>
+						<a class="utilityIcon" href="#">🧰</a>
+					</nav>
+					<nav id="navigation" class="staged">
+						<a class="navButton closeButton" href="#">
+							<div class="close"></div>
+						</a>
+						<ul>
+							<li><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/header/html/header.html" target="_blank">View Component Code</a></li>
+							<li><a href="#">Page 2</a></li>
+							<li><a href="#">Page 3</a></li>
+							<li><a role="button" class="btn primaryBtn" href="https://github.com/glenn-sorrentino/design-system" target="_blank">Contribute</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
 
-			<section class="article hidden">
+			<!-- INTRO -->
+
+			<main id="content">
 
 				<section class="intro wrapper secondaryIntro articleIntro">
 					<div>
@@ -589,19 +677,19 @@
 					</div>
 				</section>
 
+				<!-- ARTICLE -->
+
 				<section class="content articleSection wrapper">
 					<article>
 						<h2>Article Content</h2>
 						<p><a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/article/html/article.html" target="_blank">View Component Code.</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-							incididunt
-							ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 						<div class="featureImage">
 							<img src="assets/placeholder/image.svg" alt="#">
 							<p class="caption">Image caption</p>
 						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-							Duis
-							aute
+							Duis aute
 							irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
 							iste
 							natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
@@ -621,14 +709,12 @@
 							<p class="caption">Image caption</p>
 						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-							Duis
-							aute
+							Duis aute
 							irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
 							iste
 							natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-							Duis
-							aute
+							Duis aute
 							irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
 							iste
 							natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
@@ -647,19 +733,19 @@
 							<p class="caption">Image caption</p>
 						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-							Duis
-							aute
+							Duis aute
 							irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
 							iste
 							natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-							Duis
-							aute
+							Duis aute
 							irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
 							iste
 							natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 					</article>
 				</section>
+
+				<!-- PAGINATION -->
 
 				<section class="content centeredContent buttonGroupContent wrapper">
 					<div class="contentItem blockContent">
@@ -675,11 +761,45 @@
 					</div>
 				</section>
 
-			</section>
+			</main>
 
-			<!-- TABLE -->
+			<footer class="wrapper">
+				<p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY NC 4.0 license</a>.<br>&copy; <script>
+						document.write(new Date().getFullYear());
+					</script> Glenn Sorrentino. <a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/footer/html/footer.html" target="_blank">View Component Code</a></p>
+				<p>🛡&nbsp;zs1lqjvywdg308kxrn6x8xduqm5j6j8fg28tertjtayfj8hwm0gvk5gyh3jd07p5w5fe7r56xjr2gj</p>
+			</footer>
 
-			<section class="table hidden">
+		</section>
+		<section class="table-template hidden">
+
+			<header>
+				<a href="#navigation" class="assistiveText">Skip to Navigation</a>
+				<a href="#content" class="assistiveText">Skip to Main Content</a>
+				<div class="wrapper">
+					<h1 class="logo"><a href="#">Simple Design System</a></h1>
+					<nav id="navigation">
+						<a class="navButton withUtil" href="#">
+							<div class="menu"></div>
+						</a>
+						<ul>
+							<li><a role="button" class="btn primaryBtn" href="https://github.com/glenn-sorrentino/design-system/blob/main/components/header/html/app-header.html" target="_blank">Download Files</a></li>
+						</ul>
+						<a class="utilityIcon" href="#">🧰</a>
+					</nav>
+					<nav id="navigation" class="staged">
+						<a class="navButton closeButton" href="#">
+							<div class="close"></div>
+						</a>
+						<ul>
+							<li><a role="button" class="btn primaryBtn" href="https://github.com/glenn-sorrentino/design-system/blob/main/components/header/html/app-header.html" target="_blank">Download Files</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+
+			<section class="table">
+
 				<table>
 					<tr>
 						<th>Name</th>
@@ -689,7 +809,7 @@
 					<tr>
 						<td><a href="#">readme.md</a></td>
 						<td>1KB</td>
-						<td>Markdown</td>
+						<td>MD</td>
 					</tr>
 					<tr>
 						<td><a href="#">scan.pdf</td>
@@ -699,7 +819,7 @@
 					<tr>
 						<td><a href="#">Qubes-R4.0.1-x86_64.iso</td>
 						<td>4.69GB</td>
-						<td>PDF</td>
+						<td>ISO</td>
 					</tr>
 					<tr>
 						<td><a href="#">example.svg</a></td>
@@ -714,7 +834,7 @@
 					<tr>
 						<td><a href="#">Archive.zip</td>
 						<td>65.2MB</td>
-						<td>PDF</td>
+						<td>ZIP</td>
 					</tr>
 					<tr>
 						<td><a href="#">2020-W2.pdf</a></td>
@@ -776,19 +896,41 @@
 						<td>765KB</td>
 						<td>PDF</td>
 					</tr>
+					<tr>
+						<td><a href="#">development_plans.pdf</a></td>
+						<td>11MB</td>
+						<td>PDF</td>
+					</tr>
+					<tr>
+						<td><a href="#">logo.svg</td>
+						<td>2KB</td>
+						<td>SVG</td>
+					</tr>
+					<tr>
+						<td><a href="#">financial-information-FY23.pdf</a></td>
+						<td>874KB</td>
+						<td>PDF</td>
+					</tr>
+					<tr>
+						<td><a href="#">updated-research.pdf</td>
+						<td>4.2MB</td>
+						<td>PDF</td>
+					</tr>
+					<tr>
+						<td><a href="#">click-me.exe</td>
+						<td>1.3MB</td>
+						<td>EXE</td>
+					</tr>
+					<tr>
+						<td><a href="#">operating-instructions.pdf</a></td>
+						<td>639KB</td>
+						<td>PDF</td>
+					</tr>
 				</table>
+
 			</section>
 
-		</main>
-
-		<!-- FOOTER -->
-
-		<footer class="wrapper">
-			<p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY NC 4.0 license</a>.<br>&copy; <script>
-					document.write(new Date().getFullYear());
-				</script> Glenn Sorrentino. <a href="https://github.com/glenn-sorrentino/design-system/blob/main/components/footer/html/footer.html" target="_blank">View Component Code</a></p>
-			<p>🛡&nbsp;zs1lqjvywdg308kxrn6x8xduqm5j6j8fg28tertjtayfj8hwm0gvk5gyh3jd07p5w5fe7r56xjr2gj</p>
-		</footer>
+		</section>
 
 	</section> <!-- END CANVAS -->
 
@@ -841,7 +983,7 @@
 				<legend>Home Components</legend>
 				<div>
 					<input type="checkbox" name="format" id="hint" value="txt" autocomplete="off" checked>
-					<label for="hint">Homepage Scroll Hint</label>
+					<label for="hint">Scroll Hint</label>
 				</div>
 				<div>
 					<input type="checkbox" name="format" id="statement" value="txt" autocomplete="off" checked>
@@ -960,14 +1102,6 @@
 				<div>
 					<input type="checkbox" name="format" id="secondary-basic-content" autocomplete="off" value="txt" checked>
 					<label for="secondary-basic-content">Basic Content</label>
-				</div>
-				<div>
-					<input type="checkbox" name="format" id="secondary-item-avatar" autocomplete="off" value="txt" checked>
-					<label for="secondary-item-avatar">About</label>
-				</div>
-				<div>
-					<input type="checkbox" name="format" id="secondary-item-content" autocomplete="off" value="txt" checked>
-					<label for="secondary-item-content">Contact</label>
 				</div>
 			</fieldset>
 
