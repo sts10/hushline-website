@@ -25,7 +25,7 @@
 #filters h2 {
   font-size: var(--font-size-body);
   line-height: var(--line-height-body);
-  margin: var(--spacing-xsmall) 0 var(--spacing-base) 0;
+  margin: var(--spacing-xsmall) 0 var(--spacing-medium) 0;
 }
 
 aside {
