@@ -27,9 +27,9 @@ $(document).ready(function() {
   });
 
   $('#secondary').on('click', function() {
-    $('.home-template .home').addClass('hidden');
-    $('.secondary-template .secondary').removeClass('hidden');
-    $('.article-template .article').addClass('hidden');
+    $('.home-template').addClass('hidden');
+    $('.secondary-template').removeClass('hidden');
+    $('.article-template').addClass('hidden');
     $('.instructions').addClass('hidden');
     $('.table').addClass('hidden');
     $('#home-filters').addClass('hidden');
@@ -38,9 +38,9 @@ $(document).ready(function() {
   });
 
   $('#article').on('click', function() {
-    $('.secondary-template .secondary').addClass('hidden');
-    $('.home-template .home').addClass('hidden');
-    $('.article-template .article').removeClass('hidden');
+    $('.secondary-template').addClass('hidden');
+    $('.home-template').addClass('hidden');
+    $('.article-template').removeClass('hidden');
     $('.instructions').addClass('hidden');
     $('.table').addClass('hidden');
     $('#home-filters').addClass('hidden');
@@ -50,9 +50,9 @@ $(document).ready(function() {
 
   $('#table').on('click', function() {
     $('.table').removeClass('hidden');
-    $('.home-template .home').addClass('hidden');
-    $('.secondary-template .secondary').addClass('hidden');
-    $('.article-template .article').addClass('hidden');
+    $('.home-template ').addClass('hidden');
+    $('.secondary-template').addClass('hidden');
+    $('.article-template').addClass('hidden');
     $('.instructions').addClass('hidden');
     $('#home-filters').addClass('hidden');
     $('#secondary-filters').addClass('hidden');
