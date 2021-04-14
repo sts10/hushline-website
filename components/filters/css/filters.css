@@ -33,17 +33,13 @@ aside {
 }
 
 fieldset {
-  margin-bottom: var(--spacing-small);
+  margin-bottom: var(--spacing-medium);
 }
 
 legend {
   font-family: var(--font-sans-bold);
-  margin: var(--spacing-small) 0;
+  margin:0 0 var(--spacing-small) 0;
   font-size: var(--font-size-small);
-}
-
-legend:first-of-type {
-  margin-top: calc(var(--spacing-small) + .125rem);
 }
 
 label {
