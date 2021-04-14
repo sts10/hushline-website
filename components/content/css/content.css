@@ -156,5 +156,7 @@
 }
 
 @media only screen and (max-width: 375px) {
-
+  .meta {
+    font-size: var(--font-size-small) !important;
+  }
 }
