@@ -23,15 +23,7 @@
   max-width: none;
 }
 
-.home-template {
-  margin-bottom: 0;
-}
-
-.secondary-template {
-  margin-bottom: 0;
-}
-
-.article-template {
+.home-template, .secondary-template, .article-template {
   margin-bottom: 0;
 }
 
