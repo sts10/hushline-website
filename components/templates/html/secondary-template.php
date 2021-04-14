@@ -29,4 +29,7 @@
 		<?php include "components/content/html/basic.html" ?>
 
 	</main>
+
+	<?php include "components/footer/html/footer.html" ?>
+	
 </section>

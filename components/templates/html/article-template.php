@@ -18,4 +18,6 @@
 
 	</main>
 
+	<?php include "components/footer/html/footer.html" ?>
+
 </section>

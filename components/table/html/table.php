@@ -126,4 +126,5 @@
 			<td>PDF</td>
 		</tr>
 	</table>
+	<?php include "components/footer/html/footer.html" ?>
 </section>

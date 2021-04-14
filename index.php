@@ -32,10 +32,6 @@
 		<?php include "components/templates/html/article-template.php" ?>
 		<?php include "components/table/html/table.html" ?>
 
-		<!-- FOOTER -->
-
-		<?php include "components/footer/html/footer.html" ?>
-
 	</section> <!-- END CANVAS -->
 
 	<!-- FILTERS -->

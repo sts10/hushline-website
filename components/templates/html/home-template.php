@@ -42,4 +42,7 @@
 		<?php include "components/contact/html/contact.html" ?>
 
 	</main>
+
+	<?php include "components/footer/html/footer.html" ?>
+	
 </section>
