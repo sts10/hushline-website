@@ -19,7 +19,6 @@
 
 	<section class="canvas">
 
-
 		<!-- NOTIFICATIONS -->
 
 		<?php include "components/notification/html/notification.html" ?>
