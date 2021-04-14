@@ -26,7 +26,7 @@
 
 		<!-- BODY -->
 
-		<?php include "components/templates/html/instructions.html" ?>
+		<?php include "components/templates/html/instructions.php" ?>
 		<?php include "components/templates/html/home-template.php" ?>
 		<?php include "components/templates/html/secondary-template.php" ?>
 		<?php include "components/templates/html/article-template.php" ?>
