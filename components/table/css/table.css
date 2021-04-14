@@ -54,7 +54,7 @@
 }
 
 .table {
-  top: 130px;
+  top: 122px;
   bottom: 0;
   right: 0;
   left: 0;
@@ -100,13 +100,16 @@ th, td {
 }
 
 @media only screen and (max-width: 768px) {
+  .table {
+    top: 71px;
+  }
 
   th, td {
     padding: var(--spacing-xsmall) var(--spacing-medium) ;
   }
 
   .table {
-    top: 114px;
+    top: 106px;
   }
 
   .listUtilities {
