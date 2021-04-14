@@ -20,10 +20,6 @@
 			<?php include "components/content/html/item-featured.html" ?>
 		</section>
 
-		<!-- EXAMPLES -->
-
-		<?php include "components/content/html/example.html" ?>
-
 		<!-- MORE LISTS -->
 
 		<?php include "components/content/html/secondary.html" ?>
