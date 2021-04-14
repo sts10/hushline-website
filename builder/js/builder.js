@@ -5,9 +5,9 @@ $(document).ready(function() {
   });
 
   $('#instructions').on('click', function() {
-    $('.home').addClass('hidden');
-    $('.secondary').addClass('hidden');
-    $('.article').addClass('hidden');
+    $('.home-template .home').addClass('hidden');
+    $('.secondary-template .secondary').addClass('hidden');
+    $('.article-template .article').addClass('hidden');
     $('.instructions').removeClass('hidden');
     $('.table').addClass('hidden');
     $('#home-filters').addClass('hidden');
@@ -16,9 +16,9 @@ $(document).ready(function() {
   });
 
   $('#home').on('click', function() {
-    $('.home').removeClass('hidden');
-    $('.secondary').addClass('hidden');
-    $('.article').addClass('hidden');
+    $('.home-template .home').removeClass('hidden');
+    $('.secondary-template .secondary').addClass('hidden');
+    $('.article-template .article').addClass('hidden');
     $('.instructions').addClass('hidden');
     $('.table').addClass('hidden');
     $('#home-filters').removeClass('hidden');
@@ -27,9 +27,9 @@ $(document).ready(function() {
   });
 
   $('#secondary').on('click', function() {
-    $('.home').addClass('hidden');
-    $('.secondary').removeClass('hidden');
-    $('.article').addClass('hidden');
+    $('.home-template .home').addClass('hidden');
+    $('.secondary-template .secondary').removeClass('hidden');
+    $('.article-template .article').addClass('hidden');
     $('.instructions').addClass('hidden');
     $('.table').addClass('hidden');
     $('#home-filters').addClass('hidden');
@@ -38,9 +38,9 @@ $(document).ready(function() {
   });
 
   $('#article').on('click', function() {
-    $('.secondary').addClass('hidden');
-    $('.home').addClass('hidden');
-    $('.article').removeClass('hidden');
+    $('.secondary-template .secondary').addClass('hidden');
+    $('.home-template .home').addClass('hidden');
+    $('.article-template .article').removeClass('hidden');
     $('.instructions').addClass('hidden');
     $('.table').addClass('hidden');
     $('#home-filters').addClass('hidden');
@@ -50,9 +50,9 @@ $(document).ready(function() {
 
   $('#table').on('click', function() {
     $('.table').removeClass('hidden');
-    $('.home').addClass('hidden');
-    $('.secondary').addClass('hidden');
-    $('.article').addClass('hidden');
+    $('.home-template .home').addClass('hidden');
+    $('.secondary-template .secondary').addClass('hidden');
+    $('.article-template .article').addClass('hidden');
     $('.instructions').addClass('hidden');
     $('#home-filters').addClass('hidden');
     $('#secondary-filters').addClass('hidden');
