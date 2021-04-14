@@ -4,11 +4,7 @@
 
 	<main id="content">
 
-		<?php include "components/intro/html/instructions-intro.html" ?>
 		<?php include "components/intro/html/home-intro.html" ?>
-		<?php include "components/intro/html/secondary-intro.html" ?>
-		<?php include "components/intro/html/article-intro.html" ?>
-		<?php include "components/intro/html/book-cover-intro.html" ?>
 
 		<!-- BODY -->
 
