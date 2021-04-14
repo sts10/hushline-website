@@ -30,10 +30,10 @@
 
 		<!-- BODY -->
 
-		<?php include "components/header/html/home-template.php" ?>
-		<?php include "components/header/html/secondary-template.php" ?>
-		<?php include "components/header/html/article-template.php" ?>
-		<?php include "components/header/html/table.php" ?>
+		<?php include "components/templates/html/home-template.php" ?>
+		<?php include "components/templates/html/secondary-template.php" ?>
+		<?php include "components/templates/html/article-template.php" ?>
+		<?php include "components/templates/html/table.php" ?>
 
 		<!-- FOOTER -->
 
