@@ -12,15 +12,15 @@
   }
 
   th {
-    background-color: #f6f6f6;
+    background-color: #fafafa;
   }
 
   tr:hover {
     background-color: var(--color-shade);
   }
 
-  .status {
-    background-color: #f6f6f6;
+  .listUtilities {
+    background-color: #fafafa;
     border-top: var(--border-lm);
   }
 }
@@ -47,14 +47,14 @@
     background-color: var(--color-shade-dm);
   }
 
-  .status {
+  .listUtilities {
     background-color: #2e2e2e;
     border-top: var(--border-dm);
   }
 }
 
 .table {
-  top: 122px;
+  top: 130px;
   bottom: 0;
   right: 0;
   left: 0;
@@ -63,7 +63,7 @@
   overflow-y: scroll;
 }
 
-.status {
+.listUtilities {
   padding: var(--spacing-xsmall) 0;
   position: fixed;
   top: 87px;
@@ -100,19 +100,16 @@ th, td {
 }
 
 @media only screen and (max-width: 768px) {
-  .table {
-    top: 71px;
-  }
 
   th, td {
     padding: var(--spacing-xsmall) var(--spacing-medium) ;
   }
 
   .table {
-    top: 106px;
+    top: 114px;
   }
 
-  .status {
+  .listUtilities {
     top: 71px;
   }
 }
