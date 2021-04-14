@@ -10,38 +10,40 @@
 			<label for="glow-theme">Glow Theme</label>
 		</div>
 	</fieldset>
+
+	<!-- PAGE TYPE -->
+
 	<fieldset>
-		<legend>Intro</legend>
+		<legend>Page Type</legend>
 		<div>
-			<input type="radio" name="format" id="instructions-intro" value="txt" autocomplete="off">
-			<label for="instructions-intro">Instructions</label>
+			<input type="radio" name="format" id="instructions" value="txt" autocomplete="off">
+			<label for="instructions">Instructions</label>
 		</div>
 		<div>
-			<input type="radio" name="format" id="home-intro" value="txt" autocomplete="off" checked>
-			<label for="home-intro">Home</label>
+			<input type="radio" name="format" id="home" value="txt" autocomplete="off" checked>
+			<label for="home">Home</label>
 		</div>
 		<div>
-			<input type="radio" name="format" id="secondary-intro" value="txt" autocomplete="off">
-			<label for="secondary-intro">Secondary</label>
+			<input type="radio" name="format" id="secondary" value="txt" autocomplete="off">
+			<label for="secondary">Secondary</label>
 		</div>
 		<div>
-			<input type="radio" name="format" id="article-intro" value="txt" autocomplete="off">
-			<label for="article-intro">Article</label>
+			<input type="radio" name="format" id="article" value="txt" autocomplete="off">
+			<label for="article">Article</label>
 		</div>
 		<div>
-			<input type="radio" name="format" id="book-cover-intro" value="txt" autocomplete="off">
-			<label for="book-cover-intro">Book Cover</label>
+			<input type="radio" name="format" id="table" value="txt" autocomplete="off">
+			<label for="table">Table</label>
 		</div>
 	</fieldset>
-	<fieldset id="content-items">
-		<legend>Components</legend>
+
+	<!-- HOME PAGE -->
+
+	<fieldset id="home-filters">
+		<legend>Home Components</legend>
 		<div>
 			<input type="checkbox" name="format" id="hint" value="txt" autocomplete="off" checked>
 			<label for="hint">Homepage Scroll Hint</label>
-		</div>
-		<div>
-			<input type="checkbox" name="format" id="secondary-nav" value="txt" autocomplete="off">
-			<label for="secondary-nav">Secondary Nav</label>
 		</div>
 		<div>
 			<input type="checkbox" name="format" id="statement" value="txt" autocomplete="off" checked>
@@ -103,9 +105,81 @@
 			<input type="checkbox" name="format" id="item-content" autocomplete="off" value="txt" checked>
 			<label for="item-content">Contact</label>
 		</div>
+	</fieldset>
+
+	<!-- SECONDARY PAGE -->
+
+	<fieldset id="secondary-filters" class="hidden">
+		<legend>Secondary Components</legend>
 		<div>
-			<input type="checkbox" name="format" id="article" value="txt" autocomplete="off">
-			<label for="article">Article</label>
+			<input type="checkbox" name="format" id="secondary-nav" value="txt" autocomplete="off" checked>
+			<label for="secondary-nav">Secondary Nav</label>
+		</div>
+		<div>
+			<input type="checkbox" name="format" id="secondary-standard-item" autocomplete="off" value="txt" checked>
+			<label for="secondary-standard-item">Standard</label>
+		</div>
+		<div>
+			<input type="checkbox" name="format" id="secondary-flipped-item" autocomplete="off" value="txt" checked>
+			<label for="secondary-flipped-item">Flipped</label>
+		</div>
+		<div>
+			<input type="checkbox" name="format" id="secondary-mobile-item" autocomplete="off" value="txt" checked>
+			<label for="secondary-mobile-item">Mobile</label>
+		</div>
+		<div>
+			<input type="checkbox" name="format" id="secondary-featured-item" autocomplete="off" value="txt" checked>
+			<label for="secondary-featured-item">Featured</label>
+		</div>
+		<div>
+			<input type="checkbox" name="format" id="secondary-primary-content" autocomplete="off" value="txt" checked>
+			<label for="secondary-primary-content">Primary Content</label>
+		</div>
+		<div>
+			<input type="checkbox" name="format" id="secondary-secondary-content" autocomplete="off" value="txt" checked>
+			<label for="secondary-secondary-content">Secondary Content</label>
+		</div>
+		<div>
+			<input type="checkbox" name="format" id="secondary-tertiary-content" autocomplete="off" value="txt" checked>
+			<label for="secondary-tertiary-content">Tertiary Content</label>
+		</div>
+		<div>
+			<input type="checkbox" name="format" id="secondary-metadata-item" autocomplete="off" value="txt" checked>
+			<label for="secondary-metadata-item">Metadata</label>
+		</div>
+		<div>
+			<input type="checkbox" name="format" id="secondary-button-item" autocomplete="off" value="txt" checked>
+			<label for="secondary-button-item">Button</label>
+		</div>
+		<div>
+			<input type="checkbox" name="format" id="secondary-simple-item" autocomplete="off" value="txt" checked>
+			<label for="secondary-simple-item">Simple</label>
+		</div>
+		<div>
+			<input type="checkbox" name="format" id="secondary-centered-item" autocomplete="off" value="txt" checked>
+			<label for="secondary-centered-item">Centered</label>
+		</div>
+		<div>
+			<input type="checkbox" name="format" id="secondary-basic-content" autocomplete="off" value="txt" checked>
+			<label for="secondary-basic-content">Basic Content</label>
+		</div>
+		<div>
+			<input type="checkbox" name="format" id="secondary-item-avatar" autocomplete="off" value="txt" checked>
+			<label for="secondary-item-avatar">About</label>
+		</div>
+		<div>
+			<input type="checkbox" name="format" id="secondary-item-content" autocomplete="off" value="txt" checked>
+			<label for="secondary-item-content">Contact</label>
+		</div>
+	</fieldset>
+
+	<!-- ARTICLE PAGE -->
+
+	<fieldset id="article-filters" class="hidden">
+		<legend>Article Components</legend>
+		<div>
+			<input type="checkbox" name="format" id="article-content" value="txt" autocomplete="off" checked>
+			<label for="article-content">Article</label>
 		</div>
 		<div>
 			<input type="checkbox" name="format" id="button-group" autocomplete="off" value="txt" checked>
