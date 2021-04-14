@@ -31,6 +31,10 @@ article .featureImage:nth-child(even) {
 
 }
 
+article a.location {
+  font-family: var(--font-sans-bold);
+}
+
 article p {
   margin-bottom: var(--spacing-medium);
 }
