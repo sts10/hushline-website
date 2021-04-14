@@ -113,6 +113,7 @@ th, td {
 
   td {
     border-bottom: none;
+    word-wrap: anywhere;
   }
 
   table {
