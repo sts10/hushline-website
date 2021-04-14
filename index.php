@@ -7,7 +7,7 @@
 	<meta name="author" content="Glenn Sorrentino">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>🛠 Builder - Simple Design System</title>
+	<title>🛠 Page Builder - Simple Design System</title>
 	<link rel="stylesheet" href="https://glenn-sorrentino.github.io/design-system/css/style.css">
 
 	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
@@ -30,7 +30,7 @@
 		<?php include "components/templates/html/home-template.php" ?>
 		<?php include "components/templates/html/secondary-template.php" ?>
 		<?php include "components/templates/html/article-template.php" ?>
-		<?php include "components/templates/html/table-template.php" ?>
+		<?php include "components/table/html/table.html" ?>
 
 		<!-- FOOTER -->
 
