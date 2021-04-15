@@ -1,0 +1,15 @@
+@media (prefers-color-scheme: light) {
+  .logoMark {
+    background-image: url('../assets/logos/lm-logo-onionshare.svg');
+  }
+
+  .primaryBtn {
+    background-color: rgba(78, 13, 78, 1);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .logoMark {
+    background-image: url('../assets/logos/dm-logo-onionshare.svg');
+  }
+}

@@ -66,7 +66,7 @@
 .listUtilities {
   padding: var(--spacing-xsmall) 0;
   position: fixed;
-  top: 87px;
+  top: 88px;
   width: 100%;
 }
 
@@ -112,6 +112,19 @@ th, td {
   .listUtilities {
     top: 71px;
   }
+
+  header.singleNav + .listUtilities + .table {
+    top: 124px;
+  }
+
+  header.singleNav + .listUtilities  {
+    top: 88px;
+  }
+
+  header.singleNav nav ul {
+    display: inherit;
+  }
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -144,13 +157,13 @@ th, td {
 
   tr {
     display: block;
-    padding-top: var(--spacing-base);
-    padding-bottom: var(--spacing-base);
+    padding-top: var(--spacing-small);
+    padding-bottom: var(--spacing-small);
   }
 
   td:first-of-type {
     font-family: var(--font-sans-bold);
-    font-size: var(--font-size-body)!important;
+    font-size: calc(var(--font-size-body)*.9)!important;
     opacity: 1;
   }
 
