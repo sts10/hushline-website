@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="https://glenn-sorrentino.github.io/design-system/css/style.css">
 
 	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
-	<script src="https://glenn-sorrentino.github.io/design-system/builder/js/builder.js"></script>
+	<script src="builder/js/builder.js"></script>
 	<script src="https://glenn-sorrentino.github.io/design-system/js/main.js"></script>
 </head>
 
@@ -1013,9 +1013,16 @@
 					<input type="radio" name="format" id="table" value="txt" autocomplete="off">
 					<label for="table">Table</label>
 				</div>
+			</fieldset>
+
+			<!-- TABLE TYPE -->
+
+			<fieldset id="table-filters" class="hidden">
+				<legend>Table States</legend>
 				<div>
-					<input type="radio" name="format" id="empty-table" value="txt" autocomplete="off">
-					<label for="empty-table">Table Empty State</label>
+					<input type="checkbox" name="format" id="empty-table" value="txt" autocomplete="off">
+					<label for="empty-table">Empty</label>
+				</div>
 				</div>
 			</fieldset>
 
