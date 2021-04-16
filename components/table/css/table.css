@@ -92,7 +92,7 @@
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
-  margin: 0 auto var(--spacing-medium) auto;
+  margin: 0 auto var(--spacing-large) auto;
 }
 
 .empty .firstAction {
