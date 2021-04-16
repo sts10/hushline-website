@@ -40,8 +40,9 @@ section.canvas {
   right: 25%;
 }
 
-.canvas .table {
+.canvas .emptyTable {
   right: 25%;
+  top: 73px !important;
 }
 
 aside {
@@ -133,11 +134,11 @@ aside {
   }
 
   .canvas .table {
-    top: 107px;
+    top: 108px;
   }
 
   .canvas .listUtilities {
-    top: 71px;
+    top: 73px;
   }
 
   aside {
