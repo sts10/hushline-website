@@ -68,8 +68,9 @@
 }
 
 .firstAction {
-  font-size: var(--font-size-logo);
+  font-size: var(--font-size-body);
   padding: var(--spacing-base) var(--spacing-large);
+  box-shadow: var(--shadow-lm);
 }
 
 .buttonGroup {

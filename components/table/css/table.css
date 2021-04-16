@@ -20,7 +20,7 @@
   }
 
   tr:hover {
-    background-color: var(--color-shade);
+    background-color: #f4f4f4;
   }
 
   .listUtilities {
@@ -123,6 +123,10 @@ table {
   z-index: 2;
   position: relative;
   border-collapse: inherit;
+}
+
+tr {
+  transition: none;
 }
 
 th {
