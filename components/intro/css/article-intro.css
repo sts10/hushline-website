@@ -4,10 +4,22 @@
     backdrop-filter: blur(.5rem);
     background-color: rgba(255, 255, 255, .8) !important;
   }
+
+  .articleIntro .meta {
+    -webkit-backdrop-filter: blur(.5rem);
+    backdrop-filter: blur(.5rem);
+    background-color: rgba(255, 255, 255, .8) !important;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   .articleIntro div > * {
+    -webkit-backdrop-filter: blur(.5rem);
+    backdrop-filter: blur(.5rem);
+    background-color: rgba(51, 51, 51, .8) !important;
+  }
+
+  .articleIntro .meta {
     -webkit-backdrop-filter: blur(.5rem);
     backdrop-filter: blur(.5rem);
     background-color: rgba(51, 51, 51, .8) !important;
