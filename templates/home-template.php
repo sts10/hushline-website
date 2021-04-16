@@ -6,7 +6,7 @@
 
 	<main id="content">
 
-		<?php include "../components/intro/html/home-intro.html" ?>
+		<?php include "components/intro/html/home-intro.html" ?>
 
 		<!-- MISSION STATEMENT -->
 
