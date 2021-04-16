@@ -65,7 +65,7 @@ $(document).ready(function() {
   });
 
   $('#empty-table').on('click', function() {
-    $('.empty-table-template').toggleClass('hidden');
+    $('.emptyTable').toggleClass('hidden');
     $('.tableContent').toggleClass('hidden');
   });
 
