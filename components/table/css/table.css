@@ -80,6 +80,10 @@
   background-color: var(--color-shade);
 }
 
+.tableContent .wrapper {
+  max-width: inherit;
+}
+
 .table .empty {
   display: flex;
   align-items: center;

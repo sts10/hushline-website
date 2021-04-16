@@ -72,6 +72,10 @@ header .wrapper {
   align-items: center;
 }
 
+.appHeader .wrapper {
+  max-width: inherit;
+}
+
 header h1 {
   font-size: var(--font-size-logo);
   margin-bottom: 0;
