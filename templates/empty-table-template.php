@@ -1,4 +1,4 @@
-<section class="table-template hidden">
+<section class="empty-table-template hidden">
 
 	<?php include "components/header/html/app-header.html" ?>
 
