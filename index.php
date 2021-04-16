@@ -25,11 +25,12 @@
 
 		<!-- BODY -->
 
-		<?php include "components/templates/html/instructions.php" ?>
-		<?php include "components/templates/html/home-template.php" ?>
-		<?php include "components/templates/html/secondary-template.php" ?>
-		<?php include "components/templates/html/article-template.php" ?>
-		<?php include "components/templates/html/table-template.php" ?>
+		<?php include "templates/instructions.php" ?>
+		<?php include "templates/home-template.php" ?>
+		<?php include "templates/secondary-template.php" ?>
+		<?php include "templates/article-template.php" ?>
+		<?php include "templates/table-template.php" ?>
+		<?php include "templates/empty-table-template.php" ?>
 
 	</section> <!-- END CANVAS -->
 
