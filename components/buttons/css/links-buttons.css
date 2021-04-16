@@ -5,6 +5,7 @@
 
   .btn {
     border: var(--border-lm);
+    background-color: white;
   }
 
   .btn:hover {
@@ -64,6 +65,11 @@
 .btn:hover {
     box-shadow: 0 .125rem .5rem rgba(0,0,0,0.1);
     text-decoration: none;
+}
+
+.firstAction {
+  font-size: var(--font-size-logo);
+  padding: var(--spacing-base) var(--spacing-large);
 }
 
 .buttonGroup {
