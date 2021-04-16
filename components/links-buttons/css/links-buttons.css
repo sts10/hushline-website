@@ -5,6 +5,7 @@
 
   .btn {
     border: var(--border-lm);
+    background-color: white;
   }
 
   .btn:hover {

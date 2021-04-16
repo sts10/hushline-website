@@ -21,8 +21,8 @@
 .secondaryIntro {
   margin-top: 88px;
   height: auto !important;
-  padding-top: calc(var(--spacing-xxlarge) * 3);
-  padding-bottom: calc(var(--spacing-xxlarge) * 3);
+  padding-top: calc(var(--spacing-xxlarge) * 2.25);
+  padding-bottom: calc(var(--spacing-xxlarge) * 2.25);
 }
 
 .secondaryIntro h1 {

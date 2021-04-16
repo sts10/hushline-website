@@ -82,10 +82,6 @@
   margin-bottom: 0;
 }
 
-.contentItem p {
-  margin-bottom: var(--spacing-base);
-}
-
 .description {
   width: 50%;
   padding-right: var(--spacing-xlarge);
@@ -93,6 +89,7 @@
 
 .description p {
   width: 100%;
+  margin-bottom: var(--spacing-base);
 }
 
 .noImage .description {

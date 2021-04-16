@@ -23,6 +23,10 @@
     background-color: #fafafa;
     border-top: var(--border-lm);
   }
+
+  .emptyBg {
+    background-image: url('../assets/empty-bg-lm.svg');
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -61,6 +65,31 @@
   margin-bottom: 0!important;
   position: fixed;
   overflow-y: scroll;
+}
+
+.table .empty {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: var(--color-light);
+}
+
+.emptyBg {
+  width: 400px;
+  height: 300px;
+  background-position: middle;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto var(--spacing-medium) auto;
+}
+
+.emptyTable {
+  top: 88px;
+}
+
+.emptyTable .description {
+  margin: 0 auto;
+  padding: 0;
 }
 
 .listUtilities {
