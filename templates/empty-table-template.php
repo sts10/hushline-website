@@ -2,6 +2,6 @@
 
 	<?php include "components/header/html/disabled-btn.html" ?>
 
-	<?php include "components/table/html/empty-table.html" ?>
+	<?php include "components/table/html/zero-state.html" ?>
 
 </section>
