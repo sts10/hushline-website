@@ -57,6 +57,8 @@
   position: relative;
   overflow: hidden;
   display: flex;
+  padding-top: calc(var(--spacing-xxlarge) * 2.25);
+  padding-bottom: calc(var(--spacing-xxlarge) * 2.25);
 }
 
 .articleIntro::after {
