@@ -15,6 +15,10 @@
     background-color: #fafafa;
   }
 
+  tr {
+    background-color: white;
+  }
+
   tr:hover {
     background-color: var(--color-shade);
   }
@@ -45,6 +49,10 @@
 
   th {
     background-color: #2e2e2e;
+  }
+
+  tr {
+    background-color: var(--color-dark);
   }
 
   tr:hover {
