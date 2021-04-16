@@ -40,6 +40,10 @@ section.canvas {
   right: 25%;
 }
 
+.canvas .table {
+  right: 25%;
+}
+
 aside {
   width: 25%;
   padding: var(--spacing-medium);
@@ -152,6 +156,10 @@ aside {
   .canvas header {
     right: 33%;
   }
+
+  .canvas .table {
+    right: 33%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -161,6 +169,10 @@ aside {
 
   .canvas header {
     width: 100%;
+  }
+
+  .canvas .table {
+    right: 0;
   }
 
   aside {

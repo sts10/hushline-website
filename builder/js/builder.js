@@ -10,6 +10,7 @@ $(document).ready(function() {
     $('.article-template').addClass('hidden');
     $('.instructions').removeClass('hidden');
     $('.table-template').addClass('hidden');
+    $('.empty-table-template').addClass('hidden');
     $('#home-filters').addClass('hidden');
     $('#secondary-filters').addClass('hidden');
     $('#article-filters').addClass('hidden');
@@ -24,6 +25,7 @@ $(document).ready(function() {
     $('#home-filters').removeClass('hidden');
     $('#secondary-filters').addClass('hidden');
     $('#article-filters').addClass('hidden');
+    $('.empty-table-template').addClass('hidden');
   });
 
   $('#secondary').on('click', function() {
@@ -35,6 +37,7 @@ $(document).ready(function() {
     $('#home-filters').addClass('hidden');
     $('#article-filters').addClass('hidden');
     $('#secondary-filters').removeClass('hidden');
+    $('.empty-table-template').addClass('hidden');
   });
 
   $('#article').on('click', function() {
@@ -46,6 +49,7 @@ $(document).ready(function() {
     $('#home-filters').addClass('hidden');
     $('#secondary-filters').addClass('hidden');
     $('#article-filters').removeClass('hidden');
+    $('.empty-table-template').addClass('hidden');
   });
 
   $('#table').on('click', function() {
@@ -57,6 +61,19 @@ $(document).ready(function() {
     $('#home-filters').addClass('hidden');
     $('#secondary-filters').addClass('hidden');
     $('#article-filters').addClass('hidden');
+    $('.empty-table-template').addClass('hidden');
+  });
+
+  $('#empty-table').on('click', function() {
+    $('.table-template').addClass('hidden');
+    $('.home-template ').addClass('hidden');
+    $('.secondary-template').addClass('hidden');
+    $('.article-template').addClass('hidden');
+    $('.instructions').addClass('hidden');
+    $('#home-filters').addClass('hidden');
+    $('#secondary-filters').addClass('hidden');
+    $('#article-filters').addClass('hidden');
+    $('.empty-table-template').removeClass('hidden');
   });
 
   // HOME FILTERS
@@ -204,6 +221,7 @@ $(document).ready(function() {
     $('aside').toggleClass('hidden');
     $('.canvas').toggleClass('wide');
     $('.canvas header').toggleClass('wide');
+    $('.canvas .table').toggleClass('wide');
   });
 
   $('nav.staged li:last-of-type').on('click', function() {
@@ -216,6 +234,7 @@ $(document).ready(function() {
     $('aside').toggleClass('hidden');
     $('.canvas').toggleClass('wide');
     $('.canvas header').toggleClass('wide');
+    $('.canvas .table').toggleClass('wide');
   });
 
 });
