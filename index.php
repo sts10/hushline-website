@@ -30,7 +30,6 @@
 		<?php include "templates/secondary-template.php" ?>
 		<?php include "templates/article-template.php" ?>
 		<?php include "templates/table-template.php" ?>
-		<?php include "templates/empty-table-template.php" ?>
 
 	</section> <!-- END CANVAS -->
 
