@@ -1,23 +1,23 @@
 <section class="article-template hidden">
 
-<?php include "../components/header/html/header.html" ?>
+<?php include "components/header/html/header.html" ?>
 
 	<!-- INTRO -->
 
 	<main id="content">
 
-		<?php include "../components/intro/html/article-intro.html" ?>
+		<?php include "components/intro/html/article-intro.html" ?>
 
 		<!-- ARTICLE -->
 
-		<?php include "../components/article/html/article.html" ?>
+		<?php include "components/article/html/article.html" ?>
 
 		<!-- PAGINATION -->
 
-		<?php include "../components/pagination/html/pagination.html" ?>
+		<?php include "components/pagination/html/pagination.html" ?>
 
 	</main>
 
-	<?php include "../components/footer/html/footer.html" ?>
+	<?php include "components/footer/html/footer.html" ?>
 
 </section>

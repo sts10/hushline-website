@@ -1,6 +1,6 @@
 <section class="home-template">
 
-<?php include "../components/header/html/header.html" ?>
+<?php include "components/header/html/header.html" ?>
 
 	<!-- INTRO -->
 
@@ -10,39 +10,39 @@
 
 		<!-- MISSION STATEMENT -->
 
-		<?php include "../components/statement/html/statement.html" ?>
+		<?php include "components/statement/html/statement.html" ?>
 
 		<!-- DESIGN RESOURCES -->
 
-		<?php include "../components/content/html/figma.html" ?>
+		<?php include "components/content/html/figma.html" ?>
 
 		<!-- PRIMARY LIST -->
 
 		<section class="content primaryContent wrapper">
 			<h2>Primary Content</h2>
-			<?php include "../components/content/html/item-standard.html" ?>
-			<?php include "../components/content/html/item-flip.html" ?>
-			<?php include "../components/content/html/item-mobile.html" ?>
-			<?php include "../components/content/html/item-featured.html" ?>
+			<?php include "components/content/html/item-standard.html" ?>
+			<?php include "components/content/html/item-flip.html" ?>
+			<?php include "components/content/html/item-mobile.html" ?>
+			<?php include "components/content/html/item-featured.html" ?>
 		</section>
 
 		<!-- EXAMPLES -->
 
-		<?php include "../components/content/html/example.html" ?>
+		<?php include "components/content/html/example.html" ?>
 
 		<!-- MORE LISTS -->
 
-		<?php include "../components/content/html/secondary.html" ?>
-		<?php include "../components/content/html/tertiary.html" ?>
-		<?php include "../components/content/html/basic.html" ?>
+		<?php include "components/content/html/secondary.html" ?>
+		<?php include "components/content/html/tertiary.html" ?>
+		<?php include "components/content/html/basic.html" ?>
 
 		<!-- ABOUT AND CONTACT -->
 
-		<?php include "../components/about/html/about.html" ?>
-		<?php include "../components/contact/html/contact.html" ?>
+		<?php include "components/about/html/about.html" ?>
+		<?php include "components/contact/html/contact.html" ?>
 
 	</main>
 
-	<?php include "../components/footer/html/footer.html" ?>
+	<?php include "components/footer/html/footer.html" ?>
 
 </section>
