@@ -40,6 +40,10 @@ section.canvas {
   right: 25%;
 }
 
+.canvas .table {
+  right: 25%;
+}
+
 .canvas .emptyTable {
   right: 25%;
   top: 88px !important;
