@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: light) {
   .logoMark {
-    background-image: url('../assets/logos/lm-logo-onionshare.png');
+    background-image: url('../assets/logo/lm-logo-onionshare.png');
   }
 
   .primaryBtn {
@@ -18,6 +18,6 @@
 
 @media (prefers-color-scheme: dark) {
   .logoMark {
-    background-image: url('../assets/logos/dm-logo-onionshare.png');
+    background-image: url('../assets/logo/dm-logo-onionshare.png');
   }
 }
