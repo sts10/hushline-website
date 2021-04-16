@@ -2,11 +2,19 @@
   .shadowImage img {
     box-shadow: var(--shadow-lm);
   }
+
+  .meta {
+    color: var(--font-label-lm);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   .shadowImage img {
     box-shadow: var(--shadow-dm);
+  }
+
+  .meta {
+    color: var(--font-label-dm);
   }
 }
 
@@ -45,7 +53,6 @@
 
 .meta {
   font-size: var(--font-size-xsmall) !important;
-  opacity: .8;
 }
 
 .featureImage {
