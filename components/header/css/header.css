@@ -256,6 +256,18 @@ aside .navButton {
     padding-left: var(--spacing-medium);
     margin-left: var(--spacing-base);
   }
+
+  header.singleNav + .listUtilities + .table {
+    top: 124px;
+  }
+
+  header.singleNav + .listUtilities  {
+    top: 88px;
+  }
+
+  header.singleNav nav ul {
+    display: inherit !important;
+  }
 }
 
 @media only screen and (max-width: 375px) {

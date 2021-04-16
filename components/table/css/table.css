@@ -101,11 +101,13 @@
 
 .emptyTable {
   top: 88px !important;
+  border-top: none !important;
 }
 
 .emptyTable .description {
   margin: 0 auto;
   padding: 0;
+  width: inherit;
 }
 
 .listUtilities {
@@ -155,23 +157,15 @@ th, td {
   }
 
   .table {
-    top: 107px;
+    top: 108px;
   }
 
   .listUtilities {
-    top: 71px;
+    top: 73px;
   }
 
-  header.singleNav + .listUtilities + .table {
-    top: 124px;
-  }
-
-  header.singleNav + .listUtilities  {
-    top: 88px;
-  }
-
-  header.singleNav nav ul {
-    display: inherit;
+  .emptyTable {
+    top: 73px !important;
   }
 
 }
