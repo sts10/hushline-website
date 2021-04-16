@@ -85,6 +85,11 @@ a.btn {
   text-decoration: none;
 }
 
+.disabledBtn {
+  opacity: .15;
+  pointer-events: none;
+}
+
 @media only screen and (max-width: 768px) {
   .buttonGroup .btn {
     width: 20%;
