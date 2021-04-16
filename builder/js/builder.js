@@ -10,7 +10,6 @@ $(document).ready(function() {
     $('.article-template').addClass('hidden');
     $('.instructions').removeClass('hidden');
     $('.table-template').addClass('hidden');
-    $('.empty-table-template').addClass('hidden');
     $('#home-filters').addClass('hidden');
     $('#secondary-filters').addClass('hidden');
     $('#article-filters').addClass('hidden');
@@ -26,7 +25,6 @@ $(document).ready(function() {
     $('#home-filters').removeClass('hidden');
     $('#secondary-filters').addClass('hidden');
     $('#article-filters').addClass('hidden');
-    $('.empty-table-template').addClass('hidden');
     $('#table-filters').addClass('hidden');
   });
 
@@ -39,7 +37,6 @@ $(document).ready(function() {
     $('#home-filters').addClass('hidden');
     $('#article-filters').addClass('hidden');
     $('#secondary-filters').removeClass('hidden');
-    $('.empty-table-template').addClass('hidden');
     $('#table-filters').addClass('hidden');
   });
 
@@ -52,7 +49,6 @@ $(document).ready(function() {
     $('#home-filters').addClass('hidden');
     $('#secondary-filters').addClass('hidden');
     $('#article-filters').removeClass('hidden');
-    $('.empty-table-template').addClass('hidden');
     $('#table-filters').addClass('hidden');
   });
 
@@ -65,13 +61,12 @@ $(document).ready(function() {
     $('#home-filters').addClass('hidden');
     $('#secondary-filters').addClass('hidden');
     $('#article-filters').addClass('hidden');
-    $('.empty-table-template').addClass('hidden');
     $('#table-filters').removeClass('hidden');
   });
 
   $('#empty-table').on('click', function() {
     $('.empty-table-template').toggleClass('hidden');
-    $('.table-template').toggleClass('hidden');
+    $('.tableContent').toggleClass('hidden');
   });
 
   // HOME FILTERS
