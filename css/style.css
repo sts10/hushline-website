@@ -4,7 +4,6 @@
 @import url("animation.css");
 @import url("icons.css");
 @import url("typography.css");
-@import url("../components/hint/css/hint.css");
 
 /* ARTICLE */
 
@@ -16,6 +15,7 @@
 @import url("../components/intro/css/secondary-intro.css");
 @import url("../components/intro/css/article-intro.css");
 @import url("../components/intro/css/book-cover-intro.css");
+@import url("../components/hint/css/hint.css");
 
 /* COMPONENTS  */
 

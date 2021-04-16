@@ -1,5 +1,9 @@
 # Buttons
 
-All buttons by default are secondary buttons. Adding the class `.primaryBtn` assigns a button as primary. Only use one primary button per page.
+All buttons by default are secondary buttons.
 
-If there's something that a user has to do before they can progress, you can add the class `.firstAction` to give the button a more prominent size.
+`.primaryBtn` assigns a button as primary. Only use one primary button per page.
+
+`.disabledBtn` disables a button and removes any pointer events.
+
+`.firstAction` give the button a more prominent size. This is good if there's something that a user has to do before they can progress.

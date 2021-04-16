@@ -116,7 +116,7 @@ aside {
     margin-top: 70px;
   }
 
-  .canvas .intro.withNav {
+  .canvas .secondaryIntro.withNav {
     height: calc(100vh - 48px) !important;
   }
 
