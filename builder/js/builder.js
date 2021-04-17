@@ -14,6 +14,7 @@ $(document).ready(function() {
     $('#secondary-filters').addClass('hidden');
     $('#article-filters').addClass('hidden');
     $('#table-filters').addClass('hidden');
+    $('.chat-template').addClass('hidden');
   });
 
   $('#home').on('click', function() {
@@ -26,6 +27,7 @@ $(document).ready(function() {
     $('#secondary-filters').addClass('hidden');
     $('#article-filters').addClass('hidden');
     $('#table-filters').addClass('hidden');
+    $('.chat-template').addClass('hidden');
   });
 
   $('#secondary').on('click', function() {
@@ -38,6 +40,7 @@ $(document).ready(function() {
     $('#article-filters').addClass('hidden');
     $('#secondary-filters').removeClass('hidden');
     $('#table-filters').addClass('hidden');
+    $('.chat-template').addClass('hidden');
   });
 
   $('#article').on('click', function() {
@@ -50,6 +53,7 @@ $(document).ready(function() {
     $('#secondary-filters').addClass('hidden');
     $('#article-filters').removeClass('hidden');
     $('#table-filters').addClass('hidden');
+    $('.chat-template').addClass('hidden');
   });
 
   $('#table').on('click', function() {
@@ -62,6 +66,20 @@ $(document).ready(function() {
     $('#secondary-filters').addClass('hidden');
     $('#article-filters').addClass('hidden');
     $('#table-filters').removeClass('hidden');
+    $('.chat-template').addClass('hidden');
+  });
+
+  $('#chat').on('click', function() {
+    $('.chat-template').removeClass('hidden');
+    $('.table-template').addClass('hidden');
+    $('.home-template ').addClass('hidden');
+    $('.secondary-template').addClass('hidden');
+    $('.article-template').addClass('hidden');
+    $('.instructions').addClass('hidden');
+    $('#home-filters').addClass('hidden');
+    $('#secondary-filters').addClass('hidden');
+    $('#article-filters').addClass('hidden');
+    $('#table-filters').addClass('hidden');
   });
 
   $('#empty-table').on('click', function() {
