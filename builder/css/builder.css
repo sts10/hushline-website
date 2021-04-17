@@ -23,7 +23,7 @@
   max-width: none;
 }
 
-.home-template, .secondary-template, .article-template, .instructions {
+.home-template, .secondary-template, .article-template, .chat-template, .instructions {
   margin-bottom: 0;
 }
 
@@ -52,7 +52,7 @@ section.canvas {
   right: 25%;
 }
 
-.chatWindow {
+.canvas .chatWindow {
   right: 25%;
 }
 
