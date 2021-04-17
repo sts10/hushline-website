@@ -29,6 +29,10 @@
   .message a {
     color: var(--color-light);
   }
+
+  .noHeader .chatWindow {
+    border-top: var(--border-lm);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -61,6 +65,10 @@
 
   .message a {
     color: var(--color-dark);
+  }
+
+  .noHeader .chatWindow {
+    border-top: var(--border-dm);
   }
 }
 
