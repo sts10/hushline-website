@@ -9,12 +9,17 @@
   }
 
   .message.outgoing p {
-    background-color: var(--color-dark);
+    background-color: var(--color-shade-dm);
     color: var(--color-light);
   }
 
   .detailView {
     background-color: var(--color-shade);
+  }
+
+  .chatHeader {
+    background-color: var(--color-light);
+    border-top: var(--border-lm);
   }
 }
 
@@ -34,7 +39,16 @@
   }
 
   .detailView {
-    background-color: var(--color-shade);
+    background-color: var(--color-shade-dm);
+  }
+
+  .chatHeader {
+    background-color: var(--color-dark);
+    border-top: var(--border-dm);
+  }
+
+  .message.incoming p {
+    background-color: var(--color-shade-dm);
   }
 }
 
@@ -124,7 +138,6 @@
 }
 
 .message.incoming p {
-  background-color: var(--color-shade);
   padding: var(--spacing-small) var(--spacing-base);
 }
 
@@ -140,13 +153,11 @@
 .chatHeader {
   position: fixed;
   top: 88px;
-  background-color: white;
   right: 0;
   left: 30%;
   z-index: 1;
   padding: var(--spacing-base);
   text-align: center;
-  border-top: var(--border-lm);
 }
 
 .chatHeader p {

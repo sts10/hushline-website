@@ -16,6 +16,11 @@
   .messageComposer input {
     border: var(--border-dm);
   }
+
+  input[type="text"] {
+    background-color: var(--color-shade-dm);
+    color: var(--color-light);
+  }
 }
 
 .messageComposer {
