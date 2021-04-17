@@ -54,14 +54,6 @@ label {
   font-size: var(--font-size-xsmall);
 }
 
-.messageComposer {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  left: 30%;
-  padding: var(--spacing-small);
-}
-
 input[type="text"] {
   padding: var(--spacing-small);
   border-radius: var(--radius-soft);
