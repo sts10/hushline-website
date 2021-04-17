@@ -72,6 +72,10 @@
   }
 }
 
+.userList tr {
+  border-bottom: none;
+}
+
 .noHeader .chatWindow {
   top: 88px;
 }
