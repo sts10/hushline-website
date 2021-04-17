@@ -15,7 +15,7 @@
     color: rgba(78, 13, 78, 1);
   }
 
-  .outgoing p {
+  .outgoing p:first-of-type {
     background-color: rgba(78, 13, 78, 1);
   }
 
