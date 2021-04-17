@@ -28,9 +28,6 @@
     box-shadow: var(--shadow-dm);
   }
 }
-
-
-
 .messageComposer {
   position: fixed;
   bottom: 0;

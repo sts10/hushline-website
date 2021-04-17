@@ -33,7 +33,7 @@
   }
 
   .message.outgoing p {
-    background-color: var(--color-light);
+    background-color: #c2c2c2;
     color: var(--color-dark);
   }
 
