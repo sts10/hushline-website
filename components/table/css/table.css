@@ -117,7 +117,7 @@
 }
 
 .listUtilities {
-  padding: var(--spacing-xsmall) 0;
+  padding: var(--spacing-xsmall) var(--spacing-medium) !important;
   position: fixed;
   top: 88px;
   width: 100%;
