@@ -1,16 +1,17 @@
 @media (prefers-color-scheme: light) {
-  .messageComposer {
-    background-color: var(--color-light);
-  }
 
   .messageComposer input {
     border: var(--border-lm);
+  }
+
+  input:focus {
+    border: var(--border-input-focus-lm);
+    box-shadow: var(--shadow-lm);
   }
 }
 
 @media (prefers-color-scheme: dark) {
   .messageComposer {
-    background-color: var(--color-dark);
   }
 
   .messageComposer input {
@@ -21,7 +22,14 @@
     background-color: var(--color-shade-dm);
     color: var(--color-light);
   }
+
+  input:focus {
+    border: var(--border-input-focus-dm);
+    box-shadow: var(--shadow-dm);
+  }
 }
+
+
 
 .messageComposer {
   position: fixed;

@@ -74,6 +74,8 @@
 
   --border-lm: 1px solid rgba(0,0,0,.08);
   --border-dm: 1px solid rgba(255,255,255,.08);
+  --border-input-focus-lm: 1px solid rgba(0,0,0,0.5);
+  --border-input-focus-dm: 1px solid rgba(255,255,255,0.5);
 
 /* BORDER RADIUS */
 
