@@ -233,12 +233,20 @@ $(document).ready(function() {
     $('.canvas').toggleClass('wide');
     $('.canvas header').toggleClass('wide');
     $('.canvas .table').toggleClass('wide');
+    $('.canvas .pinnedList .table').removeClass('wide');
+    $('.canvas .chatWindow').toggleClass('edge');
+    $('.canvas .chatHeader').toggleClass('edge');
+    $('.canvas .messageComposer').toggleClass('edge');
   });
 
   $('nav.staged li:last-of-type').on('click', function() {
     $('aside').toggleClass('hidden');
     $('.canvas').toggleClass('wide');
     $('.canvas header').toggleClass('wide');
+    $('.canvas .pinnedList .table').removeClass('wide');
+    $('.canvas .chatWindow').toggleClass('edge');
+    $('.canvas .chatHeader').toggleClass('edge');
+    $('.canvas .messageComposer').toggleClass('edge');
   });
 
   $('aside .navButton').on('click', function() {
@@ -246,6 +254,10 @@ $(document).ready(function() {
     $('.canvas').toggleClass('wide');
     $('.canvas header').toggleClass('wide');
     $('.canvas .table').toggleClass('wide');
+    $('.canvas .pinnedList .table').removeClass('wide');
+    $('.canvas .chatWindow').toggleClass('edge');
+    $('.canvas .chatHeader').toggleClass('edge');
+    $('.canvas .messageComposer').toggleClass('edge');
   });
 
 });

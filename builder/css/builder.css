@@ -40,6 +40,22 @@ section.canvas {
   right: 25%;
 }
 
+.canvas .pinnedList tr {
+
+}
+
+.canvas .chatHeader {
+  right: 25%;
+}
+
+.canvas .messageComposer {
+  right: 25%;
+}
+
+.chatWindow {
+  right: 25%;
+}
+
 .canvas .table {
   right: 25%;
 }
@@ -74,6 +90,19 @@ aside .navButton {
 .wide {
   width: 100% !important;
   right: 0;
+}
+
+.edge {
+  right: 0 !important;
+}
+
+.canvas .pinnedList .table {
+  right: 70% !important;
+}
+
+.canvas .pinnedList .table.wide {
+  right: 70% !important;
+  width: inherit;
 }
 
 p.hint, .btn, .utilityIcon {
