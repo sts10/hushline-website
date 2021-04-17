@@ -74,6 +74,7 @@ header .wrapper {
 
 .appHeader .wrapper {
   max-width: inherit;
+  padding: var(--spacing-medium)!important;
 }
 
 header h1 {

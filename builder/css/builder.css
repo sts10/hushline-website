@@ -49,6 +49,10 @@ section.canvas {
   top: 88px !important;
 }
 
+.chat {
+  margin-bottom: 0;
+}
+
 aside {
   width: 25%;
   padding: var(--spacing-medium);

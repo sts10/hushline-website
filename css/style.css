@@ -5,6 +5,10 @@
 @import url("icons.css");
 @import url("typography.css");
 
+/* INPUTS */
+
+@import url("../components/inputs/css/inputs.css");
+
 /* ARTICLE */
 
 @import url("../components/article/css/article.css");
@@ -43,6 +47,10 @@
 /* TABLE  */
 
 @import url("../components/table/css/table.css");
+
+/* CHAT  */
+
+@import url("../components/chat/css/chat.css");
 
 /* BUILDER  */
 

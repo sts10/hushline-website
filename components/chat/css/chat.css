@@ -1,0 +1,169 @@
+@media (prefers-color-scheme: light) {
+  .pinnedList .table {
+    border-right: var(--border-lm);
+  }
+
+  .pinnedList tr.selected {
+    background-color: var(--color-light);
+    border-left: 3px solid var(--color-dark);
+  }
+
+  .message.outgoing p {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+  }
+
+  .detailView {
+    background-color: var(--color-shade);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .pinnedList .table {
+    border-right: var(--border-dm);
+  }
+
+  .message.outgoing p {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+  }
+
+  .pinnedList tr.selected {
+    background-color: var(--color-dark);
+    border-left: 3px solid var(--color-light);
+  }
+
+  .detailView {
+    background-color: var(--color-shade);
+  }
+}
+
+.pinnedList {
+  width: 25%;
+  margin-bottom: 0;
+}
+
+.pinnedList .table {
+  right: 75%;
+}
+
+.pinnedList th, .pinnedList td {
+  padding: var(--spacing-small) var(--spacing-medium);
+}
+
+.pinnedList td {
+  border-bottom: none;
+  word-wrap: anywhere;
+}
+
+.pinnedList table {
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+}
+
+.pinnedList tr {
+  display: block;
+  padding-top: var(--spacing-small);
+  padding-bottom: var(--spacing-small);
+}
+
+.pinnedList td:first-of-type {
+  font-family: var(--font-sans-bold);
+  font-size: calc(var(--font-size-body)*.9) !important;
+  opacity: 1;
+}
+
+.pinnedList tr:first-of-type {
+  display: none;
+}
+
+.pinnedList td {
+  display: block;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: var(--font-size-small);
+  opacity: .75;
+}
+
+.pinnedList .table {
+  top: 88px;
+}
+
+.detailView {
+  position: fixed;
+  top: 88px;
+  left: 25%;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 0;
+}
+
+.message {
+  padding: var(--spacing-small) var(--spacing-base);
+  width: 100%;
+  display: flex;
+}
+
+.message p {
+  width: max-content;
+  border-radius: var(--radius-soft);
+}
+
+.message.outgoing {
+  display: flex;
+  justify-content: end;
+  padding: var(--spacing-small) var(--spacing-base);
+}
+
+.message.outgoing p {
+  padding: var(--spacing-small) var(--spacing-base);
+}
+
+.message.incoming {
+  padding: var(--spacing-small) var(--spacing-base);
+}
+
+.message.incoming p {
+  background-color: var(--color-shade);
+  padding: var(--spacing-small) var(--spacing-base);
+}
+
+.chatWindow {
+  position: fixed;
+  bottom: 58px;
+  left: 25%;
+  right: 0;
+  top: 140px;
+  overflow-y: scroll;
+}
+
+.chatHeader {
+  position: fixed;
+  top: 88px;
+  background-color: white;
+  right: 0;
+  left: 25%;
+  z-index: 1;
+  padding: var(--spacing-base);
+  text-align: center;
+  border-top: var(--border-lm);
+}
+
+.chatHeader p {
+  font-size: var(--font-size-small);
+  font-family: var(--font-sans-bold);
+}
+
+.pinnedList a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .pinnedList .table {
+    top: 74px;
+  }
+
+  .detailView {
+    top: 74px;
+  }
+}
