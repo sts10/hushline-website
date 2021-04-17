@@ -23,7 +23,7 @@
   max-width: none;
 }
 
-.home-template, .secondary-template, .article-template, .chat-template, .instructions {
+.home-template, .secondary-template, .article-template, .table-template, .chat-template, .instructions {
   margin-bottom: 0;
 }
 
@@ -171,11 +171,11 @@ aside {
   }
 
   .canvas .table {
-    top: 108px;
+    top: 108px !important;
   }
 
   .canvas .listUtilities {
-    top: 73px;
+    top: 74px;
   }
 
   aside {
@@ -200,7 +200,19 @@ aside {
   }
 
   .canvas .emptyTable {
-    top: 73px !important;
+    top: 74px !important;
+  }
+
+  .canvas .chat-template .table {
+    top: 74px !important;
+  }
+
+  .canvas .detailView {
+    top: 74px;
+  }
+
+  .canvas .chatHeader {
+    top: 74px;
   }
 }
 
