@@ -9,8 +9,12 @@
   }
 
   .message.outgoing p {
-    background-color: var(--color-shade-dm);
+    background-color: var(--color-dark);
     color: var(--color-light);
+  }
+
+  .message.incoming p {
+    background-color: white;
   }
 
   .detailView {
@@ -18,7 +22,7 @@
   }
 
   .chatHeader {
-    background-color: var(--color-light);
+    background-color: white;
     border-top: var(--border-lm);
   }
 }
