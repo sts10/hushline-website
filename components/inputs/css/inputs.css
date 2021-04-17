@@ -62,7 +62,7 @@ label {
   padding: var(--spacing-small);
 }
 
-input {
+input[type="text"] {
   padding: var(--spacing-small);
   border-radius: var(--radius-soft);
   font-size: var(--font-size-small);

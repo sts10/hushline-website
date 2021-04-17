@@ -36,6 +36,7 @@
 
   .message .meta {
     color: var(--color-dark) !important;
+    width: max-content;
   }
 }
 
