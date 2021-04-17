@@ -1,7 +1,11 @@
 @media (prefers-color-scheme: light) {
 
-  .messageComposer input {
+  input {
     border: var(--border-lm);
+  }
+
+  .userName {
+    border-bottom: var(--border-lm);
   }
 
   input:focus {
@@ -14,7 +18,7 @@
   .messageComposer {
   }
 
-  .messageComposer input {
+  input {
     border: var(--border-dm);
   }
 
@@ -27,6 +31,19 @@
     border: var(--border-input-focus-dm);
     box-shadow: var(--shadow-dm);
   }
+
+  .userName {
+    border-bottom: var(--border-dm);
+  }
+}
+
+.userName {
+  padding: var(--spacing-base);
+}
+
+label {
+  display: block;
+  margin-bottom: var(--spacing-xsmall);
 }
 .messageComposer {
   position: fixed;
@@ -36,11 +53,17 @@
   padding: var(--spacing-small);
 }
 
-.messageComposer input {
+input {
   width: 100%;
   padding: var(--spacing-small);
-  font-size: var(--font-size-body);
   border-radius: var(--radius-soft);
+  font-size: var(--font-size-small);
+}
+
+.messageComposer input {
+  width: 100%;
+  font-size: var(--font-size-body);
+
 }
 
 @media only screen and (max-width: 480px) {}

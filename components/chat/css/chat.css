@@ -64,6 +64,10 @@
   }
 }
 
+.noHeader .chatWindow {
+  top: 88px;
+}
+
 .pinnedList {
   width: 30%;
   margin-bottom: 0;
