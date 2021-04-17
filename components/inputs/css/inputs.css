@@ -41,10 +41,7 @@
   padding: var(--spacing-base);
 }
 
-label {
-  display: block;
-  margin-bottom: var(--spacing-xsmall);
-}
+
 .messageComposer {
   position: fixed;
   bottom: 0;
@@ -54,7 +51,6 @@ label {
 }
 
 input {
-  width: 100%;
   padding: var(--spacing-small);
   border-radius: var(--radius-soft);
   font-size: var(--font-size-small);
