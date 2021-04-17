@@ -31,6 +31,10 @@
   .emptyBg {
     background-image: url('../assets/empty-bg-lm.svg');
   }
+
+  .pinnedList .listUtilities {
+    border-bottom: var(--border-lm);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -66,6 +70,10 @@
 
   .emptyBg {
     background-image: url('../assets/empty-bg-dm.svg');
+  }
+
+  .pinnedList .listUtilities {
+    border-bottom: var(--border-dm);
   }
 }
 
@@ -122,6 +130,11 @@
   top: 88px;
   width: 100%;
   max-width: inherit;
+}
+
+.pinnedList .listUtilities {
+  position: initial;
+  border-top: none;
 }
 
 header.singleNav + .listUtilities + .table {

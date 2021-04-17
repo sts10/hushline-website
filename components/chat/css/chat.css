@@ -76,6 +76,13 @@
   border-bottom: none;
 }
 
+.pinnedList h2 {
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-body);
+    margin-bottom: 0;
+    padding: var(--spacing-xsmall) var(--spacing-medium);
+}
+
 .noHeader .chatWindow {
   top: 88px;
 }
