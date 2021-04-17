@@ -155,6 +155,10 @@
   margin: 0 auto;
 }
 
+.chatMessages {
+  margin-bottom: 0;
+}
+
 .pinnedList a {
   text-decoration: none;
 }
