@@ -8,12 +8,12 @@
     border-left: 3px solid var(--color-dark);
   }
 
-  .message.outgoing p {
+  .outgoing p:first-of-type {
     background-color: var(--color-dark);
     color: var(--color-light);
   }
 
-  .message.incoming p {
+  .incoming p:first-of-type {
     background-color: white;
   }
 
@@ -64,7 +64,7 @@
     border-top: var(--border-dm);
   }
 
-  .message.incoming p {
+  .incoming p {
     background-color: var(--color-shade-dm);
   }
 
@@ -86,10 +86,13 @@
 }
 
 .message .meta {
-  position: absolute;
-  bottom: calc(var(--spacing-medium) * -1);
-  background-color: transparent !important;
   opacity: .8;
+  padding: 0 var(--spacing-base);
+
+}
+
+.outgoing .meta {
+  float: right;
 }
 
 .pinnedList h2 {
@@ -163,34 +166,19 @@
   margin-bottom: 0;
 }
 
-.message {
-  padding: var(--spacing-small) var(--spacing-base);
+.messageRow {
+  display: flex;
   width: 100%;
-  display: flex;
-  position: relative;
 }
 
-.message p {
-  width: max-content;
-  border-radius: var(--radius-soft);
-}
-
-.message.outgoing {
-  display: flex;
+.messageRow.outgoing {
   justify-content: flex-end;
-  padding: var(--spacing-small) var(--spacing-base);
 }
 
-.message.outgoing p {
+.message p:first-of-type {
   padding: var(--spacing-small) var(--spacing-base);
-}
-
-.message.incoming {
-  padding: var(--spacing-small) var(--spacing-base);
-}
-
-.message.incoming p {
-  padding: var(--spacing-small) var(--spacing-base);
+  margin-bottom: var(--spacing-xsmall);
+  border-radius: var(--radius-soft);
 }
 
 .chatWindow {
@@ -200,6 +188,7 @@
   right: 0;
   top: 140px;
   overflow-y: scroll;
+  padding: 0 var(--spacing-base);
 }
 
 .chatHeader {
