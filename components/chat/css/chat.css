@@ -33,6 +33,10 @@
   .noHeader .chatWindow {
     border-top: var(--border-lm);
   }
+
+  .message .meta {
+    color: var(--color-dark) !important;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -70,10 +74,21 @@
   .noHeader .chatWindow {
     border-top: var(--border-dm);
   }
+
+  .message .meta {
+    color: var(--color-light) !important;
+  }
 }
 
 .userList tr {
   border-bottom: none;
+}
+
+.message .meta {
+  position: absolute;
+  bottom: calc(var(--spacing-medium) * -1);
+  background-color: transparent !important;
+  opacity: .8;
 }
 
 .pinnedList h2 {
@@ -151,6 +166,7 @@
   padding: var(--spacing-small) var(--spacing-base);
   width: 100%;
   display: flex;
+  position: relative;
 }
 
 .message p {
