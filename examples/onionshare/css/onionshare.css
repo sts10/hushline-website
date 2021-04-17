@@ -15,7 +15,7 @@
     color: rgba(78, 13, 78, 1);
   }
 
-  .message.outgoing p {
+  .outgoing p {
     background-color: rgba(78, 13, 78, 1);
   }
 
