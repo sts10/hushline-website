@@ -119,6 +119,7 @@
   position: fixed;
   top: 88px;
   width: 100%;
+  max-width: inherit;
 }
 
 table {
