@@ -39,12 +39,12 @@
 }
 
 .pinnedList {
-  width: 25%;
+  width: 30%;
   margin-bottom: 0;
 }
 
 .pinnedList .table {
-  right: 75%;
+  right: 70%;
 }
 
 .pinnedList th, .pinnedList td {
@@ -92,7 +92,7 @@
 .detailView {
   position: fixed;
   top: 88px;
-  left: 25%;
+  left: 30%;
   right: 0;
   bottom: 0;
   margin-bottom: 0;
@@ -131,7 +131,7 @@
 .chatWindow {
   position: fixed;
   bottom: 73px;
-  left: 25%;
+  left: 30%;
   right: 0;
   top: 140px;
   overflow-y: scroll;
@@ -142,7 +142,7 @@
   top: 88px;
   background-color: white;
   right: 0;
-  left: 25%;
+  left: 30%;
   z-index: 1;
   padding: var(--spacing-base);
   text-align: center;

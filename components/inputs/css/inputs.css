@@ -30,7 +30,7 @@
   width: 100%;
   padding: var(--spacing-small);
   font-size: var(--font-size-body);
-  border-radius: var(--border-soft);
+  border-radius: var(--radius-soft);
 }
 
 @media only screen and (max-width: 480px) {}
