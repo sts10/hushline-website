@@ -158,6 +158,11 @@ th, td {
   padding: var(--spacing-xsmall) var(--spacing-medium)!important;
 }
 
+.pinnedList td {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 @media only screen and (max-width: 960px) {
 
 }
