@@ -2,11 +2,19 @@
   .messageComposer {
     background-color: var(--color-light);
   }
+
+  .messageComposer input {
+    border: var(--border-lm);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   .messageComposer {
     background-color: var(--color-dark);
+  }
+
+  .messageComposer input {
+    border: var(--border-dm);
   }
 }
 
@@ -20,6 +28,9 @@
 
 .messageComposer input {
   width: 100%;
+  padding: var(--spacing-small);
+  font-size: var(--font-size-body);
+  border-radius: var(--border-soft);
 }
 
 @media only screen and (max-width: 480px) {}
