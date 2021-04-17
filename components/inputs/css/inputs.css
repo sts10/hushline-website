@@ -41,6 +41,18 @@
   padding: var(--spacing-base);
 }
 
+.userName input {
+  width: 100%;
+}
+
+label + input[type="text"]{
+  display: block;
+  margin-top: var(--spacing-xsmall);
+}
+
+label {
+  font-size: var(--font-size-xsmall);
+}
 
 .messageComposer {
   position: fixed;
