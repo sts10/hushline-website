@@ -70,7 +70,7 @@
 }
 
 .table {
-  top: 122px;
+  top: 123px;
   bottom: 0;
   right: 0;
   left: 0;
@@ -124,6 +124,14 @@
   max-width: inherit;
 }
 
+header.singleNav + .listUtilities + .table {
+  top: 123px;
+}
+
+header.singleNav + .listUtilities  {
+  top: 88px;
+}
+
 table {
   font-size: var(--font-size-small);
   line-height: var(--line-height-body);
@@ -165,11 +173,11 @@ th, td {
   }
 
   .listUtilities {
-    top: 74px;
+    top: 73px;
   }
 
   .emptyTable {
-    top: 74px !important;
+    top: 73px !important;
   }
 
 }
