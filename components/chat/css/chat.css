@@ -25,6 +25,10 @@
     background-color: white;
     border-top: var(--border-lm);
   }
+
+  .message a {
+    color: var(--color-light);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -53,6 +57,10 @@
 
   .message.incoming p {
     background-color: var(--color-shade-dm);
+  }
+
+  .message a {
+    color: var(--color-dark);
   }
 }
 
