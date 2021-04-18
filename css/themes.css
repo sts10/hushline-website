@@ -59,3 +59,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* CHAT */
+
+.glow .outgoing p:first-of-type {
+  background-color: var(--theme-glow)!important;
+}
+
+.glow .pinnedList tr.selected {
+  border-left: 3px solid var(--theme-glow)!important;
+}
