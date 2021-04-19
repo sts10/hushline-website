@@ -220,6 +220,13 @@
   width: 100%;
   margin-bottom: var(--spacing-base);
 }
+
+.chatAlert p {
+  font-size: var(--font-size-xsmall) !important;
+  opacity: .8;
+  margin: var(--spacing-small) 0;
+}
+
 .messageRow.outgoing {
   justify-content: flex-end;
 }
