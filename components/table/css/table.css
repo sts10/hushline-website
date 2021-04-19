@@ -251,8 +251,8 @@ th, td {
 
   td {
     display: block;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     font-size: var(--font-size-small);
     opacity: .75;
   }
