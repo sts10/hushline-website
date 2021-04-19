@@ -188,7 +188,7 @@
   right: 0;
   top: 140px;
   overflow-y: scroll;
-  padding: 0 var(--spacing-base);
+  padding: var(--spacing-base);
 }
 
 .chatHeader {
