@@ -81,18 +81,11 @@
   }
 }
 
-.userList tr {
-  border-bottom: none;
-}
+/* CHAT USER LIST */
 
-.message .meta {
-  opacity: .8;
-  padding: 0 var(--spacing-base);
-
-}
-
-.outgoing .meta {
-  float: right;
+.pinnedList {
+  width: 30%;
+  margin-bottom: 0;
 }
 
 .pinnedList h2 {
@@ -102,13 +95,8 @@
     padding: var(--spacing-xsmall) var(--spacing-medium);
 }
 
-.noHeader .chatWindow {
-  top: 88px;
-}
-
-.pinnedList {
-  width: 30%;
-  margin-bottom: 0;
+.pinnedList a {
+  text-decoration: none;
 }
 
 .pinnedList .table {
@@ -157,6 +145,12 @@
   top: 88px;
 }
 
+.userList tr {
+  border-bottom: none;
+}
+
+/* CHAT WINDOW */
+
 .detailView {
   position: fixed;
   top: 88px;
@@ -164,21 +158,6 @@
   right: 0;
   bottom: 0;
   margin-bottom: 0;
-}
-
-.messageRow {
-  display: flex;
-  width: 100%;
-}
-
-.messageRow.outgoing {
-  justify-content: flex-end;
-}
-
-.message p:first-of-type {
-  padding: var(--spacing-small) var(--spacing-base);
-  margin-bottom: var(--spacing-xsmall);
-  border-radius: var(--radius-soft);
 }
 
 .chatWindow {
@@ -208,12 +187,35 @@
   margin: 0 auto;
 }
 
-.chatMessages {
-  margin-bottom: 0;
+.noHeader .chatWindow {
+  top: 88px;
 }
 
-.pinnedList a {
-  text-decoration: none;
+.messageRow {
+  display: flex;
+  width: 100%;
+}
+.messageRow.outgoing {
+  justify-content: flex-end;
+}
+
+.message p:first-of-type {
+  padding: var(--spacing-small) var(--spacing-base);
+  margin-bottom: var(--spacing-xsmall);
+  border-radius: var(--radius-soft);
+}
+
+.message .meta {
+  opacity: .8;
+  padding: 0 var(--spacing-base);
+}
+
+.outgoing .meta {
+  float: right;
+}
+
+.chatMessages {
+  margin-bottom: 0;
 }
 
 .messageComposer {
