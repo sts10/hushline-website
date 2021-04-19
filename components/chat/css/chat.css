@@ -261,3 +261,31 @@
     top: 74px;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .pinnedList {
+    width: 0%;
+  }
+
+  .pinnedList .table {
+    right: 100%;
+  }
+  .detailView {
+    left: 0;
+  }
+
+  .chatWindow {
+    left: 0;
+    top: 124px;
+  }
+
+  .chatHeader {
+    top: 71px;
+    right: 0;
+    left: 0;
+  }
+
+  .messageComposer {
+    left: 0;
+  }
+}
