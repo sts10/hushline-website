@@ -180,11 +180,6 @@ aside {
 
   aside {
     width: 33%;
-    padding: var(--spacing-base) var(--spacing-medium) var(--spacing-medium) var(--spacing-medium);
-  }
-
-  aside .navButton {
-    top: var(--spacing-base);
   }
 
   .canvas {
