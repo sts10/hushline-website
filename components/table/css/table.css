@@ -226,6 +226,7 @@ th, td {
   td {
     border-bottom: none;
     word-wrap: anywhere;
+    word-break: break-all;
   }
 
   table {
