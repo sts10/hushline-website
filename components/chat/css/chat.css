@@ -166,7 +166,7 @@
 }
 
 .userList td:first-of-type {
-  margin-bottom: calc(var(--spacing-xsmall) * .5);
+  margin-bottom: calc(var(--spacing-xsmall) * .25);
 }
 
 .simpleUserList td:first-of-type {
