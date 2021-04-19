@@ -1,3 +1,5 @@
+<!-- SECONDARY TEMPLATE -->
+
 <section class="secondary-template hidden">
 
 <?php include "components/header/html/header.html" ?>

@@ -1,3 +1,5 @@
+<!-- ARTICLE TEMPLATE -->
+
 <section class="article-template hidden">
 
 <?php include "components/header/html/header.html" ?>

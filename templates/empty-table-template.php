@@ -1,3 +1,5 @@
+<!-- EMPTY TABLE TEMPLATE -->
+
 <section class="empty-table-template hidden">
 
 	<?php include "components/header/html/disabled-btn.html" ?>

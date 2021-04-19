@@ -1,3 +1,5 @@
+<!-- HOME TEMPLATE -->
+
 <section class="home-template">
 
 <?php include "components/header/html/header.html" ?>
