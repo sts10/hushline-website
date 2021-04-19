@@ -12,6 +12,7 @@
 
 	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="https://glenn-sorrentino.github.io/design-system/builder/js/builder.js"></script>
+	<script src="https://glenn-sorrentino.github.io/design-system/components/chat/js/chat.js"></script>
 	<script src="https://glenn-sorrentino.github.io/design-system/js/main.js"></script>
 </head>
 
