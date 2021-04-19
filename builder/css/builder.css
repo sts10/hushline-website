@@ -151,7 +151,7 @@ aside {
   }
 
   .canvas .secondaryIntro {
-    margin-top: 70px;
+    /* margin-top: 70px; */
   }
 
   .canvas .secondaryIntro.withNav {
@@ -171,11 +171,11 @@ aside {
   }
 
   .canvas .table {
-    top: 108px !important;
+    /* top: 108px !important; */
   }
 
   .canvas .listUtilities {
-    top: 71px;
+    top: 88px;
   }
 
   aside {
@@ -200,19 +200,19 @@ aside {
   }
 
   .canvas .emptyTable {
-    top: 71px !important;
+    /* top: 71px !important; */
   }
 
   .canvas .chat-template .table {
-    top: 71px !important;
+    /* top: 71px !important; */
   }
 
   .canvas .detailView {
-    top: 71px;
+    /* top: 71px; */
   }
 
   .canvas .chatHeader {
-    top: 71px;
+    /* top: 71px; */
   }
 }
 

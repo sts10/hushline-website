@@ -187,15 +187,15 @@ th, td {
   }
 
   .table {
-    top: 108px;
+    top: 123px;
   }
 
   .listUtilities {
-    top: 71px;
+    top: 88px;
   }
 
   .emptyTable {
-    top: 71px !important;
+    top: 88px !important;
   }
 
 }

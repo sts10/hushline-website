@@ -101,6 +101,11 @@ header h1 a:hover {
   margin-right: var(--spacing-xsmall);
 }
 
+.emptyLogo {
+  width: 0 !important;
+  margin-right: 0 !important;
+}
+
 header .emojiTheme {
   -webkit-text-fill-color: initial;
   background: initial;
@@ -202,7 +207,6 @@ nav.staged li {
 
 .navButton {
   position: absolute;
-  top: var(--spacing-base);
   right: var(--spacing-base);
   width: var(--button-icon);
   height: var(--button-icon);
@@ -272,10 +276,10 @@ aside .navButton {
     text-align: center;
   }
 
-  .logoMark {
+  /* .logoMark {
     width: 2rem;
     height: 2rem;
-  }
+  } */
 
   header h1 {
     font-size: calc(var(--font-size-logo)*.9);

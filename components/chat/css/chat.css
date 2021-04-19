@@ -254,11 +254,11 @@
 
 @media only screen and (max-width: 768px) {
   .pinnedList .table {
-    top: 74px;
+    /* top: 74px; */
   }
 
   .detailView {
-    top: 74px;
+    /* top: 74px; */
   }
 }
 
@@ -277,11 +277,11 @@
 
   .chatWindow {
     left: 0;
-    top: 124px;
+    /* top: 124px; */
   }
 
   .chatHeader {
-    top: 71px;
+    /* top: 71px; */
     right: 0;
     left: 0;
   }
