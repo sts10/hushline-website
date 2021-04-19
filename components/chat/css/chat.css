@@ -155,7 +155,7 @@
 
 .userList .meta {
   position: absolute;
-  top: calc(var(--spacing-small) + 2.5px);
+  top: calc(var(--spacing-small) + 2px);
   right: 0;
 }
 
