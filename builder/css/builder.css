@@ -245,4 +245,8 @@ aside {
   aside {
     width: 80%;
   }
+
+  .canvas .pinnedList .table {
+    right: 100% !important;
+  }
 }
