@@ -4,17 +4,17 @@
 
 <?php include "components/header/html/header.html" ?>
 
-	<!-- INTRO -->
+	<!-- SECONDARY - INTRO -->
 
 	<main id="content">
 
 		<?php include "components/intro/html/secondary-intro.html" ?>
 
-		<!-- BODY -->
+		<!-- SECONDARY - BODY -->
 
 		<?php include "components/tabs/html/tabs.html" ?>
 
-		<!-- PRIMARY LIST -->
+		<!-- SECONDARY - PRIMARY LIST -->
 
 		<section class="content primaryContent wrapper">
 			<h2>Primary Content</h2>
@@ -24,7 +24,7 @@
 			<?php include "components/content/html/item-featured.html" ?>
 		</section>
 
-		<!-- MORE LISTS -->
+		<!-- SECONDARY - MORE LISTS -->
 
 		<?php include "components/content/html/secondary.html" ?>
 		<?php include "components/content/html/tertiary.html" ?>

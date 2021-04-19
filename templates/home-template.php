@@ -4,21 +4,21 @@
 
 <?php include "components/header/html/header.html" ?>
 
-	<!-- INTRO -->
+	<!-- HOME - INTRO -->
 
 	<main id="content">
 
 		<?php include "components/intro/html/home-intro.html" ?>
 
-		<!-- MISSION STATEMENT -->
+		<!-- HOME - MISSION STATEMENT -->
 
 		<?php include "components/statement/html/statement.html" ?>
 
-		<!-- DESIGN RESOURCES -->
+		<!-- HOME - DESIGN RESOURCES -->
 
 		<?php include "components/content/html/figma.html" ?>
 
-		<!-- PRIMARY LIST -->
+		<!-- HOME - PRIMARY LIST -->
 
 		<section class="content primaryContent wrapper">
 			<h2>Primary Content</h2>
@@ -28,17 +28,17 @@
 			<?php include "components/content/html/item-featured.html" ?>
 		</section>
 
-		<!-- EXAMPLES -->
+		<!-- HOME - EXAMPLES -->
 
 		<?php include "components/content/html/example.html" ?>
 
-		<!-- MORE LISTS -->
+		<!-- HOME - MORE LISTS -->
 
 		<?php include "components/content/html/secondary.html" ?>
 		<?php include "components/content/html/tertiary.html" ?>
 		<?php include "components/content/html/basic.html" ?>
 
-		<!-- ABOUT AND CONTACT -->
+		<!-- HOME - ABOUT AND CONTACT -->
 
 		<?php include "components/about/html/about.html" ?>
 		<?php include "components/contact/html/contact.html" ?>
