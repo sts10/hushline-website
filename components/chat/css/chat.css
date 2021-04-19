@@ -160,7 +160,7 @@
 }
 
 .listUtilities .meta {
-  position: inherit;
+  position: initial;
   top: inherit;
   right: inherit;
 }
