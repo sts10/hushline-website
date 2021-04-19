@@ -47,6 +47,7 @@
 
 label + input[type="text"]{
   display: block;
+  margin-top: var(--spacing-xsmall);
 }
 
 label {
@@ -70,7 +71,7 @@ input[type="text"] {
   fieldset div {
     margin-bottom: var(--spacing-xsmall);
   }
-  
+
   input[type="checkbox"] + label {
     font-size: var(--font-size-body);
   }
