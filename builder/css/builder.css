@@ -171,11 +171,11 @@ aside {
   }
 
   .canvas .table {
-    top: 110px !important;
+    top: 108px !important;
   }
 
   .canvas .listUtilities {
-    top: 74px;
+    top: 71px;
   }
 
   aside {
@@ -200,19 +200,19 @@ aside {
   }
 
   .canvas .emptyTable {
-    top: 74px !important;
+    top: 71px !important;
   }
 
   .canvas .chat-template .table {
-    top: 74px !important;
+    top: 71px !important;
   }
 
   .canvas .detailView {
-    top: 74px;
+    top: 71px;
   }
 
   .canvas .chatHeader {
-    top: 74px;
+    top: 71px;
   }
 }
 
