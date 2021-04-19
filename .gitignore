@@ -54,3 +54,7 @@ examples/onionshare/assets/logo/._dm-logo-onionshare.png
 examples/onionshare/assets/logo/._dm-logo-onionshare.svg
 examples/onionshare/assets/logo/._lm-logo-onionshare.png
 examples/onionshare/assets/logo/._lm-logo-onionshare.svg
+._chat.html
+examples/onionshare/._chat.html
+examples/onionshare/._receive.html
+examples/onionshare/._share-zero-state.html
