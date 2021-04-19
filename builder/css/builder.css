@@ -239,6 +239,7 @@ aside {
 @media only screen and (max-width: 480px) {
   aside {
     width: 80%;
+    font-size: var(--font-size-body);
   }
 
   .canvas .pinnedList .table {
