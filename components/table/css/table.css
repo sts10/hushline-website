@@ -200,19 +200,7 @@ th, td {
 
 }
 
-@media only screen and (max-width: 375px) {
-
-  th, td {
-    padding: var(--spacing-small) var(--spacing-medium) ;
-  }
-
-  table {
-    font-size: var(--font-size-body);
-    line-height: var(--line-height-body);
-  }
-}
-
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 480px) {
 
   .emptyBg {
     width: 200px;
