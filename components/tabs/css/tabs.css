@@ -39,6 +39,7 @@
 .tabs.wrapper {
   width: 100%;
   padding: 0 var(--spacing-medium)!important;
+  z-index: 1;
 }
 
 .tabs h2 {
@@ -73,14 +74,6 @@
   width: 100%;
   z-index: 3;
   padding-top: 0;
-}
-
-.clonedTabs {
-  display: none;
-}
-
-.clonedTabsVisible {
-  display: flex;
 }
 
 @media only screen and (max-width: 960px) {
