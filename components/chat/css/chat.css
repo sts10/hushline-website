@@ -1,14 +1,15 @@
 @media (prefers-color-scheme: light) {
-  .pinnedList .window {
+  .pinnedList {
     border-right: var(--border-lm);
   }
 
   .userName {
     background-color: white;
+    border-top: var(--border-lm);
   }
 
   .pinnedList .card.selected {
-    background-color: var(--color-shade-lm);
+    background-color: var(--color-shade);
     border-left: 3px solid var(--color-dark);
   }
 
@@ -21,7 +22,7 @@
     background-color: white;
   }
 
-  .detailView {
+  .mainStage {
     background-color: var(--color-shade);
   }
 
@@ -34,7 +35,7 @@
     color: var(--color-light);
   }
 
-  .noHeader .chatWindow {
+  .noHeader.chatWindow {
     border-top: var(--border-lm);
   }
 
@@ -50,7 +51,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .pinnedList .window {
+  .pinnedList {
     border-right: var(--border-dm);
   }
 
@@ -62,10 +63,6 @@
   .pinnedList .card.selected {
     background-color: var(--color-shade-dm);
     border-left: 3px solid var(--color-light);
-  }
-
-  .detailView {
-    background-color: var(--color-shade-dm);
   }
 
   .chatHeader {
@@ -81,7 +78,11 @@
     color: var(--color-dark);
   }
 
-  .noHeader .chatWindow {
+  .mainStage {
+    background-color: var(--color-shade-dm);
+  }
+
+  .noHeader.chatWindow {
     border-top: var(--border-dm);
   }
 
@@ -93,13 +94,22 @@
     border-bottom: var(--border-dm);
     background-color: var(--color-dark);
   }
+
+  .pinnedList {
+    border-top: var(--border-dm);
+  }
 }
 
 /* CHAT USER LIST */
 
 .pinnedList {
-  width: 30%;
+  top: 88px;
+  right: 70%;
+  left: 0;
+  bottom: 0;
   margin-bottom: 0;
+  position: fixed;
+  overflow-y: scroll;
 }
 
 .pinnedList h2 {
@@ -113,23 +123,26 @@
   text-decoration: none;
 }
 
-.pinnedList .window {
-  right: 70%;
-}
+/* CARDS */
 
-.pinnedList .window {
-  top: 88px;
-}
-
-.userList .card {
+.card {
   position: relative;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding: var(--spacing-base);
+  align-items: flex-start;
 }
 
 .simpleUserList .card {
   border-bottom: none;
 }
 
-.userList .meta {
+.simpleUserList .cardMeta p:first-of-type {
+  margin-bottom: 0 !important;
+}
+
+.pinnedList .meta {
   position: absolute;
   top: calc(var(--spacing-small) + 6px);
   right: var(--spacing-base);
@@ -150,14 +163,6 @@
   margin-bottom: inherit;
 }
 
-.card {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  padding: var(--spacing-base);
-  align-items: flex-start;
-}
-
 .simpleUserList .card {
   padding-top: var(--spacing-small);
   padding-bottom: var(--spacing-small);
@@ -175,12 +180,13 @@
 /* CHAT WINDOW */
 
 .chatTabs {
-  margin-top: 88px;
   padding-bottom: 0;
   display: none;
+  position: fixed;
+  top: 0;
 }
 
-.detailView {
+.mainStage {
   position: fixed;
   top: 88px;
   left: 30%;
@@ -216,14 +222,6 @@
   margin: 0 auto;
 }
 
-.noHeader.detailView {
-  top: 88px;
-}
-
-.noHeader .chatWindow {
-  top: 88px;
-}
-
 .messageRow {
   display: flex;
   width: 100%;
@@ -239,10 +237,6 @@
 img.listAvatar {
   width: calc(var(--spacing-xlarge) * 1.1);
   margin-right: var(--spacing-small);
-}
-
-.pinnedList .windowRow {
-  display: inherit;
 }
 
 .messageRow.outgoing {
@@ -264,10 +258,6 @@ img.listAvatar {
   float: right;
 }
 
-.chatMessages {
-  margin-bottom: 0;
-}
-
 .messageComposer {
   position: fixed;
   bottom: 0;
@@ -279,6 +269,10 @@ img.listAvatar {
 
 .mobilePinnedList {
   width: 100%;
+}
+
+.chatWindow.noHeader {
+  top: 88px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -298,6 +292,7 @@ img.listAvatar {
 
   .chatWindow {
     left: 0;
+    top: 141px;
   }
 
   .chatHeader {
@@ -312,19 +307,21 @@ img.listAvatar {
 
   .chatTabs {
     display: inherit;
-    top: 133px !important;
+    top: 88px !important;
   }
 
   .chatWindow {
-    top: 186px;
+    top: 187px;
   }
 
-  .noHeader.detailView {
+  .mainStage {
+    left: 0;
     top: 133px;
   }
 
-  .noHeader .chatWindow {
+  .chatWindow.noHeader {
     top: 133px;
+    border-top: 0;
   }
 
 }

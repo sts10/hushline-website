@@ -55,156 +55,158 @@
 			</nav>
 		</section>
 
-		<section class="pinnedList userList">
-			<section class="window">
-				<div class="userName">
-					<label for="user-name">Username</label>
-					<input type="text" id="user-name" value="🦒 Curious Giraffe">
-				</div>
-				<div class="card">
-					<img class="listAvatar" src="assets/placeholder/circle.svg">
-					<div class="cardMeta">
-						<p>Melissa Lopez</p>
-						<p>Did you see how much @Snowden's NFT went for?</p>
-						<p class="meta">Now</p>
-					</div>
-				</div>
-				<div class="card">
-					<img class="listAvatar" src="assets/placeholder/circle.svg">
-					<div class="cardMeta">
-						<p>Susan Newman</p>
-						<p>The new build is ready!</p>
-						<p class="meta">1 min</p>
-					</div>
-				</div>
-				<div class="card">
-					<img class="listAvatar" src="assets/placeholder/circle.svg">
-					<div class="cardMeta">
-						<p>🦡 Angry Badger</p>
-						<p>I'm on my way to the city. Do you need anything?</p>
-						<p class="meta">5 mins</p>
-					</div>
-				</div>
-				<div class="card selected">
-					<img class="listAvatar" src="assets/placeholder/circle.svg">
-					<div class="cardMeta">
-						<p>Art Vandelay</p>
-						<p>You're considering hiring me for your latex salesman.</p>
-						<p class="meta">Yesterday</p>
-					</div>
-				</div>
-				<div class="card">
-					<img class="listAvatar" src="assets/placeholder/circle.svg">
-					<div class="cardMeta">
-						<p>Cookie</p>
-						<p>Pick me up something from the store</p>
-						<p class="meta">2 days</p>
-					</div>
-				</div>
-				<div class="card">
-					<img class="listAvatar" src="assets/placeholder/circle.svg">
-					<div class="cardMeta">
-						<p>🦒 Curious Giraffe</p>
-						<p>Feel like going camping this weekend? Midpines is looking open!</p>
-						<p class="meta">Jan 1</p>
-					</div>
-				</div>
-				<div class="card">
-					<img class="listAvatar" src="assets/placeholder/circle.svg">
-					<div class="cardMeta">
-						<p>Willy Bo</p>
-						<p>Call me when you wake up!</p>
-						<p class="meta">Dec 31, 2020</p>
-					</div>
-				</div>
-				<div class="card">
-					<img class="listAvatar" src="assets/placeholder/circle.svg">
-					<div class="cardMeta">
-						<p>Carlos</p>
-						<p>I'll be in the neighborhood tomorrow! I'll stop by! </p>
-						<p class="meta">Nov 2, 2020</p>
-					</div>
-				</div>
-			</section>
-		</section> <!-- END PINNED LIST -->
+		<section class="container chatContainer">
 
-		<section class="detailView">
-			<div class="chatWindow">
-				<div class="chatHeader">
-					<p>Art Vandelay</p>
-				</div>
-				<div class="messageRow outgoing">
-					<div class="message">
-						<p>Have you seen the <a href="https://glenn-sorrentino.github.io/design-system" target="_blank">Simple Design System</a>?</p>
-						<p class="meta">🦡 Angry Badger</p>
+			<section class="pinnedList">
+					<div class="userName">
+						<label for="user-name">Username</label>
+						<input type="text" id="user-name" value="🦒 Curious Giraffe">
+					</div>
+					<div class="card">
+						<img class="listAvatar" src="assets/placeholder/circle.svg">
+						<div class="cardMeta">
+							<p>Melissa Lopez</p>
+							<p>Did you see how much @Snowden's NFT went for?</p>
+							<p class="meta">Now</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="listAvatar" src="assets/placeholder/circle.svg">
+						<div class="cardMeta">
+							<p>Susan Newman</p>
+							<p>The new build is ready!</p>
+							<p class="meta">1 min</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="listAvatar" src="assets/placeholder/circle.svg">
+						<div class="cardMeta">
+							<p>🦡 Angry Badger</p>
+							<p>I'm on my way to the city. Do you need anything?</p>
+							<p class="meta">5 mins</p>
+						</div>
+					</div>
+					<div class="card selected">
+						<img class="listAvatar" src="assets/placeholder/circle.svg">
+						<div class="cardMeta">
+							<p>Art Vandelay</p>
+							<p>You're considering hiring me for your latex salesman.</p>
+							<p class="meta">Yesterday</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="listAvatar" src="assets/placeholder/circle.svg">
+						<div class="cardMeta">
+							<p>Cookie</p>
+							<p>Pick me up something from the store</p>
+							<p class="meta">2 days</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="listAvatar" src="assets/placeholder/circle.svg">
+						<div class="cardMeta">
+							<p>🦒 Curious Giraffe (you)</p>
+							<p>Feel like going camping this weekend? Midpines is looking open!</p>
+							<p class="meta">Jan 1</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="listAvatar" src="assets/placeholder/circle.svg">
+						<div class="cardMeta">
+							<p>Willy Bo</p>
+							<p>Call me when you wake up!</p>
+							<p class="meta">Dec 31, 2020</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="listAvatar" src="assets/placeholder/circle.svg">
+						<div class="cardMeta">
+							<p>Carlos</p>
+							<p>I'll be in the neighborhood tomorrow! I'll stop by! </p>
+							<p class="meta">Nov 2, 2020</p>
+						</div>
+					</div>
+			</section> <!-- END PINNED LIST -->
+
+			<section class="mainStage">
+				<div class="chatWindow">
+					<div class="chatHeader">
+						<p>Art Vandelay</p>
+					</div>
+					<div class="messageRow outgoing">
+						<div class="message">
+							<p>Have you seen the <a href="https://glenn-sorrentino.github.io/design-system" target="_blank">Simple Design System</a>?</p>
+							<p class="meta">🦡 Angry Badger</p>
+						</div>
+					</div>
+					<div class="messageRow incoming">
+						<div class="message">
+							<p>Listen closely. I was at the unemployment office and I told them that I was very close
+								to getting a job with Vandaley Indusdivies and I gave them your phone number. So, when now when the phone
+								rings you've got to answer "Vanadaley Indusdivies".</p>
+							<p class="meta">Art Vandelay</p>
+						</div>
+					</div>
+					<div class="messageRow outgoing">
+						<div class="message">
+							<p>I'm Vandelay Indusdivies?</p>
+							<p class="meta">🦡 Angry Badger</p>
+						</div>
+					</div>
+					<div class="messageRow incoming">
+						<div class="message">
+							<p>Right</p>
+							<p class="meta">Art Vandelay</p>
+						</div>
+					</div>
+					<div class="messageRow outgoing">
+						<div class="message">
+							<p>🙃 And what is that?</p>
+							<p class="meta">🦡 Angry Badger</p>
+						</div>
+					</div>
+					<div class="messageRow">
+						<div class="chatAlert">
+							<p>🦒 Curious Giraffe joined the chat!</p>
+						</div>
+					</div>
+					<div class="messageRow incoming">
+						<div class="message">
+							<p>You're in latex</p>
+							<p class="meta">Art Vandelay</p>
+						</div>
+					</div>
+					<div class="messageRow outgoing">
+						<div class="message">
+							<p>Latex? And what do I do with latex?</p>
+							<p class="meta">🦡 Angry Badger</p>
+						</div>
+					</div>
+					<div class="messageRow incoming">
+						<div class="message">
+							<p>Ya manufacture it 🏭</p>
+							<p class="meta">Art Vandelay</p>
+						</div>
+					</div>
+					<div class="messageRow outgoing">
+						<div class="message outgoing">
+							<p>😂 And what do I say about you?</p>
+							<p class="meta">🦡 Angry Badger</p>
+						</div>
+					</div>
+					<div class="messageRow incoming">
+						<div class="message">
+							<p>You're considering hiring me for your latex salesman 👔</p>
+							<p class="meta">Art Vandelay</p>
+						</div>
 					</div>
 				</div>
-				<div class="messageRow incoming">
-					<div class="message">
-						<p>Listen closely. I was at the unemployment office and I told them that I was very close
-							to getting a job with Vandaley Indusdivies and I gave them your phone number. So, when now when the phone
-							rings you've got to answer "Vanadaley Indusdivies".</p>
-						<p class="meta">Art Vandelay</p>
-					</div>
+				<div class="messageComposer">
+					<input type="text" placeholder="Your message...">
 				</div>
-				<div class="messageRow outgoing">
-					<div class="message">
-						<p>I'm Vandelay Indusdivies?</p>
-						<p class="meta">🦡 Angry Badger</p>
-					</div>
-				</div>
-				<div class="messageRow incoming">
-					<div class="message">
-						<p>Right</p>
-						<p class="meta">Art Vandelay</p>
-					</div>
-				</div>
-				<div class="messageRow outgoing">
-					<div class="message">
-						<p>🙃 And what is that?</p>
-						<p class="meta">🦡 Angry Badger</p>
-					</div>
-				</div>
-				<div class="messageRow">
-					<div class="chatAlert">
-						<p>🦒 Curious Giraffe joined the chat!</p>
-					</div>
-				</div>
-				<div class="messageRow incoming">
-					<div class="message">
-						<p>You're in latex</p>
-						<p class="meta">Art Vandelay</p>
-					</div>
-				</div>
-				<div class="messageRow outgoing">
-					<div class="message">
-						<p>Latex? And what do I do with latex?</p>
-						<p class="meta">🦡 Angry Badger</p>
-					</div>
-				</div>
-				<div class="messageRow incoming">
-					<div class="message">
-						<p>Ya manufacture it 🏭</p>
-						<p class="meta">Art Vandelay</p>
-					</div>
-				</div>
-				<div class="messageRow outgoing">
-					<div class="message outgoing">
-						<p>😂 And what do I say about you?</p>
-						<p class="meta">🦡 Angry Badger</p>
-					</div>
-				</div>
-				<div class="messageRow incoming">
-					<div class="message">
-						<p>You're considering hiring me for your latex salesman 👔</p>
-						<p class="meta">Art Vandelay</p>
-					</div>
-				</div>
-			</div>
-			<div class="messageComposer">
-				<input type="text" placeholder="Your message...">
-			</div>
-		</section> <!-- END DETAIL VIEW -->
+			</section> <!-- END MAIN STAGE -->
+
+		</section>
 
 </body>
 

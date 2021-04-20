@@ -22,7 +22,6 @@ html {}
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  transition: all 0.3s;
 }
 
 .clearfix:after {
@@ -55,6 +54,15 @@ section {
 .hidden {
   opacity: none !important;
   display: none !important;
+}
+
+.container {
+  position: fixed;
+  top: 88px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-bottom: 0;
 }
 
 p + ul {
