@@ -250,7 +250,6 @@ $(document).ready(function() {
 
   $('.chatTab').on('click', function() {
     $('.pinnedList').removeClass('pinnedListVisible');
-    $('.mainStage').removeClass('hidden');
     $('.usersTab').removeClass('selected');
     $('.chatTab').addClass('selected');
   });
