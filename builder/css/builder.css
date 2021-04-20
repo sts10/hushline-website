@@ -97,7 +97,7 @@ aside .navButton {
 }
 
 .canvas .pinnedList .window.wide {
-  right: 70% !important;
+  right: 100% !important;
   width: inherit;
 }
 

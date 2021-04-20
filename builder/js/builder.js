@@ -84,7 +84,7 @@ $(document).ready(function() {
 
   $('#empty-table').on('click', function() {
     $('.emptyTable').toggleClass('hidden');
-    $('.tableContent').toggleClass('hidden');
+    $('.windowContent').toggleClass('hidden');
   });
 
   // HOME FILTERS
@@ -232,8 +232,8 @@ $(document).ready(function() {
     $('aside').toggleClass('hidden');
     $('.canvas').toggleClass('wide');
     $('.canvas header').toggleClass('wide');
-    $('.canvas .table').toggleClass('wide');
-    $('.canvas .pinnedList .table').removeClass('wide');
+    $('.canvas .window').toggleClass('wide');
+    $('.canvas .pinnedList .window').removeClass('wide');
     $('.canvas .chatWindow').toggleClass('edge');
     $('.canvas .chatHeader').toggleClass('edge');
     $('.canvas .messageComposer').toggleClass('edge');
@@ -243,7 +243,7 @@ $(document).ready(function() {
     $('aside').toggleClass('hidden');
     $('.canvas').toggleClass('wide');
     $('.canvas header').toggleClass('wide');
-    $('.canvas .pinnedList .table').removeClass('wide');
+    $('.canvas .pinnedList .window').removeClass('wide');
     $('.canvas .chatWindow').toggleClass('edge');
     $('.canvas .chatHeader').toggleClass('edge');
     $('.canvas .messageComposer').toggleClass('edge');
@@ -253,8 +253,8 @@ $(document).ready(function() {
     $('aside').toggleClass('hidden');
     $('.canvas').toggleClass('wide');
     $('.canvas header').toggleClass('wide');
-    $('.canvas .table').toggleClass('wide');
-    $('.canvas .pinnedList .table').removeClass('wide');
+    $('.canvas .window').toggleClass('wide');
+    $('.canvas .pinnedList .window').removeClass('wide');
     $('.canvas .chatWindow').toggleClass('edge');
     $('.canvas .chatHeader').toggleClass('edge');
     $('.canvas .messageComposer').toggleClass('edge');
