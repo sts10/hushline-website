@@ -174,6 +174,12 @@
 
 /* CHAT WINDOW */
 
+.chatTabs {
+  margin-top: 88px;
+  padding-bottom: 0;
+  display: none;
+}
+
 .detailView {
   position: fixed;
   top: 88px;
@@ -188,7 +194,7 @@
   bottom: 69px;
   left: 30%;
   right: 0;
-  top: 140px;
+  top: 141px;
   overflow-y: scroll;
   padding: var(--spacing-base);
 }
@@ -208,6 +214,10 @@
   font-size: var(--font-size-small);
   font-family: var(--font-sans-bold);
   margin: 0 auto;
+}
+
+.noHeader.detailView {
+  top: 88px;
 }
 
 .noHeader .chatWindow {
@@ -267,17 +277,23 @@ img.listAvatar {
   z-index: 1;
 }
 
+.mobilePinnedList {
+  width: 100%;
+}
+
 @media only screen and (max-width: 768px) {
   .pinnedList {
-    width: 0%;
+    display: none;
   }
 
   .pinnedList .window {
     right: 100%;
     border-right: none;
   }
+
   .detailView {
     left: 0;
+    top: 133px;
   }
 
   .chatWindow {
@@ -287,10 +303,28 @@ img.listAvatar {
   .chatHeader {
     right: 0;
     left: 0;
+    top: 133px;
   }
 
   .messageComposer {
     left: 0;
+  }
+
+  .chatTabs {
+    display: inherit;
+    top: 133px !important;
+  }
+
+  .chatWindow {
+    top: 186px;
+  }
+
+  .noHeader.detailView {
+    top: 133px;
+  }
+
+  .noHeader .chatWindow {
+    top: 133px;
   }
 
 }

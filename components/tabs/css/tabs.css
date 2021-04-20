@@ -5,6 +5,7 @@
 
   .tabs a:hover {
     border-bottom: 3px solid var(--color-dark);
+    background-color: var(--color-shade);
   }
 
   .tabs a.selected {
@@ -23,6 +24,7 @@
 
   .tabs a:hover {
     border-bottom: 3px solid var(--color-light);
+    background-color: var(--color-shade);
   }
 
   .tabs a.selected {

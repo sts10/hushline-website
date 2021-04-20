@@ -85,6 +85,10 @@
   }
 }
 
+.pinnedList {
+  transition: none;
+}
+
 .card {
   cursor: pointer;
 }

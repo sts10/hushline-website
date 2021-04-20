@@ -22,10 +22,18 @@
   .pinnedList tr.selected {
     border-left: 3px solid rgba(78, 13, 78, 1);
   }
+
+  .tabs a.selected {
+    border-bottom: 3px solid rgba(78, 13, 78, 1) !important;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   .logoMark {
     background-image: url('../assets/logo/dm-logo-onionshare.png');
   }
+}
+
+body {
+  transition: none !important;
 }
