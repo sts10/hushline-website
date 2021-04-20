@@ -88,12 +88,6 @@
   background-color: var(--color-shade);
 }
 
-.sectionContent .wrapper {
-  max-width: inherit;
-  padding-left: var(--spacing-medium) !important;
-  padding-right: var(--spacing-medium) !important;
-}
-
 .window .empty {
   display: flex;
   align-items: center;
