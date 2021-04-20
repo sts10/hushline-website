@@ -1,5 +1,5 @@
 @media (prefers-color-scheme: light) {
-  .pinnedList .table {
+  .pinnedList .window {
     border-right: var(--border-lm);
   }
 
@@ -38,10 +38,14 @@
     color: var(--color-dark) !important;
     width: max-content;
   }
+
+  .card {
+    border-bottom: var(--border-lm);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
-  .pinnedList .table {
+  .pinnedList .window {
     border-right: var(--border-dm);
   }
 
@@ -50,7 +54,7 @@
     color: var(--color-dark);
   }
 
-  .pinnedList tr.selected {
+  .pinnedList .card.selected {
     background-color: var(--color-dark);
     border-left: 3px solid var(--color-light);
   }
@@ -79,6 +83,10 @@
   .message .meta {
     color: var(--color-light) !important;
   }
+
+  .card {
+    border-bottom: var(--border-dm);
+  }
 }
 
 /* CHAT USER LIST */
@@ -99,64 +107,26 @@
   text-decoration: none;
 }
 
-.pinnedList .table {
+.pinnedList .window {
   right: 70%;
 }
 
-.pinnedList th, .pinnedList td {
-  padding: var(--spacing-small) var(--spacing-medium);
-}
-
-.pinnedList td {
-  border-bottom: none;
-  word-wrap: anywhere;
-}
-
-.pinnedList table {
-  font-size: var(--font-size-body);
-  line-height: var(--line-height-body);
-}
-
-.pinnedList tr {
-  display: block;
-  padding-top: var(--spacing-small);
-  padding-bottom: var(--spacing-small);
-}
-
-.pinnedList td:first-of-type {
-  font-family: var(--font-sans-bold);
-  font-size: calc(var(--font-size-body)*.9) !important;
-  opacity: 1;
-}
-
-.pinnedList tr:first-of-type {
-  display: none;
-}
-
-.pinnedList td {
-  display: block;
-  padding-top: 0;
-  padding-bottom: 0;
-  font-size: var(--font-size-small);
-  opacity: .75;
-}
-
-.pinnedList .table {
+.pinnedList .window {
   top: 88px;
 }
 
-.userList tr {
+.userList .card {
   position: relative;
 }
 
-.simpleUserList tr {
+.simpleUserList .card {
   border-bottom: none;
 }
 
 .userList .meta {
   position: absolute;
-  top: calc(var(--spacing-small) + 2px);
-  right: 0;
+  top: calc(var(--spacing-small) + 6px);
+  right: var(--spacing-small);
 }
 
 .listUtilities .meta {
@@ -165,12 +135,35 @@
   right: inherit;
 }
 
-.userList td:first-of-type {
-  margin-bottom: calc(var(--spacing-xsmall) * .25);
+.cardMeta p:first-of-type {
+  margin-bottom: calc(var(--spacing-xsmall) / 2);
+  font-family: var(--font-sans-bold);
 }
 
-.simpleUserList td:first-of-type {
+.simpleUserList .card:first-of-type {
   margin-bottom: inherit;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding: var(--spacing-base);
+  align-items: flex-start;
+}
+
+.simpleUserList .card {
+  padding-top: var(--spacing-small);
+  padding-bottom: var(--spacing-small);
+}
+
+.cardMeta {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardMeta p {
+  font-size: var(--font-size-small);
 }
 
 /* CHAT WINDOW */
@@ -227,6 +220,18 @@
   margin: var(--spacing-small) 0;
 }
 
+img.listAvatar {
+  width: var(--spacing-large);
+  float: left;
+  margin-bottom: var(--spacing-base);
+  margin-right: var(--spacing-small);
+  margin-top: calc(var(--spacing-xsmall) / 2);
+}
+
+.pinnedList .windowRow {
+  display: inherit;
+}
+
 .messageRow.outgoing {
   justify-content: flex-end;
 }
@@ -264,7 +269,7 @@
     width: 0%;
   }
 
-  .pinnedList .table {
+  .pinnedList .window {
     right: 100%;
     border-right: none;
   }

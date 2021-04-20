@@ -38,7 +38,7 @@
 }
 
 .userName {
-  padding: var(--spacing-base);
+  padding: var(--spacing-base) var(--spacing-small);
 }
 
 .userName input {

@@ -1,5 +1,5 @@
 @media (prefers-color-scheme: light) {
-  .table {
+  .window {
     border-top: var(--border-lm);
   }
 
@@ -38,7 +38,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .table {
+  .window {
     border-top: var(--border-dm);
   }
 
@@ -77,7 +77,7 @@
   }
 }
 
-.table {
+.window {
   top: 123px;
   bottom: 0;
   right: 0;
@@ -88,13 +88,13 @@
   background-color: var(--color-shade);
 }
 
-.tableContent .wrapper {
+.sectionContent .wrapper {
   max-width: inherit;
   padding-left: var(--spacing-medium) !important;
   padding-right: var(--spacing-medium) !important;
 }
 
-.table .empty {
+.window .empty {
   display: flex;
   align-items: center;
   height: 100%;
@@ -137,7 +137,7 @@
   border-top: none;
 }
 
-header.singleNav + .listUtilities + .table {
+header.singleNav + .listUtilities + .window {
   top: 123px;
 }
 
@@ -168,7 +168,7 @@ th {
 }
 
 th, td {
-  padding: var(--spacing-xsmall) var(--spacing-medium)!important;
+  padding: var(--spacing-xsmall) var(--spacing-base)!important;
 }
 
 .pinnedList td {
@@ -186,7 +186,7 @@ th, td {
     padding: var(--spacing-xsmall) var(--spacing-medium) ;
   }
 
-  .table {
+  .window {
     top: 123px;
   }
 
