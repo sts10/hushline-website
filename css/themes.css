@@ -64,6 +64,7 @@
 
 .glow .outgoing p:first-of-type {
   background-color: var(--theme-glow)!important;
+  color: var(--color-light);
 }
 
 .glow .pinnedList .card.selected {
