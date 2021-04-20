@@ -781,6 +781,7 @@
 			</footer>
 
 		</section>
+
 		<!-- TABLE TEMPLATE -->
 
 		<section class="table-template hidden">
@@ -811,7 +812,7 @@
 				</div>
 			</header>
 
-			<section class="table emptyTable hidden">
+			<section class="window emptyTable hidden">
 				<div class="empty wrapper centeredContent">
 					<div class="description">
 						<!-- FOR EMPTY STATE ILLUSTRATIONS -->
@@ -822,11 +823,11 @@
 				</div>
 			</section>
 
-			<section class="tableContent">
+			<section class="sectionContent">
 				<div class="listUtilities wrapper">
 					<p class="meta">24 items, 5.12GB</p>
 				</div>
-				<section class="table">
+				<section class="window">
 					<table>
 						<tr>
 							<th>Name</th>
@@ -993,55 +994,76 @@
 				</div>
 			</header>
 
-			<section class="tableContent pinnedList userList">
-				<section class="table">
-					<table>
-						<tr>
-							<th>Name</th>
-							<th>Message</th>
-							<th>Received</th>
-						</tr>
-						<tr>
-							<td><a href="#" target="_blank">Melissa Lopez</a></td>
-							<td>Did you see how much @Snowden's NFT went for?</td>
-							<td class="meta">Now</td>
-						</tr>
-						<tr>
-							<td><a href="#" target="_blank">Susan Newman</a></td>
-							<td>The new build is ready!</td>
-							<td class="meta">1 min ago</td>
-						</tr>
-						<tr>
-							<td><a href="#">🦡 Angry Badger</a></td>
-							<td>I'm on my way to the city. Do you need anything?</td>
-							<td class="meta">5 mins ago</td>
-						</tr>
-						<tr class="selected">
-							<td><a href="#">Art Vandelay</a></td>
-							<td>You're considering hiring me for your latex salesman.</td>
-							<td class="meta">Yesterday</td>
-						</tr>
-						<tr>
-							<td><a href="#">Cookie</a></td>
-							<td>Pick me up something from the store</td>
-							<td class="meta">2 days ago</td>
-						</tr>
-						<tr>
-							<td><a href="#">Brian New</a></td>
-							<td>Feel like going camping this weekend? Midpines is looking open!</td>
-							<td class="meta">Jan 1</td>
-						</tr>
-						<tr>
-							<td><a href="#">Willy Bo</a></td>
-							<td>Call me when you wake up!</td>
-							<td class="meta">Dec 31, 2020</td>
-						</tr>
-						<tr>
-							<td><a href="#">Carlos</a></td>
-							<td>I'll be in the neighborhood tomorrow! I'll stop by! </td>
-							<td class="meta">Nov 2, 2020</td>
-						</tr>
-					</table>
+			<section class="sectionContent pinnedList userList">
+				<section class="window">
+					<div class="userName">
+						<label for="user-name">Username</label>
+						<input type="text" id="user-name" placeholder="User Name" value="Art Vandelay">
+					</div>
+					<div class="card">
+						<img class="listAvatar" src="assets/placeholder/circle.svg">
+						<div class="cardMeta">
+							<p>Melissa Lopez</p>
+							<p>Did you see how much @Snowden's NFT went for?</p>
+							<p class="meta">Now</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="listAvatar" src="assets/placeholder/circle.svg">
+						<div class="cardMeta">
+							<p>Susan Newman</p>
+							<p>The new build is ready!</p>
+							<p class="meta">1 min</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="listAvatar" src="assets/placeholder/circle.svg">
+						<div class="cardMeta">
+							<p>🦡 Angry Badger</p>
+							<p>I'm on my way to the city. Do you need anything?</p>
+							<p class="meta">5 mins</p>
+						</div>
+					</div>
+					<div class="card selected">
+						<img class="listAvatar" src="assets/placeholder/circle.svg">
+						<div class="cardMeta">
+							<p>Art Vandelay</p>
+							<p>You're considering hiring me for your latex salesman.</p>
+							<p class="meta">Yesterday</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="listAvatar" src="assets/placeholder/circle.svg">
+						<div class="cardMeta">
+							<p>Cookie</p>
+							<p>Pick me up something from the store</p>
+							<p class="meta">2 days</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="listAvatar" src="assets/placeholder/circle.svg">
+						<div class="cardMeta">
+							<p>🦒 Curious Giraffe</p>
+							<p>Feel like going camping this weekend? Midpines is looking open!</p>
+							<p class="meta">Jan 1</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="listAvatar" src="assets/placeholder/circle.svg">
+						<div class="cardMeta">
+							<p>Willy Bo</p>
+							<p>Call me when you wake up!</p>
+							<p class="meta">Dec 31, 2020</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="listAvatar" src="assets/placeholder/circle.svg">
+						<div class="cardMeta">
+							<p>Carlos</p>
+							<p>I'll be in the neighborhood tomorrow! I'll stop by! </p>
+							<p class="meta">Nov 2, 2020</p>
+						</div>
+					</div>
 				</section>
 			</section> <!-- END PINNED LIST -->
 
