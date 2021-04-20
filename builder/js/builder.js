@@ -15,6 +15,7 @@ $(document).ready(function() {
     $('#article-filters').addClass('hidden');
     $('#table-filters').addClass('hidden');
     $('.chat-template').addClass('hidden');
+    $('#chat-filters').addClass('hidden');
   });
 
   $('#home').on('click', function() {
@@ -28,6 +29,7 @@ $(document).ready(function() {
     $('#article-filters').addClass('hidden');
     $('#table-filters').addClass('hidden');
     $('.chat-template').addClass('hidden');
+    $('#chat-filters').addClass('hidden');
   });
 
   $('#secondary').on('click', function() {
@@ -41,6 +43,7 @@ $(document).ready(function() {
     $('#secondary-filters').removeClass('hidden');
     $('#table-filters').addClass('hidden');
     $('.chat-template').addClass('hidden');
+    $('#chat-filters').addClass('hidden');
   });
 
   $('#article').on('click', function() {
@@ -54,6 +57,7 @@ $(document).ready(function() {
     $('#article-filters').removeClass('hidden');
     $('#table-filters').addClass('hidden');
     $('.chat-template').addClass('hidden');
+    $('#chat-filters').addClass('hidden');
   });
 
   $('#table').on('click', function() {
@@ -67,6 +71,7 @@ $(document).ready(function() {
     $('#article-filters').addClass('hidden');
     $('#table-filters').removeClass('hidden');
     $('.chat-template').addClass('hidden');
+    $('#chat-filters').addClass('hidden');
   });
 
   $('#chat').on('click', function() {
@@ -80,11 +85,12 @@ $(document).ready(function() {
     $('#secondary-filters').addClass('hidden');
     $('#article-filters').addClass('hidden');
     $('#table-filters').addClass('hidden');
+    $('#chat-filters').removeClass('hidden');
   });
 
   $('#empty-table').on('click', function() {
     $('.emptyTable').toggleClass('hidden');
-    $('.windowContent').toggleClass('hidden');
+    $('.tableContent').toggleClass('hidden');
   });
 
   // HOME FILTERS
@@ -225,6 +231,17 @@ $(document).ready(function() {
   $('#button-group').on('click', function() {
     $('.buttonGroupContent').toggleClass('hidden');
   });
+
+  // CHAT
+
+  $('#avatar').on('click', function() {
+    $('.listAvatar').toggleClass('hidden');
+  });
+
+  $('#username').on('click', function() {
+    $('.userName').toggleClass('hidden');
+  });
+
 
   // GLOBAL
 
