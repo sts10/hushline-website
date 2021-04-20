@@ -125,7 +125,7 @@
 }
 
 .listUtilities {
-  padding: var(--spacing-xsmall) var(--spacing-medium) !important;
+  padding: var(--spacing-xsmall) var(--spacing-base) !important;
   position: fixed;
   top: 88px;
   width: 100%;
@@ -135,6 +135,7 @@
 .pinnedList .listUtilities {
   position: initial;
   border-top: none;
+  padding: var(--spacing-xsmall) var(--spacing-base) !important;
 }
 
 header.singleNav + .listUtilities + .window {
