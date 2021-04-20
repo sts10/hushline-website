@@ -227,10 +227,8 @@
 }
 
 img.listAvatar {
-  width: var(--spacing-large);
-  float: left;
+  width: calc(var(--spacing-xlarge) * 1.1);
   margin-right: var(--spacing-small);
-  margin-top: calc(var(--spacing-xsmall) / 2);
 }
 
 .pinnedList .windowRow {
