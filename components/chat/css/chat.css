@@ -1,11 +1,11 @@
 @media (prefers-color-scheme: light) {
   .pinnedList {
     border-right: var(--border-lm);
+    border-top: var(--border-lm);
   }
 
   .userName {
     background-color: white;
-    border-top: var(--border-lm);
   }
 
   .pinnedList .card.selected {
@@ -53,6 +53,7 @@
 @media (prefers-color-scheme: dark) {
   .pinnedList {
     border-right: var(--border-dm);
+    border-top: var(--border-dm);
   }
 
   .outgoing p:first-of-type {
