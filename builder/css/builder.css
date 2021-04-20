@@ -185,6 +185,27 @@ aside {
   .canvas .window {
     right: 33%;
   }
+
+  .canvas .chatHeader {
+    right: 33%;
+  }
+
+  .canvas .messageComposer {
+    right: 33%;
+  }
+
+  .canvas .chatWindow {
+    right: 33%;
+  }
+
+  .canvas .window {
+    right: 33%;
+  }
+
+  .canvas .emptyTable {
+    right: 33%;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
