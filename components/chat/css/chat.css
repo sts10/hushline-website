@@ -145,6 +145,10 @@
   margin-bottom: var(--spacing-base);
 }
 
+.messageRow:last-of-type {
+  margin-bottom: 0;
+}
+
 .chatAlert p {
   font-size: var(--font-size-xsmall) !important;
   opacity: .8;
