@@ -40,10 +40,6 @@ section.canvas {
   right: 25%;
 }
 
-.canvas .pinnedList tr {
-
-}
-
 .canvas .chatHeader {
   right: 25%;
 }
@@ -170,10 +166,6 @@ aside {
     height: calc(100vh - 70px - 48px) !important;
   }
 
-  .canvas .table {
-    /* top: 108px !important; */
-  }
-
   .canvas .listUtilities {
     top: 88px;
   }
@@ -190,24 +182,8 @@ aside {
     right: 33%;
   }
 
-  .canvas .table {
+  .canvas .window {
     right: 33%;
-  }
-
-  .canvas .emptyTable {
-    /* top: 71px !important; */
-  }
-
-  .canvas .chat-template .table {
-    /* top: 71px !important; */
-  }
-
-  .canvas .detailView {
-    /* top: 71px; */
-  }
-
-  .canvas .chatHeader {
-    /* top: 71px; */
   }
 }
 
@@ -220,7 +196,7 @@ aside {
     width: 100%;
   }
 
-  .canvas .table {
+  .canvas .window {
     right: 0;
   }
 
@@ -229,7 +205,7 @@ aside {
     z-index: 2;
   }
 
-  .canvas .pinnedList .table {
+  .canvas .pinnedList .window {
     right: 100% !important;
   }
 }
