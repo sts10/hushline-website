@@ -23,6 +23,10 @@
     background-color: #f4f4f4;
   }
 
+  .card:hover {
+    background-color: #f4f4f4;
+  }
+
   .listUtilities {
     background-color: #fafafa;
     border-top: var(--border-lm);
@@ -63,6 +67,10 @@
     background-color: var(--color-shade-dm);
   }
 
+  .card:hover {
+    background-color: var(--color-shade-dm);
+  }
+
   .listUtilities {
     background-color: #2e2e2e;
     border-top: var(--border-dm);
@@ -75,6 +83,10 @@
   .pinnedList .listUtilities {
     border-bottom: var(--border-dm);
   }
+}
+
+.card {
+  cursor: pointer;
 }
 
 .window {

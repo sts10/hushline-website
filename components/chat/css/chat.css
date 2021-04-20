@@ -132,7 +132,7 @@
 .userList .meta {
   position: absolute;
   top: calc(var(--spacing-small) + 6px);
-  right: var(--spacing-small);
+  right: var(--spacing-base);
 }
 
 .listUtilities .meta {
