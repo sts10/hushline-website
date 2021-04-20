@@ -1,17 +1,4 @@
 @media (prefers-color-scheme: light) {
-  .pinnedList {
-    border-right: var(--border-lm);
-    border-top: var(--border-lm);
-  }
-
-  .userName {
-    background-color: white;
-  }
-
-  .pinnedList .card.selected {
-    background-color: var(--color-shade);
-    border-left: 3px solid var(--color-dark);
-  }
 
   .outgoing p:first-of-type {
     background-color: var(--color-dark);
@@ -51,19 +38,9 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .pinnedList {
-    border-right: var(--border-dm);
-    border-top: var(--border-dm);
-  }
-
   .outgoing p:first-of-type {
     background-color: #c2c2c2;
     color: var(--color-dark);
-  }
-
-  .pinnedList .card.selected {
-    background-color: var(--color-shade-dm);
-    border-left: 3px solid var(--color-light);
   }
 
   .chatHeader {
@@ -90,64 +67,11 @@
   .message .meta {
     color: var(--color-light) !important;
   }
-
-  .card {
-    border-bottom: var(--border-dm);
-    background-color: var(--color-dark);
-  }
-
-  .pinnedList {
-    border-top: var(--border-dm);
-  }
 }
 
-/* CHAT USER LIST */
-
-.pinnedList {
-  top: 88px;
-  right: 70%;
-  left: 0;
-  bottom: 0;
-  margin-bottom: 0;
-  position: fixed;
-  overflow-y: scroll;
-}
-
-.pinnedList h2 {
-    font-size: var(--font-size-body);
-    line-height: var(--line-height-body);
-    margin-bottom: 0;
-    padding: var(--spacing-xsmall) var(--spacing-medium);
-}
-
-.pinnedList a {
-  text-decoration: none;
-}
 
 /* CARDS */
 
-.card {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  padding: var(--spacing-base);
-  align-items: flex-start;
-}
-
-.simpleUserList .card {
-  border-bottom: none;
-}
-
-.simpleUserList .cardMeta p:first-of-type {
-  margin-bottom: 0 !important;
-}
-
-.pinnedList .meta {
-  position: absolute;
-  top: calc(var(--spacing-small) + 6px);
-  right: var(--spacing-base);
-}
 
 .listUtilities .meta {
   position: initial;
@@ -167,15 +91,6 @@
 .simpleUserList .card {
   padding-top: var(--spacing-small);
   padding-bottom: var(--spacing-small);
-}
-
-.cardMeta {
-  display: flex;
-  flex-direction: column;
-}
-
-.cardMeta p {
-  font-size: var(--font-size-small);
 }
 
 /* CHAT WINDOW */
@@ -235,11 +150,6 @@
   margin: var(--spacing-small) 0;
 }
 
-img.listAvatar {
-  width: calc(var(--spacing-xlarge) * 1.1);
-  margin-right: var(--spacing-small);
-}
-
 .messageRow.outgoing {
   justify-content: flex-end;
 }
@@ -268,23 +178,11 @@ img.listAvatar {
   z-index: 1;
 }
 
-.mobilePinnedList {
-  width: 100%;
-}
-
 .chatWindow.noHeader {
   top: 88px;
 }
 
 @media only screen and (max-width: 768px) {
-  .pinnedList {
-    display: none;
-  }
-
-  .pinnedList .window {
-    right: 100%;
-    border-right: none;
-  }
 
   .detailView {
     left: 0;
