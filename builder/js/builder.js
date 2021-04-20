@@ -244,7 +244,6 @@ $(document).ready(function() {
 
   $('.usersTab').on('click', function() {
     $('.pinnedList').addClass('pinnedListVisible');
-    $('.mainStage').addClass('hidden');
     $('.usersTab').addClass('selected');
     $('.chatTab').removeClass('selected');
   });

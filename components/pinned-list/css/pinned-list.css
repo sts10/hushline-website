@@ -6,6 +6,7 @@
   .pinnedList {
     border-right: var(--border-lm);
     border-top: var(--border-lm);
+    background-color: white;
   }
 
   .userName {
@@ -13,7 +14,7 @@
   }
 
   .pinnedList .card.selected {
-    background-color: var(--color-shade);
+    background-color: var(--color-light);
     border-left: 3px solid var(--color-dark);
   }
 }
@@ -26,10 +27,11 @@
   .pinnedList {
     border-right: var(--border-dm);
     border-top: var(--border-dm);
+    background-color: var(--color-dark);
   }
 
   .pinnedList .card.selected {
-    background-color: var(--color-shade-dm);
+    background-color: var(--color-dark);
     border-left: 3px solid var(--color-light);
   }
 
@@ -102,8 +104,8 @@
 
 
 .pinnedListVisible {
-  width: 100%;
   display: initial !important;
+  z-index: 1;
 }
 
 img.listAvatar {
@@ -122,15 +124,17 @@ img.listAvatar {
   }
 
   .pinnedList .window {
-    right: 100%;
+    right: 0;
     border-right: none;
+  }
+
+  .pinnedListVisible {
+    right: 0;
   }
 
 }
 
 @media only screen and (max-width: 480px) {
-  .pinnedListVisible {
-    width: 100%;
-  }
+
 
 }
