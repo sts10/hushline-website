@@ -67,6 +67,10 @@
   color: var(--color-light);
 }
 
+.glow .outgoing a {
+  color: var(--color-light);
+}
+
 .glow .pinnedList .card.selected {
   border-left: 3px solid var(--theme-glow)!important;
 }
