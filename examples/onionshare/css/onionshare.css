@@ -26,6 +26,10 @@
   .tabs a.selected {
     border-bottom: 3px solid rgba(78, 13, 78, 1) !important;
   }
+
+  .tabs a:hover {
+    border-bottom: 3px solid rgba(78, 13, 78, 1);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
