@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   $('.chatWindow').scrollTop($('.chatWindow')[0].scrollHeight);
 
   $('.usersTab').on('click', function() {
