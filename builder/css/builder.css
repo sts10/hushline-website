@@ -52,7 +52,7 @@ section.canvas {
   right: 25%;
 }
 
-.canvas .table {
+.canvas .window {
   right: 25%;
 }
 
@@ -92,11 +92,11 @@ aside .navButton {
   right: 0 !important;
 }
 
-.canvas .pinnedList .table {
+.canvas .pinnedList .window {
   right: 70% !important;
 }
 
-.canvas .pinnedList .table.wide {
+.canvas .pinnedList .window.wide {
   right: 70% !important;
   width: inherit;
 }
