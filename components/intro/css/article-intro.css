@@ -83,13 +83,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .articleIntro {
-    height: calc(100vh - 70px) !important;
-  }
 
-  .articleIntro.withNav {
-    height: calc(100vh - 70px - 48px) !important;
-  }
 }
 
 @media only screen and (max-width: 640px) {
