@@ -20,7 +20,7 @@
   }
 
   tr:hover {
-    background-color: var(--color-light);
+    background-color: var(--color-shade-lm);
   }
 
   .listUtilities {
