@@ -22,8 +22,8 @@
 .secondaryIntro {
   margin-top: 88px;
   height: auto !important;
-  padding-top: calc(var(--spacing-xxlarge) * 2.5);
-  padding-bottom: calc(var(--spacing-xxlarge) * 2.5);
+  padding-top: calc(var(--spacing-xxlarge) * 3);
+  padding-bottom: calc(var(--spacing-xxlarge) * 3);
   margin-bottom: calc(var(--spacing-xxlarge) * 2);
 }
 
@@ -45,8 +45,8 @@
 
 @media only screen and (min-height: 1024px) {
   .secondaryIntro {
-    padding-top: calc(var(--spacing-xxlarge) * 4.5);
-    padding-bottom: calc(var(--spacing-xxlarge) * 4.5);
+    padding-top: calc(var(--spacing-xxlarge) * 4.5) !important;
+    padding-bottom: calc(var(--spacing-xxlarge) * 4.5) !important;
   }
 }
 

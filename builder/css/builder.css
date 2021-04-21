@@ -146,24 +146,8 @@ aside {
     margin-bottom: var(--spacing-base) !important;
   }
 
-  .canvas .secondaryIntro {
-    /* margin-top: 70px; */
-  }
-
-  .canvas .secondaryIntro.withNav {
-    height: calc(100vh - 48px) !important;
-  }
-
-  .canvas .secondaryIntro.withNav {
-    height: inherit !important;
-  }
-
   .canvas .articleIntro {
     height: calc(100vh - 70px) !important;
-  }
-
-  .canvas .articleIntro.withNav {
-    height: calc(100vh - 70px - 48px) !important;
   }
 
   .canvas .listUtilities {

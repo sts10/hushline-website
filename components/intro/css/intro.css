@@ -54,12 +54,6 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .secondaryIntro.withNav {
-    height: calc(100vh - 48px);
-  }
-}
-
 @media only screen and (max-width: 640px) {}
 
 @media only screen and (max-width: 480px) {
