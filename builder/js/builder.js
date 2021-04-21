@@ -235,7 +235,7 @@ $(document).ready(function() {
   // CHAT
 
   $('#avatar').on('click', function() {
-    $('.listAvatar').toggleClass('hidden');
+    $('.avatarGroup').toggleClass('hidden');
   });
 
   $('#username').on('click', function() {
