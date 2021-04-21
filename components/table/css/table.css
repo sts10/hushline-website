@@ -12,7 +12,7 @@
   }
 
   th {
-    background-color: #fafafa;
+    background-color: var(--color-light);
   }
 
   tr {
@@ -20,11 +20,11 @@
   }
 
   tr:hover {
-    background-color: #f4f4f4;
+    background-color: var(--color-light);
   }
 
   .listUtilities {
-    background-color: #fafafa;
+    background-color: var(--color-light);
     border-top: var(--border-lm);
   }
 
@@ -48,7 +48,7 @@
   }
 
   th {
-    background-color: #2e2e2e;
+    background-color: var(--color-dark-1);
   }
 
   tr {
@@ -56,11 +56,11 @@
   }
 
   tr:hover {
-    background-color: var(--color-dark-1);
+    background-color: var(--color-dark-2);
   }
 
   .listUtilities {
-    background-color: #2e2e2e;
+    background-color: var(--color-dark-1);
     border-top: var(--border-dm);
   }
 
