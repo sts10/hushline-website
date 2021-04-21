@@ -23,10 +23,6 @@
     background-color: #f4f4f4;
   }
 
-  .card:hover {
-    background-color: #f4f4f4;
-  }
-
   .listUtilities {
     background-color: #fafafa;
     border-top: var(--border-lm);
@@ -60,10 +56,6 @@
   }
 
   tr:hover {
-    background-color: var(--color-dark-1);
-  }
-
-  .card:hover {
     background-color: var(--color-dark-1);
   }
 

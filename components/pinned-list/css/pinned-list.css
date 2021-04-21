@@ -35,7 +35,7 @@
   }
 
   .pinnedList .card.selected {
-    background-color: var(--color-dark-2);
+    background-color: var(--color-dark-1);
     border-left: 3px solid var(--color-grey);
   }
 
@@ -45,24 +45,13 @@
   }
 
   .card:hover {
-    background-color: var(--color-dark-1);
+    background-color: var(--color-dark-2);
   }
 
   .card.selected:hover {
-    background-color: var(--color-dark-1);
+    background-color: var(--color-dark-2);
   }
 
-  .card:hover .presence {
-    outline: 3px solid var(--color-dark-1);
-  }
-
-  .card.selected .presence {
-    outline: 3px solid var(--color-dark-2);
-  }
-
-  .card.selected:hover .presence {
-    outline: 3px solid var(--color-dark-1);
-  }
 }
 
 .pinnedList {

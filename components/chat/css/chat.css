@@ -41,15 +41,19 @@
   }
 
   .presence {
-    outline: 3px solid white;
+    box-shadow: 0 0 0 3px white;
+  }
+
+  .card:hover {
+    background-color: #f4f4f4;
   }
 
   .card.selected .presence {
-    outline: 3px solid var(--color-light);
+    box-shadow: 0 0 0 3px var(--color-light);
   }
 
   .card:hover .presence {
-    outline: 3px solid #f4f4f4;
+    box-shadow: 0 0 0 3px #f4f4f4;
   }
 }
 
@@ -60,7 +64,7 @@
   }
 
   .presence {
-    outline: 3px solid var(--color-dark);
+    box-shadow: 0 0 0 3px var(--color-dark);
   }
 
   .presence.offline {
@@ -90,6 +94,23 @@
 
   .message .meta {
     color: var(--color-light) !important;
+  }
+
+  .card:hover {
+    background-color: var(--color-dark-2);
+  }
+
+  .card:hover .presence {
+    /* outline: 3px solid var(--color-dark-1); */
+    box-shadow: 0 0 0 3px var(--color-dark-1);
+  }
+
+  .card.selected .presence {
+    box-shadow: 0 0 0 3px var(--color-dark-2);
+  }
+
+  .card.selected:hover .presence {
+    box-shadow: 0 0 0 3px var(--color-dark-1);
   }
 
 }
