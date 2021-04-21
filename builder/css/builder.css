@@ -146,10 +146,6 @@ aside {
     margin-bottom: var(--spacing-base) !important;
   }
 
-  .canvas .articleIntro {
-    height: calc(100vh - 70px) !important;
-  }
-
   .canvas .listUtilities {
     top: 88px;
   }
