@@ -35,12 +35,36 @@
     border-bottom: var(--border-lm);
     background-color: white;
   }
+
+  .presence.offline {
+    background-color: var(--color-grey);
+  }
+
+  .presence {
+    outline: 3px solid white;
+  }
+
+  .card.selected .presence {
+    outline: 3px solid var(--color-light);
+  }
+
+  .card:hover .presence {
+    outline: 3px solid #f4f4f4;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   .outgoing p:first-of-type {
-    background-color: #c2c2c2;
+    background-color: var(--color-grey);
     color: var(--color-dark);
+  }
+
+  .presence {
+    outline: 3px solid var(--color-dark);
+  }
+
+  .presence.offline {
+    background-color: var(--color-grey);
   }
 
   .chatHeader {
@@ -49,7 +73,7 @@
   }
 
   .incoming p:first-of-type {
-    background-color: var(--color-shade-dm);
+    background-color: var(--color-dark);
   }
 
   .message a {
@@ -57,7 +81,7 @@
   }
 
   .mainStage {
-    background-color: var(--color-shade-dm);
+    background-color: var(--color-dark-2);
   }
 
   .noHeader.chatWindow {
@@ -67,11 +91,11 @@
   .message .meta {
     color: var(--color-light) !important;
   }
+
 }
 
 
 /* CARDS */
-
 
 .listUtilities .meta {
   position: initial;
@@ -139,6 +163,19 @@
   margin: 0 auto;
 }
 
+.chatHeaderGroup {
+  position: relative;
+  display: flex;
+  width: max-content;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.chatHeaderGroup .presence {
+  position: initial;
+  margin-right: var(--spacing-xsmall);
+}
+
 .messageRow {
   display: flex;
   width: 100%;
@@ -179,12 +216,30 @@
   bottom: 0;
   right: 0;
   left: 30%;
-  padding: var(--spacing-small);
+  padding: var(--spacing-small) var(--spacing-base);
   z-index: 1;
 }
 
 .chatWindow.noHeader {
   top: 88px;
+}
+
+.avatarGroup {
+  position: relative;
+}
+
+.presence {
+  width: var(--spacing-xsmall);
+  height: var(--spacing-xsmall);
+  border-radius: 50vh;
+  background-color: var(--color-dark);
+  position: absolute;
+  bottom: calc(var(--spacing-xxsmall) * .6);
+  right: var(--spacing-small);
+}
+
+.presence.online {
+  background-color: var(--color-green);
 }
 
 @media only screen and (max-width: 768px) {

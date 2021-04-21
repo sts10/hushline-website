@@ -246,6 +246,7 @@ $(document).ready(function() {
     $('.pinnedList').addClass('pinnedListVisible');
     $('.usersTab').addClass('selected');
     $('.chatTab').removeClass('selected');
+    $('p.badge').addClass('hidden');
   });
 
   $('.chatTab').on('click', function() {
@@ -253,7 +254,6 @@ $(document).ready(function() {
     $('.usersTab').removeClass('selected');
     $('.chatTab').addClass('selected');
   });
-
 
   // GLOBAL
 

@@ -23,7 +23,7 @@
   }
 
   input[type="text"] {
-    background-color: var(--color-shade-dm);
+    background-color: var(--color-dark);
     color: var(--color-light);
   }
 

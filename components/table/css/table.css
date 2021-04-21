@@ -60,11 +60,11 @@
   }
 
   tr:hover {
-    background-color: var(--color-shade-dm);
+    background-color: var(--color-dark-1);
   }
 
   .card:hover {
-    background-color: var(--color-shade-dm);
+    background-color: var(--color-dark-1);
   }
 
   .listUtilities {

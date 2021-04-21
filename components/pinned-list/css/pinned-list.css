@@ -17,6 +17,10 @@
     background-color: var(--color-light);
     border-left: 3px solid var(--color-dark);
   }
+
+  .pinnedList .card.selected:hover {
+    background-color: var(--color-shade);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,13 +35,33 @@
   }
 
   .pinnedList .card.selected {
-    background-color: var(--color-shade-dm);
+    background-color: var(--color-dark-2);
     border-left: 3px solid var(--color-light);
   }
 
   .card {
     border-bottom: var(--border-dm);
     background-color: var(--color-dark);
+  }
+
+  .card:hover {
+    background-color: var(--color-dark-1);
+  }
+
+  .card.selected:hover {
+    background-color: var(--color-dark-1);
+  }
+
+  .card:hover .presence {
+    outline: 3px solid var(--color-dark-1);
+  }
+
+  .card.selected .presence {
+    outline: 3px solid var(--color-dark-2);
+  }
+
+  .card.selected:hover .presence {
+    outline: 3px solid var(--color-dark-1);
   }
 }
 
