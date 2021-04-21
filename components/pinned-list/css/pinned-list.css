@@ -36,7 +36,7 @@
 
   .pinnedList .card.selected {
     background-color: var(--color-dark-2);
-    border-left: 3px solid var(--color-light);
+    border-left: 3px solid var(--color-grey);
   }
 
   .card {
