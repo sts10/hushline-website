@@ -49,10 +49,11 @@
     padding-bottom: calc(var(--spacing-xxlarge) * 4.5);
   }
 }
+
 @media only screen and (min-height: 960px) {
   .secondaryIntro {
-    padding-top: calc(var(--spacing-xxlarge) * 4.5);
-    padding-bottom: calc(var(--spacing-xxlarge) * 4.5);
+    padding-top: calc(var(--spacing-xxlarge) * 3.5);
+    padding-bottom: calc(var(--spacing-xxlarge) * 3.5);
   }
 }
 
