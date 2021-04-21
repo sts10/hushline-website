@@ -52,8 +52,8 @@
 
 @media only screen and (min-height: 900px) {
   .secondaryIntro {
-    padding-top: calc(var(--spacing-xxlarge) * 4);
-    padding-bottom: calc(var(--spacing-xxlarge) * 4);
+    padding-top: calc(var(--spacing-xxlarge) * 4) !important;
+    padding-bottom: calc(var(--spacing-xxlarge) * 4) !important;
   }
 }
 
