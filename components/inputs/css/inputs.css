@@ -73,10 +73,10 @@ input[type="text"] {
   }
 
   input[type="checkbox"] + label {
-    font-size: var(--font-size-body);
+    font-size: calc(var(--font-size-body) * .9);
   }
 
   input[type="radio"] + label {
-    font-size: var(--font-size-body);
+    font-size: calc(var(--font-size-body) * .9);
   }
 }
