@@ -43,6 +43,13 @@
   }
 }
 
+@media only screen and (min-height: 768px) {
+  .secondaryIntro {
+    padding-top: calc(var(--spacing-xxlarge) * 3.5) !important;
+    padding-bottom: calc(var(--spacing-xxlarge) * 3.5) !important;
+  }
+}
+
 @media only screen and (min-height: 900px) {
   .secondaryIntro {
     padding-top: calc(var(--spacing-xxlarge) * 4) !important;
