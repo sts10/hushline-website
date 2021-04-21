@@ -16,6 +16,7 @@
 
 .secondaryIntro.withNav {
   height: auto !important;
+  margin-bottom: 0 !important;
 }
 
 .secondaryIntro {
@@ -23,6 +24,7 @@
   height: auto !important;
   padding-top: calc(var(--spacing-xxlarge) * 2.5);
   padding-bottom: calc(var(--spacing-xxlarge) * 2.5);
+  margin-bottom: calc(var(--spacing-xxlarge) * 2);
 }
 
 .secondaryIntro h1 {
