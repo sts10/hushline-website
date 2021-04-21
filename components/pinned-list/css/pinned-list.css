@@ -10,7 +10,7 @@
   }
 
   .userName {
-    background-color: white;
+    background-color: var(--color-light);
   }
 
   .pinnedList .card.selected {
@@ -26,6 +26,10 @@
 @media (prefers-color-scheme: dark) {
   .pinnedList .listUtilities {
     border-bottom: var(--border-dm);
+  }
+
+  .userName {
+    background-color: var(--color-dark-1);
   }
 
   .pinnedList {
