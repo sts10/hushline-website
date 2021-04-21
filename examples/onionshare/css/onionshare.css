@@ -15,6 +15,10 @@
     color: rgba(78, 13, 78, 1);
   }
 
+  .btn:hover {
+    color: rgba(78, 13, 78, 1);
+  }
+
   .outgoing p:first-of-type {
     background-color: rgba(78, 13, 78, 1);
   }
