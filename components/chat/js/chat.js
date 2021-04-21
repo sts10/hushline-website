@@ -6,6 +6,7 @@ $(document).ready(function() {
     $('.pinnedList').addClass('pinnedListVisible');
     $('.usersTab').addClass('selected');
     $('.chatTab').removeClass('selected');
+    $('p.badge').addClass('hidden');
   });
 
   $('.chatTab').on('click', function() {
