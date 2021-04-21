@@ -41,3 +41,7 @@
 body {
   transition: none !important;
 }
+
+.pinnedList .card {
+  pointer-events: none;
+}
