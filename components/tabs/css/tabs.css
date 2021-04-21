@@ -104,7 +104,7 @@
     padding: 0 var(--spacing-xsmall)!important;
   }
 
-  .tabs {
+  .chatTabs {
     border-bottom: none;
   }
 }
