@@ -6,6 +6,10 @@
   .menu {
     background-image: url('../assets/nav/lm-icon-menu.svg');
   }
+
+  .squiggle {
+    background-image: url('../assets/examples/squiggle-lm.svg');
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,6 +19,10 @@
 
   .menu {
     background-image: url('../assets/nav/dm-icon-menu.svg');
+  }
+
+  .squiggle {
+    background-image: url('../assets/examples/squiggle-dm.svg');
   }
 }
 
@@ -49,4 +57,29 @@
 
 .icon.figma {
   background-image: url('../assets/logos/figma-mark.svg');
+}
+
+.squiggle {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 420px;
+  background-position: center;
+}
+
+@media only screen and (max-width: 640px) {
+  .squiggle {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .squiggle {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .squiggle {
+    height: 120px;
+  }
 }
