@@ -98,8 +98,7 @@ h4 a {
 p {
   font-size: var(--font-size-body);
   line-height: var(--line-height-body);
-  max-width: 70em !important;
-  /* See https://www.w3.org/WAI/tutorials/page-structure/styling/ for line-length*/
+  max-width: 640px !important;
 }
 
 p.caption {
