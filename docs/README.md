@@ -38,8 +38,6 @@
 
 **Usability**
 
-[113 Guidelines for Homepage Usability](https://www.nngroup.com/articles/113-design-guidelines-homepage-usability/)
-
 [Durability of Usability Guidelines](https://www.nngroup.com/articles/durability-of-usability-guidelines/)
 
 [Heuristics of UI Design](https://www.nngroup.com/articles/ten-usability-heuristics/)
