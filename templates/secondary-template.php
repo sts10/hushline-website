@@ -27,7 +27,7 @@
 		<section class="content wrapper">
 			<div class="contentItem featuredItem blockContent">
 				<div class="description">
-					<h3>Damien Newman's Squiggle</h3>
+					<h2>Damien Newman's Squiggle</h2>
 					<p>An illustration of the design process and journey from uncertainly to clarity.</p>
 					<a href="https://thedesignsquiggle.com" target="_blank">Learn More</a>
 				</div>
