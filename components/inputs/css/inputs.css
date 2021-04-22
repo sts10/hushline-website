@@ -10,7 +10,7 @@
 
   input:focus {
     border: var(--border-input-focus-lm);
-    box-shadow: var(--shadow-lm);
+    box-shadow: var(--shadow-focus-lm);
   }
 }
 
@@ -58,6 +58,10 @@ input[type="text"] {
   padding: var(--spacing-small);
   border-radius: var(--radius-soft);
   font-size: var(--font-size-small);
+}
+
+input:focus {
+  outline: none !important;
 }
 
 .messageComposer input {
