@@ -8,7 +8,7 @@
 
 [Page Structure Styling](https://www.w3.org/WAI/tutorials/page-structure/styling/)
 
-[Accessible Web Colors](https://webaim.org/resources/contrastchecker/)
+[Color Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
 [Inclusive Components](https://inclusive-components.design/)
 
