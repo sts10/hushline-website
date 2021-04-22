@@ -4,13 +4,13 @@
 
 [ARIA Guidelines](https://www.w3.org/WAI/standards-guidelines/aria/)
 
-[Web Accessibility Guidelines](https://www.nngroup.com/reports/usability-guidelines-accessible-web-design/)
-
-[Page Structure Styling](https://www.w3.org/WAI/tutorials/page-structure/styling/)
-
 [Color Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
 [Inclusive Components](https://inclusive-components.design/)
+
+[Page Structure Styling](https://www.w3.org/WAI/tutorials/page-structure/styling/)
+
+[Web Accessibility Guidelines](https://www.nngroup.com/reports/usability-guidelines-accessible-web-design/)
 
 ---
 
@@ -24,9 +24,9 @@
 
 **Planning**
 
-[Project Canvas](http://www.projectcanvas.dk/)
-
 [Buisness Model Canvas](https://en.wikipedia.org/wiki/Business_Model_Canvas)
+
+[Project Canvas](http://www.projectcanvas.dk/)
 
 ---
 
@@ -38,10 +38,10 @@
 
 **Usability**
 
+[113 Guidelines for Homepage Usability](https://www.nngroup.com/articles/113-design-guidelines-homepage-usability/)
+
 [Durability of Usability Guidelines](https://www.nngroup.com/articles/durability-of-usability-guidelines/)
 
 [Heuristics of UI Design](https://www.nngroup.com/articles/ten-usability-heuristics/)
 
 [Top 10 Guidelines for Homepage Usability](https://www.nngroup.com/articles/top-ten-guidelines-for-homepage-usability/)
-
-[113 Guidelines for Homepage Usability](https://www.nngroup.com/articles/113-design-guidelines-homepage-usability/)
