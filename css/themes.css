@@ -14,6 +14,14 @@
     box-shadow: 0 0 var(--spacing-xsmall) var(--theme-glow-light);
   }
 
+  .glow .btn {
+    color: var(--theme-glow);
+  }
+
+  .glow .btn:hover {
+    color: var(--theme-glow);
+  }
+
 }
 
 @media (prefers-color-scheme: dark) {

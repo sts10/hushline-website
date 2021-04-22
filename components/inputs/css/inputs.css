@@ -58,9 +58,6 @@ input[type="text"] {
   padding: var(--spacing-small);
   border-radius: var(--radius-soft);
   font-size: var(--font-size-small);
-}
-
-input:focus {
   outline: none !important;
 }
 
