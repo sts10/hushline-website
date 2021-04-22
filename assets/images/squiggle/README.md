@@ -1,4 +1,4 @@
-#Damien Newman's Design Squiggle
+# Damien Newman's Design Squiggle
 
 https://thedesignsquiggle.com/
 
