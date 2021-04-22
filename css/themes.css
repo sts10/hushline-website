@@ -9,6 +9,11 @@
     background: var(--gradient-lm);
   }
 
+  .glow input:focus {
+    border: 1px solid var(--theme-glow);
+    box-shadow: 0 0 var(--spacing-xsmall) var(--theme-glow-light);
+  }
+
 }
 
 @media (prefers-color-scheme: dark) {

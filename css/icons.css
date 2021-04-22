@@ -8,7 +8,7 @@
   }
 
   .squiggle {
-    background-image: url('../assets/examples/squiggle-lm.svg');
+    background-image: url('../assets/images/squiggle/squiggle-lm.svg');
   }
 }
 
@@ -22,7 +22,7 @@
   }
 
   .squiggle {
-    background-image: url('../assets/examples/squiggle-dm.svg');
+    background-image: url('../assets/images/squiggle/squiggle-dm.svg');
   }
 }
 
