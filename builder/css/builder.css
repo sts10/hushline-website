@@ -1,12 +1,12 @@
 @media (prefers-color-scheme: light) {
   aside {
-    background-color: rgba(252, 252, 252, .8);
+    background-color: var(--color-light);
   }
 }
 
 @media (prefers-color-scheme: dark) {
   aside {
-    background-color: rgba(46, 46, 46, .8);
+    background-color: var(--color-dark-1);
   }
 }
 

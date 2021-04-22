@@ -6,7 +6,7 @@
   .pinnedList {
     border-right: var(--border-lm);
     border-top: var(--border-lm);
-    background-color: white;
+    background-color: var(--color-light);
   }
 
   .userName {
@@ -35,7 +35,7 @@
   .pinnedList {
     border-right: var(--border-dm);
     border-top: var(--border-dm);
-    background-color: var(--color-dark);
+    background-color: var(--color-dark-1);
   }
 
   .pinnedList .card.selected {

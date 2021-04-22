@@ -1,6 +1,7 @@
 @media (prefers-color-scheme: light) {
   .window {
     border-top: var(--border-lm);
+    background-color: var(--color-light);
   }
 
   table {
@@ -20,7 +21,7 @@
   }
 
   tr:hover {
-    background-color: var(--color-shade-lm);
+    background-color: var(--color-light-1);
   }
 
   .listUtilities {
@@ -36,6 +37,7 @@
 @media (prefers-color-scheme: dark) {
   .window {
     border-top: var(--border-dm);
+    background-color: var(--color-dark-1);
   }
 
   table {
@@ -77,7 +79,6 @@
   margin-bottom: 0!important;
   position: fixed;
   overflow-y: scroll;
-  background-color: var(--color-shade);
 }
 
 .window .empty {
