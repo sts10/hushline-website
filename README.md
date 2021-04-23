@@ -23,4 +23,4 @@ Easy setup can have you building a website in under a minute!
 
 ## Resources
 
-<a href="https://www.figma.com/files/project/28691188/Simple-Design-System?fuid=276067619107670625" target="_blank">Figma Design Kit</a>
+<a href="https://www.figma.com/file/NAqQuqB1mt4Oix3Sdyhr4L/Simple-Design-System-Kit?node-id=5%3A2362" target="_blank">Figma Design Kit</a>
