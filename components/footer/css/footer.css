@@ -15,11 +15,6 @@ footer p {
   word-break: break-word;
 }
 
-/* THIS ONLY APPLIES TO THE ZCASH ADDRESS IN THE FOOTER */
-footer p:last-of-type {
-  word-break: break-all;
-}
-
 footer.centeredContent p {
   margin: 0 auto;
 }
