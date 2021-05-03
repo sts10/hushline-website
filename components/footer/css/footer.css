@@ -12,6 +12,7 @@ footer {
 
 footer p {
   font-size: var(--font-size-small);
+  word-break: break-all;
 }
 
 /* THIS ONLY APPLIES TO THE ZCASH ADDRESS IN THE FOOTER */
