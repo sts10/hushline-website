@@ -135,6 +135,7 @@
   -webkit-background-clip: initial !important;
   -webkit-text-fill-color: initial !important;
   background: initial;
+  letter-spacing: initial;
 }
 
 .articleIntro p {
