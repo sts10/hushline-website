@@ -311,9 +311,9 @@ p.typeset {
   }
 
   .secondaryIntro h1 {
-    font-size: calc(var(--font-size-1) * .6);
-    line-height: calc(var(--line-height-1) * .6);
-    margin-bottom: calc(var(--spacing-large) * .6);
+    font-size: calc(var(--font-size-1) * .55);
+    line-height: calc(var(--line-height-1) * .55);
+    margin-bottom: calc(var(--spacing-large) * .55);
   }
 
   .headline p {
