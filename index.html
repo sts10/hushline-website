@@ -14,7 +14,7 @@
 	<script src="components/header/js/header.js"></script>
 	<script src="builder/js/builder.js"></script>
 	<script src="components/chat/js/chat.js"></script>
-	<script src="components/footer/js/copyright.js"></script>
+	<script src="components/footer/js/footer.js"></script>
 </head>
 
 <body id="builder">
