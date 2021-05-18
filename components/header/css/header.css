@@ -292,6 +292,6 @@ aside .navButton {
   } */
 
   .staged .navButton {
-    top: var(--spacing-base);
+    top: calc(var(--spacing-base) * 1.25);
   }
 }
