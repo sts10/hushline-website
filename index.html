@@ -12,7 +12,7 @@
 
 	<script src="js/jquery-min.js"></script>
 	<script src="components/header/js/header.js"></script>
-	<script src="design-system/components/hint/js/hint.js"></script>
+	<script src="components/hint/js/hint.js"></script>
 	<script src="components/footer/js/footer.js"></script>
 	<script src="builder/js/builder.js"></script>
 	<script src="components/chat/js/chat.js"></script>
