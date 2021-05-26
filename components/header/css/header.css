@@ -98,6 +98,7 @@ header h1 a:hover {
   height: 2.5rem;
   /* background-image: url('#'); */
   background-size: contain;
+  background-repeat: no-repeat;
   margin-right: var(--spacing-xsmall);
 }
 
