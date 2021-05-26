@@ -46,7 +46,7 @@
 .contentRow .icon.full {
   background-size: contain;
   width: 100%;
-  height: calc(var(--spacing-xlarge) * 2);
+  height: calc(var(--spacing-xlarge) * 1.5);
   margin-bottom: var(--spacing-medium);
 }
 
