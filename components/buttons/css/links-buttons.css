@@ -69,7 +69,7 @@
 
 .firstAction {
   font-size: var(--font-size-body);
-  padding: var(--spacing-base) var(--spacing-large);
+  padding: var(--spacing-base);
   box-shadow: var(--shadow-lm);
 }
 
