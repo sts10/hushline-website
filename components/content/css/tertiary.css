@@ -47,6 +47,7 @@
   background-size: contain;
   width: 100%;
   height: calc(var(--spacing-xlarge) * 2);
+  margin-bottom: var(--spacing-medium);
 }
 
 h3 + .icon + a {
