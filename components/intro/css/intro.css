@@ -271,7 +271,7 @@ p.typeset {
   }
 
   .intro.withImage {
-    background-image: none;
+    background-image: none !important;
   }
 
   .intro.withImage > * {
