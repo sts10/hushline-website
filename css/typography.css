@@ -112,6 +112,10 @@ p + p {
   margin-top: var(--spacing-base);
 }
 
+p + ul {
+  margin-top: var(--spacing-base);
+}
+
 p.caption {
   font-size: var(--font-size-small) !important;
   margin: var(--spacing-base) var(--spacing-base) 0 0;

@@ -91,7 +91,6 @@ a {
 }
 
 ul, ol {
-  font-size: var(--font-size-small);
   line-height: var(--line-height-body);
   margin-bottom: var(--spacing-base);
 }
