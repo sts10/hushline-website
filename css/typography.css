@@ -153,6 +153,10 @@ p.caption {
   font-size: var(--font-size-small);
 }
 
+b, strong {
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 960px) {
   h1 {
       font-size: calc(var(--font-size-1) * .9);
