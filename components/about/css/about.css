@@ -9,4 +9,5 @@
   .avatar {
     width: calc(var(--spacing-xlarge) * 3) !important;
     height: calc(var(--spacing-xlarge) * 3) !important;
+  }
 }
