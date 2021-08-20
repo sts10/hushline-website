@@ -22,11 +22,13 @@
 
 ---
 
-**Planning**
+**Planning & Ops**
 
 [Buisness Model Canvas](https://en.wikipedia.org/wiki/Business_Model_Canvas)
 
 [Project Canvas](http://www.projectcanvas.dk/)
+
+[The 6 Levels of UX Maturity](https://www.nngroup.com/articles/ux-maturity-model/)
 
 ---
 
@@ -43,3 +45,5 @@
 [Heuristics of UI Design](https://www.nngroup.com/articles/ten-usability-heuristics/)
 
 [Top 10 Guidelines for Homepage Usability](https://www.nngroup.com/articles/top-ten-guidelines-for-homepage-usability/)
+
+
