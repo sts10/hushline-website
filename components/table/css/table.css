@@ -241,7 +241,7 @@ th, td {
     opacity: 1;
   }
 
-  tr:first-of-type {
+  thead {
     display: none;
   }
 
