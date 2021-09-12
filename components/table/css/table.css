@@ -97,7 +97,7 @@ tr:last-of-type {
 }
 
 .window {
-  top: 125px;
+  top: 122px;
   bottom: 0;
   right: 0;
   left: 0;
@@ -126,7 +126,7 @@ tr:last-of-type {
 }
 
 .emptyTable {
-  top: 90px !important;
+  top: 88px !important;
   border-top: none !important;
 }
 
@@ -139,7 +139,7 @@ tr:last-of-type {
 .listUtilities {
   padding: var(--spacing-xsmall) var(--spacing-base) !important;
   position: fixed;
-  top: 90px;
+  top: 88px;
   width: 100%;
   max-width: inherit;
 }
