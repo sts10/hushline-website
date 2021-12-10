@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   $('.navButton').on('click', function() {
     $('.staged').toggleClass('open');
   });
@@ -10,4 +11,5 @@ $(document).ready(function() {
   $('NAV li').on('click', function() {
     $('.staged').removeClass('open');
   });
+
 });
