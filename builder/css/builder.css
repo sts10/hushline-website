@@ -101,28 +101,9 @@ aside .navButton {
   width: inherit;
 }
 
-p.hint, .btn, .utilityIcon {
+p.hint {
   transition: all 0.3s !important;
 }
-
-/* HIDE SCROLLBARS */
-/* #builder::-webkit-scrollbar {
- display: none;
-}
-
-#builder {
--ms-overflow-style: none;
-scrollbar-width: none;
-}
-
-aside::-webkit-scrollbar {
- display: none;
-}
-
-aside {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-} */
 
 @media only screen and (max-width: 960px) {
   .canvas header h1 {
