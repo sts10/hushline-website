@@ -167,8 +167,6 @@ nav ul li a.btn {
   nav .btn {
     margin-left: var(--spacing-medium);
     display: inline-flex !important;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+   }
 
 }
