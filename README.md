@@ -8,7 +8,7 @@ Use it as a starter kit that you can build on top of, or use it as a complete, l
 
 ## Documentation and Resources
 
-🎨 <a href="https://www.figma.com/file/NAqQuqB1mt4Oix3Sdyhr4L/Simple-Design-System-Kit?node-id=5%3A2362" rel="noopener noreferrer nofollow" target="_blank">Figma Design Kit</a>
+🎨 <a href="https://www.figma.com/file/NAqQuqB1mt4Oix3Sdyhr4L/Simple-Design-System-Library?node-id=225%3A1223" rel="noopener noreferrer nofollow" target="_blank">Figma Design Kit</a>
 
 ---
 
