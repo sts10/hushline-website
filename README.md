@@ -6,7 +6,7 @@ This design system provides a research-based framework for quickly building dura
 
 Use it as a starter kit that you can build on top of, or use it as a complete, living solution.
 
-## Documentation and Resources\
+## Documentation and Resources
 
 **Accessibility**
 
