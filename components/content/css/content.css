@@ -58,6 +58,10 @@
   font-size: var(--font-size-small);
 }
 
+.description .btn {
+  display: inline-flex !important;
+}
+
 .description img.avatar {
   height: var(--size-avatar);
   width: var(--size-avatar) !important;
