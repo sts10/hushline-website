@@ -5,7 +5,7 @@ $(document).ready(function() {
   });
 
   $('NAV li').on('click', function() {
-    $('.staged').removeClass('open');
+    $('.navItems').removeClass('open');
   });
 
 });
