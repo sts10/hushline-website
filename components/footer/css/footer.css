@@ -1,25 +1,9 @@
-@media (prefers-color-scheme: light) {
-
-}
-
-@media (prefers-color-scheme: dark) {
-
-}
-
 footer {
-  padding-bottom: var(--spacing-base) !important;
+  font-size: var(--font-size-xsmall);
+  letter-spacing: var(--font-spacing-small);
+  padding: var(--spacing-base) 0;
 }
 
 footer p {
-  font-size: var(--font-size-small);
-  word-break: break-word;
-  margin-top: 0 !important;
-}
-
-footer.centeredContent p {
-  margin: 0 auto;
-}
-
-@media only screen and (max-width: 768px) {
-
+  margin: 0;
 }
