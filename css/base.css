@@ -1,4 +1,9 @@
 @media (prefers-color-scheme: light) {
+  ::selection {
+      background-color: var(--color-dark);
+      color: var(--color-light);
+  }
+
   a {
     color: var(--color-dark);
   }
@@ -30,6 +35,11 @@
 }
 
 @media (prefers-color-scheme: dark) {
+  ::selection {
+      background-color: var(--color-light);
+      color: var(--color-dark);
+  }
+
   body {
     background-color: var(--color-dm);
   }
