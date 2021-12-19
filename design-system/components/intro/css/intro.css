@@ -3,7 +3,7 @@
   align-items: center;
 }
 
-.intro h1 {
+.intro h2 {
   width: 80%;
 }
 
@@ -30,7 +30,7 @@ p.hint {
 }
 
 @media only screen and (max-width: 768px) {
-  .intro h1 {
+  .intro h2 {
     width: 100%;
   }
 }

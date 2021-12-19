@@ -32,12 +32,16 @@ header .wrapper {
   flex-direction: row;
 }
 
+header h1 {
+  width: fit-content;
+  font-size: var(--font-size-logo) !important;
+}
+
 header .logo {
   display: flex;
   align-items: center;
   height: var(--size-logo);
   padding: calc(var(--spacing-medium) * 1.125) 0;
-  font-size: var(--font-size-logo);
   line-height: var(--line-height-base);
   display: flex;
   width: fit-content;
