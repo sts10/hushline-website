@@ -116,7 +116,7 @@
 
   .group img {
     width: 100%;
-    margin: var(--spacing-small) 0 0 0;
+    margin: var(--spacing-base) 0 0 0;
   }
 
   .groupRow .description:first-of-type {
