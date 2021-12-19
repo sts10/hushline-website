@@ -37,21 +37,19 @@ header .logo {
   align-items: center;
   height: var(--size-logo);
   padding: calc(var(--spacing-medium) * 1.125) 0;
-}
-
-header h1 {
   font-size: var(--font-size-logo);
   line-height: var(--line-height-base);
   display: flex;
   width: fit-content;
+  font-weight: bold;
+}
+
+header p a:hover {
+  text-decoration: underline;
 }
 
 header a {
   text-decoration: none;
-}
-
-header h1 a:hover {
-  text-decoration: underline;
 }
 
 .mobileNav {
