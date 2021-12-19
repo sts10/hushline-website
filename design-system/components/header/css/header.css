@@ -48,12 +48,12 @@ header .logo {
   font-weight: bold;
 }
 
-header p a:hover {
-  text-decoration: underline;
-}
-
 header a {
   text-decoration: none;
+}
+
+header h1 a:hover {
+  text-decoration: underline;
 }
 
 .mobileNav {
