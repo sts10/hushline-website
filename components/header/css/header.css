@@ -101,7 +101,8 @@ nav ul li a {
   font-size: var(--font-size-small);
 }
 
-nav ul li a.btn {
+nav .btn {
+  margin-left: var(--spacing-base);
   height: auto;
 }
 
@@ -158,15 +159,11 @@ nav ul li a.btn {
 
   nav .btn {
     margin: var(--spacing-base) var(--spacing-medium);
+    display: inline-flex !important;
   }
 
   nav ul li a.wrapper {
     display: flex;
   }
-
-  nav .btn {
-    margin-left: var(--spacing-medium);
-    display: inline-flex !important;
-   }
 
 }

@@ -104,6 +104,10 @@ ul li:first-of-type {
   font-weight: bold;
 }
 
+.smBtn {
+  padding: var(--spacing-button-sm) !important;
+}
+
 .btnIcon {
   display: flex;
   align-items: center;
@@ -111,10 +115,6 @@ ul li:first-of-type {
   background-size: contain;
   width: var(--size-btn-icon);
   height: var(--size-btn-icon);
-}
-
-nav .btn {
-  margin-left: var(--spacing-base);
 }
 
 img {
