@@ -6,11 +6,7 @@ This design system provides a research-based framework for quickly building dura
 
 Use it as a starter kit that you can build on top of, or use it as a complete, living solution.
 
-## Documentation and Resources
-
-🎨 <a href="https://www.figma.com/file/NAqQuqB1mt4Oix3Sdyhr4L/Simple-Design-System-Library?node-id=225%3A1223" rel="noopener noreferrer nofollow" target="_blank">Figma Design Kit</a>
-
----
+## Documentation and Resources\
 
 **Accessibility**
 
