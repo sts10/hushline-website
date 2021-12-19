@@ -15,8 +15,8 @@
   --spacing-large: 2rem;
   --spacing-xlarge: 3rem;
   --spacing-xxlarge: 4rem;
-  --spacing-button: .75rem 1rem;
-  --spacing-button-sm: .5rem .75rem;
+  --spacing-button-lg: .875rem 1.125rem;
+  --spacing-button: .5rem .75rem;
 
   --size-logo: 1.5rem;
   --size-project-icon: 3rem;

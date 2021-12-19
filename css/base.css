@@ -104,8 +104,8 @@ ul li:first-of-type {
   font-weight: bold;
 }
 
-.smBtn {
-  padding: var(--spacing-button-sm) !important;
+.primaryBtn {
+  padding: var(--spacing-button-lg) !important;
 }
 
 .btnIcon {
