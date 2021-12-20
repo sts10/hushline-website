@@ -1,3 +1,9 @@
+@media (prefers-color-scheme: light) {
+  footer {
+    background-color: var(--color-light);
+  }
+}
+
 footer {
   font-size: var(--font-size-xsmall);
   letter-spacing: var(--font-spacing-small);
