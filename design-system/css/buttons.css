@@ -55,12 +55,13 @@
 .btn {
   padding: var(--spacing-button) !important;
   border-radius: var(--radius-soft);
-  display: initial !important;
+  display: inline-flex !important;
   font-size: var(--font-size-small);
   width: fit-content;
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;
+  margin: var(--spacing-small) 0;
 }
 
 .btnLrg {
