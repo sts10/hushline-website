@@ -37,6 +37,10 @@ p.hint {
   transition: .3s;
 }
 
+p.hint a {
+  text-decoration: none;
+}
+
 .fade {
   opacity: 0 !important;
 }
