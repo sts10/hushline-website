@@ -7,6 +7,10 @@
   a {
     color: var(--color-dark);
   }
+
+  body {
+    background-color: var(--color-shade-lm);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,7 +20,7 @@
   }
 
   body {
-    background-color: var(--color-dm);
+    background-color: var(--shade-dm);
   }
 
   a {
