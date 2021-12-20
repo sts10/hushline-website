@@ -1,6 +1,7 @@
 @media (prefers-color-scheme: light) {
   .badge {
     border: var(--border-dark);
+    background-color: var(--color-shade-lm);
   }
 }
 
