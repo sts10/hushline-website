@@ -64,7 +64,7 @@ Use it as a starter kit that you can build on top of, or use it as a complete, l
 
 **Planning & Ops**
 
-[Buisness Model Canvas](https://en.wikipedia.org/wiki/Business_Model_Canvas)
+[Business Model Canvas](https://en.wikipedia.org/wiki/Business_Model_Canvas)
 
 [Project Canvas](http://www.projectcanvas.dk/)
 
