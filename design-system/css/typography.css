@@ -8,6 +8,14 @@
   h1, h2, h3, h4, h5, h6, p {
     color: var(--color-dark);
   }
+
+  p.meta {
+    color: var(--color-label-lm);
+  }
+
+  p.meta a {
+    color: var(--color-label-lm);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,6 +25,14 @@
 
   h1, h2, h3, h4, h5, h6, p {
     color: var(--color-light);
+  }
+
+  p.meta {
+    color: var(--color-label-dm);
+  }
+
+  p.meta a {
+    color: var(--color-label-dm);
   }
 }
 
