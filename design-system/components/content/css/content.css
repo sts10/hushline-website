@@ -51,6 +51,10 @@
   margin: 0 0 var(--spacing-base) 0;
 }
 
+.center .description .icon {
+  margin: 0 auto var(--spacing-base) auto;
+}
+
 .description ul {
   list-style: none;
   margin-left: 0;

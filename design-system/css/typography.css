@@ -40,11 +40,6 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  width: 66%;
-}
-
 h2 {
   font-size: var(--font-size-1);
   line-height: var(--line-height-1);
@@ -91,6 +86,10 @@ p.meta {
   line-height: 1;
 }
 
+.center h1, .center h2, .center h3, .center h4, .center h5, .center h6 {
+  text-align: center;
+}
+
 @media only screen and (max-width: 1440px) {
   h2 {
     font-size: calc(var(--font-size-1) * .9);
@@ -125,15 +124,9 @@ p.meta {
 }
 
 @media only screen and (max-width: 1024px) {
-  h1, h2, h3, h4, h5, h6 {
-    width: 80%;
-  }
 }
 
 @media only screen and (max-width: 768px) {
-  h1, h2, h3, h4, h5, h6 {
-    width: 100%;
-  }
 
   h2 {
     font-size: calc(var(--font-size-1) * .8);
