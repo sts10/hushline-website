@@ -34,6 +34,8 @@ Use it as a starter kit that you can build on top of, or use it as a complete, l
 
 [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
+[Browser Compatibility](https://caniuse.com/)
+
 ---
 
 **Native Guidelines**
