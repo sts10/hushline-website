@@ -16,6 +16,10 @@
   p.meta a {
     color: var(--color-label-lm);
   }
+
+  ul li {
+    color: var(--color-dark);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,6 +37,10 @@
 
   p.meta a {
     color: var(--color-label-dm);
+  }
+
+  ul li {
+    color: var(--color-light);
   }
 }
 
