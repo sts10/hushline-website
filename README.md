@@ -24,6 +24,20 @@ Use it as a starter kit that you can build on top of, or use it as a complete, l
 
 ---
 
+**Code**
+
+[WHATWG HTML Living Standard](https://html.spec.whatwg.org/multipage/introduction.html)
+
+[W3C CSS Standards](https://www.w3.org/Style/CSS/)
+
+[HTML Validator](https://validator.w3.org/)
+
+[CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+[Browser Compatibility](https://caniuse.com/)
+
+---
+
 **Native Guidelines**
 
 [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
@@ -50,7 +64,7 @@ Use it as a starter kit that you can build on top of, or use it as a complete, l
 
 **Planning & Ops**
 
-[Buisness Model Canvas](https://en.wikipedia.org/wiki/Business_Model_Canvas)
+[Business Model Canvas](https://en.wikipedia.org/wiki/Business_Model_Canvas)
 
 [Project Canvas](http://www.projectcanvas.dk/)
 
