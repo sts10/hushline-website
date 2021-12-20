@@ -80,10 +80,9 @@ p.meta {
   font-size: var(--font-size-xsmall);
 }
 
-.emoji {
-  font-size: var(--font-size-2);
-  margin-bottom: 0;
-  line-height: 1;
+h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
+  display: block;
+  margin-bottom: var(--spacing-small);
 }
 
 .center h1, .center h2, .center h3, .center h4, .center h5, .center h6 {
@@ -118,9 +117,6 @@ p.meta {
     line-height: calc(var(--line-height-base) * .9);
   }
 
-  .emoji {
-    font-size: calc(var(--font-size-2) * .9);
-  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -163,5 +159,4 @@ p.meta {
     font-size: calc(var(--font-size-1) * .6);
     line-height: calc(var(--line-height-1) * .6);
   }
-
 }
