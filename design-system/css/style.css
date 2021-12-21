@@ -3,10 +3,12 @@
 
 @import url("reset.css");
 @import url("variables.css");
+@import url("article.css");
 @import url("base.css");
 @import url("buttons.css");
 @import url("animation.css");
 @import url("typography.css");
+@import url("firefox.css");
 @import url("../components/header/css/header.css");
 @import url("../components/intro/css/intro.css");
 @import url("../components/content/css/content.css");
