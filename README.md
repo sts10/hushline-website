@@ -62,6 +62,8 @@ Use it as a starter kit that you can build on top of, or use it as a complete, l
 
 [Heuristics of UI Design](https://www.nngroup.com/articles/ten-usability-heuristics/)
 
+[Laws of UX](https://lawsofux.com/)
+
 [Top 10 Guidelines for Homepage Usability](https://www.nngroup.com/articles/top-ten-guidelines-for-homepage-usability/)
 
 ---
