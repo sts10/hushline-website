@@ -112,6 +112,10 @@ nav .badge {
   margin-right: var(--spacing-base);
 }
 
+.appHeader .wrapper {
+  max-width: none;
+}
+
 @media only screen and (max-width: 768px) {
   @media (prefers-color-scheme: light) {
     nav ul {
