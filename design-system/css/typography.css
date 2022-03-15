@@ -26,6 +26,11 @@
     background-color: var(--color-shade-lm);
     border: var(--border-dark);
   }
+
+  .highlight {
+    background-color: var(--color-dark);
+    color: white;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -53,6 +58,11 @@
     color: #EE72AC;
     background-color: var(--color-shade-dm);
     border: var(--border-light);
+  }
+
+  .highlight {
+    background-color: var(--color-light);
+    color: var(--color-dark);
   }
 }
 
@@ -102,6 +112,11 @@ p {
 p.meta {
   margin: var(--spacing-small) 0 var(--spacing-xsmall) 0 !important;
   font-size: var(--font-size-xsmall);
+}
+
+.highlight {
+  padding: var(--spacing-xsmall);
+  border-radius: var(--radius-soft);
 }
 
 h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
