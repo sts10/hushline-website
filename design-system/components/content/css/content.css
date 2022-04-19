@@ -12,7 +12,7 @@
 
 .group {
   display: flex;
-  margin: var(--spacing-large) 0;
+  margin: var(--spacing-xxlarge) 0;
 }
 
 .group .description {
@@ -141,12 +141,16 @@
   .description h6 {
     width: 80%;
   }
+
+  .group {
+    margin: var(--spacing-xlarge) 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .group {
     flex-direction: column;
-    margin: var(--spacing-medium) 0;
+    margin: var(--spacing-large) 0;
   }
 
   .group .description {
@@ -211,5 +215,9 @@
 @media only screen and (max-width: 640px) {
   .mobileImageContainer img {
     width: 100%;
+  }
+
+  .group {
+    margin: var(--spacing-medium) 0;
   }
 }
