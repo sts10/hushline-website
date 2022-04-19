@@ -1,6 +1,5 @@
 @media (prefers-color-scheme: light) {
   .tabs {
-    border-bottom: var(--border-dark);
     background-color: white;
   }
 
@@ -25,7 +24,6 @@
 
 @media (prefers-color-scheme: dark) {
   .tabs {
-    border-bottom: var(--border-light);
   }
 
   .tabs a:hover {
