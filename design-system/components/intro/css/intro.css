@@ -21,6 +21,7 @@
 .intro {
   height: 100vh;
   align-items: center;
+  position: relative;
 }
 
 .intro h2 {
@@ -28,8 +29,24 @@
   line-height: var(--line-height-intro-heading);
 }
 
+.intro .tabs {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0 !important;
+}
+
 .intro p:last-of-type {
   margin-bottom: 0;
+}
+
+.secondaryIntro {
+  height: 80vh;
+}
+
+.secondaryIntro + section h3 {
+  margin-top: var(--spacing-medium) !important;
 }
 
 p.hint {

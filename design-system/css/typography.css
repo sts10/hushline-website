@@ -191,4 +191,21 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   h2 {
     font-size: calc(var(--font-size-1) * .6);
   }
+
+  h3 {
+    font-size: calc(var(--font-size-2) * .7);
+    margin: var(--spacing-xxlarge) 0 var(--spacing-base) 0;
+  }
+
+  h5 {
+    font-size: calc(var(--font-size-4) * .7);
+  }
+
+  h6 {
+    font-size: calc(var(--font-size-5) * .7);
+  }
+
+  .code {
+    width: fit-content !important;
+  }
 }
