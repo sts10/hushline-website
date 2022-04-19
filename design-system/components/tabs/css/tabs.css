@@ -4,12 +4,7 @@
   }
 
   .tabs a:hover {
-    border-bottom: 3px solid var(--color-dark);
     background-color: var(--color-shade);
-  }
-
-  .tabs a.selected {
-    border-bottom: 3px solid var(--color-dark) !important;
   }
 
   .tabContainerScrolled {
@@ -27,12 +22,7 @@
   }
 
   .tabs a:hover {
-    border-bottom: 3px solid var(--color-light);
     background-color: var(--color-dark-1);
-  }
-
-  .tabs a.selected {
-    border-bottom: 3px solid var(--color-light)  !important;
   }
 
   .tabContainerScrolled {
@@ -45,26 +35,20 @@
   z-index: 1;
 }
 
-.tabs h2 {
-  font-size: var(--font-size-body);
-  line-height: 0;
-  display: inline;
-  margin: 0 var(--spacing-medium) 0 0;
-}
-
 .tabs {
   overflow: auto;
   white-space: nowrap;
 }
 
-.tabs a {
+.tabs ul a {
   display: inline-block;
-  padding: var(--spacing-medium) var(--spacing-base) calc(var(--spacing-medium) - 3px) var(--spacing-base);
+  padding: var(--spacing-medium) var(--spacing-base);
   text-decoration: none;
   font-size: var(--font-size-small);
-  border-bottom: 3px solid rgba(0,0,0,0);
   cursor: pointer;
   border-radius: 2px 2px 0 0;
+  height: auto;
+  letter-spacing: .025rem;
 }
 
 .tabs a.selected {

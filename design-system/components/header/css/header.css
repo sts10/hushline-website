@@ -3,6 +3,10 @@
     background-color: var(--color-light);
   }
 
+  nav a.selected {
+    box-shadow: inset 0 -3px var(--color-dark);
+  }
+
   nav ul li a:hover {
     box-shadow: inset 0 -3px var(--color-dark);
   }
@@ -11,6 +15,10 @@
 @media (prefers-color-scheme: dark) {
   header {
     background-color: var(--color-shade-dm);
+  }
+
+  nav a.selected {
+    box-shadow: inset 0 -3px var(--color-light);
   }
 
   nav ul li a:hover {
@@ -119,28 +127,28 @@ nav .badge {
 
 @media only screen and (max-width: 768px) {
   @media (prefers-color-scheme: light) {
-    nav ul {
+    header nav ul {
       box-shadow: var(--shadow-lm);
       background-color: var(--color-light);
     }
 
-    nav ul li a:hover {
+    header nav ul li a:hover {
       box-shadow: inset 3px 0 var(--color-dark);
     }
   }
 
   @media (prefers-color-scheme: dark) {
-    nav ul {
+    header nav ul {
       box-shadow: var(--shadow-dm);
       background-color: var(--color-shade-dm);
     }
 
-    nav ul li a:hover {
+    header nav ul li a:hover {
       box-shadow: inset 3px 0 var(--color-light);
     }
   }
 
-  nav ul {
+  header nav ul {
     display: none;
   }
 
@@ -149,7 +157,7 @@ nav .badge {
     align-self: center;
   }
 
-  nav ul {
+  header nav ul {
     flex-direction: column;
     position: absolute;
     top: 72px;
@@ -160,28 +168,28 @@ nav .badge {
     align-items: flex-start;
   }
 
-  nav ul li a.wrapper {
+  header nav ul li a.wrapper {
     display: flex;
     width: 100%;
   }
 
-  nav ul li a {
+  header nav ul li a {
     padding-top: var(--spacing-base) !important;
     padding-bottom: var(--spacing-base) !important;
     padding-left: var(--spacing-medium) !important;
     padding-right: var(--spacing-medium) !important;
   }
 
-  nav .btn {
+  header nav .btn {
     margin: var(--spacing-base) var(--spacing-medium);
     display: inline-flex !important;
   }
 
-  nav ul li a.wrapper {
+  header nav ul li a.wrapper {
     display: flex;
   }
 
-  nav .badge {
+  header nav .badge {
     margin-right: 0;
     margin-left: var(--spacing-medium);
   }
