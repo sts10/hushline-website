@@ -3,6 +3,10 @@
     background-color: var(--color-light);
   }
 
+  .intro.secondaryNav {
+    border-bottom: var(--border-dark);
+  }
+
   p.hint {
     color: var(--color-label-lm);
   }
@@ -11,6 +15,10 @@
 @media (prefers-color-scheme: dark) {
   .intro {
     background-color: var(--color-shade-dm);
+  }
+
+  .intro.secondaryNav {
+    border-bottom: var(--border-light);
   }
 
   p.hint {
