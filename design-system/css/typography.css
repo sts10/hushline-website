@@ -4,6 +4,12 @@
        url("../fonts/sans/family.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Serif";
+  src: url("../fonts/serif/regular.woff2") format("woff2"),
+       url("../fonts/serif/regular.woff") format("woff");
+}
+
 @media (prefers-color-scheme: light) {
   h1, h2, h3, h4, h5, h6, p {
     color: var(--color-dark);
@@ -86,7 +92,7 @@ h3 {
 
 h4 {
   font-size:  var(--font-size-3);
-  margin: var(--spacing-xxlarge) 0 var(--spacing-small) 0;
+  margin: var(--spacing-xxlarge) 0 var(--spacing-xxsmall) 0;
 }
 
 h5 {
@@ -144,7 +150,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 
   h4 {
     font-size: calc(var(--font-size-3) * .9);
-    margin: calc(var(--spacing-xxlarge) * .9) 0 var(--spacing-small) 0;
+    margin: calc(var(--spacing-xxlarge) * .9) 0 var(--spacing-xxsmall) 0;
   }
 
   h5 {
@@ -173,7 +179,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 
   h4 {
     font-size: calc(var(--font-size-3) * .8);
-    margin: calc(var(--spacing-xxlarge) * .8) 0 var(--spacing-small) 0;
+    margin: calc(var(--spacing-xxlarge) * .8) 0 var(--spacing-xxsmall) 0;
   }
 
   h5 {
