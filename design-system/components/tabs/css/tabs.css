@@ -48,7 +48,6 @@
   cursor: pointer;
   border-radius: 2px 2px 0 0;
   height: auto;
-  letter-spacing: .025rem;
 }
 
 .tabs a.selected {
