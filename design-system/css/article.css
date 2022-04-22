@@ -10,16 +10,8 @@ article {
   margin-bottom: var(--spacing-xxlarge);
 }
 
-article img.small {
-  max-width: 640px;
-}
-
-article img.medium {
+article img {
   max-width: 768px;
-}
-
-article img.mobile {
-  max-width: 375px;
 }
 
 @media only screen and (max-width: 768px) {
