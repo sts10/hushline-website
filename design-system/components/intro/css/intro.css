@@ -58,6 +58,10 @@
   margin-top: var(--spacing-medium) !important;
 }
 
+.secondaryIntro + article h3 {
+  margin-top: var(--spacing-medium) !important;
+}
+
 p.hint {
   position: absolute;
   bottom: var(--spacing-base);
