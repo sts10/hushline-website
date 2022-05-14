@@ -41,6 +41,9 @@ Use it as a starter kit that you can build on top of, or use it as a complete, l
 [Browser Compatibility](https://caniuse.com/)
 
 ---
+**Ethics**
+
+[Ethical Web Principles](https://www.w3.org/TR/ethical-web-principles/)
 
 **Native Guidelines**
 
