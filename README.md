@@ -45,6 +45,8 @@ Use it as a starter kit that you can build on top of, or use it as a complete, l
 
 [Ethical Web Principles](https://www.w3.org/TR/ethical-web-principles/)
 
+---
+
 **Native Guidelines**
 
 [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
