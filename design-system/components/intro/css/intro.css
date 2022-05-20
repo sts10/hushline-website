@@ -59,7 +59,11 @@
 }
 
 .secondaryIntro + article h3 {
-  margin-top: var(--spacing-medium) !important;
+  margin-top: 0 !important;
+}
+
+.secondaryIntro + article .highlights h3 {
+  margin-top: 0 !important;
 }
 
 p.hint {
