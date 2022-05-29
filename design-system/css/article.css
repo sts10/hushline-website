@@ -12,6 +12,11 @@
 
 article {
   margin-bottom: var(--spacing-xxlarge);
+  font-family: 'Serif';
+}
+
+article p {
+  line-height: var(--line-height-article);
 }
 
 article img {
@@ -21,6 +26,10 @@ article img {
 article .wrapper {
   flex-direction: row;
   justify-content: space-between;
+}
+
+.articleIntro h2, .articleIntro p {
+  font-family: 'Serif';
 }
 
 .articleBody {
