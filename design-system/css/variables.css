@@ -13,6 +13,7 @@
   --color-shade-lm: rgba(51,51,51,.035);
 
   --border-dark: 1px solid rgba(0,0,0,0.1);
+  --border-dark-1: 1px solid rgba(0,0,0,0.05);
   --border-light: 1px solid rgba(255,255,255,0.1);
   --border-light-1: 1px solid rgba(255,255,255,0.25);
 

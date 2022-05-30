@@ -2,11 +2,21 @@
   .iconAlt {
     color: var(--color-label-lm);
   }
+
+  .description img.avatar {
+    box-shadow: var(--shadow-lm);
+    border: var(--border-dark-1);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   .iconAlt {
     color: var(--color-label-dm);
+  }
+
+  .description img.avatar {
+    box-shadow: var(--shadow-dm);
+    border: var(--border-light);
   }
 }
 
