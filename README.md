@@ -50,6 +50,8 @@ Use it as a starter kit that you can build on top of, or use it as a complete, l
 
 [Digital.gov](https://digital.gov/)
 
+[Gov.uk Government Design Principles](https://www.gov.uk/guidance/government-design-principles)
+
 ---
 
 **Native Guidelines**
