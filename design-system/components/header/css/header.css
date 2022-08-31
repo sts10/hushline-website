@@ -38,6 +38,7 @@ header {
   flex: 0 1 auto;
   z-index: 9;
   backdrop-filter: blur(var(--spacing-base));
+  -webkit-backdrop-filter: blur(var(--spacing-base));
 }
 
 header .wrapper {
