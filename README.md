@@ -70,6 +70,10 @@ Use it as a starter kit that you can build on top of, or use it as a complete, l
 
 **Usability**
 
+[Dark Patterns - FTC Findings](https://glennsorrentino.keybase.pub/documents/ftc-dark-patterns.pdf)
+
+[Dark Patterns - Princeton Findings](https://glennsorrentino.keybase.pub/documents/princeton-dark-patterns.pdf)
+
 [Durability of Usability Guidelines](https://www.nngroup.com/articles/durability-of-usability-guidelines/)
 
 [Heuristics of UI Design](https://www.nngroup.com/articles/ten-usability-heuristics/)
