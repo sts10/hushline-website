@@ -38,6 +38,11 @@
   align-self: center;
 }
 
+.group.blockContent {
+  flex-direction: row;
+  display: flex;
+}
+
 .description {
   display: flex;
   flex-direction: column;

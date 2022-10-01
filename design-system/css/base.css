@@ -53,6 +53,10 @@
   outline: solid;
 }
 
+.hidden {
+  display: none !important;
+}
+
 input:focus {
   text-decoration: none;
 }
