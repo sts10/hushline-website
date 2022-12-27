@@ -185,6 +185,7 @@ nav .badge {
     flex-direction: column;
     position: absolute;
     top: 72px;
+    right: calc(var(--spacing-xxlarge) * 2.5);
     width: max-content;
     z-index: 1;
     padding: var(--spacing-small) 0;
