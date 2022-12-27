@@ -134,7 +134,8 @@ nav ul li a {
 
 nav .btn {
   margin-left: var(--spacing-base);
-  height: auto;
+  height: max-content;
+  align-self: center;
 }
 
 nav .badge {
@@ -145,7 +146,7 @@ nav .badge {
   max-width: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 960px) {
   @media (prefers-color-scheme: light) {
     header nav ul {
       box-shadow: var(--shadow-lm);
@@ -194,6 +195,11 @@ nav .badge {
   header nav ul li a.wrapper {
     display: flex;
     width: 100%;
+  }
+
+  nav .btn:last-of-type {
+    margin-right: 0;
+    margin-left: var(--spacing-base);
   }
 
   header nav ul li a {
