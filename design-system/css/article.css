@@ -10,9 +10,20 @@
   }
 }
 
+.articleBody h2, .articleBody h3, .articleBody h4, .articleBody h5 {
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    /* width: 100%; */
+}
+
+
 article {
   margin-bottom: var(--spacing-xxlarge);
   font-family: 'Serif';
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 article p {
@@ -32,10 +43,20 @@ article .wrapper {
   font-family: 'Serif';
 }
 
+.articleIntro {
+  text-align: center;
+}
+
+.articleIntro .meta {
+  width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+
+}
+
 .articleBody {
   display: flex;
   flex-direction: column;
-  width: 64%;
 }
 
 .highlights {
