@@ -28,6 +28,7 @@ article {
 
 article p {
   line-height: var(--line-height-article);
+  font-size: var(--font-size-body);
 }
 
 article img {
