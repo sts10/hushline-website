@@ -8,7 +8,7 @@ This design system provides a research-based framework for quickly building dura
 
 Use it as a starter kit that you can build on top of, or as a complete, living solution.
 
-![cover](https://user-images.githubusercontent.com/28545431/210018568-c9f825bc-fe1a-45a6-9d8d-bd3547617282.png)
+![cover](https://user-images.githubusercontent.com/28545431/210018952-17af89fc-f83f-45cb-adf2-8effe4db27c4.png)
 
 ## Documentation and Resources
 
