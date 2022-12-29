@@ -138,6 +138,10 @@ nav .btn {
   align-self: center;
 }
 
+nav .btn:last-of-type {
+  margin-left: var(--spacing-small);
+}
+
 nav .badge {
   margin-right: var(--spacing-base);
 }
