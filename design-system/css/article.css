@@ -20,7 +20,6 @@
 
 article {
   margin-bottom: var(--spacing-xxlarge);
-  font-family: 'Serif';
   max-width: 640px;
   margin-left: auto;
   margin-right: auto;
@@ -28,7 +27,7 @@ article {
 
 article p {
   line-height: var(--line-height-article);
-  font-size: var(--font-size-body);
+  font-size: var(--font-size-article);
 }
 
 article img {
@@ -40,8 +39,9 @@ article .wrapper {
   justify-content: space-between;
 }
 
-.articleIntro h2, .articleIntro p {
-  font-family: 'Serif';
+.articleBody h2, .articleBody h3, .articleBody h4, .articleBody h5 {
+  font-family: 'Serif' !important;
+  font-weight: 700;
 }
 
 .articleIntro {
