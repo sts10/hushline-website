@@ -150,7 +150,7 @@ nav .badge {
   max-width: none;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 900px) {
   @media (prefers-color-scheme: light) {
     header nav ul {
       box-shadow: var(--shadow-lm);
