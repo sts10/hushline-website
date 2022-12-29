@@ -179,8 +179,13 @@
   margin-bottom: var(--spacing-base) !important;
 }
 
+.featureGroup .description img {
+  max-width: 768px;
+}
+
 .featureGroup img:not(.icon) {
   width: 100% !important;
+  max-width: 768px;
 }
 
 .featureGroup .description .icon {
