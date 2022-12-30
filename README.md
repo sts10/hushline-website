@@ -98,3 +98,12 @@ Use it as a starter kit that you can build on top of, or as a complete, living s
 
 [The 6 Levels of UX Maturity](https://www.nngroup.com/articles/ux-maturity-model/)
 
+---
+
+**Writing**
+
+[Headings Are Pick-Up Lines: 5 Tips for Writing Headlines That Convert ](https://www.nngroup.com/articles/headings-pickup-lines/)
+
+[Microcontent: A Few Small Words Have a Mega Impact on Business](https://www.nngroup.com/articles/microcontent-how-to-write-headlines-page-titles-and-subject-lines/)
+
+[UX Writing: Study Guide](https://www.nngroup.com/articles/ux-writing-study-guide/?lm=headings-pickup-lines&pt=article)
