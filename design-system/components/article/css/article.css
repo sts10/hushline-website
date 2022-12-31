@@ -17,7 +17,7 @@
 
   .toc {
     border: var(--border-light);
-    background-color: var(--color-dark-shade);
+    background-color: var(--color-shade-dm);
     box-shadow: var(--shadow-dm);
   }
 }
