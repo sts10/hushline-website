@@ -28,6 +28,17 @@
     margin-right: auto !important;
 }
 
+/* .intro .category h2 {
+  margin-top: var(--spacing-base);
+} */
+
+.category {
+  text-transform: uppercase;
+  font-family: 'Serif';
+  font-size: var(--font-size-xsmall) !important;
+  letter-spacing: var(--kern-wide);
+}
+
 .toc {
   padding: var(--spacing-large) var(--spacing-medium);
   border-radius: var(--radius-soft);

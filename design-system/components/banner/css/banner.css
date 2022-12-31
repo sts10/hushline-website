@@ -53,11 +53,11 @@
   top: 0px !important;
 }
 
-.banner + header ~ div .intro h2 {
+.banner + header ~ div .intro .category {
   margin-top: 40px !important;
 }
 
-.banner.hidden + header ~ div .intro h2 {
+.banner.hidden + header ~ div .intro .category {
   margin-top: 0px !important;
 }
 

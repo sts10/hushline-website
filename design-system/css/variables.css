@@ -36,6 +36,8 @@
   --size-avatar: 10rem;
   --size-btn-icon: 2.5rem;
 
+  /* Type Sizes */
+
   --font-size-xsmall: .75rem;
   --font-size-small: .875rem;
   --font-size-logo: 1.125rem;
@@ -47,8 +49,15 @@
   --font-size-4: 2rem;
   --font-size-5: 1.5rem;
   --font-size-6: 1.25rem;
-  --font-spacing-small: .0125rem;
-  --letter-spacing-serif-heading: -0.015625rem;
+
+  /* Kerning / Letter Spacing */
+
+  --kern-negative: -0.015625rem;
+  --kern-narrow: .0125;
+  --kern-medium: .025;
+  --kern-wide: .075rem;
+
+  /* Leading / Line Height */
 
   --line-height-button: 1;
   --line-height-tighter: 1.2;

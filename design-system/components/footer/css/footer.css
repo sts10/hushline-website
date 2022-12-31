@@ -12,7 +12,7 @@
 
 footer {
   font-size: var(--font-size-xsmall);
-  letter-spacing: var(--font-spacing-small);
+  letter-spacing: var(--kern-narrow);
   padding: var(--spacing-base) 0;
 }
 

@@ -128,7 +128,7 @@ nav a {
   height: 100%;
   align-items: center;
   font-size: var(--font-size-small);
-  letter-spacing: .025rem;
+  letter-spacing: var(--kern-medium);
 }
 
 nav .btn {
