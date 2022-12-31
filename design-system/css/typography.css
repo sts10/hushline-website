@@ -12,14 +12,14 @@
 
 @font-face {
   font-family: "Serif";
-  src: url("../fonts/serif/regular.woff2") format("woff2"),
-       url("../fonts/serif/regular.woff") format("woff");
+  src: url("../fonts/serif/Merriweather-Regular.woff2") format("woff2"),
+       url("../fonts/serif/Merriweather-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Serif Bold";
-  src: url("../fonts/serif/bold.woff2") format("woff2"),
-       url("../fonts/serif/bold.woff") format("woff");
+  src: url("../fonts/serif/Merriweather-Bold.woff2") format("woff2"),
+       url("../fonts/serif/Merriweather-Bold.woff") format("woff");
 }
 
 @media (prefers-color-scheme: light) {
