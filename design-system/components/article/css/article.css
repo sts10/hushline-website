@@ -108,11 +108,19 @@ article .wrapper {
   justify-content: space-around;
 }
 
+article .wrapper div:not(.aside) {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
 article .withToc h3, article .withToc h4, article .withToc h5, article .withToc h6 {
   margin-left: 0 !important;
   margin-right: 0 !important;
   text-align: left;
   max-width: 640px;
+  align-self: flex-start;
 }
 
 article .wrapper .asideContainer {

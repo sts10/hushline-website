@@ -33,6 +33,7 @@
 table   {
   border-collapse: collapse;
   width: 100%;
+  max-width: 768px;
   margin-top: var(--spacing-medium);
   margin-bottom: var(--spacing-medium);
 }
