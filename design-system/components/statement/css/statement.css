@@ -9,6 +9,7 @@
 .statementContainer {
   display: flex;
   margin: 0 0 calc(var(--spacing-xxlarge) * 1.5) 0;
+  justify-content: center;
 }
 
 .statement {
