@@ -6,6 +6,10 @@
 
 }
 
+.statementContainer {
+  display: flex;
+}
+
 .statement {
   display: flex;
   align-self: center;
