@@ -57,7 +57,7 @@ header .logo {
   align-items: center;
   height: var(--size-logo);
   padding: calc(var(--spacing-medium) * 1.125) 0;
-  line-height: var(--line-height-body);
+  line-height: var(--line-height-base);
   display: flex;
   width: fit-content;
 }
@@ -123,7 +123,7 @@ nav ul li a.wrapper {
   padding: 0 calc(var(--spacing-small) * 1.25);
 }
 
-nav ul li a {
+nav a {
   display: flex;
   height: 100%;
   align-items: center;
@@ -132,8 +132,8 @@ nav ul li a {
 }
 
 nav .btn {
-  margin-left: var(--spacing-base);
-  height: max-content;
+  margin: 0 0 0 var(--spacing-base);
+  height: fit-content;
   align-self: center;
 }
 

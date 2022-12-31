@@ -52,7 +52,7 @@
 
 .toc li {
   margin-bottom: var(--spacing-small);
-  line-height: var(--line-height-body);
+  line-height: var(--line-height-base);
   margin-left: var(--spacing-medium);
 }
 
@@ -64,7 +64,7 @@ article {
 }
 
 article p {
-  line-height: var(--line-height-article);
+  line-height: var(--line-height-wide);
   font-size: var(--font-size-article);
 }
 
