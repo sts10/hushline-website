@@ -6,6 +6,7 @@
   .toc {
     border: var(--border-dark);
     background-color: var(--color-light);
+    box-shadow: var(--shadow-lm);
   }
 }
 
@@ -17,6 +18,7 @@
   .toc {
     border: var(--border-light);
     background-color: var(--color-dark-shade);
+    box-shadow: var(--shadow-dm);
   }
 }
 
@@ -83,6 +85,9 @@ article .withToc div:not(.toc) {
 
 article .withToc h3, article .withToc h4, article .withToc h5, article .withToc h6 {
   margin-left: 0 !important;
+  margin-right: 0 !important;
+  text-align: left;
+  max-width: 640px;
 }
 
 article .wrapper div:not(.toc) {
