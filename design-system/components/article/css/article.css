@@ -134,10 +134,6 @@ article .wrapper .asideContainer {
   margin-bottom: var(--spacing-base);
 }
 
-/* article .wrapper div:not(.aside) ul li a {
-  font-size: var(--font-size-6);
-} */
-
 .articleBody h2, .articleBody h3, .articleBody h4, .articleBody h5 {
   font-family: 'Serif' !important;
   font-weight: 700;
