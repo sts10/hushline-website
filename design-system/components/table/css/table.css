@@ -46,6 +46,7 @@ table caption {
 thead th {
   font-size: calc(var(--font-size-body) * .825);
   font-family: 'Sans Bold';
+  text-transform: capitalize;
 }
 
 td {

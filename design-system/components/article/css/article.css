@@ -185,7 +185,7 @@ article .wrapper .asideContainer {
   }
 
   .asideContainer {
-    max-width: 480px !important;
+    max-width: 360px !important;
     width: 100%;
     margin-bottom: var(--spacing-xxlarge);
     margin-left: 0;
