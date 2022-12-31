@@ -26,4 +26,16 @@ $(document).ready(function() {
     $('BODY + div').removeClass('banner');
   });
 
+  $('.btnCollapse').on('click', function() {
+    $('.btnCollapse').addClass('hidden');
+    $('.btnExpand').removeClass('hidden');
+    $('.toc ol').addClass('hidden');
+  });
+
+  $('.btnExpand').on('click', function() {
+    $('.btnExpand').addClass('hidden');
+    $('.btnCollapse').removeClass('hidden');
+    $('.toc ol').removeClass('hidden');
+  });
+
 });

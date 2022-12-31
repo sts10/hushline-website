@@ -3,7 +3,6 @@
 
 @import url("reset.css");
 @import url("variables.css");
-@import url("base.css");
 @import url("animation.css");
 @import url("typography.css");
 @import url("../components/button/css/button.css");
@@ -21,4 +20,5 @@
 @import url("../components/statement/css/statement.css");
 @import url("../components/article/css/article.css");
 @import url("../components/table/css/table.css");
+@import url("base.css");
 @import url("../../css/overrides.css");
