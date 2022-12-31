@@ -63,7 +63,7 @@
   cursor: pointer;
   margin: var(--spacing-small) 0;
   text-transform: capitalize;
-  line-height: var(--line-height-base);
+  line-height: var(--line-height-button);
 }
 
 .btnLrg {
