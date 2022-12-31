@@ -42,8 +42,8 @@ table   {
   border-collapse: collapse;
   width: 100%;
   max-width: 768px;
-  margin-top: var(--spacing-medium);
-  margin-bottom: var(--spacing-medium);
+  margin-top: var(--spacing-large);
+  margin-bottom: var(--spacing-xlarge);
 }
 
 table caption {
