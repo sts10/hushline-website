@@ -9,6 +9,10 @@
     box-shadow: var(--shadow-lm);
   }
 
+  td:hover, th:hover {
+    background-color: var(--color-shade-lm);
+  }
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,6 +32,10 @@
   tbody {
     box-shadow: var(--shadow-dm);
   }
+
+  td:hover, th:hover {
+    background-color: var(--color-shade-dm);
+  }
 }
 
 table   {
@@ -44,9 +52,9 @@ table caption {
 }
 
 thead th {
-  font-size: calc(var(--font-size-body) * .825);
   font-family: 'Sans Bold';
   text-transform: capitalize;
+  letter-spacing: var(--kern-medium) !important;
 }
 
 td {
@@ -55,5 +63,9 @@ td {
 
 th {
   padding: var(--spacing-base);
+  font-size: calc(var(--font-size-body) * .75);
   text-align: left;
+  font-family: 'Sans Bold';
+  text-transform: uppercase;
+  letter-spacing: var(--kern-wide);
  }
