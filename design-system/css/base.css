@@ -18,6 +18,10 @@
   body {
     background-color: var(--color-shade-lm);
   }
+
+  ol, ul {
+    color: var(--color-dark);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,10 +39,13 @@
     color: var(--color-light);
     border: var(--border-light-1);
     background-image: url("../../design-system/images/input/icon-search-dm.png");
-
   }
 
   a {
+    color: var(--color-light);
+  }
+
+  ol, ul {
     color: var(--color-light);
   }
 }
