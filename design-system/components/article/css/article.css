@@ -26,7 +26,6 @@
     text-align: center;
     margin-left: auto !important;
     margin-right: auto !important;
-    /* width: 100%; */
 }
 
 .toc {
@@ -60,7 +59,6 @@
 
 article {
   margin-bottom: var(--spacing-xxlarge);
-  /* max-width: 640px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -152,6 +150,11 @@ article .wrapper div:not(.toc) ul li a {
     margin-bottom: var(--spacing-xxlarge);
     margin-left: 0;
     order: 0;
+  }
+
+  article .withToc h3, article .withToc h4, article .withToc h5, article .withToc h6 {
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 
   article .withToc div:not(.toc) {
