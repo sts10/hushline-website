@@ -92,6 +92,7 @@ ul {
 
 ul li {
   margin: var(--spacing-base) 0;
+  line-height: var(--line-height-body);
 }
 
 ul li:first-of-type {
