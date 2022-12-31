@@ -12,12 +12,17 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
+  table {
+    color: var(--color-light);
+  }
+
   tr {
     border: var(--border-light);
   }
 
   thead, tbody {
-    background-color: var(--color-dark);
+    background-color: var(--color-shade-dm);
   }
 
   tbody {
