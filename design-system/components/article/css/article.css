@@ -88,6 +88,11 @@
   align-self: center;
 }
 
+.aside .fieldIcon {
+  font-size: var(--font-size-xsmall);
+  cursor: default;
+}
+
 article {
   margin-bottom: var(--spacing-xxlarge);
   margin-left: auto;
