@@ -35,7 +35,7 @@
 .category {
   text-transform: uppercase;
   font-family: 'Serif';
-  font-size: var(--font-size-xsmall) !important;
+  font-size: var(--font-size-xxsmall) !important;
   letter-spacing: var(--kern-wide);
 }
 
