@@ -73,6 +73,12 @@ th {
   letter-spacing: var(--kern-wide);
  }
 
+ @media only screen and (max-width: 768px) {
+   th, td {
+     font-size: calc(var(--font-size-small) * 1.125);
+   }
+ }
+
  @media only screen and (max-width: 640px) {
    th, td {
      font-size: var(--font-size-small);
