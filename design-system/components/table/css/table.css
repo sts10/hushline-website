@@ -40,10 +40,12 @@
 
 table   {
   border-collapse: collapse;
+  border-spacing: 0;
   width: 100%;
   max-width: 768px;
   margin-top: var(--spacing-large);
   margin-bottom: var(--spacing-xlarge);
+  table-layout: fixed;
 }
 
 table caption {
@@ -61,11 +63,24 @@ td {
   padding: var(--spacing-base);
 }
 
+th, td {
+  vertical-align: middle;
+}
+
 th {
   padding: var(--spacing-base);
-  font-size: calc(var(--font-size-body) * .75);
   text-align: left;
-  font-family: 'Sans Bold';
-  text-transform: uppercase;
   letter-spacing: var(--kern-wide);
  }
+
+ @media only screen and (max-width: 640px) {
+   th, td {
+     font-size: var(--font-size-small);
+   }
+ }
+
+@media only screen and (max-width: 480px) {
+  th, td {
+    font-size: var(--font-size-xsmall);
+  }
+}
