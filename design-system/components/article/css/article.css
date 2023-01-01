@@ -116,6 +116,10 @@
   cursor: default;
 }
 
+.aside .col:first-of-type {
+  padding-right: var(--spacing-base);
+}
+
 article {
   margin-bottom: var(--spacing-xxlarge);
   margin-left: auto;
