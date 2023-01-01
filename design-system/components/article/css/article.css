@@ -44,7 +44,7 @@
   flex-direction: column;
   justify-content: flex-start;
   order: 2;
-  margin-left: var(--spacing-large);
+  margin-left: var(--spacing-xxlarge);
   max-width: 320px;
   width: 100%;
 }
