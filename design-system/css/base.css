@@ -31,7 +31,7 @@
   }
 
   body {
-    background-color: var(--shade-dm);
+    background-color: var(--color-shade-dm-1);
   }
 
   input {
