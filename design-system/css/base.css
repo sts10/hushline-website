@@ -108,7 +108,7 @@ label {
 }
 
 input + label {
-  margin-top: var(--spacing-base);
+  margin-top: var(--spacing-medium);
 }
 
 html {
