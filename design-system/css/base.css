@@ -43,6 +43,10 @@
     border: var(--border-light-1);
   }
 
+  label {
+   color: var(--color-light);
+  }
+
   input[type="search"] {
     background-image: url("../../design-system/images/input/icon-search-dm.png");
   }
