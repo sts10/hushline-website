@@ -64,6 +64,8 @@ header .logo {
 
 header a {
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 header h1 a:hover {
@@ -120,15 +122,15 @@ nav ul li a.wrapper {
   max-width: initial;
   width: initial;
   display: flex;
-  padding: 0 calc(var(--spacing-small) * 1.25);
+  padding: 0 calc(var(--spacing-base) * 1.125);
 }
 
 nav a {
   display: flex;
   height: 100%;
   align-items: center;
-  font-size: var(--font-size-small);
-  letter-spacing: var(--kern-medium);
+  font-size: var(--font-size-smaller);
+  letter-spacing: var(--kern-open);
 }
 
 nav .btn {
@@ -202,8 +204,13 @@ nav .badge {
 
   nav .btn:last-of-type {
     margin-right: 0;
-    margin-left: var(--spacing-base);
   }
+
+  nav ul .btn {
+    margin-right: var(--spacing-base) !important;
+    margin-left: var(--spacing-base) !important;
+  }
+
 
   header nav ul li a {
     padding-top: var(--spacing-base) !important;

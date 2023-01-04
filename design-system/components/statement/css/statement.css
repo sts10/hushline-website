@@ -8,13 +8,16 @@
 
 .statementContainer {
   display: flex;
-  margin: 0 0 calc(var(--spacing-xxlarge) * 1.5) 0;
   justify-content: center;
 }
 
 .statement {
   display: flex;
   align-self: center;
+}
+
+.statement.description {
+  margin: 0;
 }
 
 .statement p {
@@ -30,10 +33,6 @@
 @media only screen and (max-width: 768px) {
   .statement p {
     font-size: calc(var(--font-size-4) * .8);
-  }
-
-  .statementContainer {
-    margin: 0 0 var(--spacing-xxlarge) 0;
   }
 }
 

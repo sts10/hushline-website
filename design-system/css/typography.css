@@ -90,6 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Sans Bold';
   line-height: var(--line-height-tight);
   width: fit-content;
+  margin: var(--spacing-base) 0;
 }
 
 article h2,
@@ -98,6 +99,8 @@ article h4,
 article h5,
 article h6 {
   letter-spacing: var(--kern-negative);
+  margin: var(--spacing-xxlarge) 0 var(--spacing-medium) 0;
+
 }
 
 h2 {
@@ -108,26 +111,23 @@ h2 {
 
 h3 {
   font-size: var(--font-size-2);
-  margin: var(--spacing-xxlarge) 0 var(--spacing-medium) 0;
 }
 
 h4 {
   font-size:  var(--font-size-3);
-  margin: var(--spacing-xxlarge) 0 var(--spacing-xxsmall) 0;
 }
 
 h5 {
   font-size:  var(--font-size-4);
-  margin: var(--spacing-xlarge) 0 var(--spacing-small) 0;
 }
 
 h6 {
   font-size:  var(--font-size-5);
-  margin: var(--spacing-large) 0 var(--spacing-small) 0;
 }
 
 p {
   max-width: 640px;
+  width: 100%;
   line-height: var(--line-height-base);
   margin: var(--spacing-base) 0;
 }
@@ -166,12 +166,10 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 
   h3 {
     font-size: calc(var(--font-size-2) * .9);
-    margin: var(--spacing-xxlarge) 0 var(--spacing-medium) 0;
   }
 
   h4 {
     font-size: calc(var(--font-size-3) * .9);
-    margin: calc(var(--spacing-xxlarge) * .9) 0 var(--spacing-xxsmall) 0;
   }
 
   h5 {
@@ -194,12 +192,10 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 
   h3 {
     font-size: calc(var(--font-size-2) * .8);
-    margin: var(--spacing-xxlarge) 0 var(--spacing-medium) 0;
   }
 
   h4 {
     font-size: calc(var(--font-size-3) * .8);
-    margin: calc(var(--spacing-xxlarge) * .8) 0 var(--spacing-xxsmall) 0;
   }
 
   h5 {
@@ -220,12 +216,10 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 
   h3 {
     font-size: calc(var(--font-size-2) * .7);
-    margin: var(--spacing-xxlarge) 0 var(--spacing-medium) 0;
   }
 
   h4 {
     font-size: calc(var(--font-size-3) * .7);
-    margin: var(--spacing-xxlarge) 0 var(--spacing-medium) 0;
   }
 
   h5 {

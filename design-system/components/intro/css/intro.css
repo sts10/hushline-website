@@ -25,8 +25,13 @@
 }
 
 .intro h2 {
-  width: 80%;
+  width: 70%;
   line-height: var(--line-height-tighter);
+  margin-top: 0 !important;
+}
+
+.articleIntro .category + h2 {
+  margin-top: var(--spacing-base) !important;
 }
 
 .intro .tabs {
@@ -38,6 +43,10 @@
   margin: 0 auto;
   padding: 0;
   transition: .3s;
+}
+
+.intro p:first-of-type {
+  margin-top: 0;
 }
 
 .intro p:last-of-type {
@@ -88,6 +97,22 @@ p.hint a {
 @media only screen and (max-width: 1280px) {
   .intro .tabs {
     padding: 0 var(--spacing-base);
+  }
+
+  .intro h2 {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .intro h2 {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .intro h2 {
+    width: 85%;
   }
 }
 

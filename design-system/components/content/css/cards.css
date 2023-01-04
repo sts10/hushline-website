@@ -54,10 +54,22 @@
   margin: 0;
 }
 
+.cardSection h3 {
+  width: 100% !important;
+  max-width: 640px;
+  text-align: center;
+  align-self: center;
+}
+
+
 .group.card .description {
   padding: 0 !important;
   border-radius: 0 !important;
   margin: 0 !important;
+}
+
+.groupRow .description {
+  max-width: 640px;
 }
 
 .card .description:first-of-type {
@@ -83,10 +95,15 @@
 
   .groupRow.card {
     flex-direction: column;
+    align-items: center;
   }
 
   .card .description {
     margin: var(--spacing-base) 0;
+  }
+
+  .groupRow .description {
+    flex-grow: 1;
   }
 }
 

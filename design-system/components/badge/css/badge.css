@@ -15,6 +15,17 @@
 .badge {
   padding: var(--spacing-xsmall) var(--spacing-small);
   font-size: var(--font-size-xsmall);
+  letter-spacing: var(--kern-open);
   border-radius: var(--radius-round);
   width: fit-content;
+  font-family: 'Sans Bold';
+}
+
+.badgeContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.badgeContainer .badge {
+  margin-right: var(--spacing-xsmall);
 }

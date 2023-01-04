@@ -64,14 +64,15 @@
   padding: var(--spacing-button) !important;
   border-radius: var(--radius-soft);
   display: inline-flex !important;
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-smaller);
   width: max-content;
   text-decoration: none;
-  font-weight: bold;
+  font-family: 'Sans Bold';
   cursor: pointer;
   margin: var(--spacing-small) 0;
   text-transform: capitalize;
   line-height: var(--line-height-button);
+  letter-spacing: var(--kern-open);
 }
 
 .tertiaryBtn {

@@ -32,6 +32,10 @@
     margin-right: auto !important;
 }
 
+.articleBody h2 {
+  line-height: var(--line-height-tight) !important;
+}
+
 .category {
   text-transform: uppercase;
   font-family: 'Serif';
