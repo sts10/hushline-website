@@ -39,7 +39,7 @@
   padding-right: var(--spacing-base);
 }
 
-.cols div {
+.cols div:first-of-type {
   padding-right: var(--spacing-xlarge);
 }
 
@@ -271,9 +271,6 @@ article {
 }
 
 @media only screen and (max-width: 960px) {
-  .groupRow h4 {
-    font-size: calc(var(--font-size-3) * .8);
-  }
 
 }
 
