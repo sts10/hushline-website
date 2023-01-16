@@ -2,7 +2,7 @@
 
 ## About the Simple Design System
 
-https://glenn-sorrentino.github.io/design-system/
+https://scidsg.github.io/design-system/
 
 This design system provides a research-based framework for quickly building durable web experiences.
 
