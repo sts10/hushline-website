@@ -22,6 +22,7 @@
   --spacing-xxsmall: .125rem;
   --spacing-xsmall: .25rem;
   --spacing-small: .5rem;
+  --spacing-input: .75rem;
   --spacing-base: 1rem;
   --spacing-medium: 1.5rem;
   --spacing-large: 2rem;
@@ -42,7 +43,7 @@
   --font-size-xsmall: .75rem;
   --font-size-smaller: .875rem;
   --font-size-small: 1rem;
-  --font-size-logo: 1.25rem;
+  --font-size-logo: 1.125rem;
   --font-size-body: 1.125rem;
   --font-size-article: 1.25rem;
   --font-size-1: 4rem;
@@ -51,6 +52,7 @@
   --font-size-4: 2rem;
   --font-size-5: 1.5rem;
   --font-size-6: 1.25rem;
+
 
   /* Kerning / Letter Spacing */
 
@@ -75,4 +77,9 @@
   --radius-soft: .25rem;
   --radius-softer: .5rem;
   --radius-round: 50vw;
+
+  /*  Builder*/
+
+  --builder-controls: 320px;
+
 }

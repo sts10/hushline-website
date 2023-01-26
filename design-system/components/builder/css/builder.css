@@ -1,0 +1,107 @@
+@media (prefers-color-scheme: light) {
+
+	.builderControls {
+		background-color: var(--color-shade-lm);
+	}
+
+	.formControls {
+		background-color: white;
+	}
+}
+
+
+@media (prefers-color-scheme: dark) {}
+
+
+.builder {
+	display: flex;
+	flex-direction: row;
+	font-family: Helvetica, Arial, sans-serif !important;
+}
+
+.builder .hint {
+	font-family: Helvetica, Arial, sans-serif !important;
+	font-weight: bold;
+}
+
+.builder h1, .builder h2, .builder h3, .builder h4, .builder h5, .builder h6, .builder .btn {
+	font-family: Helvetica, Arial, sans-serif !important;
+	font-weight: bold;
+}
+
+.builder input, .builder textarea {
+	font-family: Helvetica, Arial, sans-serif !important;
+	line-height: var(--line-height-tight);
+	font-size: var(--font-size-smaller);
+	padding: var(--spacing-input);
+}
+
+.builderControls {
+	justify-content: flex-start;
+	flex-direction: column;
+	padding: var(--spacing-base) !important;
+	padding-bottom: calc(var(--spacing-base) + 68px) !important;
+	position: fixed;
+	top:0;
+	bottom: 0;
+	z-index: 10;
+	width: var(--builder-controls);
+	box-sizing: border-box;
+	overflow: scroll;
+}
+
+.builderControls label {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: var(--font-size-smaller) !important;
+	margin-top: var(--spacing-base) !important;
+}
+
+.builderControls input, .builderControls textarea {
+	width: auto;
+}
+
+.builderControls h2 {
+	font-size: var(--font-size-6);
+}
+
+.builderControls h3 {
+	font-size: var(--font-size-body);
+	margin-bottom: 0;
+	margin-top: calc(var(--spacing-large) * 1);
+
+}
+
+.builderControls h4 {
+	font-size: var(--font-size-small);
+	margin-top: calc(var(--spacing-medium) * 1);
+	margin-bottom: 0;
+}
+
+.builderControls h2 + h3 {
+	margin-top: var(--spacing-base);
+}
+
+.builderBody {
+	position: absolute;
+	left: var(--builder-controls);
+}
+
+.builderBody header, .builderBody .banner {
+	left: var(--builder-controls);
+	width: calc(100% - var(--builder-controls));
+}
+
+.formControls {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: var(--builder-controls);
+	display: flex;
+	justify-content: center;
+	padding: var(--spacing-small) 0;
+}
+
+.formControls .btn {
+	align-self: center;
+}
+

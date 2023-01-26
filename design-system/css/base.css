@@ -4,7 +4,7 @@
       color: var(--color-light);
   }
 
-  input {
+  input, textarea {
     background-color: var(--color-light);
     color: var(--color-dark);
     border: var(--border-dark);
@@ -12,6 +12,12 @@
 
   input[type="search"] {
     background-image: url("../../design-system/images/input/icon-search-lm.png");
+  }
+
+  input[type="checkbox"] {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    border: var(--border-dark);
   }
 
   a {
@@ -37,7 +43,7 @@
     background-color: var(--color-dark);
   }
 
-  input {
+  input, textarea {
     background-color: var(--color-dark);
     color: var(--color-light);
     border: var(--border-light-1);
@@ -74,7 +80,7 @@
   display: none !important;
 }
 
-input {
+input, textarea {
   padding: var(--spacing-base);
   font-size: var(--font-size-body);
   max-width: 480px;
@@ -83,7 +89,7 @@ input {
   font-family: 'Sans';
 }
 
-input:focus {
+input:focus, textarea:focus {
   text-decoration: none;
 }
 
@@ -94,11 +100,33 @@ input[type="search"] {
   padding-left: calc(var(--spacing-xlarge) * .85);
 }
 
-label + input {
+input[type="checkbox"] {
+  width: fit-content;
+  margin: 0 var(--spacing-small) 0 0;
+  width: 20px;
+  height: 20px;
+  order: 1;
+  border-radius: var(--radius-soft);
+}
+
+.checkboxLayout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: var(--spacing-base);
+}
+
+.checkboxLayout label {
+  margin: 3px 0 0 0 !important;
+  order: 2;
+  font-size: var(--font-size-smaller) !important;
+}
+
+label + input, label + textarea {
   margin-top: var(--spacing-small);
 }
 
-input + .btn {
+input + .btn, textarea + .btn {
   margin-top: var(--spacing-medium);
 }
 
@@ -111,8 +139,8 @@ label {
   font-size: var(--font-size-small) !important;
 }
 
-input + label {
-  margin-top: var(--spacing-medium);
+input + label, textarea + label {
+  margin-top: var(--spacing-medium) !important;
 }
 
 html {

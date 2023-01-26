@@ -21,5 +21,6 @@
 @import url("../components/article/css/article.css");
 @import url("../components/table/css/table.css");
 @import url("../components/login/css/login.css");
+@import url("../components/builder/css/builder.css");
 @import url("base.css");
 @import url("../../css/overrides.css");
