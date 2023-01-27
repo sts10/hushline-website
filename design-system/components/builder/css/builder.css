@@ -90,6 +90,7 @@
 .builderBody {
 	position: absolute;
 	left: var(--builder-controls);
+	right: 0;
 }
 
 .builderBody header, .builderBody .banner {
