@@ -4,4 +4,4 @@ Quickly create accessible, lightweight, and effective single-page, single-file w
 
 https://scidsg.github.io/page-builder/builder.html
 
-![builder](https://user-images.githubusercontent.com/28545431/214943586-14a32a18-774e-422a-b72d-67c1fb98dc82.png)
+![pagebuidler](https://user-images.githubusercontent.com/28545431/214953513-8200f90b-611c-4bd2-8d96-3e593e4faccd.png)
