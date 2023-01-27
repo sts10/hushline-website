@@ -73,7 +73,13 @@
 
 .builderControls h4 {
 	font-size: var(--font-size-small);
-	margin-top: calc(var(--spacing-medium) * 1);
+	margin-top: calc(var(--spacing-large) * 1);
+	margin-bottom: 0;
+}
+
+.builderControls h5 {
+	font-size: var(--font-size-small);
+	margin-top: calc(var(--spacing-large) * 1);
 	margin-bottom: 0;
 }
 
