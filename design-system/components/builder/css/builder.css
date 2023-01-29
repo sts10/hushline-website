@@ -82,9 +82,9 @@
 .menuControlsBtn {
   background-repeat: no-repeat;
   background-size: contain;
-  width: var(--spacing-medium);
-  height: var(--spacing-medium);
-  margin-right: var(--spacing-small);
+  width: var(--size-btn-icon);
+  height: var(--size-btn-icon);
+  margin-right: var(--spacing-base);
 }
 
 .flipped {
