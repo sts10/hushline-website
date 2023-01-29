@@ -1,17 +1,46 @@
 @media (prefers-color-scheme: light) {
 
 	.builderControls {
-		background-color: var(--color-shade-lm);
+		background-color: var(--color-light-1);
+		border-right: var(--border-dark-1);
 	}
 
 	.formControls {
 		background-color: white;
+		border-top: var(--border-dark-1);
+		border-right: var(--border-dark-1);
 	}
+
+	.menuControlsBtn {
+    	background-image: url('../../../images/icons/menu_open-lm.png');
+  	}
+
+	.closeBtn {
+    	background-image: url('../../../images/icons/close-lm.png');
+  	}
 }
 
 
-@media (prefers-color-scheme: dark) {}
+@media (prefers-color-scheme: dark) {
+	.builderControls {
+		border-right: var(--border-light-1);
+		background-color: var(--color-shade-dm);
+	}
 
+	.menuControlsBtn {
+    	background-image: url('../../../images/icons/menu_open-dm.png');
+  	}
+
+	.closeBtn {
+    	background-image: url('../../../images/icons/close-dm.png');
+  	}
+
+	.formControls {
+		border-top: var(--border-light-1);
+		border-right: var(--border-light-1);
+		background-color: var(--color-dark);
+	}
+}
 
 .builder {
 	display: flex;
@@ -44,10 +73,32 @@
 	position: fixed;
 	top:0;
 	bottom: 0;
-	z-index: 10;
+	z-index: 11;
 	width: var(--builder-controls);
 	box-sizing: border-box;
 	overflow: scroll;
+}
+
+.menuControlsBtn {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: var(--spacing-medium);
+  height: var(--spacing-medium);
+  margin-right: var(--spacing-small);
+}
+
+.flipped {
+	transform: scaleX(-1);
+}
+
+.closeBtn {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: var(--spacing-medium);
+  height: var(--spacing-medium);
+  position: absolute;
+  right: var(--spacing-base);
+  top: calc(var(--spacing-medium) + var(--spacing-small));
 }
 
 .builderControls label {
@@ -68,7 +119,6 @@
 	font-size: var(--font-size-body);
 	margin-bottom: 0;
 	margin-top: calc(var(--spacing-large) * 1);
-
 }
 
 .builderControls h4 {
@@ -84,13 +134,21 @@
 }
 
 .builderControls h2 + h3 {
-	margin-top: var(--spacing-base);
+	margin-top: var(--spacing-small);
 }
 
 .builderBody {
 	position: absolute;
 	left: var(--builder-controls);
 	right: 0;
+}
+
+.builderControls.hidden + .builderBody, 
+.builderControls.hidden + .builderBody header,
+.builderControls.hidden + .builderBody .banner {
+	left: 0;
+	right: 0;
+	width: 100%;
 }
 
 .builderBody header, .builderBody .banner {
@@ -110,5 +168,16 @@
 
 .formControls .btn {
 	align-self: center;
+}
+
+@media only screen and (max-width: 960px) {
+	.builderBody {
+		left: 0;
+	}
+	
+	.builderBody header, .builderBody .banner {
+		left: 0;
+		width: 100%;
+	}
 }
 
