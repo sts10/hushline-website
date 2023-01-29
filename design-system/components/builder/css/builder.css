@@ -18,6 +18,10 @@
 	.closeBtn {
     	background-image: url('../../../images/icons/close-lm.png');
   	}
+
+  	.expandBtn {
+    	background-image: url('../../../images/icons/expand-lm.png');  		
+  	}
 }
 
 
@@ -26,6 +30,10 @@
 		border-right: var(--border-light-1);
 		background-color: var(--color-shade-dm);
 	}
+
+	.expandBtn {
+    	background-image: url('../../../images/icons/expand-dm.png');  		
+  	}
 
 	.menuControlsBtn {
     	background-image: url('../../../images/icons/menu_open-dm.png');
@@ -59,10 +67,16 @@
 }
 
 .builder input, .builder textarea {
-	font-family: Helvetica, Arial, sans-serif !important;
+	font-family: monospace !important;
 	line-height: var(--line-height-tight);
-	font-size: var(--font-size-smaller);
+	font-size: var(--font-size-xsmall);
+	line-height: var(--line-height-wide);
 	padding: var(--spacing-input);
+}
+
+.builderControls .meta {
+	font-size: var(--font-size-xsmall) !important;
+	font-family: monospace;
 }
 
 .builderControls {
@@ -77,6 +91,40 @@
 	width: var(--builder-controls);
 	box-sizing: border-box;
 	overflow: scroll;
+}
+
+.accordion {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.accordion + div {
+	display: flex;
+	flex-direction: column;
+}
+
+.accordion h3 {
+	margin-top: 0 !important;
+}
+
+.accordion:first-of-type {
+	margin-top: var(--spacing-base);
+}
+
+.accordion {
+	margin-top: var(--spacing-large);
+}
+
+.expandBtn {
+	width: var(--spacing-medium);
+	height: var(--spacing-medium);
+	background-repeat: no-repeat;
+ 	background-size: contain;
+}
+
+.expandBtn.flipped {
+	transform: scaleY(-1);
 }
 
 .menuControlsBtn {
@@ -98,7 +146,7 @@
   height: var(--spacing-medium);
   position: absolute;
   right: var(--spacing-base);
-  top: calc(var(--spacing-medium) + var(--spacing-small));
+  top: calc(var(--spacing-medium) + var(--spacing-xsmall));
 }
 
 .builderControls label {
@@ -112,7 +160,8 @@
 }
 
 .builderControls h2 {
-	font-size: var(--font-size-6);
+	font-size: var(--font-size-smaller);
+	font-family: monospace !important;
 }
 
 .builderControls h3 {
@@ -159,7 +208,7 @@
 .formControls {
 	position: fixed;
 	bottom: 0;
-	left: 0;
+	left: -1px;
 	width: var(--builder-controls);
 	display: flex;
 	justify-content: center;
