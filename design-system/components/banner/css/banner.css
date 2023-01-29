@@ -8,7 +8,7 @@
   }
 
   .bannerBtn {
-    background-image: url('../../../images/banner/dm-icon-close.png');
+    background-image: url('../../../images/icons/close-dm.png');
   }
 }
 
@@ -22,15 +22,15 @@
   }
 
   .bannerBtn {
-    background-image: url('../../../images/banner/lm-icon-close.png');
+    background-image: url('../../images/icons/close-lm.png');
   }
 }
 
 .banner {
-  padding: var(--spacing-xsmall) 0;
   text-align: center;
   position: fixed;
   top: 0;
+  height: 40px;
   width: 100%;
   z-index: 1;
   display: flex;
@@ -74,8 +74,8 @@
   align-items: center;
   background-repeat: no-repeat;
   background-size: contain;
-  width: var(--spacing-large);
-  height: var(--spacing-large);
+  width: var(--spacing-medium);
+  height: var(--spacing-medium);
   margin-right: var(--spacing-medium);
 }
 
