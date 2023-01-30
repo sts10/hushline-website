@@ -97,6 +97,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-top: var(--spacing-medium);
 }
 
 .accordion + div {
@@ -110,10 +111,6 @@
 
 .accordion:first-of-type {
 	margin-top: var(--spacing-base);
-}
-
-.accordion {
-	margin-top: var(--spacing-large);
 }
 
 .expandBtn {
@@ -146,7 +143,7 @@
   height: var(--spacing-medium);
   position: absolute;
   right: var(--spacing-base);
-  top: calc(var(--spacing-medium) + var(--spacing-xsmall));
+  top: calc(var(--spacing-medium) + var(--spacing-small));
 }
 
 .builderControls label {
@@ -160,18 +157,17 @@
 }
 
 .builderControls h2 {
-	font-size: var(--font-size-smaller);
-	font-family: monospace !important;
+	font-size: var(--font-size-body);
 }
 
 .builderControls h3 {
-	font-size: var(--font-size-body);
+	font-size: var(--font-size-small);
 	margin-bottom: 0;
 	margin-top: calc(var(--spacing-large) * 1);
 }
 
 .builderControls h4 {
-	font-size: var(--font-size-small);
+	font-size: calc(var(--font-size-small) * .9);
 	margin-top: calc(var(--spacing-large) * 1);
 	margin-bottom: 0;
 }
