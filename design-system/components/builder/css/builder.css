@@ -19,9 +19,25 @@
     	background-image: url('../../../images/icons/close-lm.png');
   	}
 
-  	.expandBtn {
+  .expandBtn {
     	background-image: url('../../../images/icons/expand-lm.png');  		
   	}
+
+  .builderControls input:checked + .slider::before {
+  	  height: 13px;
+  	  width: 13px;
+  	  left: 2px;
+    	bottom: 2px;
+    	background-color: white !important;
+  }
+
+    .builderControls .slider::before {
+  	  left: 2px;
+    	top: 2px;
+    	height: 13px;
+  	  width: 13px;
+    	background-color: white;
+  }
 }
 
 
@@ -42,6 +58,20 @@
 	.closeBtn {
     	background-image: url('../../../images/icons/close-dm.png');
   	}
+
+  .builderControls .slider::before {
+  	  height: 11px !important;
+  	  width: 11px !important;
+  	  left: 1px;
+    	top: 1px;
+  }
+
+  .builderControls input:checked + .slider::before {
+  	  height: 11px;
+  	  width: 11px;
+  	  left: 2px;
+    	top: 2px;
+  }
 
 	.formControls {
 		border-top: var(--border-light-1);
@@ -152,6 +182,12 @@
 	margin-top: var(--spacing-base) !important;
 }
 
+.builderControls .toggleContainer label {
+  margin-top: 0 !important;
+  font-size: var(--font-size-small) !important;
+  font-weight: bold;
+}
+
 .builderControls input, .builderControls textarea {
 	width: auto;
 }
@@ -180,6 +216,58 @@
 
 .builderControls h2 + h3 {
 	margin-top: var(--spacing-small);
+}
+
+.builderControls .toggleContainer label {
+  margin-right: var(--spacing-large);
+  margin-top: 0 !important;
+}
+
+.builderControls .toggle label:first-of-type {
+	position: relative;
+	top: 2px;
+  order: 2;
+}
+
+.builderControls .toggle label.switch {
+  order: 1;
+}
+
+.builderControls .switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+}
+
+.builderControls input:checked + .slider:before {
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
+}
+
+.builderControls .toggleContainer .expandBtn {
+  order: 3;
+}
+
+.toggle {
+	display: flex;
+	align-items: center;
+}
+
+.builderControls .toggleContainer label + label {
+  margin-right: 0;
+}
+
+.builderControls .toggleContainer .switch {
+  margin-right: calc(var(--spacing-small) + var(--spacing-xsmall));
+}
+
+.builderControls .toggleContainer {
+  width: auto;
+  padding: 0;
+  border: none;
+  box-shadow: none;
 }
 
 .builderBody {
