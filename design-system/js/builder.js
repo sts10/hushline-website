@@ -15,6 +15,15 @@ $(document).ready(function() {
     $('.bannerHeader .expandBtn').toggleClass('flipped');
   });
 
+  $('.bannerHeader input').on('click', function() {
+    $('.banner').toggleClass('hidden');
+    $('.bannerSection').toggleClass('disabled');
+  });
+
+  $('.bannerSection input[type="checkbox"]').on('click', function() {
+    $('.banner .bannerBtn').toggleClass('hidden');
+  });
+
   $('.hHeader .expandBtn').on('click', function() {
     $('.headerSection').toggleClass('hidden');
     $('.hHeader .expandBtn').toggleClass('flipped');
