@@ -210,6 +210,8 @@
 }
 
 .builderControls .toggle label:first-of-type {
+	position: relative;
+	top: 2px;
   order: 2;
 }
 
@@ -313,3 +315,9 @@
 	}
 }
 
+@media only screen and (max-width: 480px) {
+	.builderControls .toggle label:first-of-type {
+		position: relative;
+		top: 0;
+	}
+}
