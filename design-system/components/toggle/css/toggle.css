@@ -12,6 +12,10 @@
     box-shadow: 0 0 1px var(--color-dark);
   }
 
+  .input + slider {
+    outline: none;
+  }
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,12 +30,15 @@
 
   .slider {
     background-color: var(--color-dark) !important;
-    border: var(--border-light-1);
+    outline: var(--border-light-1);
   }
+
+  input:checked + .slider {
+    outline: none;
+  } 
 
   .slider::before {
     background-color: var(--color-shade-lm) !important;
-    border: var(--border-light-1);
   }
 
    input:checked + .slider::before {

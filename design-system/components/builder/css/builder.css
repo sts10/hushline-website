@@ -24,18 +24,10 @@
   	}
 
   .builderControls input:checked + .slider::before {
-  	  height: 13px;
-  	  width: 13px;
-  	  left: 2px;
-    	bottom: 2px;
     	background-color: white !important;
   }
 
     .builderControls .slider::before {
-  	  left: 2px;
-    	top: 2px;
-    	height: 13px;
-  	  width: 13px;
     	background-color: white;
   }
 }
@@ -60,17 +52,11 @@
   	}
 
   .builderControls .slider::before {
-  	  height: 11px !important;
-  	  width: 11px !important;
-  	  left: 1px;
-    	top: 1px;
+    	background-color: white !important;
   }
 
   .builderControls input:checked + .slider::before {
-  	  height: 11px;
-  	  width: 11px;
-  	  left: 2px;
-    	top: 2px;
+    	background-color: var(--color-dark) !important;
   }
 
 	.formControls {
@@ -227,6 +213,21 @@
 	position: relative;
 	top: 2px;
   order: 2;
+}
+
+.builderControls input:checked + .slider::before {
+	  height: 13px;
+	  width: 13px;
+	  left: 2px;
+  	bottom: 2px;
+}
+
+  .builderControls .slider::before {
+	  left: 2px;
+  	top: 2px;
+  	height: 13px;
+	  width: 13px;
+	  border: none;
 }
 
 .builderControls .toggle label.switch {
