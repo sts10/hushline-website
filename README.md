@@ -2,7 +2,7 @@
 
 Quickly create accessible, lightweight, and effective single-page, single-file websites.
 
-https://scidsg.github.io/page-builder/builder.html
+https://scidsg.github.io/page-builder/
 
 The Page Builder is built on top of the [Simple Design System](https://github.com/scidsg/design-system). 
 
