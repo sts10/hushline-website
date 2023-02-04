@@ -1,10 +1,10 @@
 # Page Builder
 
-Quickly create accessible, lightweight, and effective single-page, single-file websites.
+Quickly create single-page, single-file websites that are accessible, lightweight, and effective.
 
 ## Problem
 
-Activists in countries with internet censorship require efficient methods to deploy websites to support their cause, regardless of technical expertise. How quickly content is published can determine success or failure and even impact someone’s physical safety. Likewise, how performant and lightweight your site is will help ensure that people with limited bandwidth and older devices can quickly load your page.
+Activists in countries with internet censorship require efficient methods to deploy websites to support their cause, regardless of technical expertise. How quickly content is published can determine success or failure, and even impact someone’s physical safety. A performant and lightweight site will help ensure that people with limited bandwidth and older devices can quickly load the page.
 
 ## Important Information
 
