@@ -210,8 +210,6 @@
 }
 
 .builderControls .toggle label:first-of-type {
-	position: relative;
-	top: 2px;
   order: 2;
 }
 
@@ -222,7 +220,7 @@
   	bottom: 2px;
 }
 
-  .builderControls .slider::before {
+ .builderControls .slider::before {
 	  left: 2px;
   	top: 2px;
   	height: 13px;
