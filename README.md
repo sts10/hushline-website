@@ -9,12 +9,12 @@ Activists in countries with internet censorship require efficient methods to dep
 ## Important Information
 
 - The Page Builder exports everything you need in a single HTML file that's ~16KB - <1% of the [median 2.2 MB page size](https://httparchive.org/reports/page-weight?start=2022_12_01&end=latest&view=list) 🤯.
-- Optimized for Tor Browser
+- Optimized for Tor Browser 🧅
   - No Javascript
   - No SVG images
   - No external resources
-- System-aware light/dark modes
-- Fully responsive
+- System-aware light/dark modes 🧠
+- Fully responsive 📱
 
 ## Our Solution
 
