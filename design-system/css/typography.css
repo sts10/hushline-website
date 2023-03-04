@@ -22,6 +22,12 @@
        url("../fonts/serif/Merriweather-Bold.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Mono";
+  src: url("../fonts/mono/WOFF2/IBMPlexMono-Regular.woff2") format("woff2"),
+       url("../fonts/mono/WOFF/IBMPlexMono-Regular.woff") format("woff");
+}
+
 @media (prefers-color-scheme: light) {
   h1, h2, h3, h4, h5, h6, p, q {
     color: var(--color-dark);
