@@ -22,6 +22,15 @@
   height: 100vh;
   align-items: center;
   position: relative;
+  text-align: center;
+  justify-content: center;
+  background: url('../../../images/website/cover.png') center 70vh no-repeat;
+  background-size: 55%;
+}
+
+.intro .wrapper {
+  align-items: center;
+  margin-bottom: 20vh;
 }
 
 .intro h2 {
@@ -110,6 +119,10 @@ p.hint a {
   .intro h2 {
     width: 75%;
   }
+
+  .intro {
+    background-size: 75%;
+  }
 }
 
 @media only screen and (max-width: 960px) {
@@ -125,5 +138,9 @@ p.hint a {
 
   .intro .tabs {
     padding: 0 var(--spacing-small);
+  }
+
+  .intro {
+    background-size: 85%;
   }
 }

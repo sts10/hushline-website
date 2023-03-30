@@ -3,7 +3,9 @@
 }
 
 @media (prefers-color-scheme: dark) {
-
+  .statementContainer {
+      background-color: var(--color-shade-dm);
+    }
 }
 
 .statementContainer {

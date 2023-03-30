@@ -75,6 +75,10 @@
   margin: 0 !important;
 }
 
+.cardSection .groupRow.card {
+  margin-top: var(--spacing-base);
+}
+
 .groupRow .description {
   max-width: 640px;
 }
