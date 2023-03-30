@@ -59,22 +59,10 @@
 
 @media (prefers-color-scheme: dark) {
 
-  h1, h2, h3, h4, h5, h6, p, q {
-    color: var(--color-light);
+  h1, h2, h3, h4, h5, h6, p, q, p.meta, p.meta a, ul li {
+    color: #EEEFF5;
   }
-
-  p.meta {
-    color: var(--color-label-dm);
-  }
-
-  p.meta a {
-    color: var(--color-label-dm);
-  }
-
-  ul li {
-    color: var(--color-light);
-  }
-
+  
   .code {
     color: #EE72AC;
     background-color: var(--color-shade-dm);

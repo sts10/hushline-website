@@ -3,6 +3,7 @@
     border: var(--border-dark);
     color: var(--color-dark);
     background-color: var(--color-light);
+    background-color: white;
   }
 
   .btnIcon {
@@ -73,6 +74,7 @@
   text-transform: capitalize;
   line-height: var(--line-height-button);
   letter-spacing: var(--kern-open);
+  border-radius: 50vw;
 }
 
 .tertiaryBtn {

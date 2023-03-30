@@ -1,5 +1,7 @@
 @media (prefers-color-scheme: light) {
-
+  .statementContainer {
+      background-color: var(--color-shade-lm);
+    }
 }
 
 @media (prefers-color-scheme: dark) {

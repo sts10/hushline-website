@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: light) {
   .intro {
-    background-color: var(--color-light);
+    background-color: white;
   }
 
   p.hint {
