@@ -65,6 +65,34 @@
     margin: .75rem 0;
 }
 
+select {
+  font-size: .825rem;
+  padding: .5rem .75rem;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: .25rem;
+  background-color: #fff;
+  appearance: none; /* Removes the default arrow for some browsers */
+  -webkit-appearance: none; /* Removes the default arrow for WebKit-based browsers */
+  moz-appearance: none; /* Removes the default arrow for Firefox */
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add custom arrow */
+select.custom-arrow {
+  background-image: url("images/icon_arrow.png");
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-position: right 12px center;
+  padding-right: 36px; /* Add extra padding to prevent the text from overlapping the arrow */
+}
+
+/* Change select menu styling on focus */
+select:focus {
+  outline: none;
+  border-color: #0077cc;
+}
+
 /*MAIN PAGE*/
 
 body {
