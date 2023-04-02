@@ -38,6 +38,20 @@ document.getElementById("feature-2-paragraph").addEventListener("input", functio
     updateElement("paragraph-feature-2", e.target.value);
 });
 
+function updateElement(id, value) {
+  const element = document.getElementById(id);
+  element.textContent = value;
+
+  // Check if the element is a button and hide or show it based on the input value
+  if (element.tagName.toLowerCase() === "button") {
+    if (value.trim() === "") {
+      element.style.display = "none";
+    } else {
+      element.style.display = "inline-block";
+    }
+  }
+}
+
 // Initialize the content of the elements with the default values.
 updateElement("main-h1", document.getElementById("header-h1").value);
 updateElement("main-header-button", document.getElementById("header-button").value);
