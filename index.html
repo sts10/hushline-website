@@ -9,11 +9,23 @@
     <body>
         <div class="properties-panel">
             <h2>Properties</h2>
+            <h3>Styles</h3> 
+            <label for="heading-font">Heading Font Family</label>
+            <select id="heading-font">
+                  <option value="Helvetica, Arial, sans-serif">Helvetica / Arial</option>
+                  <option value="'Times New Roman', Times, serif">Times New Roman</option>
+                  <option value="'Courier New', Courier, monospace">Courier New</option>
+                  <option value="'Arial Black', Gadget, sans-serif">Arial Black</option>
+            </select>
+            <label for="primary-color">Primary Color</label>
+            <input type="color" id="primary-color" value="#333">
+            
             <h3>Header</h3>
             <label for="header-h1">H1 Text</label>
             <input type="text" id="header-h1" value="🧰 Page Builder">
             <label for="header-button">Button Text</label>
             <input type="text" id="header-button" value="Default Button">
+
             <h3>Intro Section</h3>
             <label for="intro-h2">H2 Text</label>
             <input type="text" id="intro-h2" value="Quickly build research-based, durable web experiences">
@@ -21,11 +33,13 @@
             <input type="text" id="intro-paragraph" value="Fill out the properties panel on the left, then click Export.">
             <label for="intro-button">Button Text</label>
             <input type="text" id="intro-button" value="Default Intro Button">
+
             <h3>Feature Section 1</h3>
             <label for="feature-1-h3">H3 Text</label>
             <input type="text" id="feature-1-h3" value="Default Feature Heading">
             <label for="feature-1-paragraph">Paragraph Text</label>
             <input type="text" id="feature-1-paragraph" value="Default paragraph">
+
             <h3>Feature Section 2</h3>
             <label for="feature-2-h3">H3 Text</label>
             <input type="text" id="feature-2-h3" value="Default Feature Heading">
@@ -39,14 +53,14 @@
             <header>
                 <div class="wrapper">
                     <h1 id="main-h1"></h1>
-                    <button id="main-header-button" class="primary"></button>
+                    <button id="main-header-button" class="primary main-page-element"></button>
                 </div>
             </header>
             <section class="intro-section">
                 <div class="wrapper">
                     <h2 id="main-h2"></h2>
                     <p id="main-paragraph"></p>
-                    <button id="main-intro-button"></button>
+                    <button id="main-intro-button" class="main-page-element"></button>
                 </div>
             </section>
             <section class="feature-section">

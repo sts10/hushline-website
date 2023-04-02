@@ -38,6 +38,18 @@ document.getElementById("feature-2-paragraph").addEventListener("input", functio
     updateElement("paragraph-feature-2", e.target.value);
 });
 
+document.getElementById("primary-color").addEventListener("input", function (e) {
+    updatePrimaryColor(e.target.value);
+});
+
+document.getElementById("heading-font").addEventListener("change", function (e) {
+  updateHeadingFontFamily(e.target.value);
+});
+
+let selectedPrimaryColor = "#333"; // default primary color
+let selectedHeadingFontFamily = "Helvetica, Arial, sans-serif"; // default font family
+
+
 function updateElement(id, value) {
   const element = document.getElementById(id);
   element.textContent = value;
@@ -52,6 +64,33 @@ function updateElement(id, value) {
   }
 }
 
+function updatePrimaryColor(color) {
+    selectedPrimaryColor = color;
+
+    const primaryButtons = document.querySelectorAll(".main-page-element.primary");
+    const nonPrimaryButtons = document.querySelectorAll(".main-page-element:not(.primary)");
+
+    primaryButtons.forEach((button) => {
+        button.style.backgroundColor = color;
+    });
+
+    nonPrimaryButtons.forEach((button) => {
+        button.style.color = color;
+    });
+
+    // Add other elements you want to change the color of here, for example:
+    // document.getElementById("some-element").style.color = color;
+}
+
+function updateHeadingFontFamily(fontFamily) {
+  selectedHeadingFontFamily = fontFamily;
+  const headings = document.querySelectorAll(".main-page h1, .main-page h2, .main-page h3");
+  headings.forEach((heading) => {
+    heading.style.fontFamily = fontFamily;
+  });
+}
+
+
 // Initialize the content of the elements with the default values.
 updateElement("main-h1", document.getElementById("header-h1").value);
 updateElement("main-header-button", document.getElementById("header-button").value);
@@ -62,6 +101,8 @@ updateElement("h3-feature-1", document.getElementById("feature-1-h3").value);
 updateElement("paragraph-feature-1", document.getElementById("feature-1-paragraph").value);
 updateElement("h3-feature-2", document.getElementById("feature-2-h3").value);
 updateElement("paragraph-feature-2", document.getElementById("feature-2-paragraph").value);
+updatePrimaryColor(document.getElementById("primary-color").value);
+updateHeadingFontFamily(document.getElementById("heading-font").value);
 
 document.getElementById("export-button").addEventListener("click", function () {
     const mainPage = document.querySelector(".main-page").outerHTML;
@@ -89,6 +130,10 @@ document.getElementById("export-button").addEventListener("click", function () {
             p {
                 max-width: 640px;
                 width: 100%;
+            }
+
+            h1, h2, h3 {
+                font-family: ${selectedHeadingFontFamily};
             }
 
             .intro-section h2 {
@@ -146,15 +191,11 @@ document.getElementById("export-button").addEventListener("click", function () {
                 margin: 1rem 0 0 0;
             }
 
-            .intro-section h2 {
-                width: 90%;
-            }
-
             button {
                 border: 1px solid rgba(0,0,0,0.15);
                 background-color: white;
                 color: #333;
-                padding: .75rem 1rem;
+                padding: .75rem 1.125rem;
                 border-radius: .25rem;
                 cursor: pointer;
                 width: max-content;
@@ -166,6 +207,10 @@ document.getElementById("export-button").addEventListener("click", function () {
                 background-color: #333;
                 color: white;
                 border: none;
+            }
+
+            button.primary.main-page-element {
+                background-color: ${selectedPrimaryColor};
             }
 
             .description {
@@ -222,7 +267,6 @@ document.getElementById("export-button").addEventListener("click", function () {
             .properties-button button {
                 margin: .75rem 0;
             }
-
         </style>
         `;
 
