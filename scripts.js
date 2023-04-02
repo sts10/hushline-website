@@ -46,6 +46,10 @@ document.getElementById("heading-font").addEventListener("change", function (e) 
   updateHeadingFontFamily(e.target.value);
 });
 
+document.getElementById("footer-paragraph").addEventListener("input", function (e) {
+    updateElement("paragraph-footer", e.target.value);
+});
+
 let selectedPrimaryColor = "#333"; // default primary color
 let selectedHeadingFontFamily = "Helvetica, Arial, sans-serif"; // default font family
 
@@ -100,8 +104,11 @@ updateElement("h3-feature-1", document.getElementById("feature-1-h3").value);
 updateElement("paragraph-feature-1", document.getElementById("feature-1-paragraph").value);
 updateElement("h3-feature-2", document.getElementById("feature-2-h3").value);
 updateElement("paragraph-feature-2", document.getElementById("feature-2-paragraph").value);
+updateElement("paragraph-footer", document.getElementById("footer-paragraph").value);
 updatePrimaryColor("#333"); // set the selected primary color to the default value
 updateHeadingFontFamily(document.getElementById("heading-font").value);
+updateElement("h3-feature-3", document.getElementById("feature-3-h3").value);
+updateElement("paragraph-feature-3", document.getElementById("feature-3-paragraph").value);
 
 document.getElementById("export-button").addEventListener("click", function () {
     const mainPage = document.querySelector(".main-page").outerHTML;
@@ -252,6 +259,29 @@ document.getElementById("export-button").addEventListener("click", function () {
 
             .flip + svg {
                 margin: 0 2rem 0 0;
+            }
+
+            footer p {
+                font-size: .75rem;
+            }
+
+            @media only screen and (max-width: 768px) {
+                .flip {
+                    order: 0;
+                }
+
+                .card {
+                    flex-direction: column;
+                }
+
+                .description {
+                    width: 100%;
+                }
+
+                .feature-section svg {
+                    width: 100%;
+                    margin: 1rem 0 0 0;
+                }
             }
         </style>
         `;
