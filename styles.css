@@ -1,37 +1,4 @@
-body {
-    font-family: Helvetica, Arial, sans-serif;
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-    box-sizing: border-box;
-    height: 100vh;
-    overflow-x: hidden;
-    color: #333;
-}
-
-h1 {
-    font-size: 1.125rem;
-}
-
-h2 {
-    font-size: 1.5rem;
-}
-
-p {
-    max-width: 640px;
-    width: 100%;
-}
-
-h1, h2, h3 {
-    font-family: ${selectedHeadingFontFamily};
-}
-
-.intro-section h2 {
-    font-size: 3.5rem;
-    margin: 0;
-    width: 80%;
-    line-height: 1.2;
-}
+/*PROPERTIES PANEL*/
 
 .properties-panel h2 {
     margin: .5rem 0 1.5rem 0;
@@ -72,14 +39,67 @@ h1, h2, h3 {
     padding: .5rem 0 .5rem .75rem;
     border-radius: .25rem;
     border: 1px solid rgba(0,0,0,0.15);
+    font-size: .825rem;
 }
 
 .properties-panel input[type="color"] {
     width: revert;
     box-sizing: border-box;
-    padding: .5rem;
+    padding: .25rem;
     border-radius: .25rem;
     border: 1px solid rgba(0,0,0,0.15);
+}
+
+.properties-button {
+    position: fixed;
+    bottom: 0;
+    width: 239px;
+    background-color: white;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(0,0,0,0.15);
+}
+
+.properties-button button {
+    margin: .75rem 0;
+}
+
+/*MAIN PAGE*/
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow-x: hidden;
+    color: #333;
+}
+
+h1 {
+    font-size: 1.125rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    max-width: 640px;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    font-family: ${selectedHeadingFontFamily};
+}
+
+.intro-section h2 {
+    font-size: 3.5rem;
+    margin: 0;
+    width: 80%;
+    line-height: 1.2;
 }
 
 .main-page {
@@ -140,6 +160,7 @@ button {
     width: max-content;
     margin: 1rem 0;
     font-weight: bold;
+    font-size: .875rem;
 }
 
 button.primary {
@@ -190,20 +211,5 @@ button.primary.main-page-element {
 
 .flip + img {
     margin: 0 2rem 0 0;
-}
-
-.properties-button {
-    position: fixed;
-    bottom: 0;
-    width: 239px;
-    background-color: white;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    border-top: 1px solid rgba(0,0,0,0.15);
-}
-
-.properties-button button {
-    margin: .75rem 0;
 }
 
