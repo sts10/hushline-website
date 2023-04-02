@@ -201,6 +201,7 @@ document.getElementById("export-button").addEventListener("click", function () {
                 width: max-content;
                 margin: 1rem 0;
                 font-weight: bold;
+                font-size: .875rem;
             }
 
             button.primary {
@@ -239,33 +240,19 @@ document.getElementById("export-button").addEventListener("click", function () {
                 padding: 3rem 0;
             }
 
-            .feature-section img {
+            .feature-section svg {
                 width: 50%;
                 max-width: 768px;
                 margin: 0 0 0 2rem;
+                border-radius: .25rem;
             }
 
             .flip {
                 order: 2;
             }
 
-            .flip + img {
+            .flip + svg {
                 margin: 0 2rem 0 0;
-            }
-
-            .properties-button {
-                position: fixed;
-                bottom: 0;
-                width: 239px;
-                background-color: white;
-                left: 0;
-                display: flex;
-                justify-content: center;
-                border-top: 1px solid rgba(0,0,0,0.15);
-            }
-
-            .properties-button button {
-                margin: .75rem 0;
             }
         </style>
         `;
