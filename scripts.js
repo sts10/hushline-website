@@ -49,7 +49,6 @@ document.getElementById("heading-font").addEventListener("change", function (e) 
 let selectedPrimaryColor = "#333"; // default primary color
 let selectedHeadingFontFamily = "Helvetica, Arial, sans-serif"; // default font family
 
-
 function updateElement(id, value) {
   const element = document.getElementById(id);
   element.textContent = value;
@@ -101,7 +100,7 @@ updateElement("h3-feature-1", document.getElementById("feature-1-h3").value);
 updateElement("paragraph-feature-1", document.getElementById("feature-1-paragraph").value);
 updateElement("h3-feature-2", document.getElementById("feature-2-h3").value);
 updateElement("paragraph-feature-2", document.getElementById("feature-2-paragraph").value);
-updatePrimaryColor(document.getElementById("primary-color").value);
+updatePrimaryColor("#333"); // set the selected primary color to the default value
 updateHeadingFontFamily(document.getElementById("heading-font").value);
 
 document.getElementById("export-button").addEventListener("click", function () {
