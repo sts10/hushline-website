@@ -304,6 +304,11 @@ document.getElementById("export-button").addEventListener("click", function () {
             }
 
             @media only screen and (max-width: 768px) {
+                .intro-section h2 {
+                    font-size: 2.5rem;
+                    width: 100%;
+                }
+
                 .flip {
                     order: 0;
                 }

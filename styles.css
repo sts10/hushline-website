@@ -278,6 +278,11 @@ footer p {
 }
 
 @media only screen and (max-width: 768px) {
+    .intro-section h2 {
+        font-size: 2.5rem;
+        width: 100%;
+    }
+
     .flip {
         order: 0;
     }
