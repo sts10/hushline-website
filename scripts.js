@@ -306,13 +306,14 @@ document.getElementById("export-button").addEventListener("click", function () {
             @media only screen and (max-width: 960px) {
                 .intro-section h2 {
                     font-size: 3rem;
-                    width: 100%;
+                    width: 90%;
                 }
             }
 
             @media only screen and (max-width: 768px) {
                 .intro-section h2 {
                     font-size: 2.5rem;
+                    width: 100%;
                 }
 
                 .flip {
