@@ -291,7 +291,7 @@ document.getElementById("export-button").addEventListener("click", function () {
             .highlight-section svg {
                 max-width: 768px;
                 width: 100%;
-                margin: 2rem 0 0 0;
+                margin: 1rem 0 0 0;
                 border-radius: .25rem;
             }
 
@@ -318,7 +318,6 @@ document.getElementById("export-button").addEventListener("click", function () {
 
                 .feature-section svg {
                     width: 100%;
-                    margin: 1rem 0 0 0;
                 }
             }
         </style>
