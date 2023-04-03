@@ -50,6 +50,18 @@ document.getElementById("footer-paragraph").addEventListener("input", function (
     updateElement("paragraph-footer", e.target.value);
 });
 
+document.getElementById("highlight-h3").addEventListener("input", function (e) {
+    updateElement("h3-highlight", e.target.value);
+});
+
+document.getElementById("highlight-paragraph").addEventListener("input", function (e) {
+    updateElement("paragraph-highlight", e.target.value);
+});
+
+document.getElementById("highlight-button").addEventListener("input", function (e) {
+    updateElement("button-highlight", e.target.value);
+});
+
 let selectedPrimaryColor = "#333"; // default primary color
 let selectedHeadingFontFamily = "Helvetica, Arial, sans-serif"; // default font family
 
@@ -109,6 +121,9 @@ updatePrimaryColor("#333"); // set the selected primary color to the default val
 updateHeadingFontFamily(document.getElementById("heading-font").value);
 updateElement("h3-feature-3", document.getElementById("feature-3-h3").value);
 updateElement("paragraph-feature-3", document.getElementById("feature-3-paragraph").value);
+updateElement("h3-highlight", document.getElementById("highlight-h3").value);
+updateElement("paragraph-highlight", document.getElementById("highlight-paragraph").value);
+updateElement("button-highlight", document.getElementById("highlight-button").value);
 
 document.getElementById("export-button").addEventListener("click", function () {
     const mainPage = document.querySelector(".main-page").outerHTML;
@@ -259,6 +274,29 @@ document.getElementById("export-button").addEventListener("click", function () {
 
             .flip + svg {
                 margin: 0 2rem 0 0;
+            }
+
+            .highlight-section .card {
+                flex-direction: column;
+                align-items: center;
+                padding: 3rem 0;
+            }
+
+            .highlight-section .description {
+                width: 100%;
+                align-items: center;
+                text-align: center;
+            }
+
+            .highlight-section svg {
+                max-width: 768px;
+                width: 100%;
+                margin: 2rem 0 0 0;
+                border-radius: .25rem;
+            }
+
+            .feature-section, .highlight-section {
+                margin-bottom: 2rem;
             }
 
             footer p {
