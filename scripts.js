@@ -160,7 +160,7 @@ document.getElementById("export-button").addEventListener("click", function () {
             .intro-section h2 {
                 font-size: 3.5rem;
                 margin: 0;
-                width: 80%;
+                width: 85%;
                 line-height: 1.2;
             }
 
