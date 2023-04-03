@@ -277,10 +277,16 @@ footer p {
     font-size: .75rem;
 }
 
+@media only screen and (max-width: 960px) {
+    .intro-section h2 {
+        font-size: 3rem;
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .intro-section h2 {
         font-size: 2.5rem;
-        width: 100%;
     }
 
     .flip {
