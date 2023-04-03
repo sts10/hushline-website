@@ -306,7 +306,7 @@ document.getElementById("export-button").addEventListener("click", function () {
             @media only screen and (max-width: 960px) {
                 .intro-section h2 {
                     font-size: 3rem;
-                    width: 90%;
+                    width: 95%;
                 }
             }
 
