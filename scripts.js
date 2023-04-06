@@ -353,7 +353,7 @@ const htmlContent = `<!DOCTYPE html>
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = "exported-page.html";
+    link.download = "index.html";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
