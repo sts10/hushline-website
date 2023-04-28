@@ -126,7 +126,7 @@ p.hint a {
   }
 
   .intro h2 {
-    font-size: 3.5rem;
+    font-size: 3.25rem;
   }
 }
 
@@ -159,6 +159,10 @@ p.hint a {
   .intro {
     background-position-x: right -150px;
   }
+
+  .intro h2 {
+    font-size: 2.75rem;
+  }
 }
 
 @media only screen and (max-width: 640px) {
@@ -175,5 +179,9 @@ p.hint a {
     background-position-x: center;
     background-position-y: 72vh;
     background-size: 90%
+  }
+
+  .intro h2 {
+    font-size: 2.25rem;
   }
 }
