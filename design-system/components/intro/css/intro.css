@@ -23,7 +23,7 @@
   align-items: center;
   position: relative;
   justify-content: center;
-  background: url('../../../images/website/cover.png') right 1.5rem bottom 35%;
+  background: url('../../../images/website/cover.png') right 1rem bottom 35%;
   background-size: 50vh;
   background-repeat: no-repeat;
 }
