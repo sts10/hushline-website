@@ -22,19 +22,14 @@
   height: 100vh;
   align-items: center;
   position: relative;
-  text-align: center;
   justify-content: center;
-  background: url('../../../images/website/cover.png') center 70vh no-repeat;
-  background-size: 55%;
-}
-
-.intro .wrapper {
-  align-items: center;
-  margin-bottom: 20vh;
+  background: url('../../../images/website/cover.png') right 1.5rem bottom 35%;
+  background-size: 50vh;
+  background-repeat: no-repeat;
 }
 
 .intro h2 {
-  width: 70%;
+  width: 40%;
   line-height: var(--line-height-tighter);
   margin-top: 0 !important;
 }
@@ -110,30 +105,50 @@ p.hint a {
 }
 
 @media only screen and (max-width: 1280px) {
+  .intro h2,
+  .intro p {
+    width: 50%;
+  }
+
   .intro h2 {
-    width: 70%;
+    font-size: 3.5rem;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .intro h2 {
-    width: 75%;
+  .intro {
+    background-size: 45vh;
   }
 
-  .intro {
-    background-size: 75%;
+  .intro h2,
+  .intro p {
+    width: 50%;
+  }
+
+  .intro h2 {
+    font-size: 3.5rem;
   }
 }
 
 @media only screen and (max-width: 960px) {
+  .intro {
+    background-size: 40vh;
+  }
+
+  .intro h2,
+  .intro p {
+    width: 50%;
+  }
+
   .intro h2 {
-    width: 85%;
+    font-size: 3rem;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .intro h2 {
-    width: 100%;
+  .intro h2,
+  .intro p {
+    width: 60%;
   }
 
   .intro .tabs {
@@ -141,6 +156,23 @@ p.hint a {
   }
 
   .intro {
-    background-size: 85%;
+    background-position-x: right -100px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .intro h2,
+  .intro p {
+    width: 100%;
+  }
+  
+  .intro p {
+    margin-bottom: 15vh !important;;
+  }
+
+  .intro {
+    background-position-x: center;
+    background-position-y: 72vh;
+    background-size: 90%
   }
 }
