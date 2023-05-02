@@ -24,7 +24,7 @@
   position: relative;
   justify-content: center;
   background: url('../../../images/website/cover.png') right -10rem bottom 35%;
-  background-size: 80vh;
+  background-size: 90vh;
   background-repeat: no-repeat;
 }
 
@@ -113,12 +113,14 @@ p.hint a {
   .intro h2 {
     font-size: 3.5rem;
   }
+
+  .intro {
+    background-position-x: right -20rem;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
   .intro {
-    background-size: 75vh;
-    background-position-x: right -12rem;
   }
 
   .intro h2,
@@ -138,8 +140,8 @@ p.hint a {
   }
 
   .intro {
+    background-size: 80vh;
     background-position-x: right -15rem;
-    background-size: 70vh;
   }
 
   .intro h2 {
