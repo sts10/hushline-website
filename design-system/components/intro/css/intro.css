@@ -23,9 +23,9 @@
   align-items: center;
   position: relative;
   justify-content: center;
-  background: url('../../../images/website/cover.png') right -10rem bottom 35%;
-  background-size: 90vh;
+  background: url('../../../images/website/cover.png') left 55vw top 65%;
   background-repeat: no-repeat;
+  background-size: 640px;
 }
 
 .intro h2 {
@@ -115,7 +115,7 @@ p.hint a {
   }
 
   .intro {
-    background-position-x: right -20rem;
+    background-position-x: left 60vw;
   }
 }
 
@@ -140,8 +140,7 @@ p.hint a {
   }
 
   .intro {
-    background-size: 80vh;
-    background-position-x: right -15rem;
+    background-size: 540px;
   }
 
   .intro h2 {
@@ -150,17 +149,8 @@ p.hint a {
 }
 
 @media only screen and (max-width: 768px) {
-  .intro h2,
-  .intro p {
-    width: 60%;
-  }
-
   .intro .tabs {
     padding: 0 var(--spacing-small);
-  }
-
-  .intro {
-    background-position-x: right -20rem;
   }
 
   .intro h2 {
@@ -181,8 +171,8 @@ p.hint a {
 
   .intro {
     background-position-x: center;
-    background-position-y: 72vh;
-    background-size: 90%
+    background-position-y: top 80vh;
+    background-size: 90%;
   }
 
   .intro h2 {
