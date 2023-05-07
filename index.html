@@ -60,79 +60,77 @@ W3C/WHATWG Standards, etc - please consider contributing 🙏 -->
 			</div>
 		</div>
 
-		<section id="who" class="cardSection">
+		<section id="who">
 			<div class="wrapper">
 				<h3>Who Is Hush Line For?</h3>
-				<div class="groupRow card">
+				<div class="group">
 					<div class="description">
 						<div class="icon news"></div>
 						<h4>Journalists / Newsrooms</h4>
-						<p>Provide the public with a safe way to leave you a confidential tip.</p>
+						<p>Hush Line provides journalists with a safe way for sources to send in tips with confidence that their privacy is protected.</p>
 					</div>
+					<img src="design-system/images/website/feature-journalists.png" alt="An image of the Hush Line UI for users submitting a message.">
+				</div>
+				<div class="group">
+					<div class="description flip">
+						<div class="icon school"></div>
+						<h4>Educators / Schools</h4>
+						<p>Hush Line can be installed on a Raspberry Pi with an e-ink display, giving students a safe line to a trusted person.</p>
+					</div>
+					<img src="design-system/images/website/feature-educators.png" alt="An image of an eink display with Hush Line's status and address.">
+				</div>
+				<div class="group">
 					<div class="description">
 						<div class="icon work"></div>
-						<h4>Employers / Boards</h4>
-						<p>Build trust by providing an anonymous way for colleagues to leave suggestions.</p>
+						<h4>Workplaces / Board Rooms</h4>
+						<p>Hush Line opens a secure channel for your team to send feedback or report concerns without fear of retaliation.</p>
 					</div>
-					<div class="description">
-						<div class="icon school"></div>
-						<h4>Educators / School Staff</h4>
-						<p>Host a safe way for students to share information with someone they trust.</p>
-					</div>
+					<img src="design-system/images/website/feature-workplaces.png" alt="An image of the encrypted email notification.">
 				</div>
 			</div>
 		</section>
 
-		<section id="features">
+		<section id="features" class="cardSection">
 			<div class="wrapper">
-				<div class="group">
+				<h3>Features</h3>
+				<div class="groupRow card">
 					<div class="description">
-						<h4>Receive Encrypted Messages</h4>
-						<p>Use any public PGP key to encrypt messages so only the key's owner can read them.</p>
+						<div class="icon email"></div>
+						<h4>Encrypted Email Notifications</h4>
+						<p>Receive an email encrypted with your PGP key when a new message is submitted.</p>
 					</div>
-					<img src="design-system/images/website/encryption.png" alt="An image of a PGP message and its decrypted text.">
-				</div>
-				<div class="group">
-					<div class="description flip">
-						<h4>Email Notifications</h4>
-						<p>Receive encrypted messages directly in your inbox when someone leaves a new tip.</p>
-					</div>
-					<div class="mobileImageContainer">
-						<img src="design-system/images/website/email.png" alt="Screenshots of email notifications - one with the encrypted message, another with the decrypted one.">
-					</div>
-				</div>
-				<div class="group">
 					<div class="description">
+						<div class="icon account"></div>
 						<h4>No Account Needed</h4>
-						<p>Hush Line deploys to a publicly available website and doesn't require a user to create an account to leave a message.</p>
+						<p>Hush Line doesn’t require a user to create an account or generate keys to leave a message.</p>
 					</div>
-					<img src="design-system/images/website/app.png" alt="Screenshot of the app's interface.">
-				</div>
-				<div class="group">
-					<div class="description flip">
-						<h4>Privacy by Default</h4>
-						<p>Hush Line uses privacy-preserving logging, which removes visitors' IP addresses.</p>
-					</div>
-					<img src="design-system/images/website/logging.png" alt="Real screenshot of logs from Hush Line's access log.">
-				</div>
-				<div class="group">
 					<div class="description">
-						<h4>Tor Ready</h4>
-						<p>Automatically deploy a Tor onion service so users can privately use your app with confidence.</p>
+						<div class="icon codeIcon"></div>
+						<h4>Privacy by Default</h4>
+						<p>Hush Line automatically configures privacy-preserving logging for Nginx, making it safer for all visitors.</p>
 					</div>
-					<img src="design-system/images/website/onion.png" alt="The Onion Location badge to find the site's onion address.">
 				</div>
-				<div class="group">
-					<div class="description flip">
-						<h4>Security by Default</h4>
-						<p>Hush Line configures your server's content security headers to minimize your app's attack surface.</p>
+				<div class="groupRow card">
+					<div class="description">
+						<div class="icon onion"></div>
+						<h4>Tor Ready</h4>
+						<p>Hush Line deploys to an onion service making your site accessible to everyone, even where the internet is censored.</p>
 					</div>
-					<img src="design-system/images/website/headers.png" alt="Hush Line's content security header report.">
+					<div class="description">
+						<div class="icon lock"></div>
+						<h4>Security by Default</h4>
+						<p>Hush Line configures your server’s content security headers to minimize your app’s attack surface.</p>
+					</div>
+					<div class="description">
+						<div class="icon robot"></div>
+						<h4>Automatic Updates</h4>
+						<p>Hush Line automatically applies important security updates and renews HTTPS certificates, making setting and forgetting it possible.</p>
+					</div>
 				</div>
 			</div>
 		</section>
 
-		<section class="featureSection">
+		<section id="hardware" class="featureSection">
 			<div class="wrapper">
 				<div class="group featureGroup">
 					<div class="description">
