@@ -42,8 +42,6 @@
     background-image: url("../images/website/heart-lm.png");
   }
 
-<<<<<<< Updated upstream
-=======
   .icon.email {
     background-image: url("../images/website/email-lm.png");
   }
@@ -72,7 +70,6 @@
     background-image: url("../images/website/screen-lm.png");
   }
 
->>>>>>> Stashed changes
 }
 
 @media (prefers-color-scheme: dark) {
@@ -122,8 +119,6 @@
   .icon.school {
     background-image: url("../images/website/school-dm.png");
   }
-<<<<<<< Updated upstream
-=======
 
   .icon.email {
     background-image: url("../images/website/email-dm.png");
@@ -152,7 +147,6 @@
   .icon.screen {
     background-image: url("../images/website/screen-dm.png");
   }
->>>>>>> Stashed changes
 }
 
 :focus {
