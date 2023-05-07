@@ -11,6 +11,10 @@
   .featureSection {
     background-color: var(--color-light);
   }
+
+  .featureSection#hardware {
+    background-color: var(--color-shade-lm);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
