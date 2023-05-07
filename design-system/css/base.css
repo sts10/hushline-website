@@ -42,6 +42,37 @@
     background-image: url("../images/website/heart-lm.png");
   }
 
+<<<<<<< Updated upstream
+=======
+  .icon.email {
+    background-image: url("../images/website/email-lm.png");
+  }
+
+  .icon.account {
+    background-image: url("../images/website/account-lm.png");
+  }
+
+  .icon.codeIcon {
+    background-image: url("../images/website/code-lm.png");
+  }
+
+  .icon.onion {
+    background-image: url("../images/website/onion-lm.png");
+  }
+
+  .icon.lock {
+    background-image: url("../images/website/lock-lm.png");
+  }
+
+  .icon.robot {
+    background-image: url("../images/website/robot-lm.png");
+  }
+
+  .icon.screen {
+    background-image: url("../images/website/screen-lm.png");
+  }
+
+>>>>>>> Stashed changes
 }
 
 @media (prefers-color-scheme: dark) {
@@ -91,6 +122,37 @@
   .icon.school {
     background-image: url("../images/website/school-dm.png");
   }
+<<<<<<< Updated upstream
+=======
+
+  .icon.email {
+    background-image: url("../images/website/email-dm.png");
+  }
+
+  .icon.account {
+    background-image: url("../images/website/account-dm.png");
+  }
+
+  .icon.code {
+    background-image: url("../images/website/code-dm.png");
+  }
+
+  .icon.onion {
+    background-image: url("../images/website/onion-dm.png");
+  }
+
+  .icon.lock {
+    background-image: url("../images/website/lock-dm.png");
+  }
+
+  .icon.robot {
+    background-image: url("../images/website/robot-dm.png");
+  }
+
+  .icon.screen {
+    background-image: url("../images/website/screen-dm.png");
+  }
+>>>>>>> Stashed changes
 }
 
 :focus {
