@@ -1,7 +1,7 @@
 const headings = [
     'Your Private Tip Line',
     'Your Anonymous Suggestion Box',
-    'Become Radically Accessible'
+    'Be Radically Accessible'
     // Add more headings here if desired
 ];
 
