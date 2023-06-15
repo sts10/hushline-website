@@ -202,6 +202,6 @@ p.hint a {
   }
 
   .intro .code {
-    padding: var(--spacing-xsmall) var(--spacing-small);
+    padding: var(--spacing-small) var(--spacing-small);
   }
 }
