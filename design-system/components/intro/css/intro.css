@@ -23,15 +23,26 @@
   align-items: center;
   position: relative;
   justify-content: center;
-  background: url('../../../images/website/cover.png') left 55vw top 65%;
+  background: url('../../../images/website/cover.png') left 70vw top 25vh;
   background-repeat: no-repeat;
-  background-size: 640px;
+  background-size: 320px;
 }
 
 .intro h2 {
-  width: 40%;
+  width: 60%;
   line-height: var(--line-height-tighter);
   margin-top: 0 !important;
+}
+
+.intro .code {
+  padding: var(--spacing-small) var(--spacing-base);
+  font-size: var(--font-size-code);
+  margin-top: 1rem;
+}
+
+.intro .code p {
+  width: 100%;
+  margin-bottom: 0 !important;
 }
 
 .intro .btn {
@@ -55,7 +66,7 @@
 }
 
 .intro p:first-of-type {
-  margin-top: 0;
+  margin: 0;
 }
 
 .intro p:last-of-type {
@@ -115,7 +126,7 @@ p.hint a {
   }
 
   .intro {
-    background-position-x: left 60vw;
+    background-position-x: left 70vw;
   }
 }
 
@@ -139,10 +150,6 @@ p.hint a {
     width: 50%;
   }
 
-  .intro {
-    background-size: 540px;
-  }
-
   .intro h2 {
     font-size: 3rem;
   }
@@ -156,6 +163,10 @@ p.hint a {
   .intro h2 {
     font-size: 2.75rem;
   }
+
+  .intro {
+    background-position-x: left 75vw;
+  }
 }
 
 @media only screen and (max-width: 640px) {
@@ -164,15 +175,16 @@ p.hint a {
     width: 100%;
     text-align: center;
   }
-  
-  .intro p {
-    margin-bottom: 15vh !important;;
-  }
 
   .intro {
     background-position-x: center;
-    background-position-y: top 80vh;
-    background-size: 90%;
+    background-position-y: top 75vh;
+    background-size: 50%;
+  }
+
+  .intro .code {
+    align-self: center;
+    margin-bottom: 15vh !important;
   }
 
   .intro h2 {
