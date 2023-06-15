@@ -200,4 +200,8 @@ p.hint a {
   .intro {
     background-position-y: top 80vh;
   }
+
+  .intro .code {
+    padding: var(--spacing-xsmall) var(--spacing-small);
+  }
 }
