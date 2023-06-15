@@ -23,7 +23,7 @@
   align-items: center;
   position: relative;
   justify-content: center;
-  background: url('../../../images/website/cover.png') left 70vw top 25vh;
+  background: url('../../../images/website/cover.png') right 2rem top 25vh;
   background-repeat: no-repeat;
   background-size: 320px;
 }
@@ -127,12 +127,12 @@ p.hint a {
   }
 
   .intro {
-    background-position-x: left 70vw;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .intro {
+    background-size: 300px;
   }
 
   .intro h2,
@@ -151,6 +151,11 @@ p.hint a {
   .intro h2 {
     font-size: 3rem;
   }
+
+    .intro {
+      background-position-x: right -1rem;
+      background-size: 280px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -163,7 +168,8 @@ p.hint a {
   }
 
   .intro {
-    background-position-x: left 75vw;
+    background-position-x: right -5rem;
+    background-size: 260px;
   }
 }
 
