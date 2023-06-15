@@ -35,7 +35,7 @@
 }
 
 .intro .code {
-  padding: var(--spacing-small) var(--spacing-base);
+  padding: var(--spacing-base) var(--spacing-base);
   font-size: var(--font-size-code);
   margin-top: 1.5rem;
 }
