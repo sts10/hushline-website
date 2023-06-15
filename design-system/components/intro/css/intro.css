@@ -201,7 +201,7 @@ p.hint a {
     font-size: 2.25rem;
   }
 
-  .intro p {
+  .intro p:not(.code p) {
     font-size: var(--font-size-small);
   }
 
