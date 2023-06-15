@@ -196,4 +196,8 @@ p.hint a {
   .intro h2 {
     font-size: 2.75rem;
   }
+
+  .intro {
+    background-position-y: top 80vh;
+  }
 }
