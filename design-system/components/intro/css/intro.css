@@ -73,6 +73,8 @@
 
 .intro p:first-of-type {
   margin: 0;
+    font-size: 1rem;
+
 }
 
 .intro p:last-of-type {
