@@ -37,7 +37,6 @@
 
 .intro .code {
   padding: var(--spacing-small) var(--spacing-base);
-  font-size: var(--font-size-code);
 }
 
 .intro .meta {
@@ -49,6 +48,7 @@
 .intro .code p {
   width: 100%;
   margin-bottom: 0 !important;
+  font-size: var(--font-size-code) !important;
 }
 
 .intro .btn {
