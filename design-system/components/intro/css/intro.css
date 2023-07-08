@@ -160,7 +160,7 @@ p.hint a {
   }
 
     .intro {
-      background-position-x: right -1rem;
+      background-position-x: right 1rem;
       background-size: 280px;
     }
 }
