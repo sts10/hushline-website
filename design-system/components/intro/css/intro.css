@@ -3,6 +3,10 @@
     background-color: white;
   }
 
+  .intro .code {
+    background-color: white !important;
+  }
+
   p.hint {
     color: var(--color-label-lm);
   }
@@ -25,7 +29,7 @@
   justify-content: center;
   background: url('../../../images/website/cover.png') right 2rem top 25vh;
   background-repeat: no-repeat;
-  background-size: 320px;
+  background-size: 375px !important;
 }
 
 .intro h2 {
@@ -40,7 +44,7 @@
 }
 
 .intro .meta {
-  font-size: var(--font-size-xsmall) !important;
+  font-size: calc(var(--font-size-small) * .875) !important;
   margin-top: 1.5rem !important;
   margin-bottom: .5rem !important;
 }
