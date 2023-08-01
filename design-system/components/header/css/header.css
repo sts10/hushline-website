@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: light) {
   header {
-    background-color: var(--color-shade-lm) !important;
+    background-color: var(--color-glass-lm) !important;
   }
 
   header input {
@@ -50,18 +50,19 @@ header .wrapper {
 header h1 {
   width: fit-content;
   font-size: var(--font-size-logo) !important;
+  margin: 0;
 }
 
 header .logo {
   display: flex;
   align-items: center;
   height: var(--size-logo);
-  padding: calc(var(--spacing-medium) * 1.125) 0;
   line-height: var(--line-height-base);
   display: flex;
   width: fit-content;
   position: relative;
   top: -1px;
+  align-self: center;
 }
 
 header a {
@@ -136,9 +137,10 @@ nav a {
 }
 
 nav .btn {
-  margin: 0 0 0 var(--spacing-base);
+  margin: var(--spacing-base) 0 var(--spacing-base) var(--spacing-base);
   height: fit-content;
   align-self: center;
+
 }
 
 nav .btn:last-of-type {
@@ -237,9 +239,9 @@ nav .badge {
   }
 }
 
-@media only screen and (max-width: 900px) {
-  header h1 {
-    font-size: calc(var(--font-size-logo) * .9) !important;
+@media only screen and (max-width: 480px) {
+  header nav .btn {
+    margin: calc(var(--spacing-base) * .85) var(--spacing-medium);
   }
 
 }
