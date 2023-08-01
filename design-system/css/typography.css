@@ -99,6 +99,7 @@ article h6 {
 
 h2 {
   font-size: var(--font-size-1);
+  line-height: var(--line-height-tighter);
   margin-top: var(--spacing-base);
   margin-bottom: var(--spacing-base);
 }
@@ -163,7 +164,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   font-size: var(--font-size-small);
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1280px) {
   h2 {
     font-size: calc(var(--font-size-1) * .9);
   }
