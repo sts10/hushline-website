@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: light) {
   header {
-    background-color: var(--color-light-translucent) !important;
+    background-color: var(--color-shade-lm) !important;
   }
 
   header input {
