@@ -7,6 +7,16 @@
     background-color: white !important;
   }
 
+  .intro h2, .intro h2 + p {
+    color: white;
+    text-shadow: 0 4px 12px rgba(119, 19, 179, 0.6);
+  }
+
+  .intro h2 + p,
+  .intro a {
+    color: white !important;
+  }
+
   p.hint {
     color: var(--color-label-lm);
   }
@@ -27,9 +37,18 @@
   align-items: center;
   position: relative;
   justify-content: center;
-  background: url('../../../images/website/cover.png') right 2rem top 25vh;
+  background: url('../../../images/website/color-bg.jpg');
   background-repeat: no-repeat;
-  background-size: 375px !important;
+  background-size: cover !important;
+}
+
+.intro .wrapper {
+  height: 100vh;
+  position: relative;
+  justify-content: center;
+  background: url('../../../images/website/phone.png') right 2rem top 25vh;
+  background-repeat: no-repeat;
+  background-size: 333px !important;
 }
 
 .intro h2 {
@@ -136,7 +155,7 @@ p.hint a {
 }
 
 @media only screen and (max-width: 1024px) {
-  .intro {
+  .intro .wrapper {
     background-size: 320px !important;
   }
 
@@ -153,7 +172,7 @@ p.hint a {
     width: 50%;
   }
 
-    .intro {
+    .intro .wrapper {
       background-position-x: right 1rem;
       background-size: 280px !important;
     }
@@ -177,7 +196,7 @@ p.hint a {
     text-align: center;
   }
 
-  .intro {
+  .intro .wrapper {
     background-position-x: center;
     background-position-y: top 75vh;
     background-size: 50%;
@@ -190,7 +209,7 @@ p.hint a {
 }
 
 @media only screen and (max-width: 480px) {
-  .intro {
+  .intro .wrapper {
     background-position-y: top 80vh;
   }
 
