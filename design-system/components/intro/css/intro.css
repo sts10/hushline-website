@@ -7,9 +7,18 @@
     background-color: white !important;
   }
 
-  .intro h2, .intro h2 + p {
+  .intro h2 {
     color: white;
     text-shadow: 0 4px 12px rgba(119, 19, 179, 0.6);
+  }
+
+   .intro h2 + p {
+    color: white;
+    text-shadow: 0 2px 6px rgba(119, 19, 179, 0.8);
+  }
+
+  .intro p:not(.code p) {
+    color: white !important;
   }
 
   .intro h2 + p,
