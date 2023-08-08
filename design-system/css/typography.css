@@ -52,7 +52,7 @@
   }
 
   .highlight {
-    background-color: var(--color-dark);
+    background-color: #9E4BDD;
     color: white;
   }
 }
@@ -70,7 +70,7 @@
   }
 
   .highlight {
-    background-color: var(--color-light);
+    background-color: #E2C9F5;
     color: var(--color-dark);
   }
 }
