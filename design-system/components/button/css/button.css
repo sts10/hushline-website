@@ -2,6 +2,7 @@
   .btn {
     border: var(--border-dark);
     color: var(--color-dark);
+    color: #9E4BDD;
     background-color: var(--color-light);
     background-color: white;
   }
