@@ -14,7 +14,7 @@
 
    .intro h2 ~ p {
     color: white;
-    text-shadow: 0 2px 8px rgba(119, 19, 179, 0.8);
+    text-shadow: 0 2px 8px rgba(119, 19, 179, 0.85);
   }
 
   .intro p:not(.code p) {
