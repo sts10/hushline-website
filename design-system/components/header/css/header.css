@@ -12,7 +12,7 @@
   }
 
   nav .btn.primaryBtn {
-    background-color: #9E4BDD !important;
+    background: linear-gradient(135deg, #9E4BDD 0%, #7D25C1 100%) !important;
   }
 
   nav ul li a:hover {
