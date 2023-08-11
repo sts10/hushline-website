@@ -58,7 +58,7 @@
 }
 
 .banner + header ~ div .intro h2:not(.category + h2){
-  margin-top: 80px !important;
+  margin-top: 80px;
 }
 
 .banner.hidden + header ~ div .intro h2:not(.category + h2){
