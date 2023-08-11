@@ -42,7 +42,7 @@
 }
 
 .intro {
-  height: 100vh;
+  min-height: 100vh;
   align-items: center;
   position: relative;
   justify-content: center;
@@ -52,12 +52,14 @@
 }
 
 .intro .wrapper {
-  height: 100vh;
-  position: relative;
-  justify-content: center;
-  background: url('../../../images/website/phone.png') right 2rem top 25vh;
-  background-repeat: no-repeat;
-  background-size: 333px !important;
+  margin-top: 4rem;
+}
+
+.intro img {
+  width: 333px;
+  position: absolute;
+  right: 1.25rem;
+  top: 10rem;
 }
 
 .intro h2 {
@@ -164,8 +166,9 @@ p.hint a {
 }
 
 @media only screen and (max-width: 1024px) {
-  .intro .wrapper {
-    background-size: 320px !important;
+
+  .intro img {
+    width: 320px;
   }
 
   .intro h2,
@@ -181,10 +184,10 @@ p.hint a {
     width: 50%;
   }
 
-    .intro .wrapper {
-      background-position-x: right 1rem;
-      background-size: 280px !important;
-    }
+  .intro img {
+    width: 280px;
+    right: 1rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -192,9 +195,14 @@ p.hint a {
     padding: 0 var(--spacing-small);
   }
 
-  .intro {
-    background-position-x: right -5rem;
-    background-size: 260px;
+  .intro h2,
+  .intro p {
+    width: 66%;
+  }
+
+  .intro img {
+    width: 260px;
+    right: -5rem;
   }
 }
 
@@ -205,23 +213,23 @@ p.hint a {
     text-align: center;
   }
 
-  .intro .wrapper {
-    background-position-x: center;
-    background-position-y: top 75vh;
-    background-size: 50%;
+  .intro img {
+    position: initial;
+    width: 50%;
+    margin: 0 auto -2rem auto;
   }
 
   .intro .code {
     align-self: center;
-    margin-bottom: 15vh !important;
+    margin-bottom: 3rem !important;
+  }
+
+  .intro h2 {
+    margin-top: 8rem !important;
   }
 }
 
 @media only screen and (max-width: 480px) {
-  .intro .wrapper {
-    background-position-y: top 80vh;
-  }
-
   .intro .code {
     padding: var(--spacing-small) var(--spacing-small);
   }
