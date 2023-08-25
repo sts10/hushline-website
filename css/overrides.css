@@ -46,7 +46,7 @@ header .logo {
 }
 
 nav .btn {
-	margin: .5rem 0;
+	margin: .5rem 0 !important;
 }
 
 .intro img {
