@@ -64,6 +64,8 @@
 .intro h2 {
   width: 66% !important;
   margin-top: 0 !important;
+  font-family: "Sans Bold", sans-serif;
+  line-height: var(--line-height-heading);
 }
 
 .intro .code {
