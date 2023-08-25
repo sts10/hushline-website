@@ -36,6 +36,11 @@ header .wrapper {
 	padding: 0 .5rem;
 }
 
+header nav a.btn,
+header nav a {
+	font-size: calc(var(--font-size-smaller) * .9);
+}
+
 header .logo {
 	margin: 0 2rem 0 .5rem;
 }
