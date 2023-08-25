@@ -220,7 +220,7 @@ p.hint a {
     position: initial;
     width: 50%;
     top: inherit;
-    transform: inherit !important;
+    transform: translateY(0%) !important;
     margin: 0 auto -2rem auto;
   }
 
@@ -241,9 +241,5 @@ p.hint a {
 @media only screen and (max-width: 480px) {
   .intro .code {
     padding: var(--spacing-small) var(--spacing-small);
-  }
-
-  .intro img {
-    width: 66%;
   }
 }
