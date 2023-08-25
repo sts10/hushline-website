@@ -219,6 +219,7 @@ p.hint a {
   .intro img {
     position: initial;
     width: 50%;
+    height: auto;
     top: inherit;
     transform: initial !important;
 /*    top: 50%;*/
