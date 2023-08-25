@@ -4,6 +4,9 @@
 /* Add your custom styles in this file... */
 
 @media (prefers-color-scheme: light) {
+	.banner {
+		background-color: #7D25C1;
+	}
 
 }
 
@@ -42,10 +45,6 @@ nav .btn {
 
 h3 {
 	font-family: "Sans Bold", sans-serif;
-}
-
-.banner {
-	background-color: #7D25C1;
 }
 
 @media only screen and (max-width: 1280px) {
