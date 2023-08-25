@@ -234,7 +234,7 @@ nav .badge {
   }
 
   header nav .btn {
-    margin: var(--spacing-base) var(--spacing-medium);
+    margin: var(--spacing-small) var(--spacing-medium);
     display: inline-flex !important;
   }
 
