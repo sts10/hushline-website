@@ -134,7 +134,7 @@ nav ul li a.wrapper {
   max-width: initial;
   width: initial;
   display: flex;
-  padding: 0 calc(var(--spacing-base) * 1.125);
+  padding: 0 var(--spacing-base);
 }
 
 nav a {
