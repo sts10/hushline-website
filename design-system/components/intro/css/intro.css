@@ -242,4 +242,8 @@ p.hint a {
   .intro .code {
     padding: var(--spacing-small) var(--spacing-small);
   }
+
+  .intro img {
+    width: 66%;
+  }
 }
