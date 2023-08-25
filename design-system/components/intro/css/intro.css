@@ -223,7 +223,6 @@ p.hint a {
     top: inherit;
     transform: translateY(0%) !important;
     margin-bottom: -2rem;
-    display: flex;
   }
 
   .intro .code {
