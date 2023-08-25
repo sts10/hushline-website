@@ -7,11 +7,18 @@
 	.banner {
 		background-color: #7D25C1;
 	}
-
 }
 
 @media (prefers-color-scheme: dark) {
-
+	.banner {
+		background-color: var(--color-dark-translucent) !important;
+	}
+	.banner p {
+		color: white !important;
+	}
+	header {
+		outline: var(--border-light);
+	}
 }
 
 #hardware img {
@@ -22,7 +29,6 @@ header {
 	width: fit-content;
 	margin: 1rem auto 0 auto;
 	border-radius: 10rem;
-	outline: var(--border-dark);
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.1);
 }
 
