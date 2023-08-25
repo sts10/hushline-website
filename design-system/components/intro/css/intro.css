@@ -222,7 +222,7 @@ p.hint a {
     height: auto !important;
     top: inherit;
     transform: translateY(0%) !important;
-    margin: 0 auto -2rem auto;
+    margin-bottom: -2rem;
   }
 
   .intro .code {
