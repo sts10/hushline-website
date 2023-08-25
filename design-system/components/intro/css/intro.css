@@ -219,10 +219,9 @@ p.hint a {
   .intro img {
     position: initial;
     width: 50%;
-    height: inherit !important;
+    height: auto !important;
     top: inherit;
     transform: initial !important;
-/*    top: 50%;*/
     margin: 0 auto -2rem auto;
   }
 
