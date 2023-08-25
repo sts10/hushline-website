@@ -166,7 +166,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 
 @media only screen and (max-width: 1280px) {
   h2 {
-    font-size: calc(var(--font-size-1) * .8);
+    font-size: calc(var(--font-size-1) * .9);
   }
 
   h3 {
@@ -188,7 +188,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 
 @media only screen and (max-width: 1024px) {
   h2 {
-    font-size: calc(var(--font-size-1) * .7);
+    font-size: calc(var(--font-size-1) * .8);
   }
 }
 

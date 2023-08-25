@@ -59,11 +59,10 @@
   width: 333px;
   position: absolute;
   right: 1.25rem;
-  top: 10rem;
 }
 
 .intro h2 {
-  width: 55%;
+  width: 66% !important;
   margin-top: 0 !important;
 }
 
@@ -158,7 +157,7 @@ p.hint a {
 @media only screen and (max-width: 1280px) {
   .intro h2,
   .intro p {
-    width: 50%;
+    width: 60%;
   }
 
   .intro {
@@ -173,7 +172,6 @@ p.hint a {
 
   .intro h2,
   .intro p {
-    width: 50%;
   }
 
 }
@@ -181,7 +179,6 @@ p.hint a {
 @media only screen and (max-width: 960px) {
   .intro h2,
   .intro p {
-    width: 50%;
   }
 
   .intro img {
@@ -197,7 +194,11 @@ p.hint a {
 
   .intro h2,
   .intro p {
-    width: 66%;
+    width: 75%;
+  }
+
+  .intro h2 {
+
   }
 
   .intro img {
@@ -209,19 +210,26 @@ p.hint a {
 @media only screen and (max-width: 640px) {
   .intro h2,
   .intro p {
-    width: 100%;
+    width: 100% !important;
     text-align: center;
   }
 
   .intro img {
     position: initial;
     width: 50%;
+    top: inherit;
+    transform: initial !important;
+/*    top: 50%;*/
     margin: 0 auto -2rem auto;
   }
 
   .intro .code {
     align-self: center;
     margin-bottom: 3rem !important;
+  }
+
+  .intro .wrapper {
+    align-items: center;
   }
 
   .intro h2 {

@@ -12,7 +12,8 @@
   }
 
   nav .btn.primaryBtn {
-    background: linear-gradient(135deg, #9E4BDD 0%, #7D25C1 100%) !important;
+/*    background: linear-gradient(135deg, #9E4BDD 0%, #7D25C1 100%) !important;*/
+    background-color: #7D25C1 !important;
   }
 
   nav ul li a:hover {
@@ -163,7 +164,7 @@ nav .badge {
   max-width: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 768px) {
   @media (prefers-color-scheme: light) {
     header nav ul {
       box-shadow: var(--shadow-lm);
