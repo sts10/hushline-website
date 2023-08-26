@@ -209,7 +209,7 @@ p.hint a {
 @media only screen and (max-width: 640px) {
   .intro h2,
   .intro p {
-    width: 100%;
+    width: 100% !important;
     text-align: center;
   }
 

@@ -15,6 +15,11 @@
 	max-width: 540px;
 } 
 
+.intro h2 {
+	font-family: "Sans Bold", sans-serif;
+	width: 60%;
+}
+
 @media only screen and (max-width: 1280px) {
 
 }

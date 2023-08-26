@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: light) {
   .banner {
-    background-color: #9E4BDD;
+    background-color: #7D25C1 !important;
   }
 
   .banner p, .banner a {
