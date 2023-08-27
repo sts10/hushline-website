@@ -20,12 +20,12 @@
 	width: 60%;
 }
 
-h2, h3 {
+h2, h3, h4 {
 	font-family: "Sans Bold", sans-serif;
 }
 
-h4 {
-	line-height: var(--line-height-tight) !important;
+h2, h3, h4 {
+	line-height: var(--line-height-tighter) !important;
 }
 
 nav .btn {
@@ -42,6 +42,17 @@ nav .btnLrg {
 	padding: calc(var(--spacing-small) * 1.5) var(--spacing-base) !important;
 }
 
+.card img {
+	max-width: 45%;
+	justify-self: center;
+	margin-top: 0;
+}
+
+.card .description {
+	padding-top: var(--spacing-large) !important;
+	padding-bottom: var(--spacing-large) !important;
+}
+
 @media only screen and (max-width: 1280px) {
 
 }
@@ -51,7 +62,15 @@ nav .btnLrg {
 }
 
 @media only screen and (max-width: 960px) {
+	.card .description {
+		align-items: center;
+		text-align: center;
+		width: 66%;
+	}
 
+	.card .description img {
+		width: 33%;
+	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -59,7 +78,9 @@ nav .btnLrg {
 }
 
 @media only screen and (max-width: 640px) {
-
+	.card .description {
+		width: 90%;
+	}
 }
 
 @media only screen and (max-width: 480px) {
