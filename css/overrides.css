@@ -20,6 +20,24 @@
 	width: 60%;
 }
 
+h2, h3, h4 {
+	font-family: "Sans Bold", sans-serif;
+}
+
+nav .btn {
+	margin-top: calc(var(--spacing-small) * 1.25);
+	margin-bottom: calc(var(--spacing-small) * 1.25);
+	font-size: calc(var(--font-size-xsmall) * 1.125);
+}
+
+header nav a {
+	font-size: calc(var(--font-size-xsmall) * 1.125);
+}
+
+nav .btnLrg {
+	padding: calc(var(--spacing-small) * 1.5) var(--spacing-base) !important;
+}
+
 @media only screen and (max-width: 1280px) {
 
 }

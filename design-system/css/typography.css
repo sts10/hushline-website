@@ -45,9 +45,8 @@
     color: var(--color-dark);
   }
 
-  .code {
-    color: #e83e8c;
-    background-color: var(--color-shade-lm);
+  code {
+    background-color: white;
     border: var(--border-dark);
   }
 
@@ -63,8 +62,8 @@
     color: #EEEFF5;
   }
   
-  .code {
-    color: #EE72AC;
+  code {
+    color: white;
     background-color: var(--color-shade-dm);
     border: var(--border-light);
   }
@@ -156,12 +155,12 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   text-align: center;
 }
 
-.code {
-  padding: var(--spacing-xxsmall) var(--spacing-xsmall);
+code {
+  padding: var(--spacing-small) var(--spacing-base);
   border-radius: var(--radius-soft);
   font-family: monospace;
-  width: max-content !important;
-  font-size: var(--font-size-small);
+  width: fit-content !important;
+  font-size: calc(var(--font-size-xsmall) * 1.125);
 }
 
 @media only screen and (max-width: 1280px) {
