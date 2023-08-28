@@ -53,6 +53,7 @@
 
 .intro .wrapper {
   margin-top: 4rem;
+  position: relative;
 }
 
 .intro img {
