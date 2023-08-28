@@ -49,10 +49,6 @@ nav .btn {
 	margin: .5rem 0 !important;
 }
 
-.intro img {
-	transform: translateY(-50%);
-	top: 55%;
-}
 .intro h2 {
 	font-family: "Sans Bold", sans-serif;
 	width: 60%;
