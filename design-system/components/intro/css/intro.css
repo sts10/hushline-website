@@ -59,7 +59,7 @@
 .intro img {
   width: 333px;
   position: absolute;
-  right: 1.25rem;
+  right: var(--spacing-base);
   top: 50%;
   transform: translateY(-50%);
 }
