@@ -46,6 +46,7 @@ nav .btnLrg {
 	max-width: 45%;
 	justify-self: center;
 	margin-top: 0;
+	height: auto;
 }
 
 .card .description {
