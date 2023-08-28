@@ -53,12 +53,15 @@
 
 .intro .wrapper {
   margin-top: 4rem;
+  position: relative;
 }
 
 .intro img {
   width: 333px;
   position: absolute;
-  right: 1.25rem;
+  right: var(--spacing-base);
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .intro h2 {
@@ -218,14 +221,13 @@ p.hint a {
 
   .intro img {
     position: initial;
-    width: 50%;
-    height: auto !important;
-    top: inherit;
-    transform: translateY(0%) !important;
-    margin-bottom: -2rem;
+    width: 320px;
+    height: 561px;
+    margin: 0 auto -2rem auto;
+    transform: initial;
   }
 
-  .intro .code {
+  .intro code {
     align-self: center;
     margin-bottom: 3rem !important;
   }

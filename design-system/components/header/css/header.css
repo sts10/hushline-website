@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: light) {
   header {
-    background-color: var(--color-glass-lm) !important;
+    background-color: white !important;
   }
 
   header input {

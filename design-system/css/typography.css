@@ -45,9 +45,8 @@
     color: var(--color-dark);
   }
 
-  .code {
-    color: #e83e8c;
-    background-color: var(--color-shade-lm);
+  code {
+    background-color: white;
     border: var(--border-dark);
   }
 
@@ -63,8 +62,8 @@
     color: #EEEFF5;
   }
   
-  .code {
-    color: #EE72AC;
+  code {
+    color: white;
     background-color: var(--color-shade-dm);
     border: var(--border-light);
   }
@@ -82,7 +81,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Serif Bold', serif;
-  line-height: var(--line-height-tight);
+  line-height: var(--line-height-heading) !important;
   width: fit-content;
   margin: var(--spacing-base) 0;
 }
@@ -156,12 +155,14 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   text-align: center;
 }
 
-.code {
-  padding: var(--spacing-xxsmall) var(--spacing-xsmall);
+code {
+  padding: var(--spacing-small) var(--spacing-base);
   border-radius: var(--radius-soft);
   font-family: monospace;
-  width: max-content !important;
-  font-size: var(--font-size-small);
+  width: fit-content !important;
+  font-size: calc(var(--font-size-xsmall) * 1.125);
+  line-height: var(--line-height-tight);
+  margin-bottom: var(--spacing-medium);
 }
 
 @media only screen and (max-width: 1280px) {
@@ -238,8 +239,11 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
     font-size: calc(var(--font-size-5) * .7);
   }
 
-  .code {
+  code {
     width: fit-content !important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
 }
 
