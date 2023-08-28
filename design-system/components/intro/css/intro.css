@@ -59,7 +59,8 @@
   width: 333px;
   position: absolute;
   right: 1.25rem;
-  top: 10rem;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .intro h2 {
