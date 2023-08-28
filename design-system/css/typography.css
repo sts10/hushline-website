@@ -161,6 +161,8 @@ code {
   font-family: monospace;
   width: fit-content !important;
   font-size: calc(var(--font-size-xsmall) * 1.125);
+  line-height: var(--line-height-tight);
+  margin-bottom: var(--spacing-medium);
 }
 
 @media only screen and (max-width: 1280px) {
@@ -237,8 +239,11 @@ code {
     font-size: calc(var(--font-size-5) * .7);
   }
 
-  .code {
+  code {
     width: fit-content !important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
 }
 
