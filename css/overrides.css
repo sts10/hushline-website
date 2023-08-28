@@ -46,7 +46,7 @@ header .logo {
 }
 
 nav .btn {
-	margin: .5rem 0 !important;
+	margin: var(--spacing-small) 0 var(--spacing-small) var(--spacing-xsmall) !important;
 }
 
 .intro h2 {
