@@ -215,11 +215,12 @@ p.hint a {
 
   .intro img {
     position: initial;
-    width: 50%;
+    width: 320px;
+    height: 561px;
     margin: 0 auto -2rem auto;
   }
 
-  .intro .code {
+  .intro code {
     align-self: center;
     margin-bottom: 3rem !important;
   }
