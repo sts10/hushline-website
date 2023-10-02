@@ -41,11 +41,6 @@ header .wrapper {
 	padding: 0 .5rem;
 }
 
-header nav a.btn,
-header nav a {
-	font-size: calc(var(--font-size-smaller) * .9);
-}
-
 header .logo {
 	margin: 0 2rem 0 .5rem;
 }
@@ -67,11 +62,11 @@ h2, h3, h4 {
 	line-height: var(--line-height-tighter) !important;
 }
 
-nav .btn {
+/*nav .btn {
 	margin-top: calc(var(--spacing-small) * 1.25);
 	margin-bottom: calc(var(--spacing-small) * 1.25);
 	font-size: calc(var(--font-size-xsmall) * 1.125);
-}
+}*/
 
 header nav a {
 	font-size: calc(var(--font-size-xsmall) * 1.125);
