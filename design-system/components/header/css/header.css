@@ -143,7 +143,7 @@ nav a {
   height: 100%;
   align-items: center;
   font-size: var(--font-size-smaller);
-  letter-spacing: var(--kern-open) !important;
+  letter-spacing: var(--kern-narrow) !important;
 }
 
 nav .btn {
