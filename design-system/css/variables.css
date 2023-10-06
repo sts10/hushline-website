@@ -56,8 +56,8 @@
   /* Kerning / Letter Spacing */
 
   --kern-negative: -0.015625rem;
-  --kern-narrow: .0125;
-  --kern-medium: .025;
+  --kern-narrow: .0125rem;
+  --kern-medium: .025rem;
   --kern-open: .05rem;
   --kern-wide: .075rem;
 
