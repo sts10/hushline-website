@@ -26,6 +26,10 @@
     color: white !important;
   }
 
+  .intro .btn {
+    color: rgba(119, 19, 179, 1) !important;
+  }
+
   p.hint {
     color: var(--color-label-lm);
   }
@@ -34,6 +38,10 @@
 @media (prefers-color-scheme: dark) {
   .intro {
     background-color: var(--color-shade-dm);
+  }
+
+  .intro .btn {
+    color: rgba(119, 19, 179, 1) !important;
   }
 
   p.hint {
@@ -89,6 +97,7 @@
 
 .intro .btn {
   margin-top: var(--spacing-medium);
+  font-size: var(--font-size-small);
 }
 
 .articleIntro .category + h2 {
