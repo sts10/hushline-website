@@ -84,6 +84,7 @@ header a {
   text-decoration: none;
   display: flex;
   align-items: center;
+  letter-spacing: var(--kern-narrow);
 }
 
 header h1 a:hover {
