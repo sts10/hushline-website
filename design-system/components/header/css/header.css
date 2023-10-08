@@ -75,6 +75,11 @@ header .logo {
   align-self: center;
 }
 
+.emojiLogo {
+  font-size: calc(var(--font-size-logo) * 1.125) !important;
+  margin-right: calc(var(--spacing-small) * .75);
+}
+
 header a {
   text-decoration: none;
   display: flex;
