@@ -1,137 +1,172 @@
-<!DOCTYPE html>
+<!doctype html>
+
+<!-- Hey there! Thanks for taking a closer look at the code 😎
+This project is a work IN-PROGRESS! If you'd like to help make
+it better  - i.e. more accessible, align closer with
+W3C/WHATWG Standards, etc - please consider contributing 🙏 -->
+
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>🧰 Page Builder</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div class="properties-panel">
-            <h2>Properties</h2>
-            <h3>Styles</h3> 
-            <label for="heading-font">Heading Font Family</label>
-            <select id="heading-font" class="custom-arrow">
-                  <option value="Helvetica, Arial, sans-serif">Helvetica / Arial</option>
-                  <option value="'Times New Roman', Times, serif">Times New Roman</option>
-                  <option value="'Courier New', Courier, monospace">Courier New</option>
-                  <option value="'Arial Black', Gadget, sans-serif">Arial Black</option>
-            </select>
-            <label for="primary-color">Primary Color</label>
-            <input type="color" id="primary-color" value="#333">
-            
-            <h3>Header</h3>
-            <label for="header-h1">H1 Text</label>
-            <input type="text" id="header-h1" value="🧰 Page Builder">
-            <label for="header-button">Button Text</label>
-            <input type="text" id="header-button" value="Primary Button">
 
-            <h3>Intro Section</h3>
-            <label for="intro-h2">H2 Text</label>
-            <input type="text" id="intro-h2" value="Quickly build research-based, durable web experiences">
-            <label for="intro-paragraph">Paragraph Text</label>
-            <input type="text" id="intro-paragraph" value="👈 Fill out the properties panel on the left, then click Export.">
-            <label for="intro-button">Button Text</label>
-            <input type="text" id="intro-button" value="Secondary Button">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Glenn Sorrentino">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Hush Line is a free and open-source app providing organizations and individuals with a censorship-resistant way to receive private messages from their community."> <!-- Keep the description to around 20 words or 150 characters so it displays fully on Google search results. -->
+	<meta name="theme-color" content="#9E4BDD">
 
-            <h3>Feature Section 1</h3>
-            <label for="feature-1-h3">H3 Text</label>
-            <input type="text" id="feature-1-h3" value="Default Feature Heading">
-            <label for="feature-1-paragraph">Paragraph Text</label>
-            <input type="text" id="feature-1-paragraph" value="Default paragraph">
+	<title>Hush Line</title>
 
-            <h3>Feature Section 2</h3>
-            <label for="feature-2-h3">H3 Text</label>
-            <input type="text" id="feature-2-h3" value="Default Feature Heading">
-            <label for="feature-2-paragraph">Paragraph Text</label>
-            <input type="text" id="feature-2-paragraph" value="Default paragraph">
+	<link rel="icon" type="image/x-icon" href="design-system/images/favicon/favicon.ico">
+	<link rel="stylesheet" href="design-system/css/style.css">
+</head>
 
-            <h3>Feature Section 3</h3>
-            <label for="feature-3-h3">H3 Text</label>
-            <input type="text" id="feature-3-h3" value="Default Feature Heading">
-            <label for="feature-3-paragraph">Paragraph Text</label>
-            <input type="text" id="feature-3-paragraph" value="Default paragraph">
+<body>
+	<div class="banner">
+			<p>Security review in progress. Use at your own risk.</p>
+	</div>
+	<header>
+		<div class="wrapper">
+			<div class="logo">
+				<div class="logoMark"></div>
+				<h1><a href="#"><span class="emojiLogo">🤫</span> Hush Line</a></h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a class="wrapper" href="https://scidsg.github.io/hushline-docs/book/intro.html" rel="noopener noreferrer" target="_blank">Documentation</a></li>
+					<li><a class="wrapper" href="https://opencollective.com/scidsg/contribute/hush-line-support-55786" rel="noopener noreferrer">Donate</a></li>
+					<li><a role="button" class="btn" href="https://try.hushline.app/" target="_blank" rel="noopener noreferrer">Try It</a></li>
+				</ul>
+				<a class="mobileNav btnIcon"></a>
+				<a role="button" class="btn primaryBtn" href="https://github.com/scidsg/hush-line" target="_blank" rel="noopener noreferrer">Get Hush Line</a>
+			</nav>
+		</div>
+	</header>
 
-            <h3>Highlight Section</h3>
-            <label for="highlight-h3">H3 Text</label>
-            <input type="text" id="highlight-h3" value="Default Highlight Heading">
-            <label for="highlight-paragraph">Paragraph Text</label>
-            <input type="text" id="highlight-paragraph" value="Default paragraph">
-            <label for="highlight-button">Button Text</label>
-            <input type="text" id="highlight-button" value="Secondary Button">
+	<div role="main">
 
-            <h3>Footer</h3>
-            <label for="footer-paragraph">H3 Text</label>
-            <input type="text" id="footer-paragraph" value="Made with ✊ by Science & Design">
-            <div class="properties-button">
-                <button id="export-button" class="primary">Export</button>
-            </div>
-        </div>
-        <div class="main-page">
-            <header>
-                <div class="wrapper">
-                    <h1 id="main-h1"></h1>
-                    <button id="main-header-button" class="primary main-page-element"></button>
-                </div>
-            </header>
-            <section class="intro-section">
-                <div class="wrapper">
-                    <h2 id="main-h2"></h2>
-                    <p id="main-paragraph"></p>
-                    <button id="main-intro-button" class="main-page-element"></button>
-                </div>
-            </section>
-            <section class="feature-section">
-                <div class="wrapper">
-                    <div class="card">
-                        <div class="description">
-                            <h3 id="h3-feature-1"></h3>
-                            <p id="paragraph-feature-1"></p>
-                        </div>
-                        <svg width="16.18mm" height="auto" viewBox="0 0 1618 1000">
-                              <rect x="0" y="0" width="1618" height="1000" fill="#ccc"/>
-                        </svg>
-                    </div>
-                    <div class="card">
-                        <div class="description flip">
-                            <h3 id="h3-feature-2"></h3>
-                            <p id="paragraph-feature-2"></p>
-                        </div>
-                        <svg width="16.18mm" height="auto" viewBox="0 0 1618 1000">
-                            <rect x="0" y="0" width="1618" height="1000" fill="#ccc"/>
-                        </svg>
-                    </div>
-                    <div class="card">
-                        <div class="description">
-                            <h3 id="h3-feature-3"></h3>
-                            <p id="paragraph-feature-3"></p>
-                        </div>
-                        <svg width="16.18mm" height="auto" viewBox="0 0 1618 1000">
-                              <rect x="0" y="0" width="1618" height="1000" fill="#ccc"/>
-                        </svg>
-                    </div>
-                </div>
-            </section>
-            <section class="highlight-section">
-                <div class="wrapper">
-                    <div class="card">
-                        <div class="description">
-                            <h3 id="h3-highlight"></h3>
-                            <p id="paragraph-highlight"></p>
-                            <button id="button-highlight" class="main-page-element"></button>
-                        </div>
-                        <svg width="16.18mm" height="auto" viewBox="0 0 1618 1000">
-                              <rect x="0" y="0" width="1618" height="1000" fill="#ccc"/>
-                        </svg>
-                    </div>
-                </div>
-            </section>
-            <footer>
-                <div class="wrapper">
-                    <p id="paragraph-footer"></p>
-                </div>
-            </footer>
-        </div>
-        <script src="scripts.js"></script>
-    </body>
+		<section class="intro">
+			<div class="wrapper">
+				<h2 id="dynamic-heading">A lightweight, secure, and anonymous tip line.</h2>
+				<p>Hush Line provides a safe way to receive private messages from your community when confidentiality is a must.</p>
+				<a href="https://try.hushline.app" class="btn btnLrg" rel="noopener noreferrer" target="_blank">Try Hush Line</a>
+				<img src="design-system/images/website/phone.png">
+			</div>
+		</section>
+
+		<div class="statementContainer">
+			<div class="wrapper">
+				<div class="statement description">
+					<p>One of the top reasons people fail to report their concerns is fear of retaliation. Whether you're a journalist, school administrator, or an employer, <span class="highlight">your communities want to help</span> but aren't always able to take on the associated risks.</p> 
+					<p>Hush Line is a safe way for anyone to share information without jumping through hoops or compromising their identity.</p>
+				</div>
+			</div>
+		</div>
+
+		<section id="who" class="cardSection">
+			<div class="wrapper">
+				<h3>Who is it for?</h3>
+				<div class="groupRow card">
+					<div class="description">
+						<img src="design-system/images/website/av1.png" alt="Journalist Avatar">
+						<h4>Journalists & Newsrooms</h4>
+						<p>The easiest way to receive anonymous tips from the public.</p>
+					</div>
+					<div class="description">
+						<img src="design-system/images/website/av2.png" alt="Educator Avatar">
+						<h4>Educators & School Administrators</h4>
+						<p>A safe and simple tool for private student reporting.</p>
+					</div>
+					<div class="description">
+						<img src="design-system/images/website/av3.png" alt="Employer Avatar">
+						<h4>Employers & Investors</h4>
+						<p>Get ahead of any behavior that could lead to compliance violations.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="features" class="cardSection">
+			<div class="wrapper">
+				<h3>Features</h3>
+				<div class="groupRow card">
+					<div class="description">
+						<div class="icon email"></div>
+						<h4>Encrypted Email Notifications</h4>
+						<p>Receive an email encrypted with your PGP key when a new message is submitted.</p>
+					</div>
+					<div class="description">
+						<div class="icon account"></div>
+						<h4>No Account Needed</h4>
+						<p>Hush Line doesn’t require a user to create an account or generate keys to leave a message.</p>
+					</div>
+					<div class="description">
+						<div class="icon codeIcon"></div>
+						<h4>Privacy by Default</h4>
+						<p>Hush Line automatically configures privacy-preserving logging for Nginx, making it safer for all visitors.</p>
+					</div>
+				</div>
+				<div class="groupRow card">
+					<div class="description">
+						<div class="icon onion"></div>
+						<h4>Tor Ready</h4>
+						<p>Hush Line deploys to an onion service making your site accessible to everyone, even where the internet is censored.</p>
+					</div>
+					<div class="description">
+						<div class="icon lock"></div>
+						<h4>Security by Default</h4>
+						<p>Hush Line configures your server’s content security headers to minimize your app’s attack surface.</p>
+					</div>
+					<div class="description">
+						<div class="icon robot"></div>
+						<h4>Automatic Updates</h4>
+						<p>Hush Line automatically applies important security updates and renews HTTPS certificates, making setting and forgetting it possible.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="hardware" class="featureSection">
+			<div class="wrapper">
+				<div class="group featureGroup">
+					<div class="description">
+						<div class="icon screen"></div>
+						<h3>Easy as Pi</h3>
+						<p>We've made installing Hush Line on a Raspberry Pi with an e-ink display easy by automating everything you need to host a secure, anonymous suggestion box and tip line.</p>
+						<a class="btn btnLrg" href="https://scidsg.github.io/hushline-docs/book/prereqs/raspberrypi.html" target="_blank" rel="noopener noreferrer">Learn more</a>
+					</div>
+					<img src="design-system/images/website/display-cover.png" alt="E-Ink screen with Hush Line app status and address information.">
+				</div>
+			</div>
+		</section>
+
+		<section class="featureSection">
+			<div class="wrapper">
+				<div class="group featureGroup">
+					<div class="description">
+						<div class="icon donate"></div>
+						<h3>Support Our Work</h3>
+						<p>Hush Line is a free and open-source project by Science &amp; Design, a non-profit building products for the public good.</p>
+						<div class="buttonGroup">
+							<a role="button" class="btn btnLrg" href="https://scidsg.org" target="_blank" rel="noopener noreferrer">Visit Science &amp; Design</a>
+							<a role="button" class="btn btnLrg" href="https://opencollective.com/scidsg" target="_blank" rel="noopener noreferrer">Donate</a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+	<footer>
+		<div class="wrapper">
+			<p>Made with ✊ by <a property="cc:attributionName" href="https://scidsg.org/" target="_blank" rel="cc:attributionURL dct:creator noopener noreferrer">Science &amp; Design, Inc.</a> a <a href="https://github.com/scidsg/business-resources/blob/main/Business%20Resources/501(c)(3)%20Determination%20Letter.pdf" target="_blank" rel="noopener noreferrer">501(c)(3)</a> non-profit.</p><p>This work is <a href="https://github.com/scidsg/Project-Info/blob/main/LICENSE.md" target="_blank" rel="license noopener noreferrer">licensed in the public domain</a>.</p>
+		</div>
+	</footer>
+
+	<script src="design-system/js/jquery-min.js"></script>
+	<script src="design-system/js/design-system.js"></script>
+
+</body>
+
 </html>
